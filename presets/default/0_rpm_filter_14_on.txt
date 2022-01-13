@@ -1,0 +1,14 @@
+#$ TITLE: Default RPM Filter 14 Poles - ON
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION: Default RPM Filter with 14 Poles - ON
+
+# rpm filter
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+set motor_poles = 14
+set dshot_idle_value = 600

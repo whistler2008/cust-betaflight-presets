@@ -1,0 +1,13 @@
+#$ TITLE: Default RPM Filter - OFF
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION: Default RPM Filter - OFF
+
+# rpm filter
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT600
+set dshot_bidir = OFF
+set dshot_idle_value = 600

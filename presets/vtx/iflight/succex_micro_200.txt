@@ -1,0 +1,18 @@
+#$ TITLE: iFlight SucceX Micro 200mW
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  vtx, iflight
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for iFlight SucceX Micro 200mW
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_iflight.txt
+
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 25 100 200
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 2

@@ -1,0 +1,13 @@
+#$ TITLE: Default 3.3V Battery settings
+#$ FIRMWARE_VERSION: 4.0
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION: Default 3.3V Battery settings
+
+# battery
+set vbat_max_cell_voltage = 440
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350

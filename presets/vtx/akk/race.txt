@@ -1,0 +1,18 @@
+#$ TITLE: AKK Race
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  vtx, akk
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for AKK Race
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_akk.txt
+
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2

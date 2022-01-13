@@ -1,0 +1,21 @@
+#$ TITLE: Default VTX settings
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  vtx, default
+#$ DESCRIPTION: Default VTX settings
+
+# reset vtx table
+vtxtable bands 0
+vtxtable channels 0
+vtxtable powerlevels 0
+vtxtable powervalues
+vtxtable powerlabels
+
+# vtx setting
+set vtx_band = 0
+set vtx_channel = 0
+set vtx_low_power_disarm = OFF
+set vtx_freq = 0
+set vtx_pit_mode_freq = 0
