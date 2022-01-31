@@ -7,7 +7,7 @@
 #$ INCLUDE: presets/default/0_batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
-#$ INCLUDE: presets/default/0_osd_42_std.txt
+#$ INCLUDE: presets/default/0_osd_42_min.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
@@ -191,12 +191,13 @@ dma pin B01 0
 
 # motor esc
 set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT600
-set dshot_bidir = OFF
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
 set motor_poles = 12
-set dshot_idle_value = 600
+set dshot_idle_value = 800
 
 # other
+set dshot_bitbang = off
 set align_board_roll = 180
 set gyro_1_sensor_align = CW90
 
