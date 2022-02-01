@@ -114,6 +114,7 @@
       "happymodel",
       "iflight",
       "nameless",
+      "openvtx",
       "rush",
       "tbs",
       "tune",
@@ -250,6 +251,24 @@
       ],
       "description": [
         "Default Standard OSD settings - 4.2 Earlier"
+      ]
+    },
+    {
+      "fullPath": "presets/default/0_osd_42_min.txt",
+      "hash": "513da22bfa628026b1022174d5a79d7e2415954d9e3bd47534c7f6607e0e8e1b",
+      "options": [],
+      "title": "Default Minimalist OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "description": [
+        "Default Minimalist OSD settings - 4.2 Above"
       ]
     },
     {
@@ -502,7 +521,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "52ea3f6eef0b94e976e5b1b795daa5ded1aca9d391243c112c8cfaede639555f",
+      "hash": "ed51efc1d253619656fa7aa48dcbc046a1e0919cdb76bd898154e4a306f0372b",
       "options": [
         {
           "name": "BetaFPV Meteor65",
@@ -535,7 +554,7 @@
         "presets/default/0_batt_35.txt",
         "presets/default/0_beeper.txt",
         "presets/default/0_led.txt",
-        "presets/default/0_osd_42_std.txt",
+        "presets/default/0_osd_42_min.txt",
         "presets/default/0_other.txt"
       ],
       "description": [
@@ -675,6 +694,25 @@
       ],
       "description": [
         "Default NamelessRC VTX settings"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/0_openvtx.txt",
+      "hash": "9134150e5d1370c98bd3abecd466f4ed5f7f837ae2940a8bc4cd3ff15cf4641f",
+      "options": [],
+      "title": "OpenVTX settings",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "openvtx"
+      ],
+      "description": [
+        "OpenVTX settings"
       ]
     },
     {
