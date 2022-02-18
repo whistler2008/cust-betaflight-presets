@@ -4,13 +4,11 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/default/0_aux.txt
-#$ INCLUDE: presets/default/0_batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
-#$ INCLUDE: presets/default/0_led.txt
-#$ INCLUDE: presets/default/0_osd_42_std.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ INCLUDE: presets/default/0_rate.txt
+#$ INCLUDE: presets/default/0_aux.txt
+#$ INCLUDE: presets/default/0_led.txt
 #$ DESCRIPTION: Basic Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
@@ -29,8 +27,6 @@ set dterm_lowpass2_hz = 0
 # profile 0
 profile 0
 
-set vbat_sag_compensation = 100
-set vbat_pid_gain = OFF
 set anti_gravity_gain = 4000
 set d_pitch = 32
 set d_roll = 30
@@ -40,8 +36,21 @@ set d_min_pitch = 0
 # restore original profile selection
 profile 0
 
-#$ OPTION BEGIN (UNCHECKED): FreeStyle - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
+#$ OPTION BEGIN (UNCHECKED): Battery Li-Ion
+#$ INCLUDE: presets/default/0_batt_30.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Battery LiPo / LiHV 1S
+#$ INCLUDE: presets/default/0_batt_33.txt
+set vbat_sag_compensation = 100
+set vbat_pid_gain = OFF
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Battery LiPo / LiHV 2S-6S
+#$ INCLUDE: presets/default/0_batt_35.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): FreeStyle Type
 set iterm_relax_cutoff = 20
 set rc_smoothing_auto_smoothness = 7
 set ff_interpolate_sp = AVERAGED_2
@@ -56,23 +65,7 @@ set dyn_lpf_dterm_curve_expo = 7
 set gyro_rpm_notch_q = 700
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): FreeStyle
-set iterm_relax_cutoff = 20
-set rc_smoothing_auto_smoothness = 7
-set ff_interpolate_sp = AVERAGED_2
-set ff_smooth_factor = 20
-set ff_spike_limit = 70
-set ff_boost = 15
-set feedforward_transition = 0
-set yaw_lowpass_hz = 100
-set throttle_boost = 7
-set throttle_boost_cutoff = 25
-set dyn_lpf_dterm_curve_expo = 7
-set gyro_rpm_notch_q = 700
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Smooth - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
+#$ OPTION BEGIN (UNCHECKED): Smooth Type
 set iterm_relax_cutoff = 10
 set rc_smoothing_auto_smoothness = 20
 set ff_interpolate_sp = AVERAGED_3
@@ -87,23 +80,7 @@ set dyn_lpf_dterm_curve_expo = 7
 set gyro_rpm_notch_q = 800
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Smooth
-set iterm_relax_cutoff = 10
-set rc_smoothing_auto_smoothness = 20
-set ff_interpolate_sp = AVERAGED_3
-set ff_smooth_factor = 40 
-set ff_spike_limit = 55
-set ff_boost = 0
-set feedforward_transition = 40
-set yaw_lowpass_hz = 70
-set throttle_boost = 5
-set throttle_boost_cutoff = 10
-set dyn_lpf_dterm_curve_expo = 7
-set gyro_rpm_notch_q = 800
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Cinematic - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
+#$ OPTION BEGIN (UNCHECKED): Cinematic Type
 set iterm_relax_cutoff = 5
 set rc_smoothing_auto_smoothness = 40
 set ff_interpolate_sp = AVERAGED_4
@@ -119,18 +96,22 @@ set gyro_rpm_notch_q = 900
 set iterm_windup = 75
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Cinematic
-set iterm_relax_cutoff = 5
-set rc_smoothing_auto_smoothness = 40
-set ff_interpolate_sp = AVERAGED_4
-set ff_smooth_factor = 50
-set ff_spike_limit = 50
-set ff_boost = 0
-set feedforward_transition = 70
-set yaw_lowpass_hz = 50
-set throttle_boost = 2
-set throttle_boost_cutoff = 10
-set dyn_lpf_dterm_curve_expo = 8
-set gyro_rpm_notch_q = 900
-set iterm_windup = 75
+#$ OPTION BEGIN (UNCHECKED): RPM Filter - OFF
+#$ INCLUDE: presets/default/0_rpm_filter_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filter - ON (12 Pole)
+#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filter - ON (14 Pole)
+#$ INCLUDE: presets/default/0_rpm_filter_14_on.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD Minimize
+#$ INCLUDE: presets/default/0_osd_42_min.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD Standard
+#$ INCLUDE: presets/default/0_osd_42_std.txt
 #$ OPTION END

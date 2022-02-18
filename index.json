@@ -296,7 +296,7 @@
     },
     {
       "fullPath": "presets/default/0_rate.txt",
-      "hash": "ef06514a3ae81227e97cb9932a05c3e4eb08917993385bdee21c2d7e1167f272",
+      "hash": "1239229e919697962e5f889f8a8109e580e34629d06693c9e5b30d9d9dee282d",
       "title": "Default Rate Profile",
       "firmware_version": [
         "4.2",
@@ -352,7 +352,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "4e87325e843c01ae3af2110ba41c38ee8a58abfa18b14b3f8efae50566f0470a",
+      "hash": "bb2aecb6cc7331d89d909ff09a8d27789f78409d5a0614a82b50d4f710f78484",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
