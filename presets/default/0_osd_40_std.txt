@@ -28,7 +28,6 @@ set osd_home_dist_pos = 84
 set osd_compass_bar_pos = 10
 set osd_altitude_pos = 352
 set osd_pidrate_profile_pos = 409
-set osd_warnings_pos = 14633
 set osd_avg_cell_voltage_pos = 2401
 set osd_disarmed_pos = 2411
 set osd_esc_tmp_pos = 364
