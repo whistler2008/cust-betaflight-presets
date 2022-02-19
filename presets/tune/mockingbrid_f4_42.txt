@@ -192,12 +192,11 @@ dma pin B01 0
 # motor esc
 set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT300
-set dshot_bidir = ON
+set dshot_bidir = OFF
 set motor_poles = 12
 set dshot_idle_value = 800
 
 # other
-set dshot_bitbang = off
 set align_board_roll = 180
 set gyro_1_sensor_align = CW90
 
