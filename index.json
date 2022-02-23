@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "fdec51bdaf7107bc6ae22d2664c258cc8b7c65a106cacbae50e7679cbfae956e",
+      "hash": "6f94350704485fbbdb8df0e8f5f1efb05fb6691ab9c480a2ce75910825d5f1ef",
       "options": [
         {
           "name": "1S",
@@ -542,7 +542,6 @@
       "author": "Whistler2008",
       "include": [
         "presets/default/0_beeper.txt",
-        "presets/default/0_led.txt",
         "presets/default/0_osd_40_std.txt",
         "presets/default/0_other.txt",
         "presets/default/0_batt_33.txt",
