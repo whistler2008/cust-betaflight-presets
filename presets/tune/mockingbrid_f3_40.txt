@@ -26,6 +26,8 @@ set vtx_power = 1
 set vtx_freq = 5732
 
 # other
+set gyro_sync_denom = 2
+set pid_process_denom = 2
 set runaway_takeoff_prevention = OFF
 
 # motor esc
