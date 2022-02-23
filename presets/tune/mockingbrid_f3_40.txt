@@ -1,4 +1,4 @@
-#$ TITLE: MockingBird 1S F3 4.0
+#$ TITLE: MockingBird 1-2S F3 4.0
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
@@ -7,7 +7,7 @@
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_osd_40_std.txt
 #$ INCLUDE: presets/default/0_other.txt
-#$ DESCRIPTION: MockingBird 1S F3 Tune for Betaflight 4.0
+#$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
 # aux
 aux 0 0 0 1450 2100 0 0

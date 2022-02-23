@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "6f94350704485fbbdb8df0e8f5f1efb05fb6691ab9c480a2ce75910825d5f1ef",
+      "hash": "8b11711d1c93ab1f894cb300c2a3d4d3321de65c5a380ff76526b44df3fe72ff",
       "options": [
         {
           "name": "1S",
@@ -530,7 +530,7 @@
           "checked": false
         }
       ],
-      "title": "MockingBird 1S F3 4.0",
+      "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
       ],
@@ -548,7 +548,7 @@
         "presets/default/0_batt_35.txt"
       ],
       "description": [
-        "MockingBird 1S F3 Tune for Betaflight 4.0"
+        "MockingBird 1-2S F3 Tune for Betaflight 4.0"
       ]
     },
     {
