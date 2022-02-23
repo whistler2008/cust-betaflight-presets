@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "71816db7c968dca3621e6ebc7bd96ce644dca048939f3aef4f25d159d3b0e11f",
+      "hash": "86ceb5c347bd00e3cf78cdb5ee1b9092f19ea1bfbd8f8a9cc3e7cf3f32c1abca",
       "options": [],
       "title": "MockingBird 1S F3 4.0",
       "firmware_version": [
@@ -544,7 +544,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "5bf5881f86419759775c700f776a57c92c6291043d68eeb4e1330a61f8f33e9c",
+      "hash": "e0eddf9f0d8f218bd005665fcd50b81fd7d1b450dee5e09ef5a9e6af05a026d9",
       "options": [
         {
           "name": "BetaFPV Meteor65",
