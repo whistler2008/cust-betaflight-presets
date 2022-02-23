@@ -519,8 +519,17 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "86ceb5c347bd00e3cf78cdb5ee1b9092f19ea1bfbd8f8a9cc3e7cf3f32c1abca",
-      "options": [],
+      "hash": "fdec51bdaf7107bc6ae22d2664c258cc8b7c65a106cacbae50e7679cbfae956e",
+      "options": [
+        {
+          "name": "1S",
+          "checked": false
+        },
+        {
+          "name": "2S",
+          "checked": false
+        }
+      ],
       "title": "MockingBird 1S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -532,11 +541,12 @@
       ],
       "author": "Whistler2008",
       "include": [
-        "presets/default/0_batt_35.txt",
         "presets/default/0_beeper.txt",
         "presets/default/0_led.txt",
         "presets/default/0_osd_40_std.txt",
-        "presets/default/0_other.txt"
+        "presets/default/0_other.txt",
+        "presets/default/0_batt_33.txt",
+        "presets/default/0_batt_35.txt"
       ],
       "description": [
         "MockingBird 1S F3 Tune for Betaflight 4.0"

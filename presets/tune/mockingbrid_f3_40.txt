@@ -4,7 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/default/0_batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
 #$ INCLUDE: presets/default/0_osd_40_std.txt
@@ -35,6 +34,24 @@ set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT300
 set dshot_idle_value = 800
 
+rateprofile 0
+
+set thr_mid = 51
+set yaw_rc_rate = 210
+set roll_expo = 60
+set pitch_expo = 60
+set yaw_expo = 20
+set roll_srate = 80
+set pitch_srate = 80
+set yaw_srate = 25
+set tpa_rate = 0
+set tpa_breakpoint = 2000
+
+# restore original rateprofile selection
+rateprofile 0
+
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/default/0_batt_33.txt
 profile 0
 
 set dterm_lowpass_hz = 80
@@ -64,22 +81,34 @@ set horizon_tilt_expert_mode = ON
 
 # restore original profile selection
 profile 0
+#$ OPTION END
 
-rateprofile 0
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/default/0_batt_35.txt
+profile 0
 
-set thr_mid = 51
-set yaw_rc_rate = 210
-set roll_expo = 60
-set pitch_expo = 60
-set yaw_expo = 20
-set roll_srate = 80
-set pitch_srate = 80
-set yaw_srate = 25
-set tpa_rate = 0
-set tpa_breakpoint = 2000
+set dterm_lowpass_hz = 80
+set dterm_lowpass2_hz = 170
+set vbat_pid_gain = ON
+set feedforward_transition = 3
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set yaw_lowpass_hz = 100
+set p_pitch = 33
+set i_pitch = 85
+set d_pitch = 35
+set p_roll = 28
+set i_roll = 78
+set d_roll = 32
+set d_min_roll = 16
+set d_min_pitch = 18
+set angle_level_strength = 110
+set horizon_level_strength = 30
+set horizon_transition = 80
+set level_limit = 70
+set horizon_tilt_effect = 80
+set horizon_tilt_expert_mode = ON
 
-# restore original rateprofile selection
-rateprofile 0
-
-# save configuration
-save
+# restore original profile selection
+profile 0
+#$ OPTION END
