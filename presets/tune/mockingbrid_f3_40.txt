@@ -43,7 +43,7 @@ profile 0
 set dterm_lowpass_hz = 80
 set dterm_lowpass2_hz = 170
 set vbat_pid_gain = ON
-set feedforward_transition = 3
+set feedforward_transition = 25
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 set yaw_lowpass_hz = 100
@@ -91,26 +91,6 @@ set horizon_transition = 80
 set level_limit = 70
 set horizon_tilt_effect = 80
 set horizon_tilt_expert_mode = ON
-
-profile 2
-
-set dterm_lowpass_hz = 80
-set dterm_lowpass2_hz = 170
-set feedforward_transition = 25
-set yaw_lowpass_hz = 100
-set p_pitch = 100
-set i_pitch = 120
-set d_pitch = 90
-set f_pitch = 90
-set p_roll = 100
-set i_roll = 120
-set d_roll = 90
-set f_roll = 90
-set p_yaw = 90
-set i_yaw = 90
-set d_yaw = 40
-set f_yaw = 80
-set level_limit = 25
 
 # restore original profile selection
 profile 0
