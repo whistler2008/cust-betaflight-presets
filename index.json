@@ -143,7 +143,7 @@
     },
     {
       "fullPath": "presets/default/0_batt_30.txt",
-      "hash": "8711825150c99288452f676b401d039eb8dbab5a00005bf53fd73197f9bd62d3",
+      "hash": "9f29249180951cc305248ead6a21860afd611e43de8a0026fa5a571b7928cf64",
       "options": [],
       "title": "Default 3.0V Battery settings",
       "firmware_version": [
@@ -251,6 +251,24 @@
       ],
       "description": [
         "Default Standard OSD settings - 4.2 Earlier"
+      ]
+    },
+    {
+      "fullPath": "presets/default/0_osd_42_max.txt",
+      "hash": "73bbbeba2b497a668a5375cfb503d0490f7ecff448cc932cd5e8282e5cafb0cf",
+      "options": [],
+      "title": "Default Complete OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "description": [
+        "Default Complete OSD settings - 4.2 Above"
       ]
     },
     {
@@ -382,7 +400,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "bb2aecb6cc7331d89d909ff09a8d27789f78409d5a0614a82b50d4f710f78484",
+      "hash": "0f1a1b8f710e0cbe0124edd8608255a2023f1af1fa65c6fd8031105aede395d2",
       "options": [
         {
           "name": "Battery Li-Ion",
@@ -427,6 +445,10 @@
         {
           "name": "OSD Standard",
           "checked": false
+        },
+        {
+          "name": "OSD Complete",
+          "checked": false
         }
       ],
       "title": "Basic Tune 4.2",
@@ -452,7 +474,8 @@
         "presets/default/0_rpm_filter_12_on.txt",
         "presets/default/0_rpm_filter_14_on.txt",
         "presets/default/0_osd_42_min.txt",
-        "presets/default/0_osd_42_std.txt"
+        "presets/default/0_osd_42_std.txt",
+        "presets/default/0_osd_42_max.txt"
       ],
       "description": [
         "Basic Tune for Betaflight 4.2",

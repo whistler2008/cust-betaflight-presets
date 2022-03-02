@@ -115,3 +115,7 @@ set iterm_windup = 75
 #$ OPTION BEGIN (UNCHECKED): OSD Standard
 #$ INCLUDE: presets/default/0_osd_42_std.txt
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD Complete
+#$ INCLUDE: presets/default/0_osd_42_max.txt
+#$ OPTION END

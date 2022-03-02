@@ -8,6 +8,6 @@
 #$ DESCRIPTION: Default 3.0V Battery settings
 
 # battery
-set vbat_max_cell_voltage = 400
+set vbat_max_cell_voltage = 420
 set vbat_min_cell_voltage = 300
 set vbat_warning_cell_voltage = 320
