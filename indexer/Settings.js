@@ -9,9 +9,12 @@ const MetadataTypes = {
         WORDS_ARRAY:        "WORDS_ARRAY", // "word1, word2, word3"
         FILE_PATH_ARRAY:    "FILE_PATH_ARRAY", // array of path/to/file.ext and check if files exist
         PRESET_STATUS:      "PRESET_STATUS", // official/community/experimental
+        PRIORITY:           "PRIORITY", // 0..99
+        PARSER:             "PARSER", // TEXT, MARKED
 }
 
 const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
+const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
     BNF:            "BNF",
@@ -22,24 +25,37 @@ const PresetCategories = {
     OTHER:          "OTHER",
 }
 
+const PresetCategoriesPriorities = {
+    TUNE:           10**12,
+    DEFAULT:        10**4,
+    VTX:            10**6,
+    RX:             10**10,
+    BNF:            0,
+    OTHER:          0,
+}
+
 const OptionsDirectives = {
     OPTION_DIRECTIVE: "option",
     BEGIN_OPTION_DIRECTIVE: "option begin",
     END_OPTION_DIRECTIVE: "option end",
     OPTION_CHECKED: "(checked)",
     OPTION_UNCHECKED: "(unchecked)",
+    BEGIN_OPTION_GROUP_DIRECTIVE: "option_group begin",
+    END_OPTION_GROUP_DIRECTIVE: "option_group end",
 }
 
 const settings = {
     MetapropertyDirective: "#$",
 
     PresetCategories: Object.freeze(PresetCategories),
+    PresetCategoriesPriorities: Object.freeze(PresetCategoriesPriorities),
 
     MetadataTypes: Object.freeze(MetadataTypes),
 
     OptionsDirectives : Object.freeze(OptionsDirectives),
 
     PresetStatusEnum : Object.freeze(PresetStatusEnum),
+    ParserEnum : Object.freeze(ParserEnum),
 
     presetsDir: "presets",
     presetsFileEncoding: "utf-8",
@@ -59,6 +75,9 @@ const settings = {
         disclaimer:           {type: MetadataTypes.STRING,           optional: true   },
         include_warning:      {type: MetadataTypes.FILE_PATH_ARRAY,  optional: true   },
         include_disclaimer:   {type: MetadataTypes.FILE_PATH_ARRAY,  optional: true   },
+        priority:             {type: MetadataTypes.PRIORITY,         optional: true   },
+        force_options_review: {type: MetadataTypes.BOOLEAN,          optional: true   },
+        parser:               {type: MetadataTypes.PARSER,           optional: true   },
     }),
 }
 

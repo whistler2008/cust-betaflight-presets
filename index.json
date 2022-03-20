@@ -1,4 +1,6 @@
 {
+  "majorVersion": 1,
+  "minorVersion": 0,
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
@@ -9,6 +11,14 @@
       "DEFAULT": "DEFAULT",
       "OTHER": "OTHER"
     },
+    "PresetCategoriesPriorities": {
+      "TUNE": 1000000000000,
+      "DEFAULT": 10000,
+      "VTX": 1000000,
+      "RX": 10000000000,
+      "BNF": 0,
+      "OTHER": 0
+    },
     "MetadataTypes": {
       "STRING": "STRING",
       "STRING_ARRAY": "STRING_ARRAY",
@@ -17,19 +27,27 @@
       "BOOLEAN": "BOOLEAN",
       "WORDS_ARRAY": "WORDS_ARRAY",
       "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
-      "PRESET_STATUS": "PRESET_STATUS"
+      "PRESET_STATUS": "PRESET_STATUS",
+      "PRIORITY": "PRIORITY",
+      "PARSER": "PARSER"
     },
     "OptionsDirectives": {
       "OPTION_DIRECTIVE": "option",
       "BEGIN_OPTION_DIRECTIVE": "option begin",
       "END_OPTION_DIRECTIVE": "option end",
       "OPTION_CHECKED": "(checked)",
-      "OPTION_UNCHECKED": "(unchecked)"
+      "OPTION_UNCHECKED": "(unchecked)",
+      "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
     },
     "PresetStatusEnum": [
       "OFFICIAL",
       "COMMUNITY",
       "EXPERIMENTAL"
+    ],
+    "ParserEnum": [
+      "TEXT",
+      "MARKED"
     ],
     "presetsDir": "presets",
     "presetsFileEncoding": "utf-8",
@@ -89,6 +107,18 @@
       "include_disclaimer": {
         "type": "FILE_PATH_ARRAY",
         "optional": true
+      },
+      "priority": {
+        "type": "PRIORITY",
+        "optional": true
+      },
+      "force_options_review": {
+        "type": "BOOLEAN",
+        "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
       }
     }
   },
@@ -124,8 +154,7 @@
   "presets": [
     {
       "fullPath": "presets/default/0_aux.txt",
-      "hash": "0b40629896cdcbc52fc9004d84cb51709803d4e6794ade42684b48365a099a9e",
-      "options": [],
+      "hash": "bc8749399da27d68b1be96363256f5b75e20e1ce554f4e42d7246cbf8ff8299b",
       "title": "Default AUX",
       "firmware_version": [
         "4.0",
@@ -137,14 +166,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default for AUX"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_batt_30.txt",
       "hash": "9f29249180951cc305248ead6a21860afd611e43de8a0026fa5a571b7928cf64",
-      "options": [],
       "title": "Default 3.0V Battery settings",
       "firmware_version": [
         "4.0",
@@ -156,14 +182,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default 3.0V Battery settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_batt_33.txt",
       "hash": "89210518d60c6f1810aa5e93d8629c937e2a3ec4fd647f422c28a45d543728bd",
-      "options": [],
       "title": "Default 3.3V Battery settings",
       "firmware_version": [
         "4.0",
@@ -175,14 +198,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default 3.3V Battery settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_batt_35.txt",
       "hash": "425d5584b03980d1956fca8dfd8e28feb65b44936130c39fb73cdd994b9d5422",
-      "options": [],
       "title": "Default 3.5V Battery settings",
       "firmware_version": [
         "4.0",
@@ -194,14 +214,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default 3.5V Battery settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_beeper.txt",
       "hash": "3e9f695542e5f8c01219a1def83d043fb164e07a8c999d475d4dfa272896a880",
-      "options": [],
       "title": "Default Beeper settings",
       "firmware_version": [
         "4.0",
@@ -213,14 +230,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Beeper settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_led.txt",
       "hash": "f77ee1c944dd1d88497d8daf80ecd590f5f024569ef7c228e2ed331fdbe21ea7",
-      "options": [],
       "title": "Default LED settings",
       "firmware_version": [
         "4.0",
@@ -232,14 +246,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default LED settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_osd_40_std.txt",
       "hash": "edb5236d3995b7d093579faf8609ae571fefd231ad79583f17405a23258ba311",
-      "options": [],
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -249,14 +260,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Standard OSD settings - 4.2 Earlier"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_osd_42_max.txt",
       "hash": "73bbbeba2b497a668a5375cfb503d0490f7ecff448cc932cd5e8282e5cafb0cf",
-      "options": [],
       "title": "Default Complete OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -267,14 +275,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Complete OSD settings - 4.2 Above"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_osd_42_min.txt",
       "hash": "513da22bfa628026b1022174d5a79d7e2415954d9e3bd47534c7f6607e0e8e1b",
-      "options": [],
       "title": "Default Minimalist OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -285,14 +290,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Minimalist OSD settings - 4.2 Above"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_osd_42_std.txt",
-      "hash": "1385b45b1d8e95118949b9c6f30b9d5c6a780d25db5d1cd0a22a0ccf63350aec",
-      "options": [],
+      "hash": "513884d253912cfc10e5aa751808bd980229fed3da217b4d5ed4e9c6331bda0c",
       "title": "Default Standard OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -303,14 +305,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Standard OSD settings - 4.2 Above"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_other.txt",
       "hash": "53ccf79857331c68db02cbe2eee06b93b493e6314add33ff8efae95d8f869df3",
-      "options": [],
       "title": "Default Other Setting",
       "firmware_version": [
         "4.0",
@@ -322,14 +321,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default for Other Setting"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_rate.txt",
       "hash": "1239229e919697962e5f889f8a8109e580e34629d06693c9e5b30d9d9dee282d",
-      "options": [],
       "title": "Default Rate Profile",
       "firmware_version": [
         "4.2",
@@ -340,14 +336,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default Tunned Rate Profile"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_rpm_filter_12_on.txt",
       "hash": "969106c64b3e3c48be91c458db548a1d91bc163ecaaf986955ebd9958dfb06f6",
-      "options": [],
       "title": "Default RPM Filter 12 Poles - ON",
       "firmware_version": [
         "4.2",
@@ -358,14 +351,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default RPM Filter with 12 Poles - ON"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_rpm_filter_14_on.txt",
       "hash": "4e6e0aa2d6bb26a1846d1fc6f5a25fa9bc4d5d84b343e72104447f2dbf9fe837",
-      "options": [],
       "title": "Default RPM Filter 14 Poles - ON",
       "firmware_version": [
         "4.2",
@@ -376,14 +366,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default RPM Filter with 14 Poles - ON"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/default/0_rpm_filter_off.txt",
       "hash": "e38f0d25551e870dcb6d521de04c4a9a106a768f2af455e22c8913d92243ae01",
-      "options": [],
       "title": "Default RPM Filter - OFF",
       "firmware_version": [
         "4.2",
@@ -394,63 +381,11 @@
       "keywords": [
         "default"
       ],
-      "description": [
-        "Default RPM Filter - OFF"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
       "hash": "0f1a1b8f710e0cbe0124edd8608255a2023f1af1fa65c6fd8031105aede395d2",
-      "options": [
-        {
-          "name": "Battery Li-Ion",
-          "checked": false
-        },
-        {
-          "name": "Battery LiPo / LiHV 1S",
-          "checked": false
-        },
-        {
-          "name": "Battery LiPo / LiHV 2S-6S",
-          "checked": false
-        },
-        {
-          "name": "FreeStyle Type",
-          "checked": false
-        },
-        {
-          "name": "Smooth Type",
-          "checked": false
-        },
-        {
-          "name": "Cinematic Type",
-          "checked": false
-        },
-        {
-          "name": "RPM Filter - OFF",
-          "checked": false
-        },
-        {
-          "name": "RPM Filter - ON (12 Pole)",
-          "checked": false
-        },
-        {
-          "name": "RPM Filter - ON (14 Pole)",
-          "checked": false
-        },
-        {
-          "name": "OSD Minimize",
-          "checked": false
-        },
-        {
-          "name": "OSD Standard",
-          "checked": false
-        },
-        {
-          "name": "OSD Complete",
-          "checked": false
-        }
-      ],
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -461,57 +396,11 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "include": [
-        "presets/default/0_beeper.txt",
-        "presets/default/0_other.txt",
-        "presets/default/0_rate.txt",
-        "presets/default/0_aux.txt",
-        "presets/default/0_led.txt",
-        "presets/default/0_batt_30.txt",
-        "presets/default/0_batt_33.txt",
-        "presets/default/0_batt_35.txt",
-        "presets/default/0_rpm_filter_off.txt",
-        "presets/default/0_rpm_filter_12_on.txt",
-        "presets/default/0_rpm_filter_14_on.txt",
-        "presets/default/0_osd_42_min.txt",
-        "presets/default/0_osd_42_std.txt",
-        "presets/default/0_osd_42_max.txt"
-      ],
-      "description": [
-        "Basic Tune for Betaflight 4.2",
-        "",
-        "WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support"
-      ]
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
       "hash": "7c30f6f15ca6ef26e9fd1008f68937734ca93d7e51ed1401c05a0fb16635c656",
-      "options": [
-        {
-          "name": "FreeStyle - RPM Filter",
-          "checked": false
-        },
-        {
-          "name": "FreeStyle",
-          "checked": false
-        },
-        {
-          "name": "Smooth - RPM Filter",
-          "checked": false
-        },
-        {
-          "name": "Smooth",
-          "checked": false
-        },
-        {
-          "name": "Cinematic - RPM Filter",
-          "checked": false
-        },
-        {
-          "name": "Cinematic",
-          "checked": false
-        }
-      ],
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -522,37 +411,11 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "include": [
-        "presets/default/0_aux.txt",
-        "presets/default/0_batt_35.txt",
-        "presets/default/0_beeper.txt",
-        "presets/default/0_led.txt",
-        "presets/default/0_osd_42_std.txt",
-        "presets/default/0_other.txt",
-        "presets/default/0_rate.txt",
-        "presets/default/0_rpm_filter_12_on.txt",
-        "presets/default/0_rpm_filter_12_on.txt",
-        "presets/default/0_rpm_filter_12_on.txt"
-      ],
-      "description": [
-        "Basic Tune for Betaflight 4.3",
-        "",
-        "WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support"
-      ]
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
       "hash": "bc78d6db740c91f3758c592593eeaead0d45e4e3436422c003074bed1274032d",
-      "options": [
-        {
-          "name": "1S",
-          "checked": false
-        },
-        {
-          "name": "2S",
-          "checked": false
-        }
-      ],
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -563,38 +426,11 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "include": [
-        "presets/default/0_beeper.txt",
-        "presets/default/0_osd_40_std.txt",
-        "presets/default/0_other.txt",
-        "presets/default/0_batt_33.txt",
-        "presets/default/0_batt_35.txt"
-      ],
-      "description": [
-        "MockingBird 1-2S F3 Tune for Betaflight 4.0"
-      ]
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
       "hash": "e0eddf9f0d8f218bd005665fcd50b81fd7d1b450dee5e09ef5a9e6af05a026d9",
-      "options": [
-        {
-          "name": "BetaFPV Meteor65",
-          "checked": false
-        },
-        {
-          "name": "Emax TinyHawk II (RPM Filter)",
-          "checked": false
-        },
-        {
-          "name": "HappyModel Mobula6 (RPM Filter)",
-          "checked": false
-        },
-        {
-          "name": "HappyModel Mobulite6 / Mobulite7 (RPM Filter)",
-          "checked": false
-        }
-      ],
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
@@ -605,23 +441,11 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "include": [
-        "presets/default/0_batt_35.txt",
-        "presets/default/0_beeper.txt",
-        "presets/default/0_led.txt",
-        "presets/default/0_osd_42_min.txt",
-        "presets/default/0_other.txt"
-      ],
-      "description": [
-        "MockingBird 1-2S F4 Tune for Betaflight 4.2",
-        "",
-        "WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support"
-      ]
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",
       "hash": "c3425401a011f353975939695d54bcbdc2a0945c76bccdd2b6e9d4db368e551e",
-      "options": [],
       "title": "Default AKK VTX settings",
       "firmware_version": [
         "4.2",
@@ -633,14 +457,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default AKK VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_betafpv.txt",
       "hash": "0507b9c47fa72d6af376e42fc64611a5f61af74b23491fde5886c9501826f577",
-      "options": [],
       "title": "Default BetaFPV VTX settings",
       "firmware_version": [
         "4.2",
@@ -652,14 +473,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default BetaFPV VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_default.txt",
       "hash": "01c601b19dedd2fa157c77a1cdaf18d6882f1cf0ccbc732d3f8104ea379823fb",
-      "options": [],
       "title": "Default VTX settings",
       "firmware_version": [
         "4.2",
@@ -671,14 +489,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
       "hash": "1ffe5a08f09b914a3f36858c2318d486422ab77d3adef74dc43624970e3c1b49",
-      "options": [],
       "title": "Default EWRF VTX settings",
       "firmware_version": [
         "4.2",
@@ -690,14 +505,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default EWRF VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_happymodel.txt",
       "hash": "f21f5fc42f85098fd8c1469115b951e737d7915f32781323339586a987d74647",
-      "options": [],
       "title": "Default HappyModel VTX settings",
       "firmware_version": [
         "4.2",
@@ -709,14 +521,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default HappyModel VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_iflight.txt",
       "hash": "2644ffa453e54ecb4a3f720974846dfd156b8a8992c43abfeac8609227579592",
-      "options": [],
       "title": "Default iFlight VTX settings",
       "firmware_version": [
         "4.2",
@@ -728,14 +537,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default iFlight VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_nameless.txt",
       "hash": "1a6fd54d68c793bd1b2271959fe1b0fa4194a0043399bfce6b8c053f215f316d",
-      "options": [],
       "title": "Default NamelessRC VTX settings",
       "firmware_version": [
         "4.2",
@@ -747,14 +553,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default NamelessRC VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
       "hash": "954686b091c586ec9b63a03930a0f61804967b69c5fc18acac0c7cec0e744ff7",
-      "options": [],
       "title": "OpenVTX settings",
       "firmware_version": [
         "4.2",
@@ -766,14 +569,11 @@
         "vtx",
         "openvtx"
       ],
-      "description": [
-        "OpenVTX settings"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/0_rush.txt",
       "hash": "638d17854137405a3d26e26a74a82464badd1aa9337067ced2abf7cc626d98d9",
-      "options": [],
       "title": "Default Rush VTX settings",
       "firmware_version": [
         "4.2",
@@ -785,14 +585,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default Rush VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_tbs.txt",
       "hash": "f58fea86012a94699c96417eee29a31c6ebd3b0f2f9c82931362757375971973",
-      "options": [],
       "title": "Default TBS VTX settings",
       "firmware_version": [
         "4.2",
@@ -804,14 +601,11 @@
         "vtx",
         "default"
       ],
-      "description": [
-        "Default TBS VTX settings"
-      ]
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/akk/fx2.txt",
       "hash": "4cf3510597641799cb17c6cff79820f989dd050d53544b78850e0535acd711eb",
-      "options": [],
       "title": "AKK FX2",
       "firmware_version": [
         "4.2",
@@ -824,18 +618,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX2"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx2_dominator.txt",
       "hash": "0ff74e3dd575be80c041c80c0d50b6d3ce8d9ef8fb6d4f2d098f39db9940ffea",
-      "options": [],
       "title": "AKK FX2 Dominator",
       "firmware_version": [
         "4.2",
@@ -848,18 +635,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX2 Dominator"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx2_ultimate.txt",
       "hash": "26087fc3160f1e57d04a5689d54b9ab3bbfbf4e1d13a1225346b41c356d82b3c",
-      "options": [],
       "title": "AKK FX2 Ultimate",
       "firmware_version": [
         "4.2",
@@ -872,18 +652,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX2 Ultimate"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx3.txt",
       "hash": "41cb3668b79c29a9742a0703055f440e9cd3ecb086057e7d2a16e139d254fe0a",
-      "options": [],
       "title": "AKK FX3",
       "firmware_version": [
         "4.2",
@@ -896,18 +669,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX3"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate.txt",
       "hash": "cd1f2747c0ce8ed20efd4366c1105b69bd717048ca2ee2a48b3e2658444b43d9",
-      "options": [],
       "title": "AKK FX3 Ultimate",
       "firmware_version": [
         "4.2",
@@ -920,18 +686,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX3 Ultimate"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate_dvr.txt",
       "hash": "14487aa151615d8bd52c373f816383a2727df9e264eba688f3e97505adebcdf8",
-      "options": [],
       "title": "AKK FX3 Ultimate DVR",
       "firmware_version": [
         "4.2",
@@ -944,18 +703,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX3 Ultimate DVR"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/fx5.txt",
       "hash": "ecdaa967e2ae0219eb5dfa63907be38ff297af549234b99176525a3d09a35438",
-      "options": [],
       "title": "AKK FX5",
       "firmware_version": [
         "4.2",
@@ -968,18 +720,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK FX5"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/infinite_dvr.txt",
       "hash": "45f7cf216f2e951ed11d40a5c78723fe9e85dd7766fd69d4dd1c50d0ee3b8bf1",
-      "options": [],
       "title": "AKK Infinite DVR",
       "firmware_version": [
         "4.2",
@@ -992,18 +737,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK Infinite DVR"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/nano3.txt",
       "hash": "8969f15bcec5179817f893566c1631af8af63f7f1c8b36225c32e90bb253d604",
-      "options": [],
       "title": "AKK Nano 3",
       "firmware_version": [
         "4.2",
@@ -1016,18 +754,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK Nano 3"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/new_era.txt",
       "hash": "023f635afc835b7915c5f583fcf66a8588d8e1769013c22f3d88dbf0a5c9c090",
-      "options": [],
       "title": "AKK New Era",
       "firmware_version": [
         "4.2",
@@ -1040,18 +771,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK New Era"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/oscar_backpack.txt",
       "hash": "03669713a7edc777bf627ddaafbebea3071ffb43c691268576badda67f981680",
-      "options": [],
       "title": "AKK Oscar Backpack",
       "firmware_version": [
         "4.2",
@@ -1064,18 +788,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK Oscar Backpack"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/race.txt",
       "hash": "9f332c69f0353edcec1f1969f2a6e9c3cc22a2c9a9a5a7dc61ca8099e5d33eda",
-      "options": [],
       "title": "AKK Race",
       "firmware_version": [
         "4.2",
@@ -1088,18 +805,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK Race"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/race_ranger.txt",
       "hash": "eeef8cc1d730f0053621cca9d497bf8b9398744ac8cdd59b9eedfa84dbec0e48",
-      "options": [],
       "title": "AKK Race Ranger",
       "firmware_version": [
         "4.2",
@@ -1112,18 +822,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK Race Ranger"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/x5.txt",
       "hash": "a4872929ff34cb3424291506f2980ff906d7f51f5b5fb119efdcd75b10abf927",
-      "options": [],
       "title": "AKK X5",
       "firmware_version": [
         "4.2",
@@ -1136,18 +839,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK X5"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/akk/x5_pro.txt",
       "hash": "d7a690550b03778160197c3b91a7ebf6df64c70197e2c5ba26b48ded140987e8",
-      "options": [],
       "title": "AKK X5 Pro",
       "firmware_version": [
         "4.2",
@@ -1160,18 +856,11 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for AKK X5 Pro"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_akk.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/betafpv/a01.txt",
       "hash": "0266646c3e18a8abcdb9d6d315dc31370fff5c414e26e7279b9779a31783ac5e",
-      "options": [],
       "title": "BetaFPV A01",
       "firmware_version": [
         "4.2",
@@ -1184,18 +873,11 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for BetaFPV A01"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_betafpv.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/betafpv/a02.txt",
       "hash": "d2f4d5055643886ccf0f94f662ff19a8c5aaadc685f2e7e10ebf39d9c4fc4c89",
-      "options": [],
       "title": "BetaFPV A02",
       "firmware_version": [
         "4.2",
@@ -1208,18 +890,11 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for BetaFPV A02"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_betafpv.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/betafpv/m01.txt",
       "hash": "a0e13a6887b3a9cb969da13439ede5c7a59cfe52a6c0ca152e3669282a574111",
-      "options": [],
       "title": "BetaFPV M01",
       "firmware_version": [
         "4.2",
@@ -1232,18 +907,11 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for BetaFPV M01"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_betafpv.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/betafpv/m02.txt",
       "hash": "da5eb2e70219ac269b63f04f407782ef83dbf21ab920ef8c43db9753a0aeefce",
-      "options": [],
       "title": "BetaFPV M02",
       "firmware_version": [
         "4.2",
@@ -1256,18 +924,11 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for BetaFPV M02"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_betafpv.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/betafpv/m03.txt",
       "hash": "e72edc2e159fe8c72b6e502d259b92f480d46b441e6bc448c7f7018488ccfd40",
-      "options": [],
       "title": "BetaFPV M03",
       "firmware_version": [
         "4.2",
@@ -1280,18 +941,11 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for BetaFPV M03"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_betafpv.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/ewrf/7082vm.txt",
       "hash": "2bd97cc7a331726b0a777d078ba057b2de11c028315f269e1e02f85715f517f7",
-      "options": [],
       "title": "EWRF 7082VM",
       "firmware_version": [
         "4.2",
@@ -1304,18 +958,11 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for EWRF 7082VM"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_ewrf.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v1.txt",
       "hash": "f02f0bb1cda8461581bbd846310ea4035fffeee1b570f63e71313637cf1c9be1",
-      "options": [],
       "title": "EWRF 7092TM Pro V1",
       "firmware_version": [
         "4.2",
@@ -1328,18 +975,11 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for EWRF 7092TM Pro V1"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_ewrf.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v2.txt",
       "hash": "b32228e4f8cd1a84acfb465e4464ee2ee4bfaad13790b7898ac9b0f199566677",
-      "options": [],
       "title": "EWRF 7092TM Pro V2",
       "firmware_version": [
         "4.2",
@@ -1352,18 +992,11 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for EWRF 7092TM Pro V2"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_ewrf.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/happymodel/diamond_dvr.txt",
       "hash": "440818288b39418d6d351119222ff5909cb2802715369b4765a9262ab0661e17",
-      "options": [],
       "title": "HappyModel Diamond DVR",
       "firmware_version": [
         "4.2",
@@ -1376,18 +1009,11 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for HappyModel Diamond DVR"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_happymodel.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/happymodel/internal.txt",
       "hash": "60ca0dc77a4ec45039adcaf78b918249e539a57ac790c04790fb903f1a308132",
-      "options": [],
       "title": "HappyModel Internal",
       "firmware_version": [
         "4.2",
@@ -1400,18 +1026,11 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for HappyModel Internal"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_happymodel.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/happymodel/whoop.txt",
       "hash": "e62908c149a981986c64e27f6156a0874ce0140f568dd2ebb30ade491f59af3f",
-      "options": [],
       "title": "HappyModel Whoop",
       "firmware_version": [
         "4.2",
@@ -1424,18 +1043,11 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for HappyModel Whoop"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_happymodel.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/iflight/succex_800.txt",
       "hash": "adeda742b8b346d1db6ed6af37152009b206dceb2d51def9eabb0e64bf3f8676",
-      "options": [],
       "title": "iFlight SucceX Force 800mW",
       "firmware_version": [
         "4.2",
@@ -1448,18 +1060,11 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for iFlight SucceX Force 800mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_iflight.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_200.txt",
       "hash": "061ab308b9c01bc034019b897bb6c406711d4b9424fc7f768cdc8f53a7b455c9",
-      "options": [],
       "title": "iFlight SucceX Micro 200mW",
       "firmware_version": [
         "4.2",
@@ -1472,18 +1077,11 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for iFlight SucceX Micro 200mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_iflight.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_300.txt",
       "hash": "872dad825cc71e06cdb8d51d46a9cdd508beabefddb313e2968ed89cdcb0a1d8",
-      "options": [],
       "title": "iFlight SucceX Micro 300mW",
       "firmware_version": [
         "4.2",
@@ -1496,18 +1094,11 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for iFlight SucceX Micro 300mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_iflight.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_500.txt",
       "hash": "b7602227060698f337661396667529aa29acbf6a2221df2c2735fa8c41a4d67d",
-      "options": [],
       "title": "iFlight SucceX Mini 500mW",
       "firmware_version": [
         "4.2",
@@ -1520,18 +1111,11 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for iFlight SucceX Mini 500mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_iflight.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_600.txt",
       "hash": "3ec2547027c8fac9095b31bda814e7f40e4f752582b4570ac597f1ab6b8be347",
-      "options": [],
       "title": "iFlight SucceX Mini 600mW",
       "firmware_version": [
         "4.2",
@@ -1544,18 +1128,11 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for iFlight SucceX Mini 600mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_iflight.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/nameless/d400.txt",
       "hash": "ea030345afa6c86b087e7297d21feae5d6e10f3948fb2c5286f68d7085bd8c82",
-      "options": [],
       "title": "NamelessRC D400",
       "firmware_version": [
         "4.2",
@@ -1568,18 +1145,11 @@
         "nameless"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for NamelessRC D400"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_nameless.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/nameless/nano400.txt",
       "hash": "1e9cbf8c85592ae7b9a9c9d4f4f0ee03e3e1625475e446dc8b781f15493e59eb",
-      "options": [],
       "title": "NamelessRC Nano400",
       "firmware_version": [
         "4.2",
@@ -1592,18 +1162,11 @@
         "nameless"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for NamelessRC Nano400"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_nameless.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/2.txt",
       "hash": "078c8bf3d26fb0f8e1aa765c5f15d8f7c2ec2224a0005448899316de0cc693b8",
-      "options": [],
       "title": "Rush Tank II",
       "firmware_version": [
         "4.2",
@@ -1616,18 +1179,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tank II"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/racing.txt",
       "hash": "711d044a13182a5382341be020d5857391fccaa8581a784ff56a9c1727416705",
-      "options": [],
       "title": "Rush Tank Racing",
       "firmware_version": [
         "4.2",
@@ -1640,18 +1196,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tank Racing"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/solo.txt",
       "hash": "804fd7b1f184ee1d48b09136c2b9cf04d67617323ebfc79c7cb9a3a3c07631cf",
-      "options": [],
       "title": "Rush Tank Solo",
       "firmware_version": [
         "4.2",
@@ -1664,18 +1213,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tank Solo"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/tiny.txt",
       "hash": "a5d497a37cce0c9067c13c758b6553aac295a6e3a37f0abfd5eaabe4da4b372d",
-      "options": [],
       "title": "Rush Tiny Tank",
       "firmware_version": [
         "4.2",
@@ -1688,18 +1230,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tiny Tank"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_mini.txt",
       "hash": "9528cad5fa35ed4655eb6dfccdc6df73bbdf3242bb2cfad0dfb4afc7f5d72753",
-      "options": [],
       "title": "Rush Tank Ultimate Mini",
       "firmware_version": [
         "4.2",
@@ -1712,18 +1247,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tank Ultimate Mini"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_plus.txt",
       "hash": "e14d02ba2bbbbf73a00a806ed25acdf7bf96744d6b55910ccb1f57f4e20dedaf",
-      "options": [],
       "title": "Rush Tank Ultimate +",
       "firmware_version": [
         "4.2",
@@ -1736,18 +1264,11 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for Rush Tank Ultimate +"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_rush.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_EVO_5G8_HV.txt",
       "hash": "56fd04947100ea0c507b2433f3c6ff808a53ad6203997566963c943cd0d0b4ff",
-      "options": [],
       "title": "TBS Unify EVO 5G8 (HV)",
       "firmware_version": [
         "4.2",
@@ -1760,18 +1281,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify EVO 5G8 (HV)"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_HV.txt",
       "hash": "53fc5516e3737e2a0aef74453c27f0a93b33ad06a780120854604f8bd35d15eb",
-      "options": [],
       "title": "TBS Unify Pro32 HV",
       "firmware_version": [
         "4.2",
@@ -1784,18 +1298,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro32 HV"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_Nano.txt",
       "hash": "546bc6299ba0a8025b9de5bc501d1fa93d1401b3bc16f488ddf3fa1f2d74496f",
-      "options": [],
       "title": "TBS Unify Pro32 Nano",
       "firmware_version": [
         "4.2",
@@ -1808,18 +1315,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro32 Nano"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_800mW.txt",
       "hash": "d644bbc14ca9e8f93bf0fdb4d89cf1e5d93cad8c353926dd7a7ba97f51506117",
-      "options": [],
       "title": "TBS Unify Pro HV 800mW",
       "firmware_version": [
         "4.2",
@@ -1832,18 +1332,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro HV 800mW"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V1.txt",
       "hash": "657090371b57bd56f13c1aa4f6232e9ac2a49ee8ffb06cda38381cb6f1db11c0",
-      "options": [],
       "title": "TBS Unify Pro HV Race V1",
       "firmware_version": [
         "4.2",
@@ -1856,18 +1349,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro HV Race V1"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V2.txt",
       "hash": "f80073a767176ddf802bc53b427b3fcfe02b4e5ddcd2c876616f85e268210fa3",
-      "options": [],
       "title": "TBS Unify Pro HV Race V2",
       "firmware_version": [
         "4.2",
@@ -1880,18 +1366,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro HV Race V2"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_Nano_lite.txt",
       "hash": "9d31056853cb80516faf176d10bf3acb63e329215733ba12bde793855ae80ea2",
-      "options": [],
       "title": "TBS Unify Pro Nano Lite",
       "firmware_version": [
         "4.2",
@@ -1904,18 +1383,11 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro Nano Lite"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_V3.txt",
       "hash": "84e4b1ca1e138b674fa9b831869a7c2b0267cce1304ee74e0a8edbaebc1c4126",
-      "options": [],
       "title": "TBS Unify Pro V3 (5V)",
       "firmware_version": [
         "4.2",
@@ -1928,13 +1400,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "description": [
-        "VTX table for TBS Unify Pro V3 (5V)"
-      ],
-      "include": [
-        "presets/vtx/0_default.txt",
-        "presets/vtx/0_tbs.txt"
-      ]
+      "priority": 1000000
     }
   ]
 }
