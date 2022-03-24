@@ -7,7 +7,6 @@
 #$ INCLUDE: presets/default/0_batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
-#$ INCLUDE: presets/default/0_osd_42_min.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
@@ -267,3 +266,15 @@ vtxtable powerlabels 25 100 200
 # vtx setting
 set vtx_power = 3
 #$ OPTION END
+
+#$ OPTION_GROUP BEGIN: OSD Type
+
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
+#$ INCLUDE: presets/osd/osd_42_rssi_min.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
+#$ INCLUDE: presets/osd/osd_42_lq_min.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

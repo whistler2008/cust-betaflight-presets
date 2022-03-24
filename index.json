@@ -249,65 +249,6 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/default/0_osd_40_std.txt",
-      "hash": "edb5236d3995b7d093579faf8609ae571fefd231ad79583f17405a23258ba311",
-      "title": "Default Standard OSD settings - 4.0 Earlier",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/default/0_osd_42_max.txt",
-      "hash": "73bbbeba2b497a668a5375cfb503d0490f7ecff448cc932cd5e8282e5cafb0cf",
-      "title": "Default Complete OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/default/0_osd_42_min.txt",
-      "hash": "513da22bfa628026b1022174d5a79d7e2415954d9e3bd47534c7f6607e0e8e1b",
-      "title": "Default Minimalist OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/default/0_osd_42_std.txt",
-      "hash": "513884d253912cfc10e5aa751808bd980229fed3da217b4d5ed4e9c6331bda0c",
-      "title": "Default Standard OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/default/0_other.txt",
       "hash": "53ccf79857331c68db02cbe2eee06b93b493e6314add33ff8efae95d8f869df3",
       "title": "Default Other Setting",
@@ -339,8 +280,112 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/osd/osd_40_std.txt",
+      "hash": "edb5236d3995b7d093579faf8609ae571fefd231ad79583f17405a23258ba311",
+      "title": "Default Standard OSD settings - 4.0 Earlier",
+      "firmware_version": [
+        "4.0"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_lq_max.txt",
+      "hash": "b9d8a83a978077da6147d278c13f5b959a03d108e9e706133a7347198eccf4dd",
+      "title": "Default Complete LQ OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_lq_min.txt",
+      "hash": "7eac149feb0ecac0bc6cd7c05400e32c71ae09cb04f0a774c077dcef0cfc9114",
+      "title": "Default Minimalist LQ OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_lq_std.txt",
+      "hash": "dcd75a10f21494f87dea464a32eefb8b568f12cd264bc535a91d3b3d1ccf3462",
+      "title": "Default Standard LQ OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_rssi_max.txt",
+      "hash": "b2dab64709529fe077de3c5e9f2b098086efabd8143fb26b32a73ce453b43ded",
+      "title": "Default Complete RSSI OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_rssi_min.txt",
+      "hash": "caa1ff5086c5d98de08f3ccf6101ef55e979982b6f34b0bdda3ebfd454b96d8b",
+      "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/osd/osd_42_rssi_std.txt",
+      "hash": "103e9f8f0150e23d46624fdbecbf9e3799831a6e1f80db3f18b9f8655f93495a",
+      "title": "Default Standard RSSI OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/rpm_filter/rpm_filter_f4_12.txt",
-      "hash": "382ab3229e8555ab8a5dfce574f0e469bd5dab7ca3223aa2ee8d295c3398b6a2",
+      "hash": "25186859bc615f8e508e4e0039b8df3e4c168c85e2711fe2740ed76a82c51213",
       "title": "Default RPM Filter - F4 12 Poles",
       "firmware_version": [
         "4.2",
@@ -355,7 +400,7 @@
     },
     {
       "fullPath": "presets/rpm_filter/rpm_filter_f4_14.txt",
-      "hash": "6e29d815c2fff3bbe93d683f8356242b89620cab1ea1aae13211dd2064a368bf",
+      "hash": "e98a76c2474c6be8656d2bc1080faa8c1eeabd1308ddfb494f4a63ec01e344f1",
       "title": "Default RPM Filter - F4 14 Poles",
       "firmware_version": [
         "4.2",
@@ -370,7 +415,7 @@
     },
     {
       "fullPath": "presets/rpm_filter/rpm_filter_f4_off.txt",
-      "hash": "63882c59e93dec8968efd5953779c9e7ae3238fd30dc7edc33232420c99c8ad7",
+      "hash": "0783cd628a4214125eca303fb6eb3216f4c79619f7c4dc89b9981b83696e6484",
       "title": "Default RPM Filter - F4 OFF",
       "firmware_version": [
         "4.2",
@@ -385,7 +430,7 @@
     },
     {
       "fullPath": "presets/rpm_filter/rpm_filter_f7_12.txt",
-      "hash": "083677a8a5c29f81f2d9aaac4055945bd385af6fab96c83167e03bc2b1e86ba2",
+      "hash": "62b56b305a7fbd8ea5f6580baa20e9a1b864c693081a98ddf58071b91ee7e7bb",
       "title": "Default RPM Filter - F7 12 Poles",
       "firmware_version": [
         "4.2",
@@ -400,7 +445,7 @@
     },
     {
       "fullPath": "presets/rpm_filter/rpm_filter_f7_14.txt",
-      "hash": "51c640174c252d2877a197931080584a704d3643ddfb50c0b1d0e62c38cfc04f",
+      "hash": "e6b96cb9c0a2a55051d50302334fb48115781fed6c9f2d1fa1792dfd4cca7a23",
       "title": "Default RPM Filter - F7 14 Poles",
       "firmware_version": [
         "4.2",
@@ -415,7 +460,7 @@
     },
     {
       "fullPath": "presets/rpm_filter/rpm_filter_f7_off.txt",
-      "hash": "863c2742ee0757eed91485b393616c5bbbc0db8e5d47922ca75d2fe91a8f0349",
+      "hash": "0009d4a654a61f9900b9fd528b3256a55da0d9b17141944549890743981d419b",
       "title": "Default RPM Filter - F7 OFF",
       "firmware_version": [
         "4.2",
@@ -430,7 +475,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "1b0d06e415dfdef397da23d8d29b5fd7f99b853e3dda202d691975743b270914",
+      "hash": "288d75d481d220b21d4dbf35c72cece087efb0f4995e3365e8aecd0b0ee1c363",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -445,7 +490,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "286c9d0ffa6f3e39c44e78ef1873a1d84c8168c3d223137692dfd7b345541587",
+      "hash": "659e6aadc4c5932de84b50d2dd225b8cb0f2fb297c8f8390b5893897fd232552",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -460,7 +505,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "bc78d6db740c91f3758c592593eeaead0d45e4e3436422c003074bed1274032d",
+      "hash": "078620a8f5faebb33c3640294280af87da64b9506c720d2af9458a9f6f9cd10e",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -475,7 +520,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "e0eddf9f0d8f218bd005665fcd50b81fd7d1b450dee5e09ef5a9e6af05a026d9",
+      "hash": "a84af081a8c3a092a3927d6517b006fc10d60e964b5e5065e82e7918cb689cfe",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"

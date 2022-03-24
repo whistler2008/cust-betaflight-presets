@@ -5,10 +5,8 @@
 #$ KEYWORDS:  tune
 #$ AUTHOR: Whistler2008
 #$ INCLUDE: presets/default/0_aux.txt
-#$ INCLUDE: presets/default/0_batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
-#$ INCLUDE: presets/default/0_osd_42_std.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ INCLUDE: presets/default/0_rate.txt
 #$ DESCRIPTION: Basic Tune for Betaflight 4.3
@@ -21,6 +19,26 @@ set rc_smoothing = ON
 
 # restore original profile selection
 profile 0
+
+#$ OPTION_GROUP BEGIN: Battery Type
+
+#$ OPTION BEGIN (UNCHECKED): Battery Li-Ion
+#$ INCLUDE: presets/default/0_batt_30.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Battery LiPo / LiHV 1S
+#$ INCLUDE: presets/default/0_batt_33.txt
+set vbat_sag_compensation = 100
+set vbat_pid_gain = OFF
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Battery LiPo / LiHV 2S-6S
+#$ INCLUDE: presets/default/0_batt_35.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Quad Type
 
 #$ OPTION BEGIN (UNCHECKED): FreeStyle
 set feedforward_jitter_factor = 12
@@ -52,6 +70,8 @@ set feedforward_jitter_factor = 16
 set feedforward_transition = 0
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: RPM Filter
 
 #$ OPTION BEGIN (UNCHECKED): F4 - OFF
@@ -82,16 +102,28 @@ set feedforward_transition = 0
 
 #$ OPTION_GROUP BEGIN: OSD Type
 
-#$ OPTION BEGIN (UNCHECKED): OSD Minimize
-#$ INCLUDE: presets/default/0_osd_42_min.txt
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
+#$ INCLUDE: presets/osd/osd_42_rssi_min.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD Standard
-#$ INCLUDE: presets/default/0_osd_42_std.txt
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Standard
+#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD Complete
-#$ INCLUDE: presets/default/0_osd_42_max.txt
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Complete
+#$ INCLUDE: presets/osd/osd_42_rssi_max.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
+#$ INCLUDE: presets/osd/osd_42_lq_min.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Standard
+#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Complete
+#$ INCLUDE: presets/osd/osd_42_lq_max.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

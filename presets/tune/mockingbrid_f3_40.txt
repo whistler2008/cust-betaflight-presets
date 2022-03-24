@@ -5,7 +5,7 @@
 #$ KEYWORDS:  tune
 #$ AUTHOR: Whistler2008
 #$ INCLUDE: presets/default/0_beeper.txt
-#$ INCLUDE: presets/default/0_osd_40_std.txt
+#$ INCLUDE: presets/osd/osd_40_std.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 

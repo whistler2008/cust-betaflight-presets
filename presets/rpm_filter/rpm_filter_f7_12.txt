@@ -7,6 +7,7 @@
 #$ DESCRIPTION: Default RPM Filter - F7 12 Poles
 
 # rpm filter
+set pid_process_denom = 1
 set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT600
 set dshot_bidir = ON
