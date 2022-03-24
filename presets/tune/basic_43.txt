@@ -22,34 +22,12 @@ set rc_smoothing = ON
 # restore original profile selection
 profile 0
 
-#$ OPTION BEGIN (UNCHECKED): FreeStyle - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
-set feedforward_jitter_factor = 12
-set feedforward_transition = 0
-set rc_smoothing_auto_factor = 40
-set rc_smoothing_setpoint_cutoff = 40
-set rc_smoothing_feedforward_cutoff = 40
-set rc_smoothing_auto_factor_throttle = 30
-set rc_smoothing_throttle_cutoff = 0
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): FreeStyle
 set feedforward_jitter_factor = 12
 set feedforward_transition = 0
 set rc_smoothing_auto_factor = 40
 set rc_smoothing_setpoint_cutoff = 40
 set rc_smoothing_feedforward_cutoff = 40
-set rc_smoothing_auto_factor_throttle = 30
-set rc_smoothing_throttle_cutoff = 0
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Smooth - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
-set feedforward_jitter_factor = 13
-set feedforward_transition = 0
-set rc_smoothing_auto_factor = 40
-set rc_smoothing_setpoint_cutoff = 25
-set rc_smoothing_feedforward_cutoff = 25
 set rc_smoothing_auto_factor_throttle = 30
 set rc_smoothing_throttle_cutoff = 0
 #$ OPTION END
@@ -64,17 +42,6 @@ set rc_smoothing_auto_factor_throttle = 30
 set rc_smoothing_throttle_cutoff = 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Cinematic - RPM Filter
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
-set rc_smoothing_auto_factor = 90
-set rc_smoothing_auto_factor_throttle = 50
-set rc_smoothing_setpoint_cutoff = 15
-set rc_smoothing_feedforward_cutoff = 15
-set rc_smoothing_throttle_cutoff = 0
-set feedforward_jitter_factor = 16
-set feedforward_transition = 0
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): Cinematic
 set rc_smoothing_auto_factor = 90
 set rc_smoothing_auto_factor_throttle = 50
@@ -84,3 +51,47 @@ set rc_smoothing_throttle_cutoff = 0
 set feedforward_jitter_factor = 16
 set feedforward_transition = 0
 #$ OPTION END
+
+#$ OPTION_GROUP BEGIN: RPM Filter
+
+#$ OPTION BEGIN (UNCHECKED): F4 - OFF
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F4 - 12 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_14.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - OFF
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - 12 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - 14 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_14.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: OSD Type
+
+#$ OPTION BEGIN (UNCHECKED): OSD Minimize
+#$ INCLUDE: presets/default/0_osd_42_min.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD Standard
+#$ INCLUDE: presets/default/0_osd_42_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD Complete
+#$ INCLUDE: presets/default/0_osd_42_max.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -13,7 +13,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
-#$ OPTION_GROUP BEGIN: This group name
 # filter
 set gyro_lowpass_hz = 0
 set gyro_lowpass2_hz = 0
@@ -37,6 +36,8 @@ set d_min_pitch = 0
 # restore original profile selection
 profile 0
 
+#$ OPTION_GROUP BEGIN: Battery Type
+
 #$ OPTION BEGIN (UNCHECKED): Battery Li-Ion
 #$ INCLUDE: presets/default/0_batt_30.txt
 #$ OPTION END
@@ -51,7 +52,11 @@ set vbat_pid_gain = OFF
 #$ INCLUDE: presets/default/0_batt_35.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): FreeStyle Type
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Quad Type
+
+#$ OPTION BEGIN (UNCHECKED): FreeStyle
 set iterm_relax_cutoff = 20
 set rc_smoothing_auto_smoothness = 7
 set ff_interpolate_sp = AVERAGED_2
@@ -66,7 +71,7 @@ set dyn_lpf_dterm_curve_expo = 7
 set gyro_rpm_notch_q = 700
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Smooth Type
+#$ OPTION BEGIN (UNCHECKED): Smooth
 set iterm_relax_cutoff = 10
 set rc_smoothing_auto_smoothness = 20
 set ff_interpolate_sp = AVERAGED_3
@@ -81,7 +86,7 @@ set dyn_lpf_dterm_curve_expo = 7
 set gyro_rpm_notch_q = 800
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Cinematic Type
+#$ OPTION BEGIN (UNCHECKED): Cinematic
 set iterm_relax_cutoff = 5
 set rc_smoothing_auto_smoothness = 40
 set ff_interpolate_sp = AVERAGED_4
@@ -97,17 +102,37 @@ set gyro_rpm_notch_q = 900
 set iterm_windup = 75
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): RPM Filter - OFF
-#$ INCLUDE: presets/default/0_rpm_filter_off.txt
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: RPM Filter
+
+#$ OPTION BEGIN (UNCHECKED): F4 - OFF
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): RPM Filter - ON (12 Pole)
-#$ INCLUDE: presets/default/0_rpm_filter_12_on.txt
+#$ OPTION BEGIN (UNCHECKED): F4 - 12 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_12.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): RPM Filter - ON (14 Pole)
-#$ INCLUDE: presets/default/0_rpm_filter_14_on.txt
+#$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f4_14.txt
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - OFF
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - 12 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7 - 14 Pole
+#$ INCLUDE: presets/rpm filter/rpm_filter_f7_14.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: OSD Type
 
 #$ OPTION BEGIN (UNCHECKED): OSD Minimize
 #$ INCLUDE: presets/default/0_osd_42_min.txt
@@ -120,4 +145,5 @@ set iterm_windup = 75
 #$ OPTION BEGIN (UNCHECKED): OSD Complete
 #$ INCLUDE: presets/default/0_osd_42_max.txt
 #$ OPTION END
+
 #$ OPTION_GROUP END

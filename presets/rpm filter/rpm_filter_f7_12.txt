@@ -1,0 +1,6 @@
+# rpm filter
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT600
+set dshot_bidir = ON
+set motor_poles = 12
+set dshot_idle_value = 600
