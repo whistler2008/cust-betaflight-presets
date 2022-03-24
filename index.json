@@ -339,7 +339,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f4_12.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f4_12.txt",
       "hash": "382ab3229e8555ab8a5dfce574f0e469bd5dab7ca3223aa2ee8d295c3398b6a2",
       "title": "Default RPM Filter - F4 12 Poles",
       "firmware_version": [
@@ -354,7 +354,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f4_14.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f4_14.txt",
       "hash": "6e29d815c2fff3bbe93d683f8356242b89620cab1ea1aae13211dd2064a368bf",
       "title": "Default RPM Filter - F4 14 Poles",
       "firmware_version": [
@@ -369,7 +369,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f4_off.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f4_off.txt",
       "hash": "63882c59e93dec8968efd5953779c9e7ae3238fd30dc7edc33232420c99c8ad7",
       "title": "Default RPM Filter - F4 OFF",
       "firmware_version": [
@@ -384,7 +384,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f7_12.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f7_12.txt",
       "hash": "083677a8a5c29f81f2d9aaac4055945bd385af6fab96c83167e03bc2b1e86ba2",
       "title": "Default RPM Filter - F7 12 Poles",
       "firmware_version": [
@@ -399,7 +399,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f7_14.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f7_14.txt",
       "hash": "51c640174c252d2877a197931080584a704d3643ddfb50c0b1d0e62c38cfc04f",
       "title": "Default RPM Filter - F7 14 Poles",
       "firmware_version": [
@@ -414,7 +414,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm filter/rpm_filter_f7_off.txt",
+      "fullPath": "presets/rpm_filter/rpm_filter_f7_off.txt",
       "hash": "863c2742ee0757eed91485b393616c5bbbc0db8e5d47922ca75d2fe91a8f0349",
       "title": "Default RPM Filter - F7 OFF",
       "firmware_version": [
@@ -430,7 +430,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "830de202a84ae810d5fced610cf7e4e792680ea03bdfc5d07b965249e560b7c5",
+      "hash": "1b0d06e415dfdef397da23d8d29b5fd7f99b853e3dda202d691975743b270914",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -445,7 +445,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "1b0cc9579abdb418646c21261457132ea396290b9367424b5636e784129c3a61",
+      "hash": "286c9d0ffa6f3e39c44e78ef1873a1d84c8168c3d223137692dfd7b345541587",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

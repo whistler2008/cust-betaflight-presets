@@ -107,27 +107,27 @@ set iterm_windup = 75
 #$ OPTION_GROUP BEGIN: RPM Filter
 
 #$ OPTION BEGIN (UNCHECKED): F4 - OFF
-#$ INCLUDE: presets/rpm filter/rpm_filter_f4_off.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_off.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F4 - 12 Pole
-#$ INCLUDE: presets/rpm filter/rpm_filter_f4_12.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_12.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
-#$ INCLUDE: presets/rpm filter/rpm_filter_f4_14.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_14.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7 - OFF
-#$ INCLUDE: presets/rpm filter/rpm_filter_f7_off.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_off.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7 - 12 Pole
-#$ INCLUDE: presets/rpm filter/rpm_filter_f7_12.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_12.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7 - 14 Pole
-#$ INCLUDE: presets/rpm filter/rpm_filter_f7_14.txt
+#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_14.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
