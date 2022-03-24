@@ -154,7 +154,7 @@
   "presets": [
     {
       "fullPath": "presets/default/0_aux.txt",
-      "hash": "bc8749399da27d68b1be96363256f5b75e20e1ce554f4e42d7246cbf8ff8299b",
+      "hash": "213fa04d921fecafc2361e8f068ae219736ea26b2ef459abad19dd383b1dcf07",
       "title": "Default AUX",
       "firmware_version": [
         "4.0",
@@ -385,7 +385,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "0f1a1b8f710e0cbe0124edd8608255a2023f1af1fa65c6fd8031105aede395d2",
+      "hash": "3f814367a3fc09af08ee54514c6015f57d49999683cc15340b0aa809a174ca62",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"

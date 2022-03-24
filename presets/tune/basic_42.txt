@@ -13,6 +13,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
+#$ OPTION_GROUP BEGIN: This group name
 # filter
 set gyro_lowpass_hz = 0
 set gyro_lowpass2_hz = 0
@@ -119,3 +120,4 @@ set iterm_windup = 75
 #$ OPTION BEGIN (UNCHECKED): OSD Complete
 #$ INCLUDE: presets/default/0_osd_42_max.txt
 #$ OPTION END
+#$ OPTION_GROUP END
