@@ -118,7 +118,7 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: OSD Type
+#$ OPTION_GROUP BEGIN: OSD Type - RSSI
 
 #$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
 #$ INCLUDE: presets/osd/osd_42_rssi_min.txt
@@ -131,6 +131,10 @@ set vbat_pid_gain = OFF
 #$ OPTION BEGIN (UNCHECKED): OSD RSSI Complete
 #$ INCLUDE: presets/osd/osd_42_rssi_max.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: OSD Type - LQ
 
 #$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
 #$ INCLUDE: presets/osd/osd_42_lq_min.txt
