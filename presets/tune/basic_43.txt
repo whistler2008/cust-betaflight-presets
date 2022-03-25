@@ -54,7 +54,7 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: RPM Filter
+#$ OPTION_GROUP BEGIN: RPM Filter - F4
 
 #$ OPTION BEGIN (UNCHECKED): F4 - OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_off.txt
@@ -67,6 +67,10 @@ set vbat_pid_gain = OFF
 #$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_14.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: RPM Filter - F7
 
 #$ OPTION BEGIN (UNCHECKED): F7 - OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f7_off.txt
@@ -82,7 +86,7 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: Gyro Filter
+#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor - RPM Filter OFF
 #$ INCLUDE: presets/filter/43_no_rpm_noisy.txt
@@ -95,6 +99,10 @@ set vbat_pid_gain = OFF
 #$ OPTION BEGIN (UNCHECKED): Clean Motor - RPM Filter OFF
 #$ INCLUDE: presets/filter/43_no_rpm_clean.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor - RPM Filter ON
 #$ INCLUDE: presets/filter/43_rpm_noisy.txt

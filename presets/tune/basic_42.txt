@@ -70,7 +70,7 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: RPM Filter
+#$ OPTION_GROUP BEGIN: RPM Filter - F4
 
 #$ OPTION BEGIN (UNCHECKED): F4 - OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_off.txt
@@ -83,6 +83,10 @@ set vbat_pid_gain = OFF
 #$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_14.txt
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: RPM Filter - F7
 
 #$ OPTION BEGIN (UNCHECKED): F7 - OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f7_off.txt
