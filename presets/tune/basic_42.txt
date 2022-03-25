@@ -91,6 +91,18 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
+#$ OPTION_GROUP BEGIN: ESC PWM
+
+#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ INCLUDE: presets/esc/48.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 96 kHz
+#$ INCLUDE: presets/esc/96.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
@@ -119,6 +131,38 @@ set vbat_pid_gain = OFF
 
 #$ OPTION BEGIN (UNCHECKED): Clean Motor
 #$ INCLUDE: presets/filter/42_rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Quad Size
+
+#$ OPTION BEGIN (UNCHECKED): 1.6 Inch (Micro Whoop)
+#$ INCLUDE: presets/size/16.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2 Inch
+#$ INCLUDE: presets/size/20.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2.5 Inch
+#$ INCLUDE: presets/size/25.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3 Inch
+#$ INCLUDE: presets/size/30.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3.5 Inch
+#$ INCLUDE: presets/size/35.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4 Inch
+#$ INCLUDE: presets/size/40.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 5 Inch - Above
+#$ INCLUDE: presets/size/50.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

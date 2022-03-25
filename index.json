@@ -265,8 +265,38 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/esc/48.txt",
+      "hash": "9cd5dcb454427b1b097bc0c3ae9a922dbcf9d386a02fa0c2c3a9c91797a2ec67",
+      "title": "ESC PWM 48 kHz",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/esc/96.txt",
+      "hash": "f980eab5e5bf2c44eeefc115f7b8f08313404d8bdb843fea51941dde297ce0a1",
+      "title": "ESC PWM 48 kHz",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",
-      "hash": "dadfa1bba2e7fc865fb5f5cbe6d1a7b6b349a9f822e8d332bf0b464dde3fc985",
+      "hash": "44500ab761d734fa57ecf5fe04c81232454ce5d109cdd3b68a57af98afdb032d",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -280,7 +310,7 @@
     },
     {
       "fullPath": "presets/filter/42_no_rpm_noisy.txt",
-      "hash": "1a80397557daa928f535fc373c50c11cce876944f248f0b2e66de29c6daceac2",
+      "hash": "cdfab3fe92641fd39f794a19779f5f4bdc8c53b8a39a7f102b36a13d37a60319",
       "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -294,7 +324,7 @@
     },
     {
       "fullPath": "presets/filter/42_no_rpm_normal.txt",
-      "hash": "84b5cd34060d14348a6ac54e355604f3bf55ed40dbcfb4174077037e6b33d774",
+      "hash": "6220e19451938bb3f7c219f6f7ccb051f87c32ec4afcc384cdb213654a363cca",
       "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -434,7 +464,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "edb5236d3995b7d093579faf8609ae571fefd231ad79583f17405a23258ba311",
+      "hash": "adec6fc094744c871f82dc32b7bc32734562ceffb5d1cf8b7bb91f51504952f8",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -642,8 +672,113 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/size/16.txt",
+      "hash": "b06a22531c301c847cad4e2afb81241b4ea98f65dc705bfd97b7601850d2d016",
+      "title": "1.6 Inch (Micro Whoop)",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/20.txt",
+      "hash": "937a54ccc56ae6070021b29ef8c3423efde53e0afc3182297c3aaa9f40c0c999",
+      "title": "2 Inch",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/25.txt",
+      "hash": "5034eabf34200940cb59c04be3d214b809d9d6bb88b59fc2b8031d1a132bacbd",
+      "title": "2.5 Inch",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/30.txt",
+      "hash": "0bfa8ad7e949e8bf426b82e426059972d6fe3d04ae428479a94242af18ddd075",
+      "title": "3 Inch",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/35.txt",
+      "hash": "1e36fd3937097d3a9f36407cd1def7ee039aaf088df615e3cd8d5a1040a3a9bb",
+      "title": "3.5 Inch",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/40.txt",
+      "hash": "5c97df92131c1544736d533e7423c3d1f306772cd3f68f6ef70b85dc6dbe1207",
+      "title": "4 Inch",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/size/50.txt",
+      "hash": "7e62ab9dd1360a38f2f445020ccc6129e7d3fd06ee7e5210f95f804c8959cbc6",
+      "title": "5 Inch Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "fd31997c8c1eed4a67b01cb4d892ecf9ca239b94c2a4f07a3f8d1c108c67a3e6",
+      "hash": "8a3f2e44b2993263f5e15066ae5cbe13917989581642dcbf898491fa8bab1f85",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -658,7 +793,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "bccf6b7c8d5daeaf19a522905ea50f37a051407e99060fb7d2dae75c261e6627",
+      "hash": "a86eb87cbb137b0a9075185990aa34a31db5ec38c78207c0f91cd3710922ed37",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

@@ -1,0 +1,15 @@
+#$ TITLE: 2.5 Inch
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION: Default 2.5 Inch Size
+
+profile 0
+
+# profile 0
+set idle_min_rpm = 40
+
+# restore original profile selection
+profile 0
