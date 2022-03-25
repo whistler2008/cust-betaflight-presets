@@ -1,0 +1,27 @@
+#$ TITLE: CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION:  Filter settings for CLEAN MOTOR & NO RPM Filter (Betaflight 4.2)
+
+# -- Gyro filters --
+set gyro_lowpass_hz = 0
+set gyro_lowpass2_hz = 450
+set dyn_lpf_gyro_min_hz = 0
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_width_percent = 1
+set dyn_notch_q = 300
+set dyn_notch_min_hz = 110
+
+profile 0
+
+# profile 0
+set dyn_lpf_dterm_min_hz = 85
+set dyn_lpf_dterm_max_hz = 175
+set dterm_lowpass2_hz = 175
+set yaw_lowpass_hz = 75
+
+# restore original profile selection
+profile 0

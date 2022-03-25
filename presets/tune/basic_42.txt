@@ -102,6 +102,38 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
+#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
+
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
+#$ INCLUDE: presets/filter/42_no_rpm_noisy.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
+#$ INCLUDE: presets/filter/42_no_rpm_normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
+#$ INCLUDE: presets/filter/42_no_rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
+
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
+#$ INCLUDE: presets/filter/42_rpm_noisy.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
+#$ INCLUDE: presets/filter/42_rpm_normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
+#$ INCLUDE: presets/filter/42_rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: OSD Type - RSSI
 
 #$ OPTION BEGIN (UNCHECKED): OSD Minimize

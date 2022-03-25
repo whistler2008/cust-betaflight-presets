@@ -6,14 +6,12 @@
 #$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.3)
 
 # -- Gyro filters --
-# Single static gyro lowpass at 500hz
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_dyn_max_hz = 500
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 500
 
 # -- Gyro Sliders (on by default) --
-# only lpf2 is active
 set simplified_gyro_filter_multiplier = 100
 
 # -- Gyro Dynamic Notches --
@@ -32,7 +30,7 @@ set dterm_lpf1_static_hz = 147
 set dterm_lpf2_static_hz = 147
 
 # -- Dterm sliders --
-# -- simplified_dterm_filter_multiplier (default) --
+set simplified_dterm_filter_multiplier = 95
 
 # -- Yaw lowpass --
-# -- yaw_lowpass_hz (default) --
+set yaw_lowpass_hz = 75

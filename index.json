@@ -265,6 +265,90 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/filter/42_no_rpm_clean.txt",
+      "hash": "2fd8918ebf9597b8175b505efe7679c42e38a21208c9e57b838b3e2e2b065151",
+      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/42_no_rpm_noisy.txt",
+      "hash": "a119210826d24a46e28d9e3c98047a1f481347ce18e8f00a289928a9691eeaca",
+      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/42_no_rpm_normal.txt",
+      "hash": "326271e8c56db5356d8cb947fb862628edf63eda704567be8368142388902696",
+      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/42_rpm_clean.txt",
+      "hash": "beb0885d56a56248d0fee43b8b1289c8f4d333a414374cb59497caad08f8977c",
+      "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/42_rpm_noisy.txt",
+      "hash": "2436901ecbb6478dc0f31da688119adaa5400d50ee01f5ee486506293a99d3dd",
+      "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/42_rpm_normal.txt",
+      "hash": "f0a9c2885b350bda9fd4c8892c6fc3dee8dd23c96c555ceebe70f40b7d213a56",
+      "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/filter/43_no_rpm_clean.txt",
       "hash": "2fd8918ebf9597b8175b505efe7679c42e38a21208c9e57b838b3e2e2b065151",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
@@ -308,7 +392,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "d3224062ea3dc53f63809cb6d485c6b92d354d147c1abcf2f9db96758760e098",
+      "hash": "252e58e05c15cd12525a7242c6c86704c71c55d28e4c9675c8dbbd010950ec22",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -322,7 +406,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "b6a61d550c856f4967c8712c2ba600c8a7db8d55fb6cb9b8e92240ed6629b593",
+      "hash": "f8893edfc4fa7bdac6d5242178bbfd0bf78ee48e8d695f9907d1d302315c0333",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -336,7 +420,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "29fda825137859d4bd24cfe1cb4e0a3e33438f07c8346586a0caeea88dba0971",
+      "hash": "15bfcd68ea1d678c0bd8ef04eb24ac5f093ac5f20580719e71c11940bbdff973",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -559,7 +643,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "d731826afe1b46a92754b1c3476092f6e9611b548ee383a9e7e26a5cdfe27def",
+      "hash": "361247c553e3423bd44a3c38d8533050626a547b291882d4582f877e081cdf8e",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
