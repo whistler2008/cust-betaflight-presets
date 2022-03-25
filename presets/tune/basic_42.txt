@@ -13,17 +13,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
-# filter
-set gyro_lowpass_hz = 0
-set gyro_lowpass2_hz = 0
-set dyn_notch_width_percent = 0
-set dyn_notch_q = 250
-set dyn_notch_min_hz = 125
-set dyn_lpf_dterm_min_hz = 80
-set dyn_lpf_dterm_max_hz = 110
-set dterm_lowpass_type = BIQUAD
-set dterm_lowpass2_hz = 0
-
 # profile 0
 profile 0
 
