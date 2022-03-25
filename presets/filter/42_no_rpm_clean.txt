@@ -6,32 +6,22 @@
 #$ DESCRIPTION:  Filter settings for CLEAN MOTOR & NO RPM Filter (Betaflight 4.2)
 
 # -- Gyro filters --
-set gyro_lpf1_dyn_min_hz = 250
-set gyro_lpf1_dyn_max_hz = 500
-set gyro_lpf1_static_hz = 500
-set gyro_lpf2_static_hz = 500
-
-# -- Gyro Sliders --
-set simplified_gyro_filter_multiplier = 100
-
-# -- Gyro Static Notches (default)--
+set gyro_lowpass_hz = 0
+set gyro_lowpass2_hz = 250
+set dyn_lpf_gyro_min_hz = 0
 
 # -- Gyro Dynamic Notches --
-set dyn_notch_count = 4
-set dyn_notch_q = 350
-set dyn_notch_min_hz = 100
+set dyn_notch_width_percent = 3
+set dyn_notch_q = 400
+set dyn_notch_min_hz = 90
 
-# -- RPM filtering OFF --
+profile 0
 
-# -- Dterm filtering --
-set dterm_lpf1_dyn_min_hz = 67
-set dterm_lpf1_dyn_max_hz = 135
-set dterm_lpf1_static_hz = 135
+# profile 0
+set dyn_lpf_dterm_min_hz = 65
+set dyn_lpf_dterm_max_hz = 125
+set dterm_lowpass2_hz = 125
+set yaw_lowpass_hz = 75
 
-set dterm_lpf2_static_hz = 135
-
-# -- Dterm sliders --
-set simplified_dterm_filter_multiplier = 90
-
-# -- Yaw lowpass (default) --
-# -- Accelerometer lowpass (default) --
+# restore original profile selection
+profile 0
