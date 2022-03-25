@@ -56,15 +56,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: RPM Filter - F4
 
-#$ OPTION BEGIN (UNCHECKED): F4 - OFF
+#$ OPTION BEGIN (UNCHECKED): OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): F4 - 12 Pole
+#$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_12.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): F4 - 14 Pole
+#$ OPTION BEGIN (UNCHECKED): 14 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f4_14.txt
 #$ OPTION END
 
@@ -72,15 +72,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: RPM Filter - F7
 
-#$ OPTION BEGIN (UNCHECKED): F7 - OFF
+#$ OPTION BEGIN (UNCHECKED): OFF
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f7_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): F7 - 12 Pole
+#$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f7_12.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): F7 - 14 Pole
+#$ OPTION BEGIN (UNCHECKED): 14 Pole
 #$ INCLUDE: presets/rpm_filter/rpm_filter_f7_14.txt
 #$ OPTION END
 
@@ -88,15 +88,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
 
-#$ OPTION BEGIN (UNCHECKED): Noisy Motor - RPM Filter OFF
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
 #$ INCLUDE: presets/filter/43_no_rpm_noisy.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Normal Motor - RPM Filter OFF
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
 #$ INCLUDE: presets/filter/43_no_rpm_normal.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Clean Motor - RPM Filter OFF
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
 #$ INCLUDE: presets/filter/43_no_rpm_clean.txt
 #$ OPTION END
 
@@ -104,15 +104,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
 
-#$ OPTION BEGIN (UNCHECKED): Noisy Motor - RPM Filter ON
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
 #$ INCLUDE: presets/filter/43_rpm_noisy.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Normal Motor - RPM Filter ON
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
 #$ INCLUDE: presets/filter/43_rpm_normal.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Clean Motor - RPM Filter ON
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
 #$ INCLUDE: presets/filter/43_rpm_clean.txt
 #$ OPTION END
 
@@ -120,15 +120,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: OSD Type - RSSI
 
-#$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
+#$ OPTION BEGIN (UNCHECKED): OSD Minimize
 #$ INCLUDE: presets/osd/osd_42_rssi_min.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD RSSI Standard
+#$ OPTION BEGIN (UNCHECKED): OSD Standard
 #$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD RSSI Complete
+#$ OPTION BEGIN (UNCHECKED): OSD Complete
 #$ INCLUDE: presets/osd/osd_42_rssi_max.txt
 #$ OPTION END
 
@@ -136,15 +136,15 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: OSD Type - LQ
 
-#$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
+#$ OPTION BEGIN (UNCHECKED): OSD Minimize
 #$ INCLUDE: presets/osd/osd_42_lq_min.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD LQ Standard
+#$ OPTION BEGIN (UNCHECKED): OSD Standard
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD LQ Complete
+#$ OPTION BEGIN (UNCHECKED): OSD Complete
 #$ INCLUDE: presets/osd/osd_42_lq_max.txt
 #$ OPTION END
 
