@@ -52,7 +52,7 @@ set tpa_breakpoint = 2000
 rateprofile 0
 
 #$ OPTION BEGIN (UNCHECKED): 1S
-#$ INCLUDE: presets/default/0_batt_33.txt
+#$ INCLUDE: presets/battery/batt_33.txt
 profile 0
 
 set dterm_lowpass_hz = 80
@@ -85,7 +85,7 @@ profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2S
-#$ INCLUDE: presets/default/0_batt_35.txt
+#$ INCLUDE: presets/battery/batt_35.txt
 profile 0
 
 set dterm_lowpass_hz = 80

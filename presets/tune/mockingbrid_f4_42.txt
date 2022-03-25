@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/default/0_batt_35.txt
+#$ INCLUDE: presets/battery/batt_35.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
 #$ INCLUDE: presets/default/0_other.txt

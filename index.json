@@ -153,23 +153,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/default/0_aux.txt",
-      "hash": "213fa04d921fecafc2361e8f068ae219736ea26b2ef459abad19dd383b1dcf07",
-      "title": "Default AUX",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/default/0_batt_30.txt",
+      "fullPath": "presets/battery/batt_30.txt",
       "hash": "9f29249180951cc305248ead6a21860afd611e43de8a0026fa5a571b7928cf64",
       "title": "Default 3.0V Battery settings",
       "firmware_version": [
@@ -185,7 +169,7 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/default/0_batt_33.txt",
+      "fullPath": "presets/battery/batt_33.txt",
       "hash": "89210518d60c6f1810aa5e93d8629c937e2a3ec4fd647f422c28a45d543728bd",
       "title": "Default 3.3V Battery settings",
       "firmware_version": [
@@ -201,9 +185,25 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/default/0_batt_35.txt",
+      "fullPath": "presets/battery/batt_35.txt",
       "hash": "425d5584b03980d1956fca8dfd8e28feb65b44936130c39fb73cdd994b9d5422",
       "title": "Default 3.5V Battery settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/default/0_aux.txt",
+      "hash": "213fa04d921fecafc2361e8f068ae219736ea26b2ef459abad19dd383b1dcf07",
+      "title": "Default AUX",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -265,11 +265,80 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/default/0_rate.txt",
-      "hash": "1239229e919697962e5f889f8a8109e580e34629d06693c9e5b30d9d9dee282d",
-      "title": "Default Rate Profile",
+      "fullPath": "presets/filter/43_no_rpm_clean.txt",
+      "hash": "2fd8918ebf9597b8175b505efe7679c42e38a21208c9e57b838b3e2e2b065151",
+      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/43_no_rpm_noisy.txt",
+      "hash": "a119210826d24a46e28d9e3c98047a1f481347ce18e8f00a289928a9691eeaca",
+      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/43_no_rpm_normal.txt",
+      "hash": "326271e8c56db5356d8cb947fb862628edf63eda704567be8368142388902696",
+      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/43_rpm_clean.txt",
+      "hash": "d3224062ea3dc53f63809cb6d485c6b92d354d147c1abcf2f9db96758760e098",
+      "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/43_rpm_noisy.txt",
+      "hash": "b6a61d550c856f4967c8712c2ba600c8a7db8d55fb6cb9b8e92240ed6629b593",
+      "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/filter/43_rpm_normal.txt",
+      "hash": "29fda825137859d4bd24cfe1cb4e0a3e33438f07c8346586a0caeea88dba0971",
+      "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
+      "firmware_version": [
         "4.3"
       ],
       "category": "DEFAULT",
@@ -384,6 +453,21 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/rate/0_rate.txt",
+      "hash": "1239229e919697962e5f889f8a8109e580e34629d06693c9e5b30d9d9dee282d",
+      "title": "Default Rate Profile",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/rpm_filter/rpm_filter_f4_12.txt",
       "hash": "25186859bc615f8e508e4e0039b8df3e4c168c85e2711fe2740ed76a82c51213",
       "title": "Default RPM Filter - F4 12 Poles",
@@ -475,7 +559,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "288d75d481d220b21d4dbf35c72cece087efb0f4995e3365e8aecd0b0ee1c363",
+      "hash": "6cdd6623c6dca1db01ec5f3da93990179a917a36602530fe7bcc30b7650e22f2",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -490,7 +574,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "659e6aadc4c5932de84b50d2dd225b8cb0f2fb297c8f8390b5893897fd232552",
+      "hash": "939723a86144eb93f2ad8092be8d276cbd41c13b685e78cb5e976e9941d5b879",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -505,7 +589,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "078620a8f5faebb33c3640294280af87da64b9506c720d2af9458a9f6f9cd10e",
+      "hash": "574b6ca3f7f81ece789d32427f5593c1057d1aebfbca8647c500ad3ba482fc43",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -520,7 +604,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "a84af081a8c3a092a3927d6517b006fc10d60e964b5e5065e82e7918cb689cfe",
+      "hash": "5b671d98a536a17e139633cef7fc339690de2a2939e1c60c545268587af4df49",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
@@ -532,6 +616,90 @@
       ],
       "author": "Whistler2008",
       "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/type/42_cinematic.txt",
+      "hash": "e5d3ebcd76b35c20dfa366a8a249b82d5236d5d126547179271ec3026c982fc9",
+      "title": "Quad type CINEMATIC (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/type/42_freestyle.txt",
+      "hash": "d2ddcb5c6a91ae1e353d796429eb7604ba68c9bbf897af76dbd00273a8eb4598",
+      "title": "Quad type FREESTYLE (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/type/42_smooth.txt",
+      "hash": "f69aa655d29a93dbe9cd2a64bdc80458264ba2ed7c342e8287f066a2212ce52f",
+      "title": "Quad type SMOOTH (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/type/43_cinematic.txt",
+      "hash": "eacb929155fa62ece21b6b42a00924644ef6857d1c50677d3f9d1d21ac853d09",
+      "title": "Quad type CINEMATIC (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/type/43_freestyle.txt",
+      "hash": "45e599b84391924c6d3b76ef9e31d99f6fedefb9523de513fc6ca0c9bca44307",
+      "title": "Quad type FREESTYLE (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/type/43_smooth.txt",
+      "hash": "8ce30f7f697d5fb58ac4d9886e16b6c8108cac0993aa280554262cd56fa529b0",
+      "title": "Quad type SMOOTH (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",

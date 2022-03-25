@@ -1,0 +1,38 @@
+#$ TITLE: NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.3)
+
+# -- Gyro filters --
+# Single static gyro lowpass at 500hz
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 500
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 500
+
+# -- Gyro Sliders (on by default) --
+# only lpf2 is active
+set simplified_gyro_filter_multiplier = 100
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 100
+
+# -- RPM filtering --
+set rpm_filter_q = 550
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 72
+set dterm_lpf1_dyn_max_hz = 147
+set dterm_lpf1_static_hz = 147
+
+set dterm_lpf2_static_hz = 147
+
+# -- Dterm sliders --
+# -- simplified_dterm_filter_multiplier (default) --
+
+# -- Yaw lowpass --
+# -- yaw_lowpass_hz (default) --
