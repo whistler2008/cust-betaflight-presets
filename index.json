@@ -567,6 +567,174 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/pid/42_2s_p0.txt",
+      "hash": "f573a74757d8e26d400e16e38a402be566c7b9382cfb18cfd81796ecabeb7d6d",
+      "title": "Default 2S Profile 0",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_2s_p1.txt",
+      "hash": "d27d40bc62402100c539348c644e309e9b8ef37af8163dbc65b6d0705afca447",
+      "title": "Default 2S Profile 1",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_2s_p2.txt",
+      "hash": "5471088044bdb9d1ca3bcc353e30b44109386578cae1432efacbc9c042c71f26",
+      "title": "Default 2S Profile 2",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_3s_p0.txt",
+      "hash": "4131ae4ac4b78115dfb9f5114321ea6851ba83c4356ce04da92497adbfb1cc47",
+      "title": "Default 3S Profile 0",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_3s_p1.txt",
+      "hash": "7d40108c13c508ce2d54beb08d57ac613c6c8f6d592dd05d59aaff0d5607b37a",
+      "title": "Default 3S Profile 1",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_3s_p2.txt",
+      "hash": "d5367f73f373aa7c753597448c3fc16779c911cdc230b3475d3894587a1dfb1b",
+      "title": "Default 3S Profile 2",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_4s_p0.txt",
+      "hash": "8e67769a4d5475ab1ba0e50667434c437a8844259b24a9fb664f6b4c1d2bbf1f",
+      "title": "Default 4S Profile 0",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_4s_p1.txt",
+      "hash": "a8d694c7169b29b6d768ec1560ddb5e60dd573109dc2f133dac9639d1772f612",
+      "title": "Default 4S Profile 1",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_4s_p2.txt",
+      "hash": "41e78eb6861e2de56555aa5de93a0246c5920b92d31ecae78a11713183c8ab4f",
+      "title": "Default 4S Profile 2",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_6s_p0.txt",
+      "hash": "cfd77f8d09b163ba7e375d5127e6a721dfaad9a8c6e90edd3fabf1114010a4e6",
+      "title": "Default 6S Profile 0",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_6s_p1.txt",
+      "hash": "0e2f951a3ae9a0b9805920bcfafe63385dfff214edf512b60e2313715f724a56",
+      "title": "Default 6S Profile 1",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/pid/42_6s_p2.txt",
+      "hash": "ebe040853310809d36fc01463436f65b8ac029e4bb50b209a75fa1e9add9e8f4",
+      "title": "Default 6S Profile 2",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/rate/0_rate.txt",
       "hash": "1239229e919697962e5f889f8a8109e580e34629d06693c9e5b30d9d9dee282d",
       "title": "Default Rate Profile",
@@ -778,7 +946,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "8a3f2e44b2993263f5e15066ae5cbe13917989581642dcbf898491fa8bab1f85",
+      "hash": "2024e39459ea42c49e417c764dc376ea8e3bf8ebd9bbfffedbe68ae3ce6885f3",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -838,7 +1006,7 @@
     },
     {
       "fullPath": "presets/type/42_cinematic.txt",
-      "hash": "e5d3ebcd76b35c20dfa366a8a249b82d5236d5d126547179271ec3026c982fc9",
+      "hash": "02b2c518897d8f5f37f2f9af8097bef2253e7d5cb4ab5fd7ab14002c5748a5fe",
       "title": "Quad type CINEMATIC (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -852,7 +1020,7 @@
     },
     {
       "fullPath": "presets/type/42_freestyle.txt",
-      "hash": "d2ddcb5c6a91ae1e353d796429eb7604ba68c9bbf897af76dbd00273a8eb4598",
+      "hash": "cf8e667ffbbb0a2c8edc3ef2e85ea1589f2d93ac601e5f45f74e56a4c9664a2b",
       "title": "Quad type FREESTYLE (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -866,7 +1034,7 @@
     },
     {
       "fullPath": "presets/type/42_smooth.txt",
-      "hash": "f69aa655d29a93dbe9cd2a64bdc80458264ba2ed7c342e8287f066a2212ce52f",
+      "hash": "ae8fe4636252fa627f7f63122756425b09d732af3cc5cad70c79aea1a1d07ba3",
       "title": "Quad type SMOOTH (Betaflight 4.2)",
       "firmware_version": [
         "4.2"

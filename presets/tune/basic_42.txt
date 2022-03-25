@@ -13,18 +13,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
-# profile 0
-profile 0
-
-set anti_gravity_gain = 4000
-set d_pitch = 32
-set d_roll = 30
-set d_min_roll = 0
-set d_min_pitch = 0
-
-# restore original profile selection
-profile 0
-
 #$ OPTION_GROUP BEGIN: Battery Type
 
 #$ OPTION BEGIN (UNCHECKED): Li-Ion
@@ -55,6 +43,31 @@ set vbat_pid_gain = OFF
 
 #$ OPTION BEGIN (UNCHECKED): Cinematic
 #$ INCLUDE: presets/type/42_cinematic.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/42_2s_p0.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/42_3s_p0.txt
+#$ INCLUDE: presets/pid/42_2s_p1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/42_4s_p0.txt
+#$ INCLUDE: presets/pid/42_3s_p1.txt
+#$ INCLUDE: presets/pid/42_2s_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/42_6s_p0.txt
+#$ INCLUDE: presets/pid/42_4s_p1.txt
+#$ INCLUDE: presets/pid/42_3s_p2.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

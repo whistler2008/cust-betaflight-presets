@@ -18,3 +18,24 @@ set throttle_boost_cutoff = 10
 set dyn_lpf_dterm_curve_expo = 8
 set gyro_rpm_notch_q = 900
 set iterm_windup = 75
+
+profile 0
+
+# profile 0
+set f_pitch = 91
+set f_roll = 86
+set f_yaw = 86
+
+profile 1
+
+# profile 1
+set f_pitch = 91
+set f_roll = 86
+set f_yaw = 86
+
+profile 2
+
+# profile 2
+set f_pitch = 91
+set f_roll = 86
+set f_yaw = 86
