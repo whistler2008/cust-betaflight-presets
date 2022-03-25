@@ -1,15 +1,13 @@
-#$ TITLE: Default RPM Filter - F7 14 Poles
+#$ TITLE: Default RPM Filter - F4 12 Poles
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  default
-#$ DESCRIPTION: Default RPM Filter - F7 14 Poles
+#$ DESCRIPTION: Default RPM Filter - F4 12 Poles
 
 # rpm filter
-set pid_process_denom = 1
 set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT600
 set dshot_bidir = ON
-set motor_poles = 14
+set motor_poles = 12
 set dshot_idle_value = 600

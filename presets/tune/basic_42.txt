@@ -72,34 +72,30 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: RPM Filter - F4
+#$ OPTION_GROUP BEGIN: RPM Filter
 
 #$ OPTION BEGIN (UNCHECKED): OFF
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_off.txt
+#$ INCLUDE: presets/rpm_filter/off.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_12.txt
+#$ INCLUDE: presets/rpm_filter/12.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 14 Pole
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f4_14.txt
+#$ INCLUDE: presets/rpm_filter/14.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: RPM Filter - F7
+#$ OPTION_GROUP BEGIN: Chipset
 
-#$ OPTION BEGIN (UNCHECKED): OFF
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_off.txt
+#$ OPTION BEGIN (UNCHECKED): F4
+#$ INCLUDE: presets/chipset/f4.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 12 Pole
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_12.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 14 Pole
-#$ INCLUDE: presets/rpm_filter/rpm_filter_f7_14.txt
+#$ OPTION BEGIN (UNCHECKED): F7
+#$ INCLUDE: presets/chipset/f7.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -201,6 +201,36 @@
       "priority": 10000
     },
     {
+      "fullPath": "presets/chipset/f4.txt",
+      "hash": "e9f9cce9791afb3716321b0e99a13736f278e28bda04f28c852f34a9799b7550",
+      "title": "Default F4 Chipset",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/chipset/f7.txt",
+      "hash": "b6444757c57144c288c6efe803875f0903b700f3c1e91f9ddb667a1002fb6ed7",
+      "title": "Default F7 Chipset",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/default/0_aux.txt",
       "hash": "213fa04d921fecafc2361e8f068ae219736ea26b2ef459abad19dd383b1dcf07",
       "title": "Default AUX",
@@ -694,7 +724,7 @@
     },
     {
       "fullPath": "presets/pid/42_6s_p0.txt",
-      "hash": "cfd77f8d09b163ba7e375d5127e6a721dfaad9a8c6e90edd3fabf1114010a4e6",
+      "hash": "7595e7e54306b65464cc73184c5052039c8f366573fb11750e1ffe4e2955b253",
       "title": "Default 6S Profile 0",
       "firmware_version": [
         "4.2"
@@ -708,7 +738,7 @@
     },
     {
       "fullPath": "presets/pid/42_6s_p1.txt",
-      "hash": "0e2f951a3ae9a0b9805920bcfafe63385dfff214edf512b60e2313715f724a56",
+      "hash": "db0e2aabf54461c6da4896e42278733daf7102716cc05511e43cb048a273650e",
       "title": "Default 6S Profile 1",
       "firmware_version": [
         "4.2"
@@ -722,7 +752,7 @@
     },
     {
       "fullPath": "presets/pid/42_6s_p2.txt",
-      "hash": "ebe040853310809d36fc01463436f65b8ac029e4bb50b209a75fa1e9add9e8f4",
+      "hash": "bd139a848a6bef0f96ebe03b86491d600fda9168a1ecd13dd3f71a10c78a611c",
       "title": "Default 6S Profile 2",
       "firmware_version": [
         "4.2"
@@ -750,8 +780,8 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm_filter/rpm_filter_f4_12.txt",
-      "hash": "25186859bc615f8e508e4e0039b8df3e4c168c85e2711fe2740ed76a82c51213",
+      "fullPath": "presets/rpm_filter/12.txt",
+      "hash": "eb271e7fbdad915ab8597e669e549a03966b4675f5cc6d7c0c9721606f7c8416",
       "title": "Default RPM Filter - F4 12 Poles",
       "firmware_version": [
         "4.2",
@@ -765,8 +795,8 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm_filter/rpm_filter_f4_14.txt",
-      "hash": "e98a76c2474c6be8656d2bc1080faa8c1eeabd1308ddfb494f4a63ec01e344f1",
+      "fullPath": "presets/rpm_filter/14.txt",
+      "hash": "ef725021cdb161c83324ecf0452d8a8434a28e081a12dc4b5f04e74f69f36993",
       "title": "Default RPM Filter - F4 14 Poles",
       "firmware_version": [
         "4.2",
@@ -780,54 +810,9 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/rpm_filter/rpm_filter_f4_off.txt",
-      "hash": "0783cd628a4214125eca303fb6eb3216f4c79619f7c4dc89b9981b83696e6484",
+      "fullPath": "presets/rpm_filter/off.txt",
+      "hash": "55a2c2393e6a074bb8424918da7b4387a04f088c7b5476c9516273131f059e98",
       "title": "Default RPM Filter - F4 OFF",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/rpm_filter/rpm_filter_f7_12.txt",
-      "hash": "62b56b305a7fbd8ea5f6580baa20e9a1b864c693081a98ddf58071b91ee7e7bb",
-      "title": "Default RPM Filter - F7 12 Poles",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/rpm_filter/rpm_filter_f7_14.txt",
-      "hash": "e6b96cb9c0a2a55051d50302334fb48115781fed6c9f2d1fa1792dfd4cca7a23",
-      "title": "Default RPM Filter - F7 14 Poles",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/rpm_filter/rpm_filter_f7_off.txt",
-      "hash": "0009d4a654a61f9900b9fd528b3256a55da0d9b17141944549890743981d419b",
-      "title": "Default RPM Filter - F7 OFF",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -946,7 +931,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "2024e39459ea42c49e417c764dc376ea8e3bf8ebd9bbfffedbe68ae3ce6885f3",
+      "hash": "ec8203f96579879e676117c509396c5a208db3672b5daa90d43e42c9c781a69e",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -961,7 +946,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "a86eb87cbb137b0a9075185990aa34a31db5ec38c78207c0f91cd3710922ed37",
+      "hash": "cb4f65f8c298d460701375b9d7ab9e628c6b6da4aa02848c7a1af475704d4091",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

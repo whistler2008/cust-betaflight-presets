@@ -10,10 +10,10 @@ profile 0
 # profile 0
 set p_pitch = 46
 set i_pitch = 90
-set d_pitch = 37
+set d_pitch = 32
 set p_roll = 42
 set i_roll = 85
-set d_roll = 30
+set d_roll = 35
 set p_yaw = 45
 set i_yaw = 90
 set d_min_roll = 0
