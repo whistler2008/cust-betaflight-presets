@@ -266,10 +266,10 @@
     },
     {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",
-      "hash": "2fd8918ebf9597b8175b505efe7679c42e38a21208c9e57b838b3e2e2b065151",
-      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "hash": "dadfa1bba2e7fc865fb5f5cbe6d1a7b6b349a9f822e8d332bf0b464dde3fc985",
+      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "DEFAULT",
       "status": "COMMUNITY",
@@ -280,10 +280,10 @@
     },
     {
       "fullPath": "presets/filter/42_no_rpm_noisy.txt",
-      "hash": "a119210826d24a46e28d9e3c98047a1f481347ce18e8f00a289928a9691eeaca",
-      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "hash": "1a80397557daa928f535fc373c50c11cce876944f248f0b2e66de29c6daceac2",
+      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "DEFAULT",
       "status": "COMMUNITY",
@@ -294,10 +294,10 @@
     },
     {
       "fullPath": "presets/filter/42_no_rpm_normal.txt",
-      "hash": "326271e8c56db5356d8cb947fb862628edf63eda704567be8368142388902696",
-      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
+      "hash": "84b5cd34060d14348a6ac54e355604f3bf55ed40dbcfb4174077037e6b33d774",
+      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "DEFAULT",
       "status": "COMMUNITY",

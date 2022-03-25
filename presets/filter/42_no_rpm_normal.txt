@@ -1,9 +1,9 @@
-#$ TITLE: NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  default
-#$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.3)
+#$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.2)
 
 # -- Gyro filters --
 set gyro_lpf1_dyn_min_hz = 150
