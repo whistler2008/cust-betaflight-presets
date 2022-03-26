@@ -1,13 +1,14 @@
-#$ TITLE: Default 3S Profile 2
+#$ TITLE: Default 3S Profile 2 (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  default
-#$ DESCRIPTION: Default 3S in Profile 2
+#$ DESCRIPTION: Default 3S in Profile 2 (Betaflight 4.2)
 
 profile 2
 
 # profile 2
+set vbat_sag_compensation = 100
 set p_pitch = 64
 set i_pitch = 126
 set d_pitch = 45

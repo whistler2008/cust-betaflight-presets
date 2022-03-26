@@ -13,6 +13,8 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
+set name = PRE-TUNED
+
 # rc smoothing
 set feedforward_averaging = OFF
 set rc_smoothing = ON
@@ -50,6 +52,31 @@ set vbat_pid_gain = OFF
 
 #$ OPTION BEGIN (UNCHECKED): Cinematic
 #$ INCLUDE: presets/type/43_cinematic.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/43_2s_p0.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/43_3s_p0.txt
+#$ INCLUDE: presets/pid/43_2s_p1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/43_4s_p0.txt
+#$ INCLUDE: presets/pid/43_3s_p1.txt
+#$ INCLUDE: presets/pid/43_2s_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/43_6s_p0.txt
+#$ INCLUDE: presets/pid/43_4s_p1.txt
+#$ INCLUDE: presets/pid/43_3s_p2.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

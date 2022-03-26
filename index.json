@@ -12,12 +12,12 @@
       "OTHER": "OTHER"
     },
     "PresetCategoriesPriorities": {
-      "TUNE": 1000000000000,
-      "DEFAULT": 10000,
-      "VTX": 1000000,
-      "RX": 10000000000,
       "BNF": 0,
-      "OTHER": 0
+      "TUNE": 0,
+      "VTX": 0,
+      "RX": 0,
+      "OTHER": 0,
+      "DEFAULT": 0
     },
     "MetadataTypes": {
       "STRING": "STRING",
@@ -166,7 +166,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
@@ -182,7 +182,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
@@ -198,7 +198,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f4.txt",
@@ -213,7 +213,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f7.txt",
@@ -228,7 +228,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/default/0_aux.txt",
@@ -244,7 +244,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/default/0_beeper.txt",
@@ -260,7 +260,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/default/0_led.txt",
@@ -276,7 +276,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/default/0_other.txt",
@@ -292,7 +292,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/esc/48.txt",
@@ -307,7 +307,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/esc/96.txt",
@@ -322,7 +322,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",
@@ -336,7 +336,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_noisy.txt",
@@ -350,7 +350,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_normal.txt",
@@ -364,7 +364,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_clean.txt",
@@ -378,7 +378,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_noisy.txt",
@@ -392,7 +392,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_normal.txt",
@@ -406,7 +406,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_clean.txt",
@@ -420,7 +420,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_noisy.txt",
@@ -434,7 +434,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_normal.txt",
@@ -448,7 +448,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_clean.txt",
@@ -462,7 +462,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
@@ -476,7 +476,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
@@ -490,7 +490,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
@@ -504,7 +504,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_lq_max.txt",
@@ -519,7 +519,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
@@ -534,7 +534,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
@@ -549,7 +549,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_max.txt",
@@ -564,7 +564,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
@@ -579,7 +579,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
@@ -594,12 +594,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p0.txt",
-      "hash": "f573a74757d8e26d400e16e38a402be566c7b9382cfb18cfd81796ecabeb7d6d",
-      "title": "Default 2S Profile 0",
+      "hash": "c338e65696a99b454196ffd57bccfba79d1c8f8632962926b5eb1bfdf3e2cd95",
+      "title": "Default 2S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -608,12 +608,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p1.txt",
-      "hash": "d27d40bc62402100c539348c644e309e9b8ef37af8163dbc65b6d0705afca447",
-      "title": "Default 2S Profile 1",
+      "hash": "0754205f6fd617624d9c09c8ed1e32b6f7dba705a87c13959ab9a26dbffdbcf6",
+      "title": "Default 2S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -622,12 +622,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p2.txt",
-      "hash": "5471088044bdb9d1ca3bcc353e30b44109386578cae1432efacbc9c042c71f26",
-      "title": "Default 2S Profile 2",
+      "hash": "463cb518b365d0e0a93b72ded2549a36f37f6c2975ed743c58929f80d8ee2170",
+      "title": "Default 2S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -636,12 +636,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p0.txt",
-      "hash": "4131ae4ac4b78115dfb9f5114321ea6851ba83c4356ce04da92497adbfb1cc47",
-      "title": "Default 3S Profile 0",
+      "hash": "7efa0d963dce41128788afa9ab7722672fe26b39e279133748383d899bd9e8ad",
+      "title": "Default 3S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -650,12 +650,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p1.txt",
-      "hash": "7d40108c13c508ce2d54beb08d57ac613c6c8f6d592dd05d59aaff0d5607b37a",
-      "title": "Default 3S Profile 1",
+      "hash": "193f5e9fd1b141b2536af3cc2b8c4a81f4a0b693d246c883ba9fbd99679c387f",
+      "title": "Default 3S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -664,12 +664,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p2.txt",
-      "hash": "d5367f73f373aa7c753597448c3fc16779c911cdc230b3475d3894587a1dfb1b",
-      "title": "Default 3S Profile 2",
+      "hash": "9f74d4394b3ebf6402a878e465fba1ddd9f02982103b155356ed3e9939ffbbdd",
+      "title": "Default 3S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -678,12 +678,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p0.txt",
-      "hash": "8e67769a4d5475ab1ba0e50667434c437a8844259b24a9fb664f6b4c1d2bbf1f",
-      "title": "Default 4S Profile 0",
+      "hash": "aa267b71c0d91e29aeb8eb5102730d678a3413f6a1f30850e2a056cb641bb109",
+      "title": "Default 4S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -692,12 +692,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p1.txt",
-      "hash": "a8d694c7169b29b6d768ec1560ddb5e60dd573109dc2f133dac9639d1772f612",
-      "title": "Default 4S Profile 1",
+      "hash": "c294ad0337c40b7d9990d7b77b06f04cedd2475334c31b3e2549fe5fafec7469",
+      "title": "Default 4S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -706,12 +706,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p2.txt",
-      "hash": "41e78eb6861e2de56555aa5de93a0246c5920b92d31ecae78a11713183c8ab4f",
-      "title": "Default 4S Profile 2",
+      "hash": "090becdc41e5c9cf80f3f1f3313676ba2944f5afb6f70bcdf1882bb77b30c834",
+      "title": "Default 4S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -720,12 +720,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p0.txt",
-      "hash": "7595e7e54306b65464cc73184c5052039c8f366573fb11750e1ffe4e2955b253",
-      "title": "Default 6S Profile 0",
+      "hash": "0271b8dc6d7c5e1cdabd587f4d9b483484b7ed7256847c53dc9b2eaa5134560b",
+      "title": "Default 6S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -734,12 +734,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p1.txt",
-      "hash": "db0e2aabf54461c6da4896e42278733daf7102716cc05511e43cb048a273650e",
-      "title": "Default 6S Profile 1",
+      "hash": "40e13a2539a19a80152afa412771337b49dbdee5c5db8ff9ca7587c918efb1aa",
+      "title": "Default 6S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -748,12 +748,12 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p2.txt",
-      "hash": "bd139a848a6bef0f96ebe03b86491d600fda9168a1ecd13dd3f71a10c78a611c",
-      "title": "Default 6S Profile 2",
+      "hash": "89e36bce7dc8d489ce3324d082ffdd53ecf536ecf39fd51911ee9cdfa2f75cc8",
+      "title": "Default 6S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
@@ -762,7 +762,175 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_2s_p0.txt",
+      "hash": "62388d7191cda89636508a0c151de2ac3c959ec7489e52f96f2d280c3474910d",
+      "title": "Default 2S Profile 0 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_2s_p1.txt",
+      "hash": "04e0b24dbc3fe8d54b30d2cf2353887bb97b2622f3aa5cd927f0ac5d7afdb6b9",
+      "title": "Default 2S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_2s_p2.txt",
+      "hash": "8c2ffa83aa67ad6e935ed76b94e9a6eb6ab902d2e3e34a0f673d8398db51506e",
+      "title": "Default 2S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_3s_p0.txt",
+      "hash": "9b9fc398941787ace20913ea9821023ebfc82f1bddd1afcd7758ea36ab1c1071",
+      "title": "Default 3S Profile 0 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_3s_p1.txt",
+      "hash": "d9c956407c1611f3c0a757d11c0dc6b3b274d35a671de3fe7b9356939aa65c14",
+      "title": "Default 3S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_3s_p2.txt",
+      "hash": "51edef469f7d9c22b6c207b8317ec2550963ad70b908a762b422190e6b6cc5b4",
+      "title": "Default 3S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_4s_p0.txt",
+      "hash": "f7579b301604f9d5d7d1b5ad0bf70ab74299519596d55ee09eae2b63c07839fd",
+      "title": "Default 4S Profile 0 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_4s_p1.txt",
+      "hash": "266beacf5a3bf6a1ae0d459843b61b71fb411c2359b673dd7b8f7717a9d208d3",
+      "title": "Default 4S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_4s_p2.txt",
+      "hash": "872e6e33b9e8d7e163803e66752ffd024b15ebe4127ae3a8ce2f5d7b9c089283",
+      "title": "Default 4S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_6s_p0.txt",
+      "hash": "48dea3bae0fb4249aacde82d1bf805ade2c1b9ef03c6b64a0642d9803a27e4cd",
+      "title": "Default 6S Profile 0 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_6s_p1.txt",
+      "hash": "34cc5cc2ddbe36b70f95b21ac3e8189b8a82fcba17b4e0a48d572a7b968ecd2c",
+      "title": "Default 6S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/43_6s_p2.txt",
+      "hash": "46375ad3cc913d59acfd18a43326545b9760a0c139436e6ccf61bbc344bc6d33",
+      "title": "Default 6S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/rate/0_rate.txt",
@@ -777,7 +945,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/12.txt",
@@ -792,7 +960,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/14.txt",
@@ -807,7 +975,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/off.txt",
@@ -822,7 +990,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/16.txt",
@@ -837,7 +1005,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/20.txt",
@@ -852,7 +1020,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/25.txt",
@@ -867,7 +1035,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/30.txt",
@@ -882,7 +1050,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/35.txt",
@@ -897,7 +1065,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/40.txt",
@@ -912,7 +1080,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/size/50.txt",
@@ -927,11 +1095,11 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "ec8203f96579879e676117c509396c5a208db3672b5daa90d43e42c9c781a69e",
+      "hash": "0caab13518f7308abf2d8af3b67d15a2d8ea4e6e623ec8bc0687c0cd850797f5",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -942,11 +1110,11 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "priority": 1000000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "cb4f65f8c298d460701375b9d7ab9e628c6b6da4aa02848c7a1af475704d4091",
+      "hash": "4f9227c4d985681d23c44417d3b895d07478f2dad75a1307bed3d487d47dcd22",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -957,7 +1125,7 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "priority": 1000000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
@@ -972,7 +1140,7 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "priority": 1000000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
@@ -987,7 +1155,7 @@
         "tune"
       ],
       "author": "Whistler2008",
-      "priority": 1000000000000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/42_cinematic.txt",
@@ -1001,7 +1169,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/42_freestyle.txt",
@@ -1015,7 +1183,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/42_smooth.txt",
@@ -1029,7 +1197,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_cinematic.txt",
@@ -1043,7 +1211,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_freestyle.txt",
@@ -1057,7 +1225,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_smooth.txt",
@@ -1071,7 +1239,7 @@
       "keywords": [
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",
@@ -1087,7 +1255,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_betafpv.txt",
@@ -1103,7 +1271,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_default.txt",
@@ -1119,7 +1287,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
@@ -1135,7 +1303,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_happymodel.txt",
@@ -1151,7 +1319,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_iflight.txt",
@@ -1167,7 +1335,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_nameless.txt",
@@ -1183,7 +1351,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
@@ -1199,7 +1367,7 @@
         "vtx",
         "openvtx"
       ],
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_rush.txt",
@@ -1215,7 +1383,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_tbs.txt",
@@ -1231,7 +1399,7 @@
         "vtx",
         "default"
       ],
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx2.txt",
@@ -1248,7 +1416,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx2_dominator.txt",
@@ -1265,7 +1433,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx2_ultimate.txt",
@@ -1282,7 +1450,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx3.txt",
@@ -1299,7 +1467,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate.txt",
@@ -1316,7 +1484,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate_dvr.txt",
@@ -1333,7 +1501,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/fx5.txt",
@@ -1350,7 +1518,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/infinite_dvr.txt",
@@ -1367,7 +1535,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/nano3.txt",
@@ -1384,7 +1552,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/new_era.txt",
@@ -1401,7 +1569,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/oscar_backpack.txt",
@@ -1418,7 +1586,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/race.txt",
@@ -1435,7 +1603,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/race_ranger.txt",
@@ -1452,7 +1620,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/x5.txt",
@@ -1469,7 +1637,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/akk/x5_pro.txt",
@@ -1486,7 +1654,7 @@
         "akk"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/betafpv/a01.txt",
@@ -1503,7 +1671,7 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/betafpv/a02.txt",
@@ -1520,7 +1688,7 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/betafpv/m01.txt",
@@ -1537,7 +1705,7 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/betafpv/m02.txt",
@@ -1554,7 +1722,7 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/betafpv/m03.txt",
@@ -1571,7 +1739,7 @@
         "betafpv"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/ewrf/7082vm.txt",
@@ -1588,7 +1756,7 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v1.txt",
@@ -1605,7 +1773,7 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v2.txt",
@@ -1622,7 +1790,7 @@
         "ewrf"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/happymodel/diamond_dvr.txt",
@@ -1639,7 +1807,7 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/happymodel/internal.txt",
@@ -1656,7 +1824,7 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/happymodel/whoop.txt",
@@ -1673,7 +1841,7 @@
         "happymodel"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/iflight/succex_800.txt",
@@ -1690,7 +1858,7 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_200.txt",
@@ -1707,7 +1875,7 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_300.txt",
@@ -1724,7 +1892,7 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_500.txt",
@@ -1741,7 +1909,7 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_600.txt",
@@ -1758,7 +1926,7 @@
         "iflight"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/nameless/d400.txt",
@@ -1775,7 +1943,7 @@
         "nameless"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/nameless/nano400.txt",
@@ -1792,7 +1960,7 @@
         "nameless"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/2.txt",
@@ -1809,7 +1977,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/racing.txt",
@@ -1826,7 +1994,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/solo.txt",
@@ -1843,7 +2011,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/tiny.txt",
@@ -1860,7 +2028,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_mini.txt",
@@ -1877,7 +2045,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_plus.txt",
@@ -1894,7 +2062,7 @@
         "rush"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_EVO_5G8_HV.txt",
@@ -1911,7 +2079,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_HV.txt",
@@ -1928,7 +2096,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_Nano.txt",
@@ -1945,7 +2113,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_800mW.txt",
@@ -1962,7 +2130,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V1.txt",
@@ -1979,7 +2147,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V2.txt",
@@ -1996,7 +2164,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_Nano_lite.txt",
@@ -2013,7 +2181,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_V3.txt",
@@ -2030,7 +2198,7 @@
         "tbs"
       ],
       "author": "Whistler2008",
-      "priority": 1000000
+      "priority": 0
     }
   ]
 }

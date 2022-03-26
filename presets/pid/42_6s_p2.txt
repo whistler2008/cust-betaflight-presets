@@ -1,9 +1,9 @@
-#$ TITLE: Default 6S Profile 2
+#$ TITLE: Default 6S Profile 2 (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  default
-#$ DESCRIPTION: Default 3S in Profile 2
+#$ DESCRIPTION: Default 3S in Profile 2 (Betaflight 4.2)
 
 profile 2
 

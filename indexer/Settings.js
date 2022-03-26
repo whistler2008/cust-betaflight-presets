@@ -26,12 +26,12 @@ const PresetCategories = {
 }
 
 const PresetCategoriesPriorities = {
-    TUNE:           10**12,
-    DEFAULT:        10**4,
-    VTX:            10**6,
-    RX:             10**10,
     BNF:            0,
+    TUNE:           0,
+    VTX:            0,
+    RX:             0,
     OTHER:          0,
+    DEFAULT:        0,
 }
 
 const OptionsDirectives = {

@@ -13,6 +13,8 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
+set name = PRE-TUNED
+
 #$ OPTION_GROUP BEGIN: Battery Type
 
 #$ OPTION BEGIN (UNCHECKED): Li-Ion
