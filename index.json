@@ -296,7 +296,7 @@
     },
     {
       "fullPath": "presets/esc/48.txt",
-      "hash": "9cd5dcb454427b1b097bc0c3ae9a922dbcf9d386a02fa0c2c3a9c91797a2ec67",
+      "hash": "a9b39b0b73ec803f678175a1cb08ac097a8de83513191c2fefeb605b4e1a927b",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
         "4.2",
@@ -311,7 +311,7 @@
     },
     {
       "fullPath": "presets/esc/96.txt",
-      "hash": "f980eab5e5bf2c44eeefc115f7b8f08313404d8bdb843fea51941dde297ce0a1",
+      "hash": "874ac8c58c1c31b092792baad91006361ece0f31907d5e23ff3bc3e86cb9d7a1",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
         "4.2",
@@ -410,7 +410,7 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_clean.txt",
-      "hash": "2fd8918ebf9597b8175b505efe7679c42e38a21208c9e57b838b3e2e2b065151",
+      "hash": "b2a42eb04a2fbfeecee0f0abe8dd38d1b60bb61c41e2f9c25416ea89871c6d51",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -424,7 +424,7 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_noisy.txt",
-      "hash": "a119210826d24a46e28d9e3c98047a1f481347ce18e8f00a289928a9691eeaca",
+      "hash": "db0188bc2efd8ef88467f14b1a7be363eadfaea715aceca32de636db199fe766",
       "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -438,7 +438,7 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_normal.txt",
-      "hash": "326271e8c56db5356d8cb947fb862628edf63eda704567be8368142388902696",
+      "hash": "95e6a9e960d02a72bac249f7a34999e4677582b5df618b8d05c461840669073d",
       "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -452,7 +452,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "252e58e05c15cd12525a7242c6c86704c71c55d28e4c9675c8dbbd010950ec22",
+      "hash": "8a7ae470232591a29d9f28ba56d6c932d4f438f769961ff1f90472ea8e9becc6",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -466,7 +466,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "f8893edfc4fa7bdac6d5242178bbfd0bf78ee48e8d695f9907d1d302315c0333",
+      "hash": "596da28a3c46d3de7ad668713ff4807a36e91461fa17d1001822a07ab254e477",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -480,7 +480,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "15bfcd68ea1d678c0bd8ef04eb24ac5f093ac5f20580719e71c11940bbdff973",
+      "hash": "e636da35f154328b40870cdedb451412fa1c065521a35faad32c110f2b0c7e0c",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -892,7 +892,7 @@
     },
     {
       "fullPath": "presets/pid/43_6s_p0.txt",
-      "hash": "48dea3bae0fb4249aacde82d1bf805ade2c1b9ef03c6b64a0642d9803a27e4cd",
+      "hash": "3ea7c505d4e841bccf70ece4f47e11d19eb3fe56cc5696f3d98cce6f0c40c961",
       "title": "Default 6S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -906,7 +906,7 @@
     },
     {
       "fullPath": "presets/pid/43_6s_p1.txt",
-      "hash": "34cc5cc2ddbe36b70f95b21ac3e8189b8a82fcba17b4e0a48d572a7b968ecd2c",
+      "hash": "dc3fbf56cb99b6610ed48e9e65160116311192c2d6c8a9cc9c570367e41f9e12",
       "title": "Default 6S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -920,7 +920,7 @@
     },
     {
       "fullPath": "presets/pid/43_6s_p2.txt",
-      "hash": "46375ad3cc913d59acfd18a43326545b9760a0c139436e6ccf61bbc344bc6d33",
+      "hash": "3314f5bd8dc32230f39935fa8b77cc229e4b9f6fbb3d40ca9baea38914687a1f",
       "title": "Default 6S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"

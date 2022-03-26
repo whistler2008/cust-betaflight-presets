@@ -6,4 +6,17 @@
 #$ KEYWORDS:  default
 #$ DESCRIPTION: Default ESC PWM 48 kHz
 
+profile 0
+
+# profile 0
+set thrust_linear = 40
+
+profile 1
+
+# profile 1
+set thrust_linear = 40
+
+profile 2
+
+# profile 2
 set thrust_linear = 40
