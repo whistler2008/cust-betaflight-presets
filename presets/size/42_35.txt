@@ -1,14 +1,23 @@
-#$ TITLE: 3.5 Inch
+#$ TITLE: 3.5 Inch (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS:  default
-#$ DESCRIPTION: Default 3.5 Inch Size
+#$ DESCRIPTION: Default 3.5 Inch Size (Betaflight 4.2)
 
 profile 0
 
 # profile 0
+set idle_min_rpm = 30
+
+profile 1
+
+# profile 1
+set idle_min_rpm = 30
+
+profile 2
+
+# profile 2
 set idle_min_rpm = 30
 
 # restore original profile selection

@@ -1,0 +1,24 @@
+#$ TITLE: 5 Inch Above (Betaflight 4.3)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  default
+#$ DESCRIPTION: Default 5 Inch Above Size (Betaflight 4.3)
+
+profile 0
+
+# profile 0
+set dyn_idle_min_rpm = 20
+
+profile 1
+
+# profile 1
+set dyn_idle_min_rpm = 20
+
+profile 2
+
+# profile 2
+set dyn_idle_min_rpm = 20
+
+# restore original profile selection
+profile 0

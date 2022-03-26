@@ -993,11 +993,108 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/16.txt",
-      "hash": "b06a22531c301c847cad4e2afb81241b4ea98f65dc705bfd97b7601850d2d016",
-      "title": "1.6 Inch (Micro Whoop)",
+      "fullPath": "presets/size/42_16.txt",
+      "hash": "017e5ec815d37f0629a3bcd08f5650ad74ad65d7d30f67d661b6f6675ac26db0",
+      "title": "1.6 Inch (Micro Whoop) (Betaflight 4.2)",
       "firmware_version": [
-        "4.2",
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_20.txt",
+      "hash": "fbbe6015178858f7e34bb8be589cc981841a598f69cf5695459e505bd6b342d3",
+      "title": "2 Inch (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_25.txt",
+      "hash": "846f2a7c240c8afd3770a562dcbdc79e3e0952028076e7b1e93e79e4a130cc9a",
+      "title": "2.5 Inch (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_30.txt",
+      "hash": "7e729f4143f2504ec6430b8fa7f50d962141d0e31ec73468588f538ff49e2806",
+      "title": "3 Inch (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_35.txt",
+      "hash": "7906ee78d4c6d35a92a4848e2807b485ad8dc56c8db8d2be03120c7b7f8fc5e8",
+      "title": "3.5 Inch (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_40.txt",
+      "hash": "264a61c8e336fc04eb53148ecab00c398ad9587951c3ebded45685ad59719bed",
+      "title": "4 Inch (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/42_50.txt",
+      "hash": "6319010db6125b106371b5bd6b928f6ea72c0ba65491accb0ec94d0b5a2a85ff",
+      "title": "5 Inch Above (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/43_16.txt",
+      "hash": "586f59284864b18d59ea813dedd58149fefb73a0f2007de23492b01bf9619be9",
+      "title": "1.6 Inch (Micro Whoop) (Betaflight 4.3)",
+      "firmware_version": [
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1008,11 +1105,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/20.txt",
-      "hash": "937a54ccc56ae6070021b29ef8c3423efde53e0afc3182297c3aaa9f40c0c999",
-      "title": "2 Inch",
+      "fullPath": "presets/size/43_20.txt",
+      "hash": "2b217f5a92fe41d0deecf228c0071ec5fc672764cb87d23698a69769162e486b",
+      "title": "2 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1023,11 +1119,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/25.txt",
-      "hash": "5034eabf34200940cb59c04be3d214b809d9d6bb88b59fc2b8031d1a132bacbd",
-      "title": "2.5 Inch",
+      "fullPath": "presets/size/43_25.txt",
+      "hash": "02d117d408892b7a4c85b48f8843d3d0c26110acbaca96cdb25d7ff86123b9c1",
+      "title": "2.5 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1038,11 +1133,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/30.txt",
-      "hash": "0bfa8ad7e949e8bf426b82e426059972d6fe3d04ae428479a94242af18ddd075",
-      "title": "3 Inch",
+      "fullPath": "presets/size/43_30.txt",
+      "hash": "58ca0f2cbadd78af272d35a30571527580a46fbf138aa45442ee02b8d974231e",
+      "title": "3 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1053,11 +1147,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/35.txt",
-      "hash": "1e36fd3937097d3a9f36407cd1def7ee039aaf088df615e3cd8d5a1040a3a9bb",
-      "title": "3.5 Inch",
+      "fullPath": "presets/size/43_35.txt",
+      "hash": "205fe3fda496bb7fa4c60544a0e5090aae3e34c19fe8e034c69b45b6546f062b",
+      "title": "3.5 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1068,11 +1161,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/40.txt",
-      "hash": "5c97df92131c1544736d533e7423c3d1f306772cd3f68f6ef70b85dc6dbe1207",
-      "title": "4 Inch",
+      "fullPath": "presets/size/43_40.txt",
+      "hash": "65ad2f61ef6d97778ec64f856b6fff15f193dcd5f713254b2ad238fb6324b959",
+      "title": "4 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1083,11 +1175,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/50.txt",
-      "hash": "7e62ab9dd1360a38f2f445020ccc6129e7d3fd06ee7e5210f95f804c8959cbc6",
-      "title": "5 Inch Above",
+      "fullPath": "presets/size/43_50.txt",
+      "hash": "02870708fc85df36c5d68369fe658ade30801138a8b5e96266ae8b9585a71eb5",
+      "title": "5 Inch Above (Betaflight 4.3)",
       "firmware_version": [
-        "4.2",
         "4.3"
       ],
       "category": "DEFAULT",
@@ -1099,7 +1190,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "0caab13518f7308abf2d8af3b67d15a2d8ea4e6e623ec8bc0687c0cd850797f5",
+      "hash": "0244cac720407610645bb3385b71e1da2e4612c64bd80a364df5af434eeddc92",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1114,7 +1205,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "4f9227c4d985681d23c44417d3b895d07478f2dad75a1307bed3d487d47dcd22",
+      "hash": "a7d705b6bdfb49bdf0de7f44d45215332b06e05220d6c3d23085debb24e403b8",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

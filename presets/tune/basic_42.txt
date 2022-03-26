@@ -149,31 +149,31 @@ set vbat_pid_gain = OFF
 #$ OPTION_GROUP BEGIN: Quad Size
 
 #$ OPTION BEGIN (UNCHECKED): 1.6 Inch (Micro Whoop)
-#$ INCLUDE: presets/size/16.txt
+#$ INCLUDE: presets/size/42_16.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2 Inch
-#$ INCLUDE: presets/size/20.txt
+#$ INCLUDE: presets/size/42_20.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/25.txt
+#$ INCLUDE: presets/size/42_25.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/30.txt
+#$ INCLUDE: presets/size/42_30.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/35.txt
+#$ INCLUDE: presets/size/42_35.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/40.txt
+#$ INCLUDE: presets/size/42_40.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 5 Inch - Above
-#$ INCLUDE: presets/size/50.txt
+#$ INCLUDE: presets/size/42_50.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
