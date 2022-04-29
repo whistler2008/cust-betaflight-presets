@@ -1,8 +1,8 @@
 #$ TITLE: Quad type FREESTYLE (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: TYPE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: type
 #$ DESCRIPTION:  Quad type FREESTYLE (Betaflight 4.2)
 
 set iterm_relax_cutoff = 20

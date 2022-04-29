@@ -1,13 +1,17 @@
 #$ TITLE: Default Complete RSSI OSD settings - 4.2 Above
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: osd
 #$ DESCRIPTION: Default Complete RSSI OSD settings - 4.2 Above
 
 # osd
 set osd_warn_batt_not_full = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_link_quality = OFF
+set osd_warn_rssi_dbm = OFF
 set osd_warn_rssi = ON
 set osd_rssi_alarm = 50
 set osd_tim1 = 2561

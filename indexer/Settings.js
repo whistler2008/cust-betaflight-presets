@@ -17,21 +17,32 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
-    BNF:            "BNF",
-    TUNE:           "TUNE",
-    VTX:            "VTX",
-    RX:             "RX",
+    BNF:			"BNF",
+    TUNE:			"TUNE",
+    BATTERY:		"BATTERY",
+    CHIPSET:		"CHIPSET",
+    ESC:			"ESC",
+    FILTER:			"FILTER",
+    MODES:			"MODES",
+    OSD:			"OSD",
+    PID:			"PID",
+    RATE:			"RATE",
+    RPM_FILTER:		"RPM_FILTER",
+    SIZE:			"SIZE",
+    TYPE:			"TYPE",
+    VTX:			"VTX",
+    RX:				"RX",
     DEFAULT:		"DEFAULT",
-    OTHER:          "OTHER",
+    OTHER:			"OTHER",
 }
 
 const PresetCategoriesPriorities = {
-    BNF:            0,
-    TUNE:           0,
-    VTX:            0,
-    RX:             0,
-    OTHER:          0,
-    DEFAULT:        0,
+    BNF:			0,
+    TUNE:			0,
+    VTX:			0,
+    RX:				0,
+    OTHER:			0,
+    DEFAULT:		0,
 }
 
 const OptionsDirectives = {

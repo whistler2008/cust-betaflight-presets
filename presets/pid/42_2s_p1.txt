@@ -1,8 +1,8 @@
 #$ TITLE: Default 2S Profile 1 (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: PID
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: pid
 #$ DESCRIPTION: Default 2S in Profile 1 (Betaflight 4.2)
 
 profile 1

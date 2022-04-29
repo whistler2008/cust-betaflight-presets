@@ -1,9 +1,9 @@
 #$ TITLE: Default Standard LQ OSD settings - 4.2 Above
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: osd
 #$ DESCRIPTION: Default Standard LQ OSD settings - 4.2 Above
 
 # osd
@@ -11,8 +11,8 @@ set osd_warn_batt_not_full = OFF
 set osd_warn_no_gps_rescue = OFF
 set osd_warn_gps_rescue_disabled = OFF
 set osd_warn_link_quality = ON
-set osd_warn_rssi_dbm = ON
-set osd_rssi_alarm = 50
+set osd_warn_rssi_dbm = OFF
+set osd_warn_rssi = OFF
 set osd_tim1 = 2561
 set osd_link_quality_pos = 2093
 set osd_rssi_dbm_pos = 2099

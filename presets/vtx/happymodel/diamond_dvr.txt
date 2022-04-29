@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  vtx, happymodel
+#$ KEYWORDS: vtx, happymodel
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: VTX table for HappyModel Diamond DVR
 #$ INCLUDE: presets/vtx/0_default.txt

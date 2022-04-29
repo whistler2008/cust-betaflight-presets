@@ -1,8 +1,8 @@
 #$ TITLE: Quad type SMOOTH (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: TYPE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: type
 #$ DESCRIPTION:  Quad type SMOOTH (Betaflight 4.3)
 
 set feedforward_jitter_factor = 13

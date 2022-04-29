@@ -1,8 +1,8 @@
 #$ TITLE: 5 Inch Above (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: SIZE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: size
 #$ DESCRIPTION: Default 5 Inch Above Size (Betaflight 4.2)
 
 profile 0

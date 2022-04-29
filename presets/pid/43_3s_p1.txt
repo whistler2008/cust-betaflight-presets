@@ -1,8 +1,8 @@
 #$ TITLE: Default 3S Profile 1 (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: PID
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: pid
 #$ DESCRIPTION: Default 3S in Profile 1 (Betaflight 4.3)
 
 profile 1

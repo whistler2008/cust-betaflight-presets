@@ -1,8 +1,8 @@
 #$ TITLE: NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: filter
 #$ DESCRIPTION:  Filter settings for NOISY MOTOR & NO RPM Filter (Betaflight 4.2)
 
 # -- Gyro filters --
@@ -18,6 +18,22 @@ set dyn_notch_min_hz = 90
 profile 0
 
 # profile 0
+set dyn_lpf_dterm_min_hz = 65
+set dyn_lpf_dterm_max_hz = 125
+set dterm_lowpass2_hz = 125
+set yaw_lowpass_hz = 75
+
+profile 1
+
+# profile 1
+set dyn_lpf_dterm_min_hz = 65
+set dyn_lpf_dterm_max_hz = 125
+set dterm_lowpass2_hz = 125
+set yaw_lowpass_hz = 75
+
+profile 2
+
+# profile 2
 set dyn_lpf_dterm_min_hz = 65
 set dyn_lpf_dterm_max_hz = 125
 set dterm_lowpass2_hz = 125

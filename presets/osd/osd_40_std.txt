@@ -1,8 +1,8 @@
 #$ TITLE: Default Standard OSD settings - 4.0 Earlier
 #$ FIRMWARE_VERSION: 4.0
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: osd
 #$ DESCRIPTION: Default Standard OSD settings - 4.2 Earlier
 
 # osd

@@ -1,9 +1,9 @@
 #$ TITLE: Default RPM Filter - F4 14 Poles
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: RPM_FILTER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: rpm_filter
 #$ DESCRIPTION: Default RPM Filter - F4 14 Poles
 
 # rpm filter

@@ -2,13 +2,11 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  tune
+#$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/default/0_aux.txt
 #$ INCLUDE: presets/default/0_beeper.txt
 #$ INCLUDE: presets/default/0_led.txt
 #$ INCLUDE: presets/default/0_other.txt
-#$ INCLUDE: presets/rate/0_rate.txt
 #$ DESCRIPTION: Basic Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
@@ -36,14 +34,17 @@ set vbat_pid_gain = OFF
 #$ OPTION_GROUP BEGIN: Quad Type
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle
+#$ INCLUDE: presets/rate/0_rate_freestyle.txt
 #$ INCLUDE: presets/type/42_freestyle.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Smooth
+#$ INCLUDE: presets/rate/0_rate_smooth.txt
 #$ INCLUDE: presets/type/42_smooth.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Cinematic
+#$ INCLUDE: presets/rate/0_rate_cinematic.txt
 #$ INCLUDE: presets/type/42_cinematic.txt
 #$ OPTION END
 
@@ -103,6 +104,10 @@ set vbat_pid_gain = OFF
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: ESC PWM
+
+#$ OPTION BEGIN (UNCHECKED): 24 kHz
+#$ INCLUDE: presets/esc/24.txt
+#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
@@ -174,6 +179,18 @@ set vbat_pid_gain = OFF
 
 #$ OPTION BEGIN (UNCHECKED): 5 Inch - Above
 #$ INCLUDE: presets/size/42_50.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: GPS Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Without GPS
+#$ INCLUDE: presets/modes/0_aux_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ INCLUDE: presets/modes/0_aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

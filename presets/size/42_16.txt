@@ -1,8 +1,8 @@
 #$ TITLE: 1.6 Inch (Micro Whoop) (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: SIZE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: size
 #$ DESCRIPTION: Default 1.6 Inch (Micro Whoop) Size (Betaflight 4.2)
 
 profile 0

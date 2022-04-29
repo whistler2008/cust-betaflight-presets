@@ -1,9 +1,9 @@
-#$ TITLE: Default F4 Chipset
+#$ TITLE: Chipset F4 
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: CHIPSET
 #$ STATUS: COMMUNITY
-#$ KEYWORDS:  default
+#$ KEYWORDS: chipset
 #$ DESCRIPTION: Default for F4 Chipset
 
 # rpm filter
