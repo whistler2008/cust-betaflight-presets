@@ -193,15 +193,15 @@ set vbat_pid_gain = OFF
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-#$ INCLUDE: presets/rx/serial_sbus.txt
+#$ INCLUDE: presets/rx/serial_sbus_43.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-#$ INCLUDE: presets/rx/serial_ibus.txt
+#$ INCLUDE: presets/rx/serial_ibus_43.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-#$ INCLUDE: presets/rx/spi_sbus_ibus.txt
+#$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

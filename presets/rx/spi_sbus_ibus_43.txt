@@ -1,14 +1,10 @@
-#$ TITLE: RX Serial IBUS
-#$ FIRMWARE_VERSION: 4.0
-#$ FIRMWARE_VERSION: 4.2
+#$ TITLE: RX SPI SBUS / IBUS
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
-#$ DESCRIPTION: Setting for RX Serial IBUS
+#$ DESCRIPTION: Setting for RX SPI SBUS / IBUS
 
-feature RX_SERIAL
-set serialrx_provider = IBUS
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 25
 set feedforward_jitter_factor = 8
