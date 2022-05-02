@@ -13,3 +13,30 @@ aux 1 1 1 900 1300 0 0
 aux 2 2 1 1300 1700 0 0
 aux 3 13 3 1700 2100 0 0
 aux 4 28 2 1700 2100 0 0
+
+# gps
+set gps_provider = UBLOX
+set gps_set_home_point_once = ON
+set failsafe_procedure = GPS-RESCUE
+set gps_rescue_angle = 35
+set gps_rescue_min_dth = 75
+set gps_rescue_initial_alt = 50
+set gps_rescue_descent_dist = 50
+set gps_rescue_ground_speed = 1500
+set gps_rescue_throttle_min = 1200
+set gps_rescue_throttle_max = 1800
+set gps_rescue_throttle_hover = 1300
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+
+# osd
+set osd_warn_gps_rescue_disabled = OFF
+set osd_gps_lon_pos = 2128
+set osd_gps_lat_pos = 2113
+set osd_gps_sats_pos = 2392
+set osd_home_dir_pos = 2254
+set osd_home_dist_pos = 2263
+set osd_flight_dist_pos = 210
+set osd_altitude_pos = 2241
+set osd_stat_max_spd = OFF

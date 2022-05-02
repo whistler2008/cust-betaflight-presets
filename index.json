@@ -506,7 +506,7 @@
     },
     {
       "fullPath": "presets/modes/0_aux_gps.txt",
-      "hash": "3e3ddeb06f8d39fe5898baab4f527491caf8e8a6794171a759a43738289b61b5",
+      "hash": "899dc11e812ec15785d2f541b1d45bb8a3edc984977370456c29e6062bdef389",
       "title": "Default AUX with GPS Rescue",
       "firmware_version": [
         "4.0",
@@ -548,20 +548,6 @@
       ]
     },
     {
-      "fullPath": "presets/osd/osd_42_lq_max.txt",
-      "hash": "591beb13212fef95705b84eb035c63b74fe18279bdeca728b77b228752beee3d",
-      "title": "Default Complete LQ OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ]
-    },
-    {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
       "hash": "d768f58e99ad259f8b15e0ad3fbae5b6badf2d6c7f44932d0b074f489bdf2129",
       "title": "Default Minimalist LQ OSD settings - 4.2 Above",
@@ -579,20 +565,6 @@
       "fullPath": "presets/osd/osd_42_lq_std.txt",
       "hash": "937f4b42ed97d330143251c4694ca7d8dec7e54138ef6cf66397698864364dcd",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ]
-    },
-    {
-      "fullPath": "presets/osd/osd_42_rssi_max.txt",
-      "hash": "733e4d2ab3845aa43a71c80699826b84009f60e254572c22b16eb0635ef6d691",
-      "title": "Default Complete RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1211,7 +1183,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "00bcb1c0bd1ac3816599124ca80f87f4e3a57e6f9e102dee1c3ccacc224e7a33",
+      "hash": "c02b5d22452a8b81b4e8c23c7f0668cfa1e6f223722158b5108fe90306311be7",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1226,7 +1198,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "151fbb71a2ce0dbcca457244be5be9bec0c35c3c0d3cac77085cc630d19f0e7a",
+      "hash": "536181ae2d32329b5de8109159108c601156719ab2edae8b031b9f1d7ec14bd8",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

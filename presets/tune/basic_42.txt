@@ -205,10 +205,6 @@ set vbat_pid_gain = OFF
 #$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD Complete
-#$ INCLUDE: presets/osd/osd_42_rssi_max.txt
-#$ OPTION END
-
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: OSD Type - LQ
@@ -219,10 +215,6 @@ set vbat_pid_gain = OFF
 
 #$ OPTION BEGIN (UNCHECKED): OSD Standard
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): OSD Complete
-#$ INCLUDE: presets/osd/osd_42_lq_max.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
