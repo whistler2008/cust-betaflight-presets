@@ -1,0 +1,18 @@
+#$ TITLE: HappyModel Internal
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, happymodel
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for HappyModel Internal
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_happymodel.txt
+
+# power_level
+vtxtable powerlevels 1
+vtxtable powervalues 0
+vtxtable powerlabels 25
+
+# vtx setting
+set vtx_power = 1

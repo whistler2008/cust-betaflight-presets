@@ -1,0 +1,24 @@
+#$ TITLE: 4 Inch (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: SIZE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: size
+#$ DESCRIPTION: Default 4 Inch Size (Betaflight 4.2)
+
+profile 0
+
+# profile 0
+set idle_min_rpm = 25
+
+profile 1
+
+# profile 1
+set idle_min_rpm = 25
+
+profile 2
+
+# profile 2
+set idle_min_rpm = 25
+
+# restore original profile selection
+profile 0

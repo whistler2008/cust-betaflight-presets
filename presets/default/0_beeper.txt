@@ -1,0 +1,23 @@
+#$ TITLE: Default Beeper settings
+#$ FIRMWARE_VERSION: 4.0
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: DEFAULT
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: default
+#$ DESCRIPTION: Default Beeper settings
+
+# beeper
+beeper -RX_LOST
+beeper -RX_LOST_LANDING
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE

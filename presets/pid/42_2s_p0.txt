@@ -1,0 +1,22 @@
+#$ TITLE: Default 2S Profile 0 (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: PID
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: pid
+#$ DESCRIPTION: Default 2S in Profile 0 (Betaflight 4.2)
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+set p_pitch = 74
+set i_pitch = 144
+set d_pitch = 51
+set p_roll = 67
+set i_roll = 136
+set d_roll = 53
+set p_yaw = 72
+set i_yaw = 144
+set d_min_roll = 0
+set d_min_pitch = 0
+set auto_profile_cell_count = 2

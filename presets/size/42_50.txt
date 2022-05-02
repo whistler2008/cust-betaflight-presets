@@ -1,0 +1,24 @@
+#$ TITLE: 5 Inch Above (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: SIZE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: size
+#$ DESCRIPTION: Default 5 Inch Above Size (Betaflight 4.2)
+
+profile 0
+
+# profile 0
+set idle_min_rpm = 20
+
+profile 1
+
+# profile 1
+set idle_min_rpm = 20
+
+profile 2
+
+# profile 2
+set idle_min_rpm = 20
+
+# restore original profile selection
+profile 0

@@ -1,0 +1,18 @@
+#$ TITLE: Rush Tank Racing
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, rush
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for Rush Tank Racing
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_rush.txt
+
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 17 23 27
+vtxtable powerlabels 25 50 200 500
+
+# vtx setting
+set vtx_power = 2

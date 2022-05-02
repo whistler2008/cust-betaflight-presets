@@ -1,0 +1,18 @@
+#$ TITLE: TBS Unify EVO 5G8 (HV)
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, tbs
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for TBS Unify EVO 5G8 (HV)
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_tbs.txt
+
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 27 36
+vtxtable powerlabels 25 100 500 800
+
+# vtx setting
+set vtx_power = 2

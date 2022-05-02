@@ -1,0 +1,18 @@
+#$ TITLE: AKK FX3
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, akk
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: VTX table for AKK FX3
+#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/0_akk.txt
+
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 2

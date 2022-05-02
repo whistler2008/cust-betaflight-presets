@@ -1,0 +1,22 @@
+#$ TITLE: Default 3S Profile 1 (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: PID
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: pid
+#$ DESCRIPTION: Default 3S in Profile 1 (Betaflight 4.2)
+
+profile 1
+
+# profile 1
+set vbat_sag_compensation = 100
+set p_pitch = 64
+set i_pitch = 126
+set d_pitch = 45
+set p_roll = 59
+set i_roll = 119
+set d_roll = 47
+set p_yaw = 63
+set i_yaw = 126
+set d_min_roll = 0
+set d_min_pitch = 0
+set auto_profile_cell_count = 3
