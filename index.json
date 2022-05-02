@@ -150,6 +150,7 @@
       "PID",
       "RATE",
       "RPM_FILTER",
+      "RX",
       "SIZE",
       "TUNE",
       "TYPE",
@@ -177,6 +178,7 @@
       "rate",
       "rpm_filter",
       "rush",
+      "rx",
       "size",
       "tbs",
       "tune",
@@ -1000,6 +1002,54 @@
       ]
     },
     {
+      "fullPath": "presets/rx/serial_ibus.txt",
+      "hash": "7e1f93b569f505da19dfc3d87c7d49c00204700cb4b4c51be5829a8f30af04f7",
+      "title": "RX Serial IBUS",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/rx/serial_sbus.txt",
+      "hash": "d50f7d94fa73af228ecb91c21aaf2e395ac5a2ee196a0e2ab2e1b03db499064c",
+      "title": "RX Serial SBUS",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/rx/spi_sbus_ibus.txt",
+      "hash": "cbc933ede00cc8f2354e314e3f44f3835a8e85e88f8560741c89fd90d183b78d",
+      "title": "RX SPI SBUS / IBUS",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "priority": 0
+    },
+    {
       "fullPath": "presets/size/42_16.txt",
       "hash": "fb7565998ea7d689882f89c0473e58438a2640c87265dc91c2789ac823d16dbe",
       "title": "1.6 Inch (Micro Whoop) (Betaflight 4.2)",
@@ -1183,7 +1233,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "c02b5d22452a8b81b4e8c23c7f0668cfa1e6f223722158b5108fe90306311be7",
+      "hash": "25e67af753432d3d77847e7b00eb9b837c79d63db849b2e509dba236de442d33",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1198,7 +1248,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "536181ae2d32329b5de8109159108c601156719ab2edae8b031b9f1d7ec14bd8",
+      "hash": "381abe0b0a2427a41164804fe4c17c0742952386d857622fb3cd970e557d1cba",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
