@@ -190,6 +190,22 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
+#$ OPTION_GROUP BEGIN: RX Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/rx/serial_sbus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/rx/serial_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/rx/spi_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Without GPS
