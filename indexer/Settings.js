@@ -39,10 +39,6 @@ const PresetCategories = {
 const PresetCategoriesPriorities = {
     BNF:			0,
     TUNE:			0,
-    VTX:			0,
-    RX:				0,
-    OTHER:			0,
-    DEFAULT:		0,
 }
 
 const OptionsDirectives = {
