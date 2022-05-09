@@ -1,9 +1,9 @@
-#$ TITLE: BNF Snapper 8 (Agan Andang Crist)
+#$ TITLE: QUAD Snapper 8 (Agan Andang Crist)
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: BNF
+#$ CATEGORY: QUAD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: snapper, andang
-#$ DESCRIPTION: CLI for BNF Snapper 8 (Agan Andang Crist)
+#$ DESCRIPTION: CLI for QUAD Snapper 8 (Agan Andang Crist)
 
 # start the command batch
 batch start

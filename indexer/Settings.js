@@ -17,7 +17,7 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
-    BNF:			"BNF",
+    QUAD:			"QUAD",
     TUNE:			"TUNE",
     BATTERY:		"BATTERY",
     CHIPSET:		"CHIPSET",
@@ -37,7 +37,7 @@ const PresetCategories = {
 }
 
 const PresetCategoriesPriorities = {
-    BNF:			0,
+    QUAD:			0,
     TUNE:			0,
 }
 

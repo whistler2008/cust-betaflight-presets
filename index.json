@@ -4,7 +4,7 @@
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
-      "BNF": "BNF",
+      "QUAD": "QUAD",
       "TUNE": "TUNE",
       "BATTERY": "BATTERY",
       "CHIPSET": "CHIPSET",
@@ -23,7 +23,7 @@
       "OTHER": "OTHER"
     },
     "PresetCategoriesPriorities": {
-      "BNF": 0,
+      "QUAD": 0,
       "TUNE": 0
     },
     "MetadataTypes": {
@@ -137,7 +137,6 @@
     ],
     "category": [
       "BATTERY",
-      "BNF",
       "CHIPSET",
       "DEFAULT",
       "ESC",
@@ -145,6 +144,7 @@
       "MODES",
       "OSD",
       "PID",
+      "QUAD",
       "RATE",
       "RPM_FILTER",
       "RX",
@@ -230,21 +230,6 @@
       "keywords": [
         "battery"
       ]
-    },
-    {
-      "fullPath": "presets/bnf/bnf_snapper8_andang.txt",
-      "hash": "f6cf65b825ce910b132b4bd5bb88481fe295bc44fa7a6d155dc15a900cf85163",
-      "title": "BNF Snapper 8 (Agan Andang Crist)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "snapper",
-        "andang"
-      ],
-      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f4.txt",
@@ -927,6 +912,21 @@
       "keywords": [
         "pid"
       ]
+    },
+    {
+      "fullPath": "presets/quad/bnf_snapper8_andang.txt",
+      "hash": "53c473fea2f47f43422c6c5baddec61ebd9a38ae70429579685bde0cb4f14df5",
+      "title": "QUAD Snapper 8 (Agan Andang Crist)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "QUAD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "snapper",
+        "andang"
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/rate/0_rate_cinematic.txt",
