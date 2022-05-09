@@ -13,6 +13,8 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
+set name = MOCKINGBIRD
+
 # aux
 aux 0 0 0 1450 2100 0 0
 aux 1 1 1 1700 2100 0 0
@@ -238,6 +240,7 @@ set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 set motor_poles = 12
 set dshot_idle_value = 800
+set gyro_1_align_yaw = 2700
 
 # vtxtable
 vtxtable bands 5

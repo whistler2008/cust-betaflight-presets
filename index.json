@@ -137,6 +137,7 @@
     ],
     "category": [
       "BATTERY",
+      "BNF",
       "CHIPSET",
       "DEFAULT",
       "ESC",
@@ -157,6 +158,7 @@
     ],
     "keywords": [
       "akk",
+      "andang",
       "battery",
       "betafpv",
       "chipset",
@@ -176,6 +178,7 @@
       "rush",
       "rx",
       "size",
+      "snapper",
       "tbs",
       "tune",
       "type",
@@ -227,6 +230,21 @@
       "keywords": [
         "battery"
       ]
+    },
+    {
+      "fullPath": "presets/bnf/bnf_snapper8_andang.txt",
+      "hash": "f6cf65b825ce910b132b4bd5bb88481fe295bc44fa7a6d155dc15a900cf85163",
+      "title": "BNF Snapper 8 (Agan Andang Crist)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "snapper",
+        "andang"
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f4.txt",
@@ -288,7 +306,7 @@
     },
     {
       "fullPath": "presets/default/0_other.txt",
-      "hash": "4c99cfd0a9ed4d4c88230384a24abb00de9fdbc5ec9d166fe5ed9d0f5647defa",
+      "hash": "0c1dbb91efb35d82d95db506bcbfa55d45874739a014679506c7694b7fbef7a1",
       "title": "Default Other Setting",
       "firmware_version": [
         "4.0",
@@ -531,7 +549,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "2d7b3f85de3886cc125b19d4c7914a4d4ff113ce0ab1a2ee3ec1fcfeeb7dfff7",
+      "hash": "fe52110df553c61311e3396e37c1834837b061e74fbd4d5fd4583487ff13b17e",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -1247,7 +1265,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "187e212d57400c486f27344bf70f6a93b5c18757134d3f72fa7cf567dc6e77da",
+      "hash": "188e7c77ab4295df76c4f5ac6039adfba45a3632fa80bb25fe7b10ce2f11a96b",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -1262,7 +1280,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "b75d5b7ea435d5ebe712cee18df6bc703e798f6d9c712dc465988d3ba43d4b21",
+      "hash": "bbf9d0dbe4cbdd7be3d952d069acf32342f7491dafa9479c0a2af8144a17ffa1",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"

@@ -11,6 +11,7 @@
 feature -AIRMODE
 
 # cam
+set fpv_mix_degrees = 15
 set small_angle = 180
 
 # blackbox
