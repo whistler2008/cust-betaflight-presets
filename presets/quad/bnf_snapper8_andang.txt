@@ -5,19 +5,6 @@
 #$ KEYWORDS: snapper, andang
 #$ DESCRIPTION: CLI for QUAD Snapper 8 (Agan Andang Crist)
 
-# start the command batch
-batch start
-
-# reset configuration to default settings
-defaults nosave
-
-board_name MATEKF411
-manufacturer_id MTKS
-mcu_id 006300513439511138313437
-signature 
-
-# name: SNAPPER 8
-
 # feature
 feature -AIRMODE
 
