@@ -242,6 +242,9 @@ set motor_poles = 12
 set dshot_idle_value = 800
 set gyro_1_align_yaw = 2700
 
+# other
+set gyro_1_align_yaw = 2700
+
 # vtxtable
 vtxtable bands 5
 vtxtable channels 8

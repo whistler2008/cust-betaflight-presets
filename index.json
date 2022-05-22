@@ -547,7 +547,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
-      "hash": "d768f58e99ad259f8b15e0ad3fbae5b6badf2d6c7f44932d0b074f489bdf2129",
+      "hash": "05a3b77cb89bc6a0f0c287392853f2923b314e8a522c17b4650fc6baa0296729",
       "title": "Default Minimalist LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -561,7 +561,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "937f4b42ed97d330143251c4694ca7d8dec7e54138ef6cf66397698864364dcd",
+      "hash": "faa0c02e0aa0f6ba9bbfcce9eaafe67acbbbed93a2b83e789d1e7823a2d059dc",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -575,7 +575,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "4cc3c8fb27f3785d0162be667d0b23419772680865c4ccb2f7b2c244bebacdfb",
+      "hash": "28069d6db31a1ba24cb81bce8356845fe2cd6e02971f8254398224d54f61d9dd",
       "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -589,7 +589,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "974292ee3e71df869c9d50c49e4c0e9df3acf1680337e78fbac417fb7209b571",
+      "hash": "88ffb4d71c11e169c17f3948c891cd660876941c737fb727d9b1be058ca6212f",
       "title": "Default Standard RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -914,8 +914,23 @@
       ]
     },
     {
+      "fullPath": "presets/quad/bnf_diatone_gt_249t_andang.txt",
+      "hash": "638d4623477d77be1ab61a696d41e709cf9032b615e479b45060da10eac6c540",
+      "title": "QUAD Diatone GT-249T (Agan Andang Crist)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "QUAD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "snapper",
+        "andang"
+      ],
+      "priority": 0
+    },
+    {
       "fullPath": "presets/quad/bnf_snapper8_andang.txt",
-      "hash": "1ddc359051ce91f62c8e3aeec5c090a1f05b186a59e5abec259129ce85329e02",
+      "hash": "b80044b6c8ec22658978816626aa0e11dc4c656d960f919951cfe6ec112bc545",
       "title": "QUAD Snapper 8 (Agan Andang Crist)",
       "firmware_version": [
         "4.3"
@@ -1280,7 +1295,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "bbf9d0dbe4cbdd7be3d952d069acf32342f7491dafa9479c0a2af8144a17ffa1",
+      "hash": "96789c951e70c5b7371dc1061fef64ecdebf75b929296bb39cb3ca184a493b61",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
