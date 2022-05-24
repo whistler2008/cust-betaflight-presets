@@ -59,13 +59,19 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/43_1s_p0.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 2S
 #$ INCLUDE: presets/pid/43_2s_p0.txt
+#$ INCLUDE: presets/pid/43_1s_p1.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3S
 #$ INCLUDE: presets/pid/43_3s_p0.txt
 #$ INCLUDE: presets/pid/43_2s_p1.txt
+#$ INCLUDE: presets/pid/43_1s_p2.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4S

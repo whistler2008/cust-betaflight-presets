@@ -758,6 +758,45 @@
       ]
     },
     {
+      "fullPath": "presets/pid/43_1s_p0.txt",
+      "hash": "9f9442d6bd3744c58583dfde49f751512bef932b4bfdd224063e66ee1f71b55b",
+      "title": "Default 1S Profile 0 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
+      "fullPath": "presets/pid/43_1s_p1.txt",
+      "hash": "9c22653b701b8bf784079c0271769387762e17cb92adf426421637e83b3a02bd",
+      "title": "Default 1S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
+      "fullPath": "presets/pid/43_1s_p2.txt",
+      "hash": "16d26304dd14ee476c738f75eb8031672b1946fd13e046519134315ad6ba5bed",
+      "title": "Default 1S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
       "fullPath": "presets/pid/43_2s_p0.txt",
       "hash": "b2e36a81418b58592fbbede2d639387fbdc9a9715eb97c09e26d97e0ddbc832c",
       "title": "Default 2S Profile 0 (Betaflight 4.3)",
@@ -1265,7 +1304,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "ac2aaff7ddbf9369cdc413041bc4b9cb1d1584fc760c9b77131d6379c8aba9d3",
+      "hash": "3579cecb24fa4ef25518b1b808c91da9c604726d5e18136a98653f5048a514ee",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
