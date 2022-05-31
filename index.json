@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "fe52110df553c61311e3396e37c1834837b061e74fbd4d5fd4583487ff13b17e",
+      "hash": "750ed10d9ec8e4378f9557e5f9923cec821fcb79f37e634187d9a8b27d54ec4f",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -1319,7 +1319,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "188e7c77ab4295df76c4f5ac6039adfba45a3632fa80bb25fe7b10ce2f11a96b",
+      "hash": "68dcea2782d9d3c785e1197d65cbf3f9a4888e63ce84f100756293def505fee4",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"

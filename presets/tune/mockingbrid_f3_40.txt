@@ -9,7 +9,7 @@
 #$ INCLUDE: presets/default/0_other.txt
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
-set name = MOCKINGBIRD
+name MBIRD F3
 
 # aux
 aux 0 0 0 1450 2100 0 0
@@ -28,8 +28,8 @@ set vtx_power = 1
 set vtx_freq = 5732
 
 # other
-set gyro_sync_denom = 2
-set pid_process_denom = 2
+set gyro_sync_denom = 1
+set pid_process_denom = 4
 set runaway_takeoff_prevention = OFF
 
 # motor esc
