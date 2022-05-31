@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "750ed10d9ec8e4378f9557e5f9923cec821fcb79f37e634187d9a8b27d54ec4f",
+      "hash": "361200f98b0a525ee1b1ca76f793ff5842c0fe244449bb33c086115a8730b3ca",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -575,7 +575,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "28069d6db31a1ba24cb81bce8356845fe2cd6e02971f8254398224d54f61d9dd",
+      "hash": "37867aa58a7a80ae3c16f0411406f2a3b55cf9a25af851ac3c584a54323f39fa",
       "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
