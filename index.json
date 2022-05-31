@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/modes/0_aux_std.txt",
-      "hash": "af419a249604c0dda9119def7de66ccb8196e2a87561a3c7fd942f85f8d70663",
+      "hash": "d72314c7476023c4bfe6f9c5f911abda5f633d933a63c80f3e473d7903dbca58",
       "title": "Default AUX Standard",
       "firmware_version": [
         "4.0",
@@ -547,7 +547,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
-      "hash": "05a3b77cb89bc6a0f0c287392853f2923b314e8a522c17b4650fc6baa0296729",
+      "hash": "ab76c32c366e42baab50b05a23602f623be317d611c0710e2011f930744830a6",
       "title": "Default Minimalist LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -575,7 +575,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "37867aa58a7a80ae3c16f0411406f2a3b55cf9a25af851ac3c584a54323f39fa",
+      "hash": "3532d1f9f147264763e0e6b3cf111d7be32efca1eb1eec77c9311719a5f62b43",
       "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
