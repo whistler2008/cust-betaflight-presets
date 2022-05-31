@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "f30e5a45186564801c82385c91786ec9b1df53fb2216f959cd690231138b5f59",
+      "hash": "2e615eccd7be09ad448bb917ff7d0137cac37171310c759561217f259d2f1772",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
