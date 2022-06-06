@@ -602,6 +602,45 @@
       ]
     },
     {
+      "fullPath": "presets/pid/42_1s_p0.txt",
+      "hash": "d3eadd2bd4059ba098e13ccd2901957d0484e6e422a69b21d0e6748388626c68",
+      "title": "Default 1S Profile 0 (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
+      "fullPath": "presets/pid/42_1s_p1.txt",
+      "hash": "cbffcc8f300759e8676d4c88da23ec6bf00cb333c5b01fa6150ae7c7cff9a27e",
+      "title": "Default 1S Profile 1 (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
+      "fullPath": "presets/pid/42_1s_p2.txt",
+      "hash": "96573b91887d44d194c6c3ee9db2b12c00f6c4a2a6cd390fdfa4de68e93efd8e",
+      "title": "Default 1S Profile 2 (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "PID",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ]
+    },
+    {
       "fullPath": "presets/pid/42_2s_p0.txt",
       "hash": "a0d56a88a11878fd2a0989a4ee9bbf79f04303b573eab1e001e2c493b15e9770",
       "title": "Default 2S Profile 0 (Betaflight 4.2)",
@@ -1289,7 +1328,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "c02b5d22452a8b81b4e8c23c7f0668cfa1e6f223722158b5108fe90306311be7",
+      "hash": "36bd8a7743d69e0e9ed0c6c34074f4dc8526d83d66778e1af71d9f41c0f85b67",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
