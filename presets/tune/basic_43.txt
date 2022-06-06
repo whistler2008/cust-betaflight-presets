@@ -5,7 +5,6 @@
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
 #$ INCLUDE: presets/default/0_beeper.txt
-#$ INCLUDE: presets/default/0_led.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ DESCRIPTION: Basic Tune for Betaflight 4.3
 #$ DESCRIPTION: 
@@ -247,3 +246,7 @@ set vbat_pid_gain = OFF
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
+#$ OPTION BEGIN (UNCHECKED): LED
+#$ INCLUDE: presets/default/0_led.txt
+#$ OPTION END

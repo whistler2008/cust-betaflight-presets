@@ -1328,7 +1328,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "36bd8a7743d69e0e9ed0c6c34074f4dc8526d83d66778e1af71d9f41c0f85b67",
+      "hash": "fde0e9ffe48676c499aeb4fbc676a45de232fb5d249acf5bb90605a98f73cf3f",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1343,7 +1343,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "3579cecb24fa4ef25518b1b808c91da9c604726d5e18136a98653f5048a514ee",
+      "hash": "272adc05dd5bb2832fb029f3a83bafca4697cd9da914a46d5533c94af96bb7d5",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
