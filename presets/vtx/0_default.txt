@@ -6,12 +6,24 @@
 #$ KEYWORDS: vtx, default
 #$ DESCRIPTION: Default VTX settings
 
-# reset vtx table
+# vtxtable
 vtxtable bands 0
 vtxtable channels 0
 vtxtable powerlevels 0
 vtxtable powervalues
 vtxtable powerlabels
+
+# vtx
+vtx 0 0 0 0 0 900 900
+vtx 1 0 0 0 0 900 900
+vtx 2 0 0 0 0 900 900
+vtx 3 0 0 0 0 900 900
+vtx 4 0 0 0 0 900 900
+vtx 5 0 0 0 0 900 900
+vtx 6 0 0 0 0 900 900
+vtx 7 0 0 0 0 900 900
+vtx 8 0 0 0 0 900 900
+vtx 9 0 0 0 0 900 900
 
 # vtx setting
 set vtx_band = 0

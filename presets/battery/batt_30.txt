@@ -8,6 +8,9 @@
 #$ DESCRIPTION: Battery 3.0V Battery settings
 
 # battery
+set current_meter = ADC
+set battery_meter = ADC
+
 set vbat_max_cell_voltage = 420
 set vbat_min_cell_voltage = 300
 set vbat_warning_cell_voltage = 320

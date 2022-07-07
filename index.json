@@ -188,7 +188,7 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_30.txt",
-      "hash": "c6d256c08a33123755723f9797edb970155af81b3f5a61d5869dd60484d970a2",
+      "hash": "ee2d992153dd3340ddd7e95283ecab1e2e908661c28b61a0e3bd069a65bef1cb",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
@@ -203,7 +203,7 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "0b543e6e26967b29d54b181d0e23fb30f1128bc0f6f1b35753cd6786cfeb8c69",
+      "hash": "ed71072303fc9a66a9148e2c5d5712439c5abf73121f1830e72ab76c5dc15191",
       "title": "Battery 3.3V settings",
       "firmware_version": [
         "4.0",
@@ -218,7 +218,7 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "bf1c0e91e537e2258034939a3868fb9355e26777b4b0ebd992c137dc84979e84",
+      "hash": "f226347dcfd6cf86a8d9e943964f747fcd217b60954a3bab2441c76b1961a173",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.0",
@@ -261,7 +261,7 @@
     },
     {
       "fullPath": "presets/default/0_beeper.txt",
-      "hash": "2d778e424c38ce342b701f8b81e979c79af66cda3d6eb347453af26b6390777b",
+      "hash": "56dd3b5bd8b5c3c4d54a4609e5721dddaeca12e59031f4c1847df7c02707f90b",
       "title": "Default Beeper settings",
       "firmware_version": [
         "4.0",
@@ -504,7 +504,7 @@
     },
     {
       "fullPath": "presets/modes/0_aux_gps.txt",
-      "hash": "899dc11e812ec15785d2f541b1d45bb8a3edc984977370456c29e6062bdef389",
+      "hash": "7a6019e9a8f28da7fdb6ad5acc1873ac25c46f19bd8eacedb5ffb3f39c276773",
       "title": "Default AUX with GPS Rescue",
       "firmware_version": [
         "4.0",
@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/modes/0_aux_std.txt",
-      "hash": "d72314c7476023c4bfe6f9c5f911abda5f633d933a63c80f3e473d7903dbca58",
+      "hash": "b50857aefd3582edbd50c51784961a3c923636a0a85be3b64cd6246ebcc45b30",
       "title": "Default AUX Standard",
       "firmware_version": [
         "4.0",
@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "2e615eccd7be09ad448bb917ff7d0137cac37171310c759561217f259d2f1772",
+      "hash": "200102825346cec8e6d855f0791b5f9aac0ea1bca143f8eb5752c12b4a0c4110",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
@@ -547,7 +547,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
-      "hash": "ab76c32c366e42baab50b05a23602f623be317d611c0710e2011f930744830a6",
+      "hash": "3ca97b4ea4d977658c91b73a56c7cd5b34fab544e988d26ff11e31c81760d3ab",
       "title": "Default Minimalist LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -561,7 +561,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "faa0c02e0aa0f6ba9bbfcce9eaafe67acbbbed93a2b83e789d1e7823a2d059dc",
+      "hash": "bb20ac50cc78548b75a72b7f4a40f68cef94b42e5090837a460f7e820fe89edd",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -575,7 +575,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "3532d1f9f147264763e0e6b3cf111d7be32efca1eb1eec77c9311719a5f62b43",
+      "hash": "d19022d43ab0ce18c9adfa1b3915fdc20b45b63e77f1dc61d71a2d2eb4c9268b",
       "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -589,7 +589,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "88ffb4d71c11e169c17f3948c891cd660876941c737fb727d9b1be058ca6212f",
+      "hash": "40b267f82139985ce59660bd1f45bf6bc387c7b4136fa2a9b0aabc9ab0b393a5",
       "title": "Default Standard RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -1496,7 +1496,7 @@
     },
     {
       "fullPath": "presets/vtx/0_default.txt",
-      "hash": "742da0357b662a5d199bf0021d64c281a647dda71556d0c85fa17d32f5ccca4b",
+      "hash": "c6a3973ecad756d6cb13b905870b72484381423a3d261c34a79bfd389eeacc9b",
       "title": "Default VTX settings",
       "firmware_version": [
         "4.2",
