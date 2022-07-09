@@ -1121,7 +1121,7 @@
     },
     {
       "fullPath": "presets/rx/serial_ibus_43.txt",
-      "hash": "db4cb53ee32ed01c4557d1dc31d93a578a45fb80fbde832ce8c4f729a87e053e",
+      "hash": "1f0fa413739712f8b3cd7dfdda42fa3fee252a26e4b0916e8630670e5ff07b3b",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3"
@@ -1134,7 +1134,7 @@
     },
     {
       "fullPath": "presets/rx/serial_sbus_43.txt",
-      "hash": "15a5a22319a1d5e47c00fe346b5afa8a8b7ebf0b18bf24bd34baed6669eebc77",
+      "hash": "86e70270a9902b259eaf958a90f3dd65150f2869cf6d3190b9be0a07ae086118",
       "title": "RX Serial SBUS",
       "firmware_version": [
         "4.3"
@@ -1147,7 +1147,7 @@
     },
     {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
-      "hash": "cc6786a9413676843a5f28b11b758c870d7429a57f835d4e1c151b0861d91208",
+      "hash": "42d4e63beb74ff3e33d5d09b812d9ad516c298b2b567f3b769c234b5a1b442a9",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3"
@@ -1454,7 +1454,7 @@
     },
     {
       "fullPath": "presets/type/43_freestyle.txt",
-      "hash": "27c78f9c69f140621c5716ff08790f83809a39dbabad24b4cf99f958e398e83d",
+      "hash": "592e6e55a792cb60ddd57f6bb81101c9fc2c2b4e7bceeaa0d6e6e3010372f79d",
       "title": "Quad type FREESTYLE (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1467,7 +1467,7 @@
     },
     {
       "fullPath": "presets/type/43_smooth.txt",
-      "hash": "25f14aa85a5c458eecf403597a39e0f910f73ae9ccfc1c50ac5828be84e4f5e8",
+      "hash": "4f78226cb7b5dceb1e2f5129bb608abeadff9c8626891593307dab2181dc554f",
       "title": "Quad type SMOOTH (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
