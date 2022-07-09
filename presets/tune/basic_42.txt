@@ -86,6 +86,10 @@ set vbat_pid_gain = OFF
 #$ INCLUDE: presets/rpm_filter/off.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): 9 Pole
+#$ INCLUDE: presets/rpm_filter/9.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
 #$ OPTION END
@@ -200,25 +204,21 @@ set vbat_pid_gain = OFF
 
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: OSD Type - RSSI
+#$ OPTION_GROUP BEGIN: OSD Type
 
-#$ OPTION BEGIN (UNCHECKED): OSD Minimize
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
 #$ INCLUDE: presets/osd/osd_42_rssi_min.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD Standard
+#$ OPTION BEGIN (UNCHECKED): OSD RSSI Standard
 #$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: OSD Type - LQ
-
-#$ OPTION BEGIN (UNCHECKED): OSD Minimize
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
 #$ INCLUDE: presets/osd/osd_42_lq_min.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD Standard
+#$ OPTION BEGIN (UNCHECKED): OSD LQ Standard
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 

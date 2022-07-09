@@ -1065,8 +1065,8 @@
     },
     {
       "fullPath": "presets/rpm_filter/12.txt",
-      "hash": "70e12bff7d100aac248e0c96a713e6a2946a870bf2a29edbd7774971d3347281",
-      "title": "Default RPM Filter - F4 12 Poles",
+      "hash": "ce8397b00cde0d27e0df635854190610a8359dd2575018397d896beed9047904",
+      "title": "Default RPM Filter - 12 Poles",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1079,8 +1079,22 @@
     },
     {
       "fullPath": "presets/rpm_filter/14.txt",
-      "hash": "fdfd20d0ecc171cd002e6105b000828867a61d2847fc06c41771443ffbd2c51c",
-      "title": "Default RPM Filter - F4 14 Poles",
+      "hash": "7711924a144e5cbf44041d577fb3ce7cbcc53af467fab9bc62b49eccd9cdd26f",
+      "title": "Default RPM Filter - 14 Poles",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "RPM_FILTER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm_filter"
+      ]
+    },
+    {
+      "fullPath": "presets/rpm_filter/9.txt",
+      "hash": "fed6af369911faf33caad56739b2376cc6dffa6ac6187705590c7a829d35ce8c",
+      "title": "Default RPM Filter - 9 Poles",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1093,8 +1107,8 @@
     },
     {
       "fullPath": "presets/rpm_filter/off.txt",
-      "hash": "8300cfa660c61128d7654e354a0fe13902e93a9f858a64ad32bacadf616be899",
-      "title": "Default RPM Filter - F4 OFF",
+      "hash": "239145bb7c07342967ba2a4d6e35cd513f0555f2c9af41413182b74727d9d097",
+      "title": "Default RPM Filter - OFF",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1328,7 +1342,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "fde0e9ffe48676c499aeb4fbc676a45de232fb5d249acf5bb90605a98f73cf3f",
+      "hash": "4b4d039eda5f7adbe2a3c134191531915072b4a66c9f70f104f02f13975f7279",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1343,7 +1357,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "272adc05dd5bb2832fb029f3a83bafca4697cd9da914a46d5533c94af96bb7d5",
+      "hash": "899d4f993550b092e6bf211e50ed8b6d99fad2330b700fce653f6035ef87577d",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
