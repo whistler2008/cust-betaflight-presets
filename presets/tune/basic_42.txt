@@ -20,8 +20,6 @@ set name = PRE-TUNED
 
 #$ OPTION BEGIN (UNCHECKED): LiPo / LiHV 1S
 #$ INCLUDE: presets/battery/batt_33.txt
-set vbat_sag_compensation = 100
-set vbat_pid_gain = OFF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LiPo / LiHV 2S-6S
