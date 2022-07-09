@@ -1120,8 +1120,60 @@
       ]
     },
     {
+      "fullPath": "presets/rx/elrs_150_43.txt",
+      "hash": "9077a92a61cf41182f795f2d898e7ad57f095cb8e1aa65000d82d680d211779d",
+      "title": "RX Serial ELRS 150",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
+      "fullPath": "presets/rx/elrs_250_43.txt",
+      "hash": "9fc17cc2324c752759c52525a57a8cfd4ef9bb909170839fab461b9682274d35",
+      "title": "RX Serial ELRS 250",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
+      "fullPath": "presets/rx/elrs_500_43.txt",
+      "hash": "1f3cc21634342e7775c0f8cf1013346d4c81a8f1ef15692e0b2e1ec3312e5c4e",
+      "title": "RX Serial ELRS 50",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
+      "fullPath": "presets/rx/elrs_50_43.txt",
+      "hash": "74f0d097dd08f0b7c4c20fc9680f3f7f52337623943f048fc264d1cd0c25872c",
+      "title": "RX Serial ELRS 50",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
       "fullPath": "presets/rx/serial_ibus_43.txt",
-      "hash": "1f0fa413739712f8b3cd7dfdda42fa3fee252a26e4b0916e8630670e5ff07b3b",
+      "hash": "a735dd8743c2c0355a6505c5737ad9c4346b6ddc0b7d4ae75d15b54f8562986b",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3"
@@ -1134,7 +1186,7 @@
     },
     {
       "fullPath": "presets/rx/serial_sbus_43.txt",
-      "hash": "86e70270a9902b259eaf958a90f3dd65150f2869cf6d3190b9be0a07ae086118",
+      "hash": "b89ef0db343a02f74715f0ea283e19b1e69f328fe49bffee501df03f9d369fd2",
       "title": "RX Serial SBUS",
       "firmware_version": [
         "4.3"
@@ -1357,7 +1409,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "899d4f993550b092e6bf211e50ed8b6d99fad2330b700fce653f6035ef87577d",
+      "hash": "90ede33b7b2eb96fdcc5808923bc769fe17d9ffa177f801fb3e559db50b31786",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

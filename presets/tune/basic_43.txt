@@ -211,6 +211,22 @@ profile 0
 #$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 50Hz
+#$ INCLUDE: presets/rx/elrs_50_43.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 150Hz
+#$ INCLUDE: presets/rx/elrs_150_43.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 250Hz
+#$ INCLUDE: presets/rx/elrs_250_43.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 500Hz
+#$ INCLUDE: presets/rx/elrs_500_43.txt
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
