@@ -547,7 +547,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_min.txt",
-      "hash": "3ca97b4ea4d977658c91b73a56c7cd5b34fab544e988d26ff11e31c81760d3ab",
+      "hash": "70429e2782f84591a143ad9b8d9eb84da2e8a044126886d4ccb60fac5491e091",
       "title": "Default Minimalist LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -561,7 +561,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "bb20ac50cc78548b75a72b7f4a40f68cef94b42e5090837a460f7e820fe89edd",
+      "hash": "709d4b15ef5d935205eb85bf97e99a06cddd04ecb8e1cbd13a40704f78e58c7b",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -575,7 +575,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "d19022d43ab0ce18c9adfa1b3915fdc20b45b63e77f1dc61d71a2d2eb4c9268b",
+      "hash": "3ed3d240f37f0fcd591e127df654311742f2889555ad95c6584e55b70711e029",
       "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -589,7 +589,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "40b267f82139985ce59660bd1f45bf6bc387c7b4136fa2a9b0aabc9ab0b393a5",
+      "hash": "13e1683555744df3fc45c72c93790ea9a8c687277194319b9fb74a58403d8ccc",
       "title": "Default Standard RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
