@@ -1532,13 +1532,13 @@
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",
-      "hash": "c14c954700eff69ccaa72914ff1b0b0c9012ed0cad645bd101e44b7118dbecb3",
-      "title": "Default AKK VTX settings",
+      "hash": "7f75be34f780c2ead728e0ac5c96b0229f854602e6d1fadaddee421a303927cd",
+      "title": "AKK VTX settings",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1682,7 +1682,7 @@
     },
     {
       "fullPath": "presets/vtx/akk/fx2.txt",
-      "hash": "31d807d710ab7b46f5993b22c87fd75cbf1d241d03a5b0a201d1746f49ce04eb",
+      "hash": "c40f0734785eeaf6743f1874cfe57bf6c95221fb7f3936c30d0aeb7ad34a0359",
       "title": "AKK FX2",
       "firmware_version": [
         "4.2",
@@ -1694,11 +1694,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx2_dominator.txt",
-      "hash": "99e6014bbc93beb5ee9e1b36dcb77fb5b368f6ba5599e205c4bacfba47343d4a",
+      "hash": "ff84cecccb19ff22e438aa453d14e8d036f9ddd26b4605206f294bdecd41c22a",
       "title": "AKK FX2 Dominator",
       "firmware_version": [
         "4.2",
@@ -1710,11 +1711,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx2_ultimate.txt",
-      "hash": "f157a133285c9c6a78ed79aec9e6df6dc82cf00a501cd1c9be2c91442d3bf934",
+      "hash": "694c899003d6d6cc44dde9314ca42204ebeaf6c3542920e11769f9192711febc",
       "title": "AKK FX2 Ultimate",
       "firmware_version": [
         "4.2",
@@ -1726,11 +1728,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx3.txt",
-      "hash": "e46f01349f73f4bf97e7578bfb8711f57a9dd34ed56bf15f538d7214bb02e918",
+      "hash": "3a8ecc54cab679ba5cb859e1564a78723d61b8f3501ee3d38d73be21814b81e4",
       "title": "AKK FX3",
       "firmware_version": [
         "4.2",
@@ -1742,11 +1745,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate.txt",
-      "hash": "8de4a60b4c98c96c133a16b7179916d6610483705975dea319c8b5fea9385cbd",
+      "hash": "c5fe27847b915b3cfeb78979cce00d113ef57ee34404f339d6a04a51bdb193bb",
       "title": "AKK FX3 Ultimate",
       "firmware_version": [
         "4.2",
@@ -1758,11 +1762,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx3_ultimate_dvr.txt",
-      "hash": "5193dd622e6bdcf089ada5b0375e28fc1f60b4dd698a926da4f816e1c5ed881c",
+      "hash": "ba5c6c65b2546e94904793bf453c307d9ce1e0b384c5c23f47480e671ab66f13",
       "title": "AKK FX3 Ultimate DVR",
       "firmware_version": [
         "4.2",
@@ -1774,11 +1779,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/fx5.txt",
-      "hash": "9d79623c0c39d48b9854b0fd5d718adfee3bec5d83343c49ec2e938d114d31db",
+      "hash": "ba560936d487a55612ded06dc2f82497037a7b3a9addcb64b4fdb38c1d9dc7b7",
       "title": "AKK FX5",
       "firmware_version": [
         "4.2",
@@ -1790,11 +1796,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/infinite_dvr.txt",
-      "hash": "4b4fda2e1572698d6c61050f9749a37a43a947f8a4d028ec190ad8db200f46eb",
+      "hash": "9a9b5e71b43ba32204a358c77179c807c071145cea1359626c34fef8e4f9079a",
       "title": "AKK Infinite DVR",
       "firmware_version": [
         "4.2",
@@ -1806,11 +1813,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/nano3.txt",
-      "hash": "d60b5bec475e671e8f5071af4980ba907a547d2eb612bc5e28ed20c824ef7e34",
+      "hash": "2fe8f9c4d472f94eab54915dc6fca3f189800db171ee648d660d60bcfc3b6ad7",
       "title": "AKK Nano 3",
       "firmware_version": [
         "4.2",
@@ -1822,11 +1830,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/new_era.txt",
-      "hash": "0624111d4963447964d8c432b6ad973d9ae351adc2bab549910148d3eacd3087",
+      "hash": "413f2108903e0b111b1337cac219b6f1e75f64c503fd2d674fc2160dda85974b",
       "title": "AKK New Era",
       "firmware_version": [
         "4.2",
@@ -1838,11 +1847,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/oscar_backpack.txt",
-      "hash": "c01a9901c302bc9aea0b185ade18d98c6b1a9f02e9637d7bd2ec8cd226cf6ef5",
+      "hash": "6629e3636b355cc4c1999f26a19ab0781f2373e437d41b52ce43af3642f5c8b6",
       "title": "AKK Oscar Backpack",
       "firmware_version": [
         "4.2",
@@ -1854,11 +1864,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/race.txt",
-      "hash": "eeb7ce008482c7a6e91ad8828bcd9dbdfbabe8b9599e48eef1fc8f7c6f480def",
+      "hash": "4f8e04a132f14f5d61207bdd08bae4cbcea15968c164dc6e17edca1b3154f0b3",
       "title": "AKK Race",
       "firmware_version": [
         "4.2",
@@ -1870,11 +1881,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/race_ranger.txt",
-      "hash": "7f7a235d5a6d073a4ce529f7cf521b83141efc44dd194d59c5a19b53bca203e9",
+      "hash": "73b1d27a933f195ded08e7cca2ec8b6561e2c7f86893405f7795007ce257acd9",
       "title": "AKK Race Ranger",
       "firmware_version": [
         "4.2",
@@ -1886,11 +1898,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/x5.txt",
-      "hash": "04faa3f58bd15f1ec08ee8e0c2b0227637e179b7dba5346dfb042a282b746abf",
+      "hash": "5b0f800d2460bd5f7f78316b1519e61192299cc36739ebd143c39e0a4a470e7a",
       "title": "AKK X5",
       "firmware_version": [
         "4.2",
@@ -1902,11 +1915,12 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/akk/x5_pro.txt",
-      "hash": "ac51878a2c649158b51c58c02ca61d6ea95d92b4493ac0d9e64525ef3b9100f4",
+      "hash": "5d9cd1fdbc1dd1d8f90087e24601ff6bf86e2e6b90d14c68a5d530641658913c",
       "title": "AKK X5 Pro",
       "firmware_version": [
         "4.2",
@@ -1918,7 +1932,8 @@
         "vtx",
         "akk"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/betafpv/a01.txt",

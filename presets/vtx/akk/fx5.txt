@@ -6,8 +6,7 @@
 #$ KEYWORDS: vtx, akk
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: VTX table for AKK FX5
-#$ INCLUDE: presets/vtx/0_default.txt
-#$ INCLUDE: presets/vtx/0_akk.txt
+#$ HIDDEN: true
 
 # power_level
 vtxtable powerlevels 3
@@ -15,4 +14,4 @@ vtxtable powervalues 0 1 2
 vtxtable powerlabels 25 100 200
 
 # vtx setting
-set vtx_power = 2
+set vtx_power = 3

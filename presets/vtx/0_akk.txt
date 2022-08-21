@@ -1,10 +1,11 @@
-#$ TITLE: Default AKK VTX settings
+#$ TITLE: AKK VTX settings
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, akk
-#$ DESCRIPTION: Default AKK VTX settings
+#$ DESCRIPTION: AKK VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,64 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX2
+#$ INCLUDE: presets/vtx/akk/fx2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator
+#$ INCLUDE: presets/vtx/akk/fx2_dominator.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate
+#$ INCLUDE: presets/vtx/akk/fx2_ultimate.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX3
+#$ INCLUDE: presets/vtx/akk/fx3.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate
+#$ INCLUDE: presets/vtx/akk/fx3_ultimate.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR
+#$ INCLUDE: presets/vtx/akk/fx3_ultimate_dvr.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK FX5
+#$ INCLUDE: presets/vtx/akk/fx5.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR
+#$ INCLUDE: presets/vtx/akk/infinite_dvr.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Nano 3
+#$ INCLUDE: presets/vtx/akk/nano3.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK New Era
+#$ INCLUDE: presets/vtx/akk/new_era.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack
+#$ INCLUDE: presets/vtx/akk/oscar_backpack.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Race
+#$ INCLUDE: presets/vtx/akk/race.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Race Ranger
+#$ INCLUDE: presets/vtx/akk/race_ranger.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK X5
+#$ INCLUDE: presets/vtx/akk/x5.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK X5 Pro
+#$ INCLUDE: presets/vtx/akk/x5_pro.txt
+#$ OPTION END
+
