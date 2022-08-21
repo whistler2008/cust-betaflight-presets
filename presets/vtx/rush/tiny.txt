@@ -6,8 +6,7 @@
 #$ KEYWORDS: vtx, rush
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: VTX table for Rush Tiny Tank
-#$ INCLUDE: presets/vtx/0_default.txt
-#$ INCLUDE: presets/vtx/0_rush.txt
+#$ HIDDEN: true
 
 # power_level
 vtxtable powerlevels 4
@@ -15,4 +14,4 @@ vtxtable powervalues 14 20 23 25
 vtxtable powerlabels 25 100 200 350
 
 # vtx setting
-set vtx_power = 2
+set vtx_power = 4

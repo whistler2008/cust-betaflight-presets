@@ -1,10 +1,11 @@
-#$ TITLE: OpenVTX settings
+#$ TITLE: OpenVTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, openvtx
 #$ DESCRIPTION: OpenVTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 6
@@ -25,4 +26,4 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
-set vtx_power = 2
+set vtx_power = 3

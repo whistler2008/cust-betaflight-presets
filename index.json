@@ -1532,8 +1532,8 @@
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",
-      "hash": "7f75be34f780c2ead728e0ac5c96b0229f854602e6d1fadaddee421a303927cd",
-      "title": "AKK VTX settings",
+      "hash": "2683e7b67100b85d44b5530ccfdefef5cda7b97bbbbc1ebf648ac9cbfba694ca",
+      "title": "AKK VTX",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1547,13 +1547,13 @@
     },
     {
       "fullPath": "presets/vtx/0_betafpv.txt",
-      "hash": "59c9f27e4cf7d126c78781a6a388113aa12d325e1742c82fd4f3d9955a6086e8",
-      "title": "Default BetaFPV VTX settings",
+      "hash": "f22222a735dddbe7619c695e2cfca1946c49f2639a1fb6738d07e9570b745cf1",
+      "title": "BetaFPV VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1562,7 +1562,7 @@
     },
     {
       "fullPath": "presets/vtx/0_default.txt",
-      "hash": "c6a3973ecad756d6cb13b905870b72484381423a3d261c34a79bfd389eeacc9b",
+      "hash": "69366c6bf9119ec16e39df50a52cdc253b9411cfac812a8e58f74be4f6c3cb6c",
       "title": "Default VTX settings",
       "firmware_version": [
         "4.2",
@@ -1573,17 +1573,18 @@
       "keywords": [
         "vtx",
         "default"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
-      "hash": "22941793be0e037978e5d281bf2a53e041e8ee5244710dcae7bd56bbbaf8f214",
-      "title": "Default EWRF VTX settings",
+      "hash": "3d1efdf0c373c207e30bad36822e10396f43a8899ef73bbd88dad3a4acc0b6ae",
+      "title": "EWRF VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1592,13 +1593,13 @@
     },
     {
       "fullPath": "presets/vtx/0_happymodel.txt",
-      "hash": "80f826bee0f40e2123754e6e9d4d654bd32d56e038405d35e89dc4271f24675c",
-      "title": "Default HappyModel VTX settings",
+      "hash": "be9356c2f192540f047aca9a5901ebe9f22bfbaae39f7c6de78b593e1d8d0b69",
+      "title": "HappyModel VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1607,8 +1608,8 @@
     },
     {
       "fullPath": "presets/vtx/0_iflight.txt",
-      "hash": "02c59eca8f6d2ff567c81c1ed379497507e579b3d7f6f72e8fa64268bb18ea54",
-      "title": "Default iFlight VTX settings",
+      "hash": "7e1a8ab85bbe2e876567177d7e79b33b77c2941dca9bea9af593ab839ed57928",
+      "title": "iFlight VTX",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1622,13 +1623,13 @@
     },
     {
       "fullPath": "presets/vtx/0_nameless.txt",
-      "hash": "d03b7efb1c83a43a6872347763afc7f043bda54ea0cb10a9d880ef899b4fb344",
-      "title": "Default NamelessRC VTX settings",
+      "hash": "f33f7d09c9f96e822b19a9ab7f8ce7c828b218d135b39f63f0a870ccfe980453",
+      "title": "NamelessRC VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1637,8 +1638,8 @@
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
-      "hash": "8425a9e3d444920a2dbfe254a8974fb37d69e08ffbac01b1020ef2f45d9411ea",
-      "title": "OpenVTX settings",
+      "hash": "ea807e10476dfe8b18df53e0877d1eac65e8cae1e2fd7415e9fc4d49e41f3bf8",
+      "title": "OpenVTX",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1652,13 +1653,13 @@
     },
     {
       "fullPath": "presets/vtx/0_rush.txt",
-      "hash": "917a620fc6f90de399fe573358a94ade5a107e60012268baf74a37984b160a24",
-      "title": "Default Rush VTX settings",
+      "hash": "80b6854ff57daa0c0ab8e253ee979053ed0938c8a24f8cdb4cda8ced0498fadf",
+      "title": "Rush VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1667,13 +1668,13 @@
     },
     {
       "fullPath": "presets/vtx/0_tbs.txt",
-      "hash": "7febf2f3406bfaeeaadc7f90a92aec835668bcc96036fea974c5d657400dba39",
-      "title": "Default TBS VTX settings",
+      "hash": "a0f28eea7c59d4d084a776eb42652bb2774e20dfe9a79c3d0d28462068aa866b",
+      "title": "TBS VTX",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
@@ -1937,7 +1938,7 @@
     },
     {
       "fullPath": "presets/vtx/betafpv/a01.txt",
-      "hash": "06679f1e6ed3b5e9d211dad3becc866f819bb3045c995efc6d50e72ed5e451ea",
+      "hash": "949a711100b8dda8ce8405a22360a757dc5ab23c2d4e896c5ef7c32189ad831b",
       "title": "BetaFPV A01",
       "firmware_version": [
         "4.2",
@@ -1949,11 +1950,12 @@
         "vtx",
         "betafpv"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/betafpv/a02.txt",
-      "hash": "df1b48e965c267a8951e88c9e48f13cdd70e5567a5f4753a6dbb669331d5874d",
+      "hash": "f156b02b9d962fc2759a89d8d3ba5001757bcbf1c38a879119da7e121b039e9c",
       "title": "BetaFPV A02",
       "firmware_version": [
         "4.2",
@@ -1965,11 +1967,12 @@
         "vtx",
         "betafpv"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/betafpv/m01.txt",
-      "hash": "b1fa0e8c07721885f6e365239ecbf7cfee1f851ad977fec41eef77f9144778fc",
+      "hash": "2783d74dbf0ad968e395161dc21d6e6a4b1c7b9f5f25a1afc0e464a57f6bf5e7",
       "title": "BetaFPV M01",
       "firmware_version": [
         "4.2",
@@ -1981,11 +1984,12 @@
         "vtx",
         "betafpv"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/betafpv/m02.txt",
-      "hash": "5cbea262735081fe31a40c0fa38e2ae59657b1d8809dd5a5e6465ccc2b98f16b",
+      "hash": "2b178c5c9288d469e5b5e79cfac35fcd851f02e5921a3f0c5dfb97e57cbe21ee",
       "title": "BetaFPV M02",
       "firmware_version": [
         "4.2",
@@ -1997,11 +2001,12 @@
         "vtx",
         "betafpv"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/betafpv/m03.txt",
-      "hash": "b1ab2eab1556bb9729e9fd7038137ab35441a63c515be7573a51fc43224f7b64",
+      "hash": "beef693bd5697a21211c7b2810c037d52de44eefeaf372b05785786c08466fd9",
       "title": "BetaFPV M03",
       "firmware_version": [
         "4.2",
@@ -2013,11 +2018,12 @@
         "vtx",
         "betafpv"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/ewrf/7082vm.txt",
-      "hash": "2f31ae8aa90d59090417cfd5aa663932c4466761296ec9c444d3fe54c9c879c8",
+      "hash": "5c10547c2e51e63aa600aa7794e056b6d6b9622d67a3b5da3efabe4978fd98b8",
       "title": "EWRF 7082VM",
       "firmware_version": [
         "4.2",
@@ -2029,11 +2035,12 @@
         "vtx",
         "ewrf"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v1.txt",
-      "hash": "c5706d1f9bb7dd6ff0b0f134afdb9941e434de153c655456d6df29554908cd0d",
+      "hash": "dbd9a049e291612b204f635d3195387a058edfc1b88c9f0b9f2b8d46d9726c90",
       "title": "EWRF 7092TM Pro V1",
       "firmware_version": [
         "4.2",
@@ -2045,11 +2052,12 @@
         "vtx",
         "ewrf"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/ewrf/7092tm_pro_v2.txt",
-      "hash": "ad3c66b2db51c611ddf38af2fc7864b538b0bc8b33a62d47365c4d077f1a35fe",
+      "hash": "a307945734f48db370450130e4a2b50a7514f74e2d8c51df2eab1bb95749442c",
       "title": "EWRF 7092TM Pro V2",
       "firmware_version": [
         "4.2",
@@ -2061,11 +2069,29 @@
         "vtx",
         "ewrf"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/vtx/happymodel/diamond.txt",
+      "hash": "46b37d1a873971f3572ae4ea0945bc76cd3406c8ee97db6a81a0b688923e0697",
+      "title": "HappyModel Diamond",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "happymodel"
+      ],
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/happymodel/diamond_dvr.txt",
-      "hash": "2ff3c4bcce84c7a672ffa2683b48866cd9a9563fdae10dfdc6ad983294c7fa96",
+      "hash": "d2596943cae99c76290e4823e3f1305265e96b80c1a4319fa6be2a09b9c110cf",
       "title": "HappyModel Diamond DVR",
       "firmware_version": [
         "4.2",
@@ -2077,11 +2103,12 @@
         "vtx",
         "happymodel"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/happymodel/internal.txt",
-      "hash": "94d6ac5bbe9061bfc07ade3b468def93d5e686e26767f4c207288268c67602c8",
+      "hash": "34c6780802a68c2c91b3c03d3f7f74505068338adc74edcb71a95084bdf0cbb5",
       "title": "HappyModel Internal",
       "firmware_version": [
         "4.2",
@@ -2093,27 +2120,12 @@
         "vtx",
         "happymodel"
       ],
-      "author": "Whistler2008"
-    },
-    {
-      "fullPath": "presets/vtx/happymodel/whoop.txt",
-      "hash": "5afd9c3bb88e0418ae1f77c1de88780a0542d8097f0224dfd836da9e68325123",
-      "title": "HappyModel Whoop",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "VTX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "vtx",
-        "happymodel"
-      ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/iflight/succex_800.txt",
-      "hash": "e3c9354c6bfa9dde00b0ecba759b601e152b7fe56af051d39b338298f02f353c",
+      "hash": "ae8385524c6dce31d7244784cee129aff1bb34e083de63eb5ff7119a095d0c65",
       "title": "iFlight SucceX Force 800mW",
       "firmware_version": [
         "4.2",
@@ -2125,11 +2137,12 @@
         "vtx",
         "iflight"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_200.txt",
-      "hash": "acff37edf1f3c8411812e47cd9b546424bdc5b00f6e6229dbaa649ffe12943cf",
+      "hash": "9a8f4848a0717b176337c99fa592aed7bbb603991a0eca4c1f34b4ec52fab7c0",
       "title": "iFlight SucceX Micro 200mW",
       "firmware_version": [
         "4.2",
@@ -2141,11 +2154,12 @@
         "vtx",
         "iflight"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/iflight/succex_micro_300.txt",
-      "hash": "e89c07e4cb49e89517ccdfc0e5557827908246ca1763b765f0b0fc7d7c0dfd14",
+      "hash": "239a42e1c66a983112a67c66a047a6246e1596c01e6333265b3ebf58824389e3",
       "title": "iFlight SucceX Micro 300mW",
       "firmware_version": [
         "4.2",
@@ -2157,11 +2171,12 @@
         "vtx",
         "iflight"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_500.txt",
-      "hash": "595deaa76921b5e64ddf65d5c70810ef5450b34b84e40cb5ed5ba8771806d6ea",
+      "hash": "8a6b230b34d49b39d0108824ad2eec5b2b668bbf73e4d32f2d3553c3438c4703",
       "title": "iFlight SucceX Mini 500mW",
       "firmware_version": [
         "4.2",
@@ -2173,11 +2188,12 @@
         "vtx",
         "iflight"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/iflight/succex_mini_600.txt",
-      "hash": "48c089ec3b55c12c6e688d20fd5f4b7c928a1fc4aecc4b05a33f5f2bcfe435e5",
+      "hash": "4d1522544116fbb384b9219ae4d5d579dcd1c67426c20aba15c55103c7fc2e4a",
       "title": "iFlight SucceX Mini 600mW",
       "firmware_version": [
         "4.2",
@@ -2189,11 +2205,12 @@
         "vtx",
         "iflight"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/nameless/d400.txt",
-      "hash": "4f2ce3c3693025446d6d6edef94ba3a239ddda3b76519c5f5f4ce0d186e37884",
+      "hash": "4596d999600746b5ce63a32f22d86a72c3db95c5ed7053f63bafa435b8cdebde",
       "title": "NamelessRC D400",
       "firmware_version": [
         "4.2",
@@ -2205,11 +2222,12 @@
         "vtx",
         "nameless"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/nameless/nano400.txt",
-      "hash": "0e922f44caeeb192733c1db8e9829203fac89ab0a23147725f3219afbe552d5f",
+      "hash": "93497ee61911c875065b57fffe5703a271fed6d5d3539ebc85afa40997ddcc32",
       "title": "NamelessRC Nano400",
       "firmware_version": [
         "4.2",
@@ -2221,11 +2239,12 @@
         "vtx",
         "nameless"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/2.txt",
-      "hash": "099f7e4b0d17e0ccdc5369056ae9f751d0a5c0ccbe47f789f751451074ddddb3",
+      "hash": "7080bf630e659033763c690831884876ecd5f6d52be38e30ad38b19e90f6d0f8",
       "title": "Rush Tank II",
       "firmware_version": [
         "4.2",
@@ -2237,11 +2256,12 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/racing.txt",
-      "hash": "ffd5fcade2618f25f91e39f1d3f122e91068645c87d684a18b347cb697d967b8",
+      "hash": "44589c0cc75ef87678202f13f77da052a47b063a8ae3ad5f43eb4b6f16681fe0",
       "title": "Rush Tank Racing",
       "firmware_version": [
         "4.2",
@@ -2253,11 +2273,12 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/solo.txt",
-      "hash": "418fdaede2b3025dd74a7870686e5c0366f32737d6157dd3f053831e51111921",
+      "hash": "e3c98279a757b4a697e86ce7094172ae1a25b2cf254064ea052686e3fa7c26a3",
       "title": "Rush Tank Solo",
       "firmware_version": [
         "4.2",
@@ -2269,11 +2290,12 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/tiny.txt",
-      "hash": "060be82b7ed93edce5c5a60c9f7320b63f9f46dc06e0baae201f16ad61a595e9",
+      "hash": "e74a2cfe6dc9c305583d091f8bc944218fc1c020a093681d3c1fa47a24bca6bf",
       "title": "Rush Tiny Tank",
       "firmware_version": [
         "4.2",
@@ -2285,11 +2307,12 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_mini.txt",
-      "hash": "3a6a978a747c344feb1a3aed92882a6021ed7710d924455b02ae9936126cdeca",
+      "hash": "99b82084ad95c56a1a9a18b368cff94802f2f7cb3fbb7d087702aeee02ef3d62",
       "title": "Rush Tank Ultimate Mini",
       "firmware_version": [
         "4.2",
@@ -2301,12 +2324,13 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/rush/ultimate_plus.txt",
-      "hash": "11d8580f9b8341f0c3ba5ed58013a5d8d929767feebdb24fd74c0022b1549d99",
-      "title": "Rush Tank Ultimate +",
+      "hash": "67a1c09d6ad20ebf9f4b5e3a952ab3768432bb1c73e8ba46587af216d2afec09",
+      "title": "Rush Tank Ultimate Plus",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2317,11 +2341,12 @@
         "vtx",
         "rush"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_EVO_5G8_HV.txt",
-      "hash": "e1234fe2b0c0721bdb16cb7a290c8b7d52b5125a4b70d039533e498c63ab18c8",
+      "hash": "bc3128f58fcda7a9da85571cd45d9ab96579292f166c6860bab261fae7848dfa",
       "title": "TBS Unify EVO 5G8 (HV)",
       "firmware_version": [
         "4.2",
@@ -2333,11 +2358,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_HV.txt",
-      "hash": "780ba29db8fb3006ee64682f964a4ddc6dff4c74997e989b27e1b31ea70c84b6",
+      "hash": "9d672063ff9fdec0da6e931c8b6adce7fd2e2409b25517243142436499670123",
       "title": "TBS Unify Pro32 HV",
       "firmware_version": [
         "4.2",
@@ -2349,11 +2375,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro32_Nano.txt",
-      "hash": "ed19052ef6d1da75d30246fd364bc7ac79feaf2e52b5c9a818f0d23e8afe1260",
+      "hash": "c8564275fe37186dbd564fbb4edf127063d83265e77633e3952d971b2a105759",
       "title": "TBS Unify Pro32 Nano",
       "firmware_version": [
         "4.2",
@@ -2365,11 +2392,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_800mW.txt",
-      "hash": "ca40363edb866850475b4d72c2a2adc85e7059aff90825ba840582af88864d5e",
+      "hash": "af726e73dc965051d2d9fb227d97a6ad43d219fc184250178e9c870f0b165140",
       "title": "TBS Unify Pro HV 800mW",
       "firmware_version": [
         "4.2",
@@ -2381,11 +2409,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V1.txt",
-      "hash": "792c53b6aa50322f82eaf7a65ea058b8bf484853c5713e5503ab3232477cea72",
+      "hash": "310aa60ee2cb96682021cacaf2594b7aab17867cfa32e5bc69275dfea3b4fe97",
       "title": "TBS Unify Pro HV Race V1",
       "firmware_version": [
         "4.2",
@@ -2397,11 +2426,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_HV_Race_V2.txt",
-      "hash": "c37aa74e3565f73ee7781e6d306a89d5056a26d80037f3fc7e3ba96d6b7f41d0",
+      "hash": "68450e107174a72f8952b3dc0dd2e0817174f598107f35e349ab998db7c4c852",
       "title": "TBS Unify Pro HV Race V2",
       "firmware_version": [
         "4.2",
@@ -2413,11 +2443,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_Nano_lite.txt",
-      "hash": "890a69411085e070d6de2e530a263f0347c9078eeb5551e0e58b8b09bc820fb3",
+      "hash": "ecb34bab971166462a25b17f93a479606f4e7798ad35929eb2cbd91a8667efc7",
       "title": "TBS Unify Pro Nano Lite",
       "firmware_version": [
         "4.2",
@@ -2429,11 +2460,12 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     },
     {
       "fullPath": "presets/vtx/tbs/Unify_Pro_V3.txt",
-      "hash": "ab79d18132cdd54a8460124bf5ef7d6d2c5a91b23c12f1a60c8503d0129af784",
+      "hash": "088689dffa6325ebc1cc8f0da05447afd25e1f6a3617935874074a8b06457ee1",
       "title": "TBS Unify Pro V3 (5V)",
       "firmware_version": [
         "4.2",
@@ -2445,7 +2477,8 @@
         "vtx",
         "tbs"
       ],
-      "author": "Whistler2008"
+      "author": "Whistler2008",
+      "hidden": true
     }
   ]
 }

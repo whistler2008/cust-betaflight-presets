@@ -5,6 +5,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, default
 #$ DESCRIPTION: Default VTX settings
+#$ HIDDEN: true
 
 # vtxtable
 vtxtable bands 0

@@ -6,8 +6,7 @@
 #$ KEYWORDS: vtx, tbs
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: VTX table for TBS Unify Pro Nano Lite
-#$ INCLUDE: presets/vtx/0_default.txt
-#$ INCLUDE: presets/vtx/0_tbs.txt
+#$ HIDDEN: true
 
 # power_level
 vtxtable powerlevels 2
@@ -15,4 +14,4 @@ vtxtable powervalues 0 1
 vtxtable powerlabels 25 50
 
 # vtx setting
-set vtx_power = 2
+set vtx_power = 4

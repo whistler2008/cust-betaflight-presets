@@ -1,10 +1,11 @@
-#$ TITLE: Default Rush VTX settings
+#$ TITLE: Rush VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, rush
-#$ DESCRIPTION: Default Rush VTX settings
+#$ DESCRIPTION: Rush VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,28 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank II
+#$ INCLUDE: presets/vtx/rush/2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Racing
+#$ INCLUDE: presets/vtx/rush/racing.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo
+#$ INCLUDE: presets/vtx/rush/solo.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tiny Tank
+#$ INCLUDE: presets/vtx/rush/tiny.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Mini
+#$ INCLUDE: presets/vtx/rush/ultimate_mini.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Plus
+#$ INCLUDE: presets/vtx/rush/ultimate_plus.txt
+#$ OPTION END
+

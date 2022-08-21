@@ -1,10 +1,11 @@
-#$ TITLE: Default iFlight VTX settings
+#$ TITLE: iFlight VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, iflight
-#$ DESCRIPTION: Default iFlight VTX settings
+#$ DESCRIPTION: iFlight VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,24 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 800mW
+#$ INCLUDE: presets/vtx/iflight/succex_800.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 200mW
+#$ INCLUDE: presets/vtx/iflight/succex_micro_200.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 300mW
+#$ INCLUDE: presets/vtx/iflight/succex_micro_300.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 500mW
+#$ INCLUDE: presets/vtx/iflight/succex_mini_500.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 600mW
+#$ INCLUDE: presets/vtx/iflight/succex_mini_600.txt
+#$ OPTION END
+

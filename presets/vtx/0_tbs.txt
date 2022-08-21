@@ -1,10 +1,11 @@
-#$ TITLE: Default TBS VTX settings
+#$ TITLE: TBS VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, tbs
-#$ DESCRIPTION: Default TBS VTX settings
+#$ DESCRIPTION: TBS VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,36 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify EVO 5G8 (HV)
+#$ INCLUDE: presets/vtx/tbs/Unify_EVO_5G8_HV.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV 800mW
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_800mW.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V1
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_Race_V1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V2
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_Race_V2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro Nano Lite
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro_Nano_lite.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro V3 (5V)
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro_V3.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 HV
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro32_HV.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 Nano
+#$ INCLUDE: presets/vtx/tbs/Unify_Pro32_Nano.txt
+#$ OPTION END
+

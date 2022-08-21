@@ -1,10 +1,11 @@
-#$ TITLE: Default EWRF VTX settings
+#$ TITLE: EWRF VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, ewrf
-#$ DESCRIPTION: Default EWRF VTX settings
+#$ DESCRIPTION: EWRF VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,16 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): EWRF 7082VM 200mW
+#$ INCLUDE: presets/vtx/ewrf/7082vm.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): EWRF 7092TM Pro V1 500mW
+#$ INCLUDE: presets/vtx/ewrf/7092tm_pro_v1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): EWRF 7092TM Pro V2 500mW
+#$ INCLUDE: presets/vtx/ewrf/7092tm_pro_v2.txt
+#$ OPTION END
+

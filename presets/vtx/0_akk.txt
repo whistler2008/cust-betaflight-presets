@@ -1,4 +1,4 @@
-#$ TITLE: AKK VTX settings
+#$ TITLE: AKK VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: VTX
@@ -23,63 +23,63 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 800mW
 #$ INCLUDE: presets/vtx/akk/fx2.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator 2000mW
 #$ INCLUDE: presets/vtx/akk/fx2_dominator.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate 1200mW
 #$ INCLUDE: presets/vtx/akk/fx2_ultimate.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 600mW
 #$ INCLUDE: presets/vtx/akk/fx3.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate 600mW
 #$ INCLUDE: presets/vtx/akk/fx3_ultimate.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR 1000mW
 #$ INCLUDE: presets/vtx/akk/fx3_ultimate_dvr.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX5
+#$ OPTION BEGIN (UNCHECKED): AKK FX5 200mW
 #$ INCLUDE: presets/vtx/akk/fx5.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR
+#$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR 1000mW
 #$ INCLUDE: presets/vtx/akk/infinite_dvr.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Nano 3
+#$ OPTION BEGIN (UNCHECKED): AKK Nano 3 200mW
 #$ INCLUDE: presets/vtx/akk/nano3.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK New Era
+#$ OPTION BEGIN (UNCHECKED): AKK New Era 400mW
 #$ INCLUDE: presets/vtx/akk/new_era.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack
+#$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack 200mW
 #$ INCLUDE: presets/vtx/akk/oscar_backpack.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Race
+#$ OPTION BEGIN (UNCHECKED): AKK Race 200mW
 #$ INCLUDE: presets/vtx/akk/race.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Race Ranger
+#$ OPTION BEGIN (UNCHECKED): AKK Race Ranger 1000mW
 #$ INCLUDE: presets/vtx/akk/race_ranger.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK X5
+#$ OPTION BEGIN (UNCHECKED): AKK X5 200mW
 #$ INCLUDE: presets/vtx/akk/x5.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK X5 Pro
+#$ OPTION BEGIN (UNCHECKED): AKK X5 Pro 200mW
 #$ INCLUDE: presets/vtx/akk/x5_pro.txt
 #$ OPTION END
 

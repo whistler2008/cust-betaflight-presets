@@ -6,8 +6,7 @@
 #$ KEYWORDS: vtx, nameless
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: VTX table for NamelessRC D400
-#$ INCLUDE: presets/vtx/0_default.txt
-#$ INCLUDE: presets/vtx/0_nameless.txt
+#$ HIDDEN: true
 
 # power_level
 vtxtable powerlevels 6
@@ -15,4 +14,4 @@ vtxtable powervalues 25 100 200 400 513 515
 vtxtable powerlabels 25 100 200 400 ON OFF
 
 # vtx setting
-set vtx_power = 2
+set vtx_power = 4

@@ -1,10 +1,11 @@
-#$ TITLE: Default NamelessRC VTX settings
+#$ TITLE: NamelessRC VTX
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, default
-#$ DESCRIPTION: Default NamelessRC VTX settings
+#$ DESCRIPTION: NamelessRC VTX settings
+#$ INCLUDE: presets/vtx/0_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -21,3 +22,12 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+
+#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR
+#$ INCLUDE: presets/vtx/nameless/d400.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400
+#$ INCLUDE: presets/vtx/nameless/nano400.txt
+#$ OPTION END
+
