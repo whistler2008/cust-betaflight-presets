@@ -8,6 +8,7 @@
 profile 1
 
 # profile 1
+set profile_name = 4S
 set iterm_relax_cutoff = 15
 set anti_gravity_gain = 5000
 set p_pitch = 56

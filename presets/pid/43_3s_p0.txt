@@ -8,6 +8,7 @@
 profile 0
 
 # profile 0
+set profile_name = 3S
 set vbat_sag_compensation = 100
 set iterm_relax_cutoff = 15
 set anti_gravity_gain = 4000

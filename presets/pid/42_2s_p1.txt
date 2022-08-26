@@ -8,6 +8,7 @@
 profile 1
 
 # profile 1
+set profile_name = 2S
 set vbat_sag_compensation = 100
 set p_pitch = 74
 set i_pitch = 144

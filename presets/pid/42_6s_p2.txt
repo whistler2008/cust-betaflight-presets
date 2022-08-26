@@ -8,6 +8,7 @@
 profile 2
 
 # profile 2
+set profile_name = 6S
 set p_pitch = 46
 set i_pitch = 90
 set d_pitch = 32
