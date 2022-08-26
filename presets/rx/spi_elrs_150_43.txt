@@ -5,9 +5,6 @@
 #$ KEYWORDS: rx
 #$ DESCRIPTION: Setting for RX SPI ELRS 150
 
-feature RX_SERIAL
-set serialrx_provider = CRSF
-
 set expresslrs_uid = 67,127,47,177,211,57
 set expresslrs_rate_index = 2
 

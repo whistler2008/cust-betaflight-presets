@@ -23,7 +23,7 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify EVO 5G8 (HV)
+#$ OPTION BEGIN (UNCHECKED): TBS Unify EVO 5G8 (HV) 800mW
 #$ INCLUDE: presets/vtx/tbs/Unify_EVO_5G8_HV.txt
 #$ OPTION END
 
@@ -31,27 +31,27 @@ set vtx_pit_mode_freq = 5732
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_800mW.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V1
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V1 200mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_Race_V1.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V2
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV Race V2 800mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro_HV_Race_V2.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro Nano Lite
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro Nano Lite 50mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro_Nano_lite.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro V3 (5V)
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro V3 (5V) 800mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro_V3.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 HV
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 HV 1000mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro32_HV.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 Nano
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 Nano 500mW
 #$ INCLUDE: presets/vtx/tbs/Unify_Pro32_Nano.txt
 #$ OPTION END
 

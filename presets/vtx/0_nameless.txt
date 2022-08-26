@@ -23,11 +23,11 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
-#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR
+#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR 400mW
 #$ INCLUDE: presets/vtx/nameless/d400.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400
+#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400 400mW
 #$ INCLUDE: presets/vtx/nameless/nano400.txt
 #$ OPTION END
 

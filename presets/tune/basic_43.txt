@@ -210,18 +210,13 @@ profile 0
 #$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 50Hz
-#$ INCLUDE: presets/rx/elrs_50_43.txt
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/rx/spi_elrs_150_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF ELRS 150Hz
 #$ INCLUDE: presets/rx/elrs_150_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 250Hz
-#$ INCLUDE: presets/rx/elrs_250_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 

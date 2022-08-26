@@ -23,27 +23,27 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank II
+#$ OPTION BEGIN (UNCHECKED): Rush Tank II 800mW
 #$ INCLUDE: presets/vtx/rush/2.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank Racing
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Racing 500mW
 #$ INCLUDE: presets/vtx/rush/racing.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo 1000mW
 #$ INCLUDE: presets/vtx/rush/solo.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tiny Tank
+#$ OPTION BEGIN (UNCHECKED): Rush Tiny Tank 350mW
 #$ INCLUDE: presets/vtx/rush/tiny.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Mini
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Mini 800mW
 #$ INCLUDE: presets/vtx/rush/ultimate_mini.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Plus
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Plus 800mW
 #$ INCLUDE: presets/vtx/rush/ultimate_plus.txt
 #$ OPTION END
 

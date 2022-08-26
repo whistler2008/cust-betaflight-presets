@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: snapper, andang
 #$ DESCRIPTION: CLI for QUAD Diatone GT-249T (Agan Andang Crist)
+#$ HIDDEN: true
 
 # feature
 feature -AIRMODE

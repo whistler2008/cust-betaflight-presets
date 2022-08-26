@@ -200,15 +200,11 @@ set name = PRE-TUNED
 #$ INCLUDE: presets/osd/osd_42_rssi_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 50Hz
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF ELRS 150Hz
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 250Hz
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 

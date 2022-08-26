@@ -1104,7 +1104,7 @@
     },
     {
       "fullPath": "presets/quad/bnf_diatone_gt_249t_andang.txt",
-      "hash": "638d4623477d77be1ab61a696d41e709cf9032b615e479b45060da10eac6c540",
+      "hash": "7019f317da49e670e8ba59f4793c64e691498cd556794457515b96ad3166e5be",
       "title": "QUAD Diatone GT-249T (Agan Andang Crist)",
       "firmware_version": [
         "4.3"
@@ -1115,11 +1115,12 @@
         "snapper",
         "andang"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/quad/bnf_snapper8_andang.txt",
-      "hash": "b80044b6c8ec22658978816626aa0e11dc4c656d960f919951cfe6ec112bc545",
+      "hash": "843d7a8d0fce43df91e6c945f65add9a19d5d3d4e819ca6f19ac7f6185305c3e",
       "title": "QUAD Snapper 8 (Agan Andang Crist)",
       "firmware_version": [
         "4.3"
@@ -1130,6 +1131,7 @@
         "snapper",
         "andang"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
@@ -1320,21 +1322,8 @@
       ]
     },
     {
-      "fullPath": "presets/rx/spi_elrs.txt",
-      "hash": "42d4e63beb74ff3e33d5d09b812d9ad516c298b2b567f3b769c234b5a1b442a9",
-      "title": "RX SPI SBUS / IBUS",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ]
-    },
-    {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "731bbc451a45330d547dd31ea3bfb8f8ccd19b32db84235e751203ded2102b19",
+      "hash": "fea3b654737ab792ac4be8dea36b53bcf8fd8cf63057ed6768e2115ea6c51e1d",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.3"
@@ -1570,7 +1559,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "e216d72f3088fba45135df0fd4e8e8acf84c198756af41e6d5bdab18801470a0",
+      "hash": "0ec8cebb2e607e60249e62727db1ce3b2d7c0cefa1241761cfeaab33ef545957",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1585,7 +1574,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "2f54ce02f3a302c18cf323b825dbdabc1c40f8e0c620770340e1cf561f13ec0b",
+      "hash": "0c7f32b960c7f9908fa620673a01e46508cc2c7f87269661c725bc072d3c30e8",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -1811,7 +1800,7 @@
     },
     {
       "fullPath": "presets/vtx/0_nameless.txt",
-      "hash": "f33f7d09c9f96e822b19a9ab7f8ce7c828b218d135b39f63f0a870ccfe980453",
+      "hash": "c73b13de230e7e59a5ea00a1873df33761f3cd4b5b8e851ab0a79271abb3a17e",
       "title": "NamelessRC VTX",
       "firmware_version": [
         "4.2",
@@ -1841,7 +1830,7 @@
     },
     {
       "fullPath": "presets/vtx/0_rush.txt",
-      "hash": "80b6854ff57daa0c0ab8e253ee979053ed0938c8a24f8cdb4cda8ced0498fadf",
+      "hash": "f36acb242e097f02a0fc886341c6d0e2ac468ba1e2a8ad6f87af7931e3477337",
       "title": "Rush VTX",
       "firmware_version": [
         "4.2",
@@ -1856,7 +1845,7 @@
     },
     {
       "fullPath": "presets/vtx/0_tbs.txt",
-      "hash": "a0f28eea7c59d4d084a776eb42652bb2774e20dfe9a79c3d0d28462068aa866b",
+      "hash": "4de6ee767822e411c97fd085742619788c342b3b211224fd573b9df3f70d8801",
       "title": "TBS VTX",
       "firmware_version": [
         "4.2",
