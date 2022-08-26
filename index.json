@@ -654,7 +654,7 @@
     },
     {
       "fullPath": "presets/pid/42_1s_p0.txt",
-      "hash": "47ef020de44fed4477101f9297924efbc3de941994dd4294a5252173f5968f47",
+      "hash": "9fd7ef1fdd8f4591e4228c724926b4f5e4b65f380cc741225f2482ee8aee01e9",
       "title": "Default 1S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -664,11 +664,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_1s_p1.txt",
-      "hash": "754aa23f1f8c4d0dae336a1bde14f8298be6fe18a7ae4523474693e04037e09c",
+      "hash": "ca19f9023043117aacb35b9dce65c0d21dda56f0a8f763a0f21698a4741992c8",
       "title": "Default 1S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -678,11 +679,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_1s_p2.txt",
-      "hash": "26840d565c6c5bca8d665fc4ef87c91fb180eaa5cf94a5f3ec4f8a1bdf65e07c",
+      "hash": "d7369b1ff67cbd3bf396444d0c7c73f5db6c78625c8fcf20780be0a95ff70cb6",
       "title": "Default 1S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -692,11 +694,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p0.txt",
-      "hash": "f7a2c92b5eb83a8e173718dac979a644538a11701f39dc5649d36d63559246a6",
+      "hash": "4eb4ebe4af405eca3cc9f880ddd9b9af3d796903dd66a8bc8b5a121fb45d0c01",
       "title": "Default 2S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -706,11 +709,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p1.txt",
-      "hash": "71ca2318d5458c6b111e38ed91d037db6eb4b64fdb48aa9baae8a71dcabbd6b4",
+      "hash": "f467da2a35b29257b39b91d3d5f3284b1a49c4385b0c9f5ff5cb60ef592826dd",
       "title": "Default 2S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -720,11 +724,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p2.txt",
-      "hash": "bc95898d7a3eee5d6171f64384f25f46b270fc789b1dd96dc406634ffce5d2d2",
+      "hash": "56561faccd8924a30a818904054191cfdbba3ab1d5b5fbd46b79a9ae81627b7e",
       "title": "Default 2S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -734,11 +739,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p0.txt",
-      "hash": "1b12312455901b24bad6cd0a3245c81d5440fd56ba0a449b737e1baed4335a42",
+      "hash": "16cb68f863243032c9ce3fa3bfcdfd6269fe639384e57920f1ea41f313cb5b9c",
       "title": "Default 3S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -748,11 +754,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p1.txt",
-      "hash": "3d6aee3114d3ed858393f01ab92929f87ab47fc76cdda8bb2e4f3a559d083351",
+      "hash": "48bee5151ca594d8488594a3fd3b175a60f4b3d7142840982f15743795683265",
       "title": "Default 3S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -762,11 +769,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p2.txt",
-      "hash": "a3d29f1c50584fc8dde06ad5cfd43bd1550f0e99496584d35a4efb093b9f6973",
+      "hash": "eacf2d318d609c9e756ad1b34c764f3c9af3245ddf13491f9605f2951859c91f",
       "title": "Default 3S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -776,11 +784,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p0.txt",
-      "hash": "2b57a609bac337e5422b90c4518cd889cb712606e7dd90d8066772cb4ee7b992",
+      "hash": "a06a2afd6f75679c81a2aa6e98fa34a6da4f37320e445a60845da37984928761",
       "title": "Default 4S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -790,11 +799,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p1.txt",
-      "hash": "130a31330ffced07d55d3c0678602cec0dc426859d8c4e25d4862c8879062706",
+      "hash": "0d47f74c8a1efd7fa2f3fea811b3c40255b6450d9980d36b8a3e423049b2f618",
       "title": "Default 4S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -804,11 +814,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p2.txt",
-      "hash": "6d5dd1e72e07ee476d3e616d4f10c92c1ef00e16752dcf4630a236ff1395eb41",
+      "hash": "53a38b83da1fa4a2a3a1e1899fc2fe0ab52423ce54599a8bec7712490493cf4b",
       "title": "Default 4S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -818,11 +829,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p0.txt",
-      "hash": "b3bb684169d829f8f61398c825d19b5ac9a49b65c979bd73b3a6e79738f84e06",
+      "hash": "5b3572cd90195519946c1b833b0c2cb529418e579c60e972845bcb68f3144510",
       "title": "Default 6S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -832,11 +844,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p1.txt",
-      "hash": "856183991090790d3920cde525df4bd7ff3d53b4365cd16adb6f1dc82db50b6d",
+      "hash": "817a0d9691cdc52e5e0a1b462f3c41257c58fe335c29fe85cd03983e591cba48",
       "title": "Default 6S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -846,11 +859,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p2.txt",
-      "hash": "6e58b2a8ca57181347b0cb11f210b6ec1c654b02f0fe879cf29baaceec2ad9c6",
+      "hash": "94c23114131d5696a2bf06b923698913bb1bc7153a1a5dfb132d5e55e3dc237a",
       "title": "Default 6S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -860,11 +874,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p0.txt",
-      "hash": "cadd37afef0abf2220456a956233ef51ea0dee12c1df10098908e54f626fbce9",
+      "hash": "735e1aa0c462c03e2745d905c3802dec41218c16636caf0fe8054eb2d93b84f0",
       "title": "Default 1S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -874,11 +889,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p1.txt",
-      "hash": "220e683e19cc87f9f6ff21eaf3acb473e12b5bac11321bf683ddfb90447c037c",
+      "hash": "47cebff678d559e30f77877584c5f78b2bc60d2dbf3c2ed2d413770972b75c92",
       "title": "Default 1S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -888,11 +904,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p2.txt",
-      "hash": "b3b7ed47aad07c6052bb1b05ed3ab8c3f13da7b20c738401092218a8c151e3de",
+      "hash": "43bd744ae08dd448ea177d3d8297fa65520130301edd6beeddb54394a81d61bf",
       "title": "Default 1S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -902,11 +919,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p0.txt",
-      "hash": "db43d4656187e72c3229b238544b97ad55ae5c176f6b56af958f24ee020fde6d",
+      "hash": "d8f48201200598c02b74d4a56c7ba3329b5848d59c2861c34f461bd5a6553a3b",
       "title": "Default 2S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -916,11 +934,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p1.txt",
-      "hash": "123e8a1185bee3f0217067eacc877dbe535cd3789c182c92dd2b0b75ffe3fc3f",
+      "hash": "8e6d6b881b6b1c7548729062722003d25924efb8bfa5ca1eb732c642a4864ac2",
       "title": "Default 2S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -930,11 +949,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p2.txt",
-      "hash": "6373dcd6ac41b2d87f2fcfa9befa0dd9b5e8186bea6c4e1978bba6db08214814",
+      "hash": "cd26c174d724eef7d0eceff35302293fe1a3ad4930862a19006984b41b4021dc",
       "title": "Default 2S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -944,11 +964,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p0.txt",
-      "hash": "838bf9a48cebbdae9c83ce06d39a56ddc77238baecf0ae0871f5e158bbf4fc75",
+      "hash": "b3681dfa43a0d1c62bcc3eb584dcce7d406af6c95bf23aeb7a7f485119ffd146",
       "title": "Default 3S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -958,11 +979,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p1.txt",
-      "hash": "2e3a72e6596279df20c985b46d3081373ee266624a6895ff1bd177abe65b5c1e",
+      "hash": "62602d7f50b2dd89aa5aaf970a4fd2072ea00edf93124818d6e5e3886c3e6842",
       "title": "Default 3S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -972,11 +994,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p2.txt",
-      "hash": "ca7de55e4a5def947f08e7f94e873055dd94d35becc9d72dbcb725775d8025a6",
+      "hash": "739a841b4e35492f3dc327f10953d32c7b25fa3422c676a888fd5ddde4c1b383",
       "title": "Default 3S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -986,11 +1009,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p0.txt",
-      "hash": "af5967c41437ef15918e82c8c8a9b0c0a1c6eb50edc4ab77b9f4d203622ebe70",
+      "hash": "265d57cdf6cbe5db23617d0755dad2e828080f604e473279513db057ab237611",
       "title": "Default 4S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1000,11 +1024,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p1.txt",
-      "hash": "4e53e0d294de69a10e8365aae6de888db9972914f95f36e206940f56fd4270d2",
+      "hash": "9bbf3be0d46187d311122dbd7adb9bce8adccaeb244148501b72bcf6542cf0b6",
       "title": "Default 4S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1014,11 +1039,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p2.txt",
-      "hash": "6d9d506a51b6c81f4c8ee061daea9b0cb3eaea89ca4cde5f4a3557a888dfd289",
+      "hash": "106058fb14dbff9b1701cdb4abcb4bc937b584152ab4d29e595d0fd0974619c9",
       "title": "Default 4S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1028,11 +1054,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p0.txt",
-      "hash": "5fdf3892484a591036fbea50c4ca7688e8fb18ce3be64a70d223ce23c6ee5035",
+      "hash": "996938bda523bd648f2a3c9dda3afcc06fe98cc6c87f0327c7e7af955d9bb009",
       "title": "Default 6S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1042,11 +1069,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p1.txt",
-      "hash": "7dab1012f376d8531d4c270ce27d1cf298302b6b41960749d5f77fdaf0075d09",
+      "hash": "6a0ce82c7d6016d841685d842ca09e8bac09039a08c2e4bc02e04b7b9858c2b5",
       "title": "Default 6S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1056,11 +1084,12 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p2.txt",
-      "hash": "566e772fda8213b4faba1a888b82268860bc305134c9cafbc26f177a9be79c36",
+      "hash": "79cdfe00d669b2021a61d8f3df2fb54233e396f1bb3f2a4d0b4600dc3836e538",
       "title": "Default 6S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -1070,6 +1099,7 @@
       "keywords": [
         "pid"
       ],
+      "hidden": true,
       "priority": 0
     },
     {

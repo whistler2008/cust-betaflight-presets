@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
 #$ DESCRIPTION: Default 2S in Profile 2 (Betaflight 4.2)
+#$ HIDDEN: true
 
 profile 2
 

@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
 #$ DESCRIPTION: Default 1S in Profile 1 (Betaflight 4.3)
+#$ HIDDEN: true
 
 profile 1
 
