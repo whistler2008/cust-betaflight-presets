@@ -141,6 +141,7 @@
       "betafpv",
       "chipset",
       "default",
+      "eachine",
       "esc",
       "ewrf",
       "filter",
@@ -1754,6 +1755,21 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/vtx/0_eachine.txt",
+      "hash": "7d09c3a1cbf00985beae723542d49163d164ffffbe43c296d9347216a6b687f1",
+      "title": "Eachine VTX",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "default"
+      ]
+    },
+    {
       "fullPath": "presets/vtx/0_ewrf.txt",
       "hash": "3d1efdf0c373c207e30bad36822e10396f43a8899ef73bbd88dad3a4acc0b6ae",
       "title": "EWRF VTX",
@@ -2194,6 +2210,23 @@
       "keywords": [
         "vtx",
         "betafpv"
+      ],
+      "author": "Whistler2008",
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/vtx/eachine/tx805.txt",
+      "hash": "d65509d1d4f816e72f548f91ce985bc00caff1338cc9d2faf7cd7edc327a9ad7",
+      "title": "Eachine TX805",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "eachine"
       ],
       "author": "Whistler2008",
       "hidden": true
