@@ -217,6 +217,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/blackbox/0_gyroflow.txt",
+      "hash": "1db7df6171383e712939a4252b9d18b71d2297701ceb491ad0c58148b6d3a1b3",
+      "title": "Default BlackBox GyroFlow",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/blackbox/0_off.txt",
+      "hash": "12c39ccbcff108570959cc8f3341546852f31f314ee4493ae52afc69f63f4ffb",
+      "title": "Default BlackBox OFF",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/chipset/f4.txt",
       "hash": "b80df211f391e4c1ef9e442540067ccaf7dcb23e732f27ff216fad874bd3b605",
       "title": "Chipset F4",
@@ -1560,7 +1594,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "0ec8cebb2e607e60249e62727db1ce3b2d7c0cefa1241761cfeaab33ef545957",
+      "hash": "d6e5b058861c55576145f169a20e4297a43edbc807b0f90d0633fbe4adf5993a",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1575,7 +1609,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "0c7f32b960c7f9908fa620673a01e46508cc2c7f87269661c725bc072d3c30e8",
+      "hash": "872d98e9fe35a0acb36893afef053d5ce0e28c37d9531b35944cd4e16bc23904",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"

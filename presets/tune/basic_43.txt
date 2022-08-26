@@ -239,6 +239,18 @@ profile 0
 
 #$ OPTION_GROUP END
 
+#$ OPTION_GROUP BEGIN: BlackBox
+
+#$ OPTION BEGIN (UNCHECKED): OFF
+#$ INCLUDE: presets/blackbox/0_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GyroFlow
+#$ INCLUDE: presets/blackbox/0_gyroflow.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION BEGIN (UNCHECKED): LED
 #$ INCLUDE: presets/default/0_led.txt
 #$ OPTION END

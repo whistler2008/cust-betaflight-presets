@@ -1,0 +1,12 @@
+#$ TITLE: Default BlackBox OFF
+#$ FIRMWARE_VERSION: 4.0
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: default
+#$ DESCRIPTION: Default for  BlackBox OFF
+#$ HIDDEN: true
+
+# blackbox
+set blackbox_device = NONE
