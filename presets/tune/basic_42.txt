@@ -84,10 +84,6 @@ set name = PRE-TUNED
 #$ INCLUDE: presets/rpm_filter/off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 9 Pole
-#$ INCLUDE: presets/rpm_filter/9.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
 #$ OPTION END

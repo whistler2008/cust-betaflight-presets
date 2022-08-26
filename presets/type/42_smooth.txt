@@ -1,9 +1,10 @@
 #$ TITLE: Quad type SMOOTH (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: TYPE
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: type
 #$ DESCRIPTION:  Quad type SMOOTH (Betaflight 4.2)
+#$ HIDDEN: true
 
 set iterm_relax_cutoff = 10
 set rc_smoothing_auto_smoothness = 20

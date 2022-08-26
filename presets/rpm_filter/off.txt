@@ -1,10 +1,11 @@
 #$ TITLE: Default RPM Filter - OFF
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: RPM_FILTER
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rpm_filter
 #$ DESCRIPTION: Default RPM Filter - OFF
+#$ HIDDEN: true
 
 # rpm filter
 set yaw_motors_reversed = ON

@@ -1,6 +1,6 @@
 #$ TITLE: Default 3S Profile 0 (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: PID
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
 #$ DESCRIPTION: Default 3S in Profile 0 (Betaflight 4.3)

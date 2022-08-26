@@ -6,17 +6,6 @@
     "PresetCategories": {
       "QUAD": "QUAD",
       "TUNE": "TUNE",
-      "BATTERY": "BATTERY",
-      "CHIPSET": "CHIPSET",
-      "ESC": "ESC",
-      "FILTER": "FILTER",
-      "MODES": "MODES",
-      "OSD": "OSD",
-      "PID": "PID",
-      "RATE": "RATE",
-      "RPM_FILTER": "RPM_FILTER",
-      "SIZE": "SIZE",
-      "TYPE": "TYPE",
       "VTX": "VTX",
       "RX": "RX",
       "DEFAULT": "DEFAULT",
@@ -136,21 +125,10 @@
       "4.3"
     ],
     "category": [
-      "BATTERY",
-      "CHIPSET",
       "DEFAULT",
-      "ESC",
-      "FILTER",
-      "MODES",
-      "OSD",
-      "PID",
       "QUAD",
-      "RATE",
-      "RPM_FILTER",
       "RX",
-      "SIZE",
       "TUNE",
-      "TYPE",
       "VTX"
     ],
     "author": [
@@ -188,780 +166,911 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_30.txt",
-      "hash": "ee2d992153dd3340ddd7e95283ecab1e2e908661c28b61a0e3bd069a65bef1cb",
+      "hash": "31f569a5db14ae6ee7ab9eba434062c200989ef380ea6233b81cbd08e2c20fb4",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "BATTERY",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "battery"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "ed71072303fc9a66a9148e2c5d5712439c5abf73121f1830e72ab76c5dc15191",
+      "hash": "3ac0735c1728b91d57130e089d3f163bed58b1b9d4ba2b488eb07437b4307b4b",
       "title": "Battery 3.3V settings",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "BATTERY",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "battery"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "f226347dcfd6cf86a8d9e943964f747fcd217b60954a3bab2441c76b1961a173",
+      "hash": "3b66b4352fc1bb21005b0221c6ae2dd98c217b3d62b3f963eeaafdc170571324",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "BATTERY",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "battery"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f4.txt",
-      "hash": "1b93f1d2721d281b4451eb27ad2f48c1e1ac22ec5f2411a1c09b406208febdb3",
+      "hash": "b80df211f391e4c1ef9e442540067ccaf7dcb23e732f27ff216fad874bd3b605",
       "title": "Chipset F4",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "CHIPSET",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "chipset"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/chipset/f7.txt",
-      "hash": "7ec18f39acd75406605f86077c4af9860ad4bd9dd2598a206ad8a4302a91e10f",
+      "hash": "0687cd67874cf7bdc1029d5a22a5313adae3d88b385eb42abcb06d6cd8d61752",
       "title": "Chipset F7",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "CHIPSET",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "chipset"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/default/0_aux.txt",
+      "hash": "2d7d318a7e26a7c12a6e303473738926fdc549ff84f065d6615426f9fccf2e30",
+      "title": "Default AUX settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/default/0_beeper.txt",
-      "hash": "56dd3b5bd8b5c3c4d54a4609e5721dddaeca12e59031f4c1847df7c02707f90b",
+      "hash": "ecc0abf5aceca51151bf37957c5d26784488bd052224ee4db2bf4d864842078f",
       "title": "Default Beeper settings",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "default"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/default/0_led.txt",
-      "hash": "8023072a42208f33ec43bfa76c3eda4be3a2fb67b7330ed6cfa3087fdc1020b2",
+      "hash": "a35d023c6f3e41f285290cd9e76bbb846752cce973a1a826eb26e096218f3dd1",
       "title": "Default LED settings",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/default/0_osd_40.txt",
+      "hash": "6b9cedbf3f04d117b4cffba2cd2fce60bd17905ffcd3151af608d4e819668673",
+      "title": "Default OSD settings - 4.0 Earlier",
+      "firmware_version": [
+        "4.0"
+      ],
       "category": "DEFAULT",
       "status": "COMMUNITY",
       "keywords": [
         "default"
-      ]
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/default/0_osd_42.txt",
+      "hash": "474414557eb43dece82efee5934c0e73dc8ce6e005bd3c783b64394f19272bc4",
+      "title": "Default OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/default/0_other.txt",
-      "hash": "0c1dbb91efb35d82d95db506bcbfa55d45874739a014679506c7694b7fbef7a1",
+      "hash": "99ec08c57e1d23f198e96b6604b3cc83b6edba79f566174ff0bdd7c34219a5f2",
       "title": "Default Other Setting",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "DEFAULT",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "default"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/esc/24.txt",
-      "hash": "6f1205418891ea639f228ee7d9b358c39844636922fce4e9e11eeb40048a88e6",
+      "hash": "37ced867e605230dc3d1f72c84a2c99021306cad1856670552558a837e02a368",
       "title": "ESC PWM 24 kHz",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "ESC",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "esc"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/esc/48.txt",
-      "hash": "71e5de8ea7f9986ba90108eb25501dc0f939015533e604d2a41f1eb44118efa8",
+      "hash": "a255e63de75ee9dc643963a87a4acfd25788f546126985535c6c1b1eb3c6710e",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "ESC",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "esc"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/esc/96.txt",
-      "hash": "ae13cc2b14b394db2cbb8ba5ca749ee71ee2bb72f018201b1a28cf414bc7aca3",
+      "hash": "cdf9a0576986de28db4db683e9c8e5aedcaf4c7525abfcce23b87e5d24090ae7",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "ESC",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "esc"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",
-      "hash": "b3d537891e6a0a25b32d0b307748fefc0a817bc4bd010250174c3f5832f2a392",
+      "hash": "ed005069a3af85050e988449043da442d51d9fefd920143ccef86e8d71bff3fd",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_noisy.txt",
-      "hash": "e9a99640f496d02a16d65129b73a5084bf63f4289977f0045332d66bd08ad96d",
+      "hash": "8ea4baf9d38120d8bc7f1e821965a978e3efae52b598fe1e3b6af5be35a7acff",
       "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_no_rpm_normal.txt",
-      "hash": "d527df349e8db15feca676345383e5c0670ea557b048f1a9e5b6029e6d7fa7b9",
+      "hash": "ec3f77be1da54b65992d1008bcd603ef580ea8aba0b5af426f26582555870780",
       "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_clean.txt",
-      "hash": "8044e6ad74a2d258432468cb2fdb85a6fc1ab7ee2128ff206d10174ac1427e26",
+      "hash": "2bfad84b6eb880180393dbe3e14756fdfcc78723f3489c1de366e7658300f793",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_noisy.txt",
-      "hash": "71f03adda94cd3a2e5566c73e53504a6d43207b6bff027a2eabde809dcaa73e8",
+      "hash": "53a98aa7957b1432d0ceef2445feed0eb69236119a604eade650083a7505bcda",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/42_rpm_normal.txt",
-      "hash": "e454417c5f413b6e58781a33dd70679eea4525cdff81003f994e89a747ee59b9",
+      "hash": "16ea49e46566da8a00eda81c07c47c7eb2e606247be7fee21de979d367afc67e",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_clean.txt",
-      "hash": "15b68bd472bcc07d165c3f36e82bb78a83d5cc221391ca6501c3b963c7e001f6",
+      "hash": "0e04918235eea17e4586013fd08aa05eeebda430f9099b8fc9b5d118703aab97",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_noisy.txt",
-      "hash": "650515bfd458c1ea8e459695f3662d277f76484ba5c41b577a3c2140ceabbbca",
+      "hash": "b458a70c380d22cf205a2beb86477183874819e52d2bd1e75af326391b39edb5",
       "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_no_rpm_normal.txt",
-      "hash": "d873cace1fbfdea785fa26824432af6d79f299545911bf09477968d922b8cefb",
+      "hash": "86f6a260ac360bf32ee32b1f445db09ea2a159bf4b3df1c59439fb63b6374ad5",
       "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "6f1ed6ec767bf3700abd6d244b8c5a00fcd57b450a196b3af58db5452456142c",
+      "hash": "0a7703d3494bc47686335c59bb4e9189fc63e41ed1e4553691f03946c2095e54",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "1e3bc80b389e373b77f46d4229301fd421cc8d40be2a4c189d4066f6f0d7be70",
+      "hash": "a9e42d01c7c52e57a6ef7d5f7aa1647bc4bdd1442936867c160e4416d2288813",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "248795d306c2173574cd937f2a67f32c29b7341f3c57ff95544fadc014fae0fc",
+      "hash": "7e8c9b7287ba9979d4ae557d289d4a97d85a42e8ece487daacb59b061769fe9e",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/modes/0_aux_gps.txt",
-      "hash": "7a6019e9a8f28da7fdb6ad5acc1873ac25c46f19bd8eacedb5ffb3f39c276773",
+      "hash": "9a226830cec13790cd801e0ab2e9f994d7bdb513451d900912ddaa4d47001fbc",
       "title": "Default AUX with GPS Rescue",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "MODES",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "modes"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/modes/0_aux_std.txt",
-      "hash": "b50857aefd3582edbd50c51784961a3c923636a0a85be3b64cd6246ebcc45b30",
+      "hash": "6d92fa8c11110e104ea62675ca9ea36562388ae78c9969480d08d0b37b7cd2a0",
       "title": "Default AUX Standard",
       "firmware_version": [
         "4.0",
         "4.2",
         "4.3"
       ],
-      "category": "MODES",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "modes"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "200102825346cec8e6d855f0791b5f9aac0ea1bca143f8eb5752c12b4a0c4110",
+      "hash": "d0c5d0943d13eb989007220a03a5edba1aa6b7449dca072b275f1688e5eccf26",
       "title": "Default Standard OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
       ],
-      "category": "OSD",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "osd"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "ac39663ddffde4607b9bb9c8cdca5f7870688371aa31408aab790a55553b79ec",
+      "hash": "86eb0aa25a98d2c895ba5673acdb97c18daf199d02474fcfaeb640bef03ff9e2",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "OSD",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "osd"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "632158e2f5f391a07cbfcafb6886c2570ec51c38bc4bed855210bc69f1ab2fcb",
+      "hash": "3acf2b1ca28945b47303c2e2d7bf73a4d59149c7c06339862573308b777750cb",
       "title": "Default Standard RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "OSD",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "osd"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_1s_p0.txt",
-      "hash": "881c16088b63e5cb45a70cb717ee4d67352f7802bc3583ce7c5c8729caf67aa4",
+      "hash": "47ef020de44fed4477101f9297924efbc3de941994dd4294a5252173f5968f47",
       "title": "Default 1S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_1s_p1.txt",
-      "hash": "960c55f7c767dd5f151c3ff5f6928a8db62537348e265647c912452165841aa4",
+      "hash": "754aa23f1f8c4d0dae336a1bde14f8298be6fe18a7ae4523474693e04037e09c",
       "title": "Default 1S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_1s_p2.txt",
-      "hash": "0e581361525856d3eafe9763bb0b07bbd032cfc4307e8c1cd8f434e74af17edd",
+      "hash": "26840d565c6c5bca8d665fc4ef87c91fb180eaa5cf94a5f3ec4f8a1bdf65e07c",
       "title": "Default 1S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p0.txt",
-      "hash": "0b70012134bad534ee52946161e60319085ce2a9fdf8f24ba62e987c163cf9fe",
+      "hash": "f7a2c92b5eb83a8e173718dac979a644538a11701f39dc5649d36d63559246a6",
       "title": "Default 2S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p1.txt",
-      "hash": "f2276c87e0498e0a53a729b6d2e98c57f54d00a05395c6c49d53fd559ac8eace",
+      "hash": "71ca2318d5458c6b111e38ed91d037db6eb4b64fdb48aa9baae8a71dcabbd6b4",
       "title": "Default 2S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_2s_p2.txt",
-      "hash": "6da82310b98fd9319eead3eba37afcb52c0cc365535dd42075a95184e5e77994",
+      "hash": "bc95898d7a3eee5d6171f64384f25f46b270fc789b1dd96dc406634ffce5d2d2",
       "title": "Default 2S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p0.txt",
-      "hash": "2cfd2b3cf098b1d38c948a35442d2ac1cdfa71b1735b3730c0856a7409858d3f",
+      "hash": "1b12312455901b24bad6cd0a3245c81d5440fd56ba0a449b737e1baed4335a42",
       "title": "Default 3S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p1.txt",
-      "hash": "70c70afd617502442b0ac423ea62eaac1b4fe34cee7635ec9c7a02304891738c",
+      "hash": "3d6aee3114d3ed858393f01ab92929f87ab47fc76cdda8bb2e4f3a559d083351",
       "title": "Default 3S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_3s_p2.txt",
-      "hash": "501a85e301c9c36d7f4829eb73c163b37fe3a00eab0ff9d386a75e8322263095",
+      "hash": "a3d29f1c50584fc8dde06ad5cfd43bd1550f0e99496584d35a4efb093b9f6973",
       "title": "Default 3S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p0.txt",
-      "hash": "b59b3a0581624728baedc217b7d664409939a232e8df2c9fe3eca056c4a25c17",
+      "hash": "2b57a609bac337e5422b90c4518cd889cb712606e7dd90d8066772cb4ee7b992",
       "title": "Default 4S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p1.txt",
-      "hash": "8c2bd483b1a889f8d095b06bab7a96c8bd17c6e6ac94fdfba420172557b3012d",
+      "hash": "130a31330ffced07d55d3c0678602cec0dc426859d8c4e25d4862c8879062706",
       "title": "Default 4S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_4s_p2.txt",
-      "hash": "b960e5825a703648c321b23355d3e8391991b80eb8d6565faa47f10aaef71a39",
+      "hash": "6d5dd1e72e07ee476d3e616d4f10c92c1ef00e16752dcf4630a236ff1395eb41",
       "title": "Default 4S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p0.txt",
-      "hash": "67240fc1dcdabcdc934ec92dc76f029058a634f98bff6abeaa2a7036a3891012",
+      "hash": "b3bb684169d829f8f61398c825d19b5ac9a49b65c979bd73b3a6e79738f84e06",
       "title": "Default 6S Profile 0 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p1.txt",
-      "hash": "4bfeb7401b636aa39983e5ae123bf5086ee651b85d6ae17bf4a5f36821edd215",
+      "hash": "856183991090790d3920cde525df4bd7ff3d53b4365cd16adb6f1dc82db50b6d",
       "title": "Default 6S Profile 1 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/42_6s_p2.txt",
-      "hash": "446388665ae6f7fdc7c13208c0a2865045027f815b763898ece18d8e831e80ff",
+      "hash": "6e58b2a8ca57181347b0cb11f210b6ec1c654b02f0fe879cf29baaceec2ad9c6",
       "title": "Default 6S Profile 2 (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p0.txt",
-      "hash": "2856eab256b13d01596e538e87c79d8142bf385144236837112d6fc8ab16bc4f",
+      "hash": "cadd37afef0abf2220456a956233ef51ea0dee12c1df10098908e54f626fbce9",
       "title": "Default 1S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p1.txt",
-      "hash": "da7661f8ed1d881216abc1cd7ddad7154e85bfd27aa5f74b2670e76bf764ec4b",
+      "hash": "220e683e19cc87f9f6ff21eaf3acb473e12b5bac11321bf683ddfb90447c037c",
       "title": "Default 1S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_1s_p2.txt",
-      "hash": "55d21c54d5f74d0d48e75db7019b06b433da368d0e39539050c02f64f9d874b4",
+      "hash": "b3b7ed47aad07c6052bb1b05ed3ab8c3f13da7b20c738401092218a8c151e3de",
       "title": "Default 1S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p0.txt",
-      "hash": "0da315f3aa5bd3173dbe270c21b589f24656f6c8c6c6876834a089134855c215",
+      "hash": "db43d4656187e72c3229b238544b97ad55ae5c176f6b56af958f24ee020fde6d",
       "title": "Default 2S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p1.txt",
-      "hash": "a46f851dbd9f03db59b1d25509ae653f8184d8e84dad73c0c500199e570c3334",
+      "hash": "123e8a1185bee3f0217067eacc877dbe535cd3789c182c92dd2b0b75ffe3fc3f",
       "title": "Default 2S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_2s_p2.txt",
-      "hash": "b26d13354af82c19d33604b5ab13169c01fb321d6718052261b78e5c0bcc47c4",
+      "hash": "6373dcd6ac41b2d87f2fcfa9befa0dd9b5e8186bea6c4e1978bba6db08214814",
       "title": "Default 2S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p0.txt",
-      "hash": "f3aba1af6a2167ca398ad0c6b5f11c8b04f66434b16a7fefb0728635b1e20340",
+      "hash": "838bf9a48cebbdae9c83ce06d39a56ddc77238baecf0ae0871f5e158bbf4fc75",
       "title": "Default 3S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p1.txt",
-      "hash": "6e8fc74eba5f892d964a8a87603fdaa4a3bf9cdce4998dbbf91a214c75a306fa",
+      "hash": "2e3a72e6596279df20c985b46d3081373ee266624a6895ff1bd177abe65b5c1e",
       "title": "Default 3S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_3s_p2.txt",
-      "hash": "ed59e86abab0e8a440e6a5b8d0a6b4c36a9d523762476c7e742e88df50e94764",
+      "hash": "ca7de55e4a5def947f08e7f94e873055dd94d35becc9d72dbcb725775d8025a6",
       "title": "Default 3S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p0.txt",
-      "hash": "49022cfb2843e6b79555da8d74a92f8dd53ac32fac718e588a8b08e59a391d71",
+      "hash": "af5967c41437ef15918e82c8c8a9b0c0a1c6eb50edc4ab77b9f4d203622ebe70",
       "title": "Default 4S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p1.txt",
-      "hash": "988539029097268bf17ac46f7c800765ad1ac025f031b3f126268571f4362bdb",
+      "hash": "4e53e0d294de69a10e8365aae6de888db9972914f95f36e206940f56fd4270d2",
       "title": "Default 4S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_4s_p2.txt",
-      "hash": "37d4d2cd873aa6242b18c8efd87b546b93608b32aebe71f410825ad342f4ed2a",
+      "hash": "6d9d506a51b6c81f4c8ee061daea9b0cb3eaea89ca4cde5f4a3557a888dfd289",
       "title": "Default 4S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p0.txt",
-      "hash": "95a50023e1998dbaa7ff7b307eff1cec1f836d4178b4745fa133104adfde4799",
+      "hash": "5fdf3892484a591036fbea50c4ca7688e8fb18ce3be64a70d223ce23c6ee5035",
       "title": "Default 6S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p1.txt",
-      "hash": "cb6fb0f80fd876671a777165931da2b4912239f70eee1b43efb6fe67aab56133",
+      "hash": "7dab1012f376d8531d4c270ce27d1cf298302b6b41960749d5f77fdaf0075d09",
       "title": "Default 6S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/pid/43_6s_p2.txt",
-      "hash": "57eb74b6bd7ce59f8297d22f701fafd61a5281c4f835fb816f58f0a46fe3740e",
+      "hash": "566e772fda8213b4faba1a888b82268860bc305134c9cafbc26f177a9be79c36",
       "title": "Default 6S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "PID",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ]
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/quad/bnf_diatone_gt_249t_andang.txt",
@@ -995,100 +1104,111 @@
     },
     {
       "fullPath": "presets/rate/0_rate_cinematic.txt",
-      "hash": "4d83a457e8c770a9702169443437a1891cc8bb2fafbc462448cd5a86dc69375d",
+      "hash": "71628297968567dda8b5044dbdb21d63deb5657a9f3b5d9f78a26e0345027fb4",
       "title": "Cinematic Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RATE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rate"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/rate/0_rate_freestyle.txt",
-      "hash": "d965704436aea9799ce62fede176e5d074eb31112f339c8ad4c4312e2327e9c5",
+      "hash": "707277ae48a2ab64acc2b355c8c3b14532c9a05db444471c99c8b1919d86b02b",
       "title": "Freestyle Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RATE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rate"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/rate/0_rate_smooth.txt",
-      "hash": "f55fb58ce4c46ebb5015026edeb5a6d9b510f3995cab9daba7a982be94e54901",
+      "hash": "01bc1f7eac61af95a2a3e10c7c576ff60e5565d309ea37970fbe2cf90833acae",
       "title": "Smooth Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RATE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rate"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/12.txt",
-      "hash": "ce8397b00cde0d27e0df635854190610a8359dd2575018397d896beed9047904",
+      "hash": "b316417ee674025174968ab67643ba9975b05552bb17cb6ef59e8d788c83ed5a",
       "title": "Default RPM Filter - 12 Poles",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RPM_FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rpm_filter"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/14.txt",
-      "hash": "7711924a144e5cbf44041d577fb3ce7cbcc53af467fab9bc62b49eccd9cdd26f",
+      "hash": "45d2eb87ee2f7321848176478430734d5e9f92c041c79f26dae3ead47c487fb8",
       "title": "Default RPM Filter - 14 Poles",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RPM_FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rpm_filter"
-      ]
-    },
-    {
-      "fullPath": "presets/rpm_filter/9.txt",
-      "hash": "fed6af369911faf33caad56739b2376cc6dffa6ac6187705590c7a829d35ce8c",
-      "title": "Default RPM Filter - 9 Poles",
-      "firmware_version": [
-        "4.2",
-        "4.3"
       ],
-      "category": "RPM_FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm_filter"
-      ]
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/rpm_filter/off.txt",
-      "hash": "239145bb7c07342967ba2a4d6e35cd513f0555f2c9af41413182b74727d9d097",
+      "hash": "75e2109d5e6265a8c9fff26f253bcb8a38e6ee91ecb6302bd7d3fe7605db4996",
       "title": "Default RPM Filter - OFF",
       "firmware_version": [
         "4.2",
         "4.3"
       ],
-      "category": "RPM_FILTER",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "rpm_filter"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/rx/elrs_100_43.txt",
+      "hash": "928b279e91cabc3b85af67f17c94471b33515cba264f2350e7976236ddb04095",
+      "title": "RX Serial ELRS 100",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
       ]
     },
     {
@@ -1170,6 +1290,32 @@
       ]
     },
     {
+      "fullPath": "presets/rx/spi_elrs.txt",
+      "hash": "42d4e63beb74ff3e33d5d09b812d9ad516c298b2b567f3b769c234b5a1b442a9",
+      "title": "RX SPI SBUS / IBUS",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
+      "fullPath": "presets/rx/spi_elrs_150_43.txt",
+      "hash": "731bbc451a45330d547dd31ea3bfb8f8ccd19b32db84235e751203ded2102b19",
+      "title": "RX SPI ELRS 150",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ]
+    },
+    {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
       "hash": "42d4e63beb74ff3e33d5d09b812d9ad516c298b2b567f3b769c234b5a1b442a9",
       "title": "RX SPI SBUS / IBUS",
@@ -1184,189 +1330,217 @@
     },
     {
       "fullPath": "presets/size/42_16.txt",
-      "hash": "fb7565998ea7d689882f89c0473e58438a2640c87265dc91c2789ac823d16dbe",
+      "hash": "6333a6c3ff42c713e77851cf90408a0fa17660e39c7b6bf0228fe3b71117f148",
       "title": "1.6 Inch (Micro Whoop) (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_20.txt",
-      "hash": "672de109d328f5c2a64d190b7452432b232b86c4810a3efa8451931259524277",
+      "hash": "aa3057fbaf9290b20534feb73cb26c43efa2834e5fb82b339a68fc3cb94a4691",
       "title": "2 Inch (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_25.txt",
-      "hash": "e77913b260d797a1853d5f8ced8a6570852a61c6102c8e9928ff1cff7bd3b8cc",
+      "hash": "87aa4f3e7817ba8abe883deef4a902cf8d53e90a29129ca6c3026f14639036d5",
       "title": "2.5 Inch (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_30.txt",
-      "hash": "55a2c77e85ac26ea7cc22c86796a8317cca8d86986beca243abac704166c22b6",
+      "hash": "454e8580a974d78f62ff2528bba8e2ae1f70523edf1c365942178f76245dc7a7",
       "title": "3 Inch (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_35.txt",
-      "hash": "0c93cd63228037853ba2a5fbcdff02428c47b2cf203553b77d52cac526e83a7f",
+      "hash": "4a20dc3efc9ec8d3f76113e2cf22c696dd6002ca701d2239481eed2e42da7b46",
       "title": "3.5 Inch (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_40.txt",
-      "hash": "dfd4334ef1562b7fdefe4fe125175bc81be3dda9be3f0b0624d2235fd77ba16a",
+      "hash": "981ba80a4b24b258cdf87d0490dd4c7abbbc5020d5fbefd53bd7083c3a33bd73",
       "title": "4 Inch (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/42_50.txt",
-      "hash": "6b3c47ff9217429a970b206e8dfc3e9c2097ac0981df2e86a5cc483ab76219f3",
+      "hash": "224e658ce7b352c585905552deec143a22e4a6a3f43576dea620da3d9c081618",
       "title": "5 Inch Above (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_16.txt",
-      "hash": "9afd52066292c7e8f88689e3cd66889839c6d293639bb4ce0d68a4147305b076",
+      "hash": "1a8ebde8e8e68e564e8dcde17f7b771801cf0a62aa5386b1a647994081579a41",
       "title": "1.6 Inch (Micro Whoop) (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_20.txt",
-      "hash": "41735f8dd32ba30a7c7e8433ee3118a2bcc0e2be290cbf1b3ffa3f59c811914d",
+      "hash": "86ed4fd634028fb53a4e6631814c2a992e6cfe5689db27e8a9fa9efc4e2e9e22",
       "title": "2 Inch (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_25.txt",
-      "hash": "39b2bed532e0185370724ba0ba0b9ccb2a2a5a4bf7e9ee92a71c092fb9f2f285",
+      "hash": "cea92afee59558d38c8913f2f32702417f32fcb1c5e8f6476c4843b339371af7",
       "title": "2.5 Inch (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_30.txt",
-      "hash": "86172a0a41b8a4cde9c6092342da93df42aebe0f54f3ec128f7e48c977279e34",
+      "hash": "b9ee4c8061ca72603a5349e6f3c4a391a6aa2f744aade6b81df0af040b633eb9",
       "title": "3 Inch (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_35.txt",
-      "hash": "cc7d24dd94a251ca8a041336e11a727249777b2f369f9d30a492afe2a1c0ef0e",
+      "hash": "623c0f05fab8d211faefcdca4566df6995c6213e53b6673402e3df215cc1ec69",
       "title": "3.5 Inch (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_40.txt",
-      "hash": "ae80154bc32b3aa580b24789bcc377170b80b10b1018ec995f99324acf6832e3",
+      "hash": "2bd530e6171cc2329cd093ca41c7f8207f5e142c733b331afeabdb8af38131ae",
       "title": "4 Inch (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/size/43_50.txt",
-      "hash": "4128745579eae35e0eeb572b89476afd18a36a5c7dc17348955b0df1eaa268a9",
+      "hash": "413316c357e6e2fb82516f211eaa81ea4cf33269eeb716051264fe5d5be7d13d",
       "title": "5 Inch Above (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "SIZE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "size"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "cb6eaa96d582d5f22935d66622167197785d7986fe5122e3e2fa0c1d335a60ee",
+      "hash": "e216d72f3088fba45135df0fd4e8e8acf84c198756af41e6d5bdab18801470a0",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1381,7 +1555,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "b66c5774a9329f296d9bd483129b494d0a99bd3da1d364094d0b30dc032f764d",
+      "hash": "2f54ce02f3a302c18cf323b825dbdabc1c40f8e0c620770340e1cf561f13ec0b",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -1426,81 +1600,93 @@
     },
     {
       "fullPath": "presets/type/42_cinematic.txt",
-      "hash": "93aa7479b949a7c2ba54be6eddd3bb0218d456f2063e09dd47dcccb01a2052f9",
+      "hash": "8f5030b17b865ea68025e85c4c0704737c2f874422c857e28702edc408aa2bc0",
       "title": "Quad type CINEMATIC (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/type/42_freestyle.txt",
-      "hash": "88657468cb5055f2be5021a81f0b0f3d4c4cd94137e2725146aee7e9054ed074",
+      "hash": "4948f5ce7136c84cc39cee7d8c0b60882fb6fb2fa538bff24c7f688e9358131e",
       "title": "Quad type FREESTYLE (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/type/42_smooth.txt",
-      "hash": "2c28c11381258a2d4c614077508f7346a04e9448f50de7f801fef3b07714a3a0",
+      "hash": "44a889df45993fc241bc63d2eeae3e14d60fc3c0d7d25b737cd07ca5a3004bc0",
       "title": "Quad type SMOOTH (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_cinematic.txt",
-      "hash": "43d1515547b96f7b73d44ee0a73b92933e42ad89d5fcec9dda676c0d272f85e0",
+      "hash": "605010ed21bf504de02f0aacc20d60d620e97da4de4272aa91856cef98357360",
       "title": "Quad type CINEMATIC (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_freestyle.txt",
-      "hash": "592e6e55a792cb60ddd57f6bb81101c9fc2c2b4e7bceeaa0d6e6e3010372f79d",
+      "hash": "b057854a7a9bcbd99d5c470739a67860a829df6ca6ae8101efd504b7fb79389b",
       "title": "Quad type FREESTYLE (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/type/43_smooth.txt",
-      "hash": "4f78226cb7b5dceb1e2f5129bb608abeadff9c8626891593307dab2181dc554f",
+      "hash": "d5640ea6ff1aae557bec2e33dd1047d7d496688e5841f1eb716e37243a895da7",
       "title": "Quad type SMOOTH (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
-      "category": "TYPE",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "type"
-      ]
+      ],
+      "hidden": true,
+      "priority": 0
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",

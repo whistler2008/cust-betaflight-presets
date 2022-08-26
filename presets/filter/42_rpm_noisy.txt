@@ -1,9 +1,10 @@
 #$ TITLE: NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: FILTER
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: filter
 #$ DESCRIPTION:  Filter settings for NOISY MOTOR & NO RPM Filter (Betaflight 4.2)
+#$ HIDDEN: true
 
 # -- Gyro filters --
 set gyro_lowpass_hz = 0

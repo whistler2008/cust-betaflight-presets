@@ -1,10 +1,11 @@
 #$ TITLE: Freestyle Rate Profile
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: RATE
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rate
 #$ DESCRIPTION: Freestyle Rate Profile
+#$ HIDDEN: true
 
 # rateprofile 0
 rateprofile 0

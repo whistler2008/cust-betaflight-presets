@@ -1,9 +1,10 @@
 #$ TITLE: 2 Inch (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ CATEGORY: SIZE
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
 #$ DESCRIPTION: Default 2 Inch Size (Betaflight 4.2)
+#$ HIDDEN: true
 
 profile 0
 

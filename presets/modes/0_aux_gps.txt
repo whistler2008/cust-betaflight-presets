@@ -2,32 +2,12 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: MODES
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: modes
 #$ DESCRIPTION: Default for AUX with GPS Rescue
-
-# aux default
-aux 0 0 0 900 900 0 0
-aux 1 0 0 900 900 0 0
-aux 2 0 0 900 900 0 0
-aux 3 0 0 900 900 0 0
-aux 4 0 0 900 900 0 0
-aux 5 0 0 900 900 0 0
-aux 6 0 0 900 900 0 0
-aux 7 0 0 900 900 0 0
-aux 8 0 0 900 900 0 0
-aux 9 0 0 900 900 0 0
-aux 10 0 0 900 900 0 0
-aux 11 0 0 900 900 0 0
-aux 12 0 0 900 900 0 0
-aux 13 0 0 900 900 0 0
-aux 14 0 0 900 900 0 0
-aux 15 0 0 900 900 0 0
-aux 16 0 0 900 900 0 0
-aux 17 0 0 900 900 0 0
-aux 18 0 0 900 900 0 0
-aux 19 0 0 900 900 0 0
+#$ HIDDEN: true
+#$ INCLUDE: presets/default/0_aux.txt
 
 # aux
 aux 0 0 0 1550 2100 0 0

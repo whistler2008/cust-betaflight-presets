@@ -2,10 +2,11 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: BATTERY
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: battery
 #$ DESCRIPTION: Battery 3.3V settings
+#$ HIDDEN: true
 
 # battery
 set current_meter = ADC

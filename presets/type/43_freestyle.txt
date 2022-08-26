@@ -1,9 +1,10 @@
 #$ TITLE: Quad type FREESTYLE (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: TYPE
+#$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: type
 #$ DESCRIPTION:  Quad type FREESTYLE (Betaflight 4.3)
+#$ HIDDEN: true
 
 set rc_smoothing_auto_factor = 40
 set rc_smoothing_auto_factor_throttle = 30
