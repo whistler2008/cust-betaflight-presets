@@ -546,22 +546,8 @@
       ]
     },
     {
-      "fullPath": "presets/osd/osd_42_lq_min.txt",
-      "hash": "70429e2782f84591a143ad9b8d9eb84da2e8a044126886d4ccb60fac5491e091",
-      "title": "Default Minimalist LQ OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ]
-    },
-    {
       "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "709d4b15ef5d935205eb85bf97e99a06cddd04ecb8e1cbd13a40704f78e58c7b",
+      "hash": "ac39663ddffde4607b9bb9c8cdca5f7870688371aa31408aab790a55553b79ec",
       "title": "Default Standard LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -574,22 +560,8 @@
       ]
     },
     {
-      "fullPath": "presets/osd/osd_42_rssi_min.txt",
-      "hash": "3ed3d240f37f0fcd591e127df654311742f2889555ad95c6584e55b70711e029",
-      "title": "Default Minimalist RSSI OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ]
-    },
-    {
       "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "13e1683555744df3fc45c72c93790ea9a8c687277194319b9fb74a58403d8ccc",
+      "hash": "632158e2f5f391a07cbfcafb6886c2570ec51c38bc4bed855210bc69f1ab2fcb",
       "title": "Default Standard RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -1394,7 +1366,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "d9b19ab4979a95a85fa43727d63477ded19b6166bfcabb5fdefd646f9185a320",
+      "hash": "cb6eaa96d582d5f22935d66622167197785d7986fe5122e3e2fa0c1d335a60ee",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1409,7 +1381,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "90ede33b7b2eb96fdcc5808923bc769fe17d9ffa177f801fb3e559db50b31786",
+      "hash": "b66c5774a9329f296d9bd483129b494d0a99bd3da1d364094d0b30dc032f764d",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -1439,7 +1411,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "96789c951e70c5b7371dc1061fef64ecdebf75b929296bb39cb3ca184a493b61",
+      "hash": "0705d15e2e56849ce01ad04386b2a7edcdd9d0bd9ebe71ec5ffebaefe6d0e0e1",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
