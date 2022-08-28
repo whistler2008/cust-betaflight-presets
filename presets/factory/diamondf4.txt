@@ -5,7 +5,7 @@
 #$ CATEGORY: FACTORY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Custom factory setting for Happymodel DiamondF4
+#$ DESCRIPTION: Factory setting for Happymodel DiamondF4
 
 # resources
 resource MOTOR 1 B08
