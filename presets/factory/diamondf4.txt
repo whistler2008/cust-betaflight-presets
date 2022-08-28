@@ -1,0 +1,20 @@
+#$ TITLE: Happymodel DiamondF4
+#$ FIRMWARE_VERSION: 4.0
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FACTORY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: factory
+#$ DESCRIPTION: Custom factory setting for Happymodel DiamondF4
+
+# resources
+resource MOTOR 1 B08
+resource MOTOR 2 B07
+resource MOTOR 3 B06
+resource MOTOR 4 B10
+
+# serial
+serial 1 2048 115200 57600 0 115200
+
+# other
+set gyro_1_align_yaw = 2700

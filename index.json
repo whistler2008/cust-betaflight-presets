@@ -4,6 +4,7 @@
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
+      "FACTORY": "FACTORY",
       "QUAD": "QUAD",
       "TUNE": "TUNE",
       "VTX": "VTX",
@@ -126,6 +127,7 @@
     ],
     "category": [
       "DEFAULT",
+      "FACTORY",
       "QUAD",
       "RX",
       "TUNE",
@@ -144,6 +146,7 @@
       "eachine",
       "esc",
       "ewrf",
+      "factory",
       "filter",
       "happymodel",
       "iflight",
@@ -425,6 +428,21 @@
       ],
       "hidden": true,
       "priority": 0
+    },
+    {
+      "fullPath": "presets/factory/diamondf4.txt",
+      "hash": "3072d216d46445a34293a96bfdac0c810418dca37ed1bc7541b649af92d4e646",
+      "title": "Happymodel DiamondF4",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
     },
     {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",

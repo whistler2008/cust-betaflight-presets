@@ -17,6 +17,7 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
+    FACTORY:		"FACTORY",
     QUAD:			"QUAD",
     TUNE:			"TUNE",
     VTX:			"VTX",
