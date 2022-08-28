@@ -15,9 +15,6 @@ feature -AIRMODE
 set fpv_mix_degrees = 15
 set small_angle = 180
 
-# blackbox
-set blackbox_device = NONE
-
 # unlimit PID
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
