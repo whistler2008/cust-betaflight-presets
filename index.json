@@ -218,7 +218,7 @@
     },
     {
       "fullPath": "presets/blackbox/0_gyroflow.txt",
-      "hash": "1db7df6171383e712939a4252b9d18b71d2297701ceb491ad0c58148b6d3a1b3",
+      "hash": "7e4d7683e62f775152d1df4c320901f946ee7ae626f6dfa9923fca9f89da5888",
       "title": "Default BlackBox GyroFlow",
       "firmware_version": [
         "4.0",
