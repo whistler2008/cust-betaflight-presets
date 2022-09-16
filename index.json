@@ -1189,7 +1189,7 @@
     },
     {
       "fullPath": "presets/rate/0_rate_cinematic.txt",
-      "hash": "71628297968567dda8b5044dbdb21d63deb5657a9f3b5d9f78a26e0345027fb4",
+      "hash": "52614fced507503ca6b04f61c442dc5b1c31f69c7fc417bea41a4d7e4c7658f9",
       "title": "Cinematic Rate Profile",
       "firmware_version": [
         "4.2",
@@ -1205,7 +1205,7 @@
     },
     {
       "fullPath": "presets/rate/0_rate_freestyle.txt",
-      "hash": "707277ae48a2ab64acc2b355c8c3b14532c9a05db444471c99c8b1919d86b02b",
+      "hash": "e4c9302ea290a4b629e58a72a72c6f08562cf919518e3ae757656bb98a20892a",
       "title": "Freestyle Rate Profile",
       "firmware_version": [
         "4.2",
@@ -1221,7 +1221,7 @@
     },
     {
       "fullPath": "presets/rate/0_rate_smooth.txt",
-      "hash": "01bc1f7eac61af95a2a3e10c7c576ff60e5565d309ea37970fbe2cf90833acae",
+      "hash": "c0f2b1f220a36ba6d7b649ac0d849346a015d52a8947c8cfc472e069be7c4b3e",
       "title": "Smooth Rate Profile",
       "firmware_version": [
         "4.2",
