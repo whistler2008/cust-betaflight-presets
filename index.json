@@ -270,6 +270,19 @@
       ]
     },
     {
+      "fullPath": "presets/bnf/tri_mob_elrs.txt",
+      "hash": "87b6d3cb83c0ad87923b392ab0ad14a4fee207a00cd0ec7f7db09aa7e25aff34",
+      "title": "MicroWhoop Mobula6 ELRS Agan Tri",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ]
+    },
+    {
       "fullPath": "presets/chipset/f4.txt",
       "hash": "b80df211f391e4c1ef9e442540067ccaf7dcb23e732f27ff216fad874bd3b605",
       "title": "Chipset F4",
