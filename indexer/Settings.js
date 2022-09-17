@@ -17,6 +17,7 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
+    BNF:			"BNF",
     FACTORY:		"FACTORY",
     QUAD:			"QUAD",
     TUNE:			"TUNE",
