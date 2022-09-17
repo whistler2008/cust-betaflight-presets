@@ -258,7 +258,7 @@
     },
     {
       "fullPath": "presets/bnf/tri_flywoo.txt",
-      "hash": "9283615756e40bebd9266f0732e15323389b3a826179d3044fa1da64ab304e8d",
+      "hash": "109c86b9f9e7d3d9317bfdf9c4533fac887edbe4e701f71c6554d47b10bfa558",
       "title": "Toothpick Flywoo Agan Tri",
       "firmware_version": [
         "4.3"
@@ -267,8 +267,7 @@
       "status": "COMMUNITY",
       "keywords": [
         "bnf"
-      ],
-      "hidden": true
+      ]
     },
     {
       "fullPath": "presets/chipset/f4.txt",

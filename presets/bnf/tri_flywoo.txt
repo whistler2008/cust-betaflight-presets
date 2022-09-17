@@ -4,7 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf
 #$ DESCRIPTION: Toothpick Flywoo Agan Tri
-#$ HIDDEN: true
 
 # name: FLYWOO
 
