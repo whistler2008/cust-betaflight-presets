@@ -1217,9 +1217,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rate/0_rate_cinematic.txt",
-      "hash": "52614fced507503ca6b04f61c442dc5b1c31f69c7fc417bea41a4d7e4c7658f9",
-      "title": "Cinematic Rate Profile",
+      "fullPath": "presets/rate/bardwell.txt",
+      "hash": "72718699dfd708a3d952c6617508d0d494eb2cf8b8531b2e52938fea08bccd1b",
+      "title": "Joshua Bardwell Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1233,9 +1233,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rate/0_rate_freestyle.txt",
-      "hash": "e4c9302ea290a4b629e58a72a72c6f08562cf919518e3ae757656bb98a20892a",
-      "title": "Freestyle Rate Profile",
+      "fullPath": "presets/rate/spatz.txt",
+      "hash": "a30e3b4b05275afb12c8707b5bf296e7a103e35c8dda5fd9221132810a48e7fa",
+      "title": "Mark Spatz Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1249,9 +1249,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rate/0_rate_smooth.txt",
-      "hash": "c0f2b1f220a36ba6d7b649ac0d849346a015d52a8947c8cfc472e069be7c4b3e",
-      "title": "Smooth Rate Profile",
+      "fullPath": "presets/rate/vanover.txt",
+      "hash": "581a4be9e289feb2168110ee1ba352e9e40113267c4ca2dd9d66edaca2911157",
+      "title": "Vanover Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -1641,7 +1641,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "d6e5b058861c55576145f169a20e4297a43edbc807b0f90d0633fbe4adf5993a",
+      "hash": "0dab30695117112e211064d2099cf90d7f341de3267b326abc50ce4e2751a1c9",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1656,7 +1656,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "872d98e9fe35a0acb36893afef053d5ce0e28c37d9531b35944cd4e16bc23904",
+      "hash": "591b6b0a9ff75193fed3532dc3152d78cc30ebfb0dd083b340b7c8a611c13fde",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -1686,7 +1686,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "0705d15e2e56849ce01ad04386b2a7edcdd9d0bd9ebe71ec5ffebaefe6d0e0e1",
+      "hash": "a301d286eef7bf58f3affc2abc3a36b110cfe8cea121eb63d3c39c6e1a0eb0c1",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"

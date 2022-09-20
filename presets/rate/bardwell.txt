@@ -1,25 +1,25 @@
-#$ TITLE: Freestyle Rate Profile
+#$ TITLE: Joshua Bardwell Rate Profile
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rate
-#$ DESCRIPTION: Freestyle Rate Profile
+#$ DESCRIPTION: Joshua Bardwell Rate Profile
 #$ HIDDEN: true
 
 # rateprofile 0
 rateprofile 0
 
 set rates_type = ACTUAL
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
+set roll_rc_rate = 15
+set pitch_rc_rate = 15
 set yaw_rc_rate = 20
-set roll_expo = 45
-set pitch_expo = 45
-set yaw_expo = 45
-set roll_srate = 50
-set pitch_srate = 50
-set yaw_srate = 45
+set roll_expo = 76
+set pitch_expo = 76
+set yaw_expo = 64
+set roll_srate = 91
+set pitch_srate = 91
+set yaw_srate = 80
 
 # restore original rateprofile selection
 rateprofile 0

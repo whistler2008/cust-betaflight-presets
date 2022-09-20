@@ -8,7 +8,7 @@
 #$ INCLUDE: presets/default/0_led.txt
 #$ INCLUDE: presets/default/0_other.txt
 #$ INCLUDE: presets/battery/batt_33.txt
-#$ INCLUDE: presets/rate/0_rate_smooth.txt
+#$ INCLUDE: presets/rate/vanover.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
