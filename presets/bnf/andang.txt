@@ -5,6 +5,6 @@
 #$ KEYWORDS: bnf
 #$ DESCRIPTION: Agan Andang
 
-#$ OPTION BEGIN (UNCHECKED): Flywoo
+#$ OPTION BEGIN (UNCHECKED): AlfaRC
 #$ INCLUDE: presets/bnf/andang_alfarc.txt
 #$ OPTION END
