@@ -1,0 +1,10 @@
+#$ TITLE: Agan Andang
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: bnf
+#$ DESCRIPTION: Agan Andang
+
+#$ OPTION BEGIN (UNCHECKED): Flywoo
+#$ INCLUDE: presets/bnf/andang_alfarc.txt
+#$ OPTION END

@@ -257,9 +257,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/bnf/tri_flywoo.txt",
-      "hash": "109c86b9f9e7d3d9317bfdf9c4533fac887edbe4e701f71c6554d47b10bfa558",
-      "title": "Toothpick Flywoo Agan Tri",
+      "fullPath": "presets/bnf/andang.txt",
+      "hash": "2bfdad414de20a4de8cd2d57624c003dd264c0730a71722ad65992d139b94c27",
+      "title": "Agan Andang",
       "firmware_version": [
         "4.3"
       ],
@@ -270,9 +270,23 @@
       ]
     },
     {
-      "fullPath": "presets/bnf/tri_mob_elrs.txt",
-      "hash": "87b6d3cb83c0ad87923b392ab0ad14a4fee207a00cd0ec7f7db09aa7e25aff34",
-      "title": "MicroWhoop Mobula6 ELRS Agan Tri",
+      "fullPath": "presets/bnf/andang_alfarc.txt",
+      "hash": "9eb0a6ca6de86d977eddffd38954f9034a2af12cd33949484694e75558465a09",
+      "title": "AlfaRC Agan Andang",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/bnf/tri.txt",
+      "hash": "7bd0f6b24e82a0accc9cbb47db2632e9ae36ac22421ca08777ff1b8a43fbdb05",
+      "title": "Agan Tri",
       "firmware_version": [
         "4.3"
       ],
@@ -281,6 +295,34 @@
       "keywords": [
         "bnf"
       ]
+    },
+    {
+      "fullPath": "presets/bnf/tri_flywoo.txt",
+      "hash": "9283615756e40bebd9266f0732e15323389b3a826179d3044fa1da64ab304e8d",
+      "title": "Toothpick Flywoo Agan Tri",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/bnf/tri_mob_elrs.txt",
+      "hash": "838f224f8895d4cc0f4c56f7133c6ad8512d4140bc35d7dade9ab06854eb69e7",
+      "title": "MicroWhoop Mobula6 ELRS Agan Tri",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/chipset/f4.txt",

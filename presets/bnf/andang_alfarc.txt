@@ -1,27 +1,26 @@
-#$ TITLE: Toothpick Flywoo Agan Tri
+#$ TITLE: AlfaRC Agan Andang
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf
-#$ DESCRIPTION: Toothpick Flywoo Agan Tri
+#$ DESCRIPTION: AlfaRC Agan Andang
 #$ HIDDEN: true
 
-# name: FLYWOO
+# name: ALFA RC
 
 # resources
-resource MOTOR 1 B10
-resource MOTOR 2 A15
-resource MOTOR 3 A08
-resource MOTOR 4 B03
+resource LED_STRIP 1 NONE
+resource SERIAL_TX 11 A00
 
 # feature
 feature -RX_PARALLEL_PWM
 feature -AIRMODE
+feature -ESC_SENSOR
 feature TELEMETRY
 
 # serial
-serial 0 64 115200 57600 0 115200
-serial 1 2048 115200 57600 0 115200
+serial 0 0 115200 57600 0 115200
+serial 30 2048 115200 57600 0 115200
 
 # beeper
 beeper -RX_LOST
@@ -61,9 +60,9 @@ vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
 vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
 vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
 vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-vtxtable powerlevels 2
-vtxtable powervalues 0 1
-vtxtable powerlabels 25 200
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 27
+vtxtable powerlabels 25 200 500
 
 # master
 set gyro_lpf1_static_hz = 0
@@ -71,34 +70,28 @@ set dyn_notch_count = 2
 set dyn_notch_q = 450
 set dyn_notch_min_hz = 100
 set gyro_lpf1_dyn_min_hz = 0
-set acc_calibration = 57,140,20,1
+set acc_calibration = -79,-42,-365,1
+set mag_hardware = NONE
+set baro_hardware = NONE
 set rc_smoothing_auto_factor = 40
 set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
 set fpv_mix_degrees = 15
 set serialrx_provider = CRSF
-set blackbox_sample_rate = 1/16
-set blackbox_disable_pids = ON
-set blackbox_disable_rc = ON
-set blackbox_disable_setpoint = ON
-set blackbox_disable_bat = ON
-set blackbox_disable_mag = ON
-set blackbox_disable_alt = ON
-set blackbox_disable_rssi = ON
-set blackbox_disable_acc = ON
-set blackbox_disable_debug = ON
-set blackbox_disable_motors = ON
-set blackbox_disable_gps = ON
+set blackbox_device = NONE
 set dshot_idle_value = 600
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 12
-set failsafe_off_delay = 70
-set failsafe_throttle = 1200
+set failsafe_off_delay = 50
+set failsafe_throttle = 1100
 set failsafe_procedure = AUTO-LAND
+set align_board_yaw = 180
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 350
 set vbat_warning_cell_voltage = 375
+set current_meter = ADC
+set battery_meter = ADC
 set yaw_motors_reversed = ON
 set small_angle = 180
 set osd_warn_no_gps_rescue = OFF
@@ -110,7 +103,7 @@ set osd_tim_2_pos = 2455
 set osd_flymode_pos = 2424
 set osd_throttle_pos = 2105
 set osd_vtx_channel_pos = 2081
-set osd_craft_name_pos = 2443
+set osd_craft_name_pos = 2442
 set osd_display_name_pos = 42
 set osd_warnings_pos = 14625
 set osd_avg_cell_voltage_pos = 2433
@@ -120,17 +113,14 @@ set osd_stat_min_rssi = OFF
 set osd_stat_min_link_quality = ON
 set osd_stat_total_time = ON
 set osd_stat_min_rssi_dbm = ON
-set debug_mode = GYRO_SCALED
 set vtx_band = 5
 set vtx_channel = 3
-set vtx_power = 2
+set vtx_power = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
-set gyro_1_sensor_align = CW0
-set gyro_1_align_yaw = 0
 set rpm_filter_q = 550
-set name = FLYWOO
+set name = ALFA RC
 
 profile 0
 
@@ -156,11 +146,11 @@ set i_yaw = 95
 set f_yaw = 143
 set d_min_roll = 40
 set d_min_pitch = 40
-set motor_output_limit = 75
+set motor_output_limit = 80
 set auto_profile_cell_count = 4
 set thrust_linear = 20
-set feedforward_smooth_factor = 65
-set feedforward_jitter_factor = 9
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 10
 set dyn_idle_min_rpm = 40
 set simplified_pids_mode = OFF
 set simplified_master_multiplier = 120
@@ -194,8 +184,8 @@ set d_min_roll = 47
 set d_min_pitch = 48
 set auto_profile_cell_count = 3
 set thrust_linear = 20
-set feedforward_smooth_factor = 65
-set feedforward_jitter_factor = 9
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 10
 set dyn_idle_min_rpm = 40
 set simplified_pids_mode = OFF
 set simplified_master_multiplier = 130
@@ -230,8 +220,8 @@ set d_min_roll = 55
 set d_min_pitch = 57
 set auto_profile_cell_count = 2
 set thrust_linear = 20
-set feedforward_smooth_factor = 65
-set feedforward_jitter_factor = 9
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 10
 set dyn_idle_min_rpm = 40
 set simplified_pids_mode = OFF
 set simplified_master_multiplier = 140
@@ -240,7 +230,7 @@ set simplified_dmax_gain = 0
 set simplified_dterm_filter_multiplier = 95
 
 # restore original profile selection
-profile 0
+profile 1
 
 rateprofile 0
 

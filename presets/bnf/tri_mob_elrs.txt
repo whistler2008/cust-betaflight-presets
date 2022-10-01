@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf
 #$ DESCRIPTION: MicroWhoop Mobula6 ELRS Agan Tri
+#$ HIDDEN: true
 
 # name: Mobula6 ELRS
 
