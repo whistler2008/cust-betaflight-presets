@@ -130,7 +130,6 @@
       "BNF",
       "DEFAULT",
       "FACTORY",
-      "QUAD",
       "RX",
       "TUNE",
       "VTX"
@@ -140,7 +139,6 @@
     ],
     "keywords": [
       "akk",
-      "andang",
       "battery",
       "betafpv",
       "bnf",
@@ -163,7 +161,6 @@
       "rush",
       "rx",
       "size",
-      "snapper",
       "tbs",
       "tune",
       "type",
@@ -273,6 +270,33 @@
       "fullPath": "presets/bnf/andang_alfarc.txt",
       "hash": "9eb0a6ca6de86d977eddffd38954f9034a2af12cd33949484694e75558465a09",
       "title": "AlfaRC Agan Andang",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/bnf/krisna.txt",
+      "hash": "8ae0cc983f0955c123e6f8586347bf385c1904c8add3926b91e7fcc06ce91abb",
+      "title": "Kang Krisna",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf"
+      ]
+    },
+    {
+      "fullPath": "presets/bnf/krisna_rcloud.txt",
+      "hash": "f37229626f5ad5843d71919a2cf66e6d5484d6aafcc749a5c974e470ebc49989",
+      "title": "RCloud Kang Krisna",
       "firmware_version": [
         "4.3"
       ],
@@ -697,7 +721,7 @@
     },
     {
       "fullPath": "presets/modes/0_aux_gps.txt",
-      "hash": "9a226830cec13790cd801e0ab2e9f994d7bdb513451d900912ddaa4d47001fbc",
+      "hash": "41ad244ae83cc3a452eabbe30e32bc5b513aae315232cf00ff3cc7e8de0f7d2a",
       "title": "Default AUX with GPS Rescue",
       "firmware_version": [
         "4.0",
@@ -1222,38 +1246,6 @@
       "status": "COMMUNITY",
       "keywords": [
         "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/quad/bnf_diatone_gt_249t_andang.txt",
-      "hash": "7019f317da49e670e8ba59f4793c64e691498cd556794457515b96ad3166e5be",
-      "title": "QUAD Diatone GT-249T (Agan Andang Crist)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "QUAD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "snapper",
-        "andang"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/quad/bnf_snapper8_andang.txt",
-      "hash": "843d7a8d0fce43df91e6c945f65add9a19d5d3d4e819ca6f19ac7f6185305c3e",
-      "title": "QUAD Snapper 8 (Agan Andang Crist)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "QUAD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "snapper",
-        "andang"
       ],
       "hidden": true,
       "priority": 0
