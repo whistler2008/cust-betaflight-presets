@@ -1,0 +1,44 @@
+#$ TITLE: DJI WTFOSD MSP
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ INCLUDE: presets/default/0_beeper.txt
+#$ INCLUDE: presets/default/0_other.txt
+#$ DESCRIPTION: DJI WTFOSD MSP
+
+set osd_displayport_device = MSP
+
+#$ OPTION BEGIN (UNCHECKED): UART1
+set displayport_msp_serial = 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART2
+set displayport_msp_serial = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART3
+set displayport_msp_serial = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART4
+set displayport_msp_serial = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART5
+set displayport_msp_serial = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART6
+set displayport_msp_serial = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART7
+set displayport_msp_serial = 6
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART8
+set displayport_msp_serial = 7
+#$ OPTION END
+

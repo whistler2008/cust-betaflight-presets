@@ -295,7 +295,7 @@
     },
     {
       "fullPath": "presets/bnf/krisna_rcloud.txt",
-      "hash": "f37229626f5ad5843d71919a2cf66e6d5484d6aafcc749a5c974e470ebc49989",
+      "hash": "bad473323ff2fb37240307534ef026bd1fc9afd93d29a1184e1fd304ae9561e7",
       "title": "RCloud Kang Krisna",
       "firmware_version": [
         "4.3"
@@ -1692,6 +1692,21 @@
       "fullPath": "presets/tune/basic_43.txt",
       "hash": "591b6b0a9ff75193fed3532dc3152d78cc30ebfb0dd083b340b7c8a611c13fde",
       "title": "Basic Tune 4.3",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/dji_msp.txt",
+      "hash": "993311179d672c562e5807635a7073cc1b48fe30ee0d9729ffa115b841813c2e",
+      "title": "DJI WTFOSD MSP",
       "firmware_version": [
         "4.3"
       ],

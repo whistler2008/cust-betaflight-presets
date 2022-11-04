@@ -10,6 +10,7 @@
 feature -RX_PARALLEL_PWM
 feature -AIRMODE
 feature RSSI_ADC
+feature LED_STRIP
 
 # serial
 serial 0 1 115200 57600 0 115200
