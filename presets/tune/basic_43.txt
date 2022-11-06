@@ -10,8 +10,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
-set name = PRE-TUNED
-
 # rc smoothing
 set feedforward_averaging = OFF
 set rc_smoothing = ON
@@ -39,30 +37,20 @@ profile 0
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle
 #$ INCLUDE: presets/type/43_freestyle.txt
+#$ INCLUDE: presets/rate/spatz.txt
+set name = FREESTYLE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Smooth
 #$ INCLUDE: presets/type/43_smooth.txt
+#$ INCLUDE: presets/rate/bardwell.txt
+set name = SMOOTH
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Cinematic
 #$ INCLUDE: presets/type/43_cinematic.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: Rate
-
-#$ OPTION BEGIN (UNCHECKED): Mark Spatz
-#$ INCLUDE: presets/rate/spatz.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Joshua Bardwell
-#$ INCLUDE: presets/rate/bardwell.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Vanover
 #$ INCLUDE: presets/rate/vanover.txt
+set name = CINEMATIC
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -228,12 +216,12 @@ profile 0
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 150Hz
-#$ INCLUDE: presets/rx/elrs_150_43.txt
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/rx/elrs_200_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): CRSF ELRS 500Hz
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/rx/elrs_500_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq_std.txt
 #$ OPTION END

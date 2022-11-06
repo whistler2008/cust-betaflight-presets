@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
 #$ DESCRIPTION: Setting for RX Serial ELRS 250
+#$ HIDDEN: true
 
 feature RX_SERIAL
 set serialrx_provider = CRSF

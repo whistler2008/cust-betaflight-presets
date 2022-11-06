@@ -13,7 +13,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
-set name = MOCKINGBIRD
+set name = MBIRD F4
 
 # aux
 aux 0 0 0 1450 2100 0 0

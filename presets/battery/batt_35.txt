@@ -14,4 +14,4 @@ set battery_meter = ADC
 
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 350
-set vbat_warning_cell_voltage = 375
+set vbat_warning_cell_voltage = 370

@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
 #$ DESCRIPTION: Setting for RX Serial IBUS
+#$ HIDDEN: true
 
 feature RX_SERIAL
 set serialrx_provider = IBUS

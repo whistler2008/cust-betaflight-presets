@@ -4,6 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
 #$ DESCRIPTION: Setting for RX SPI SBUS / IBUS
+#$ HIDDEN: true
 
 profile 0
 

@@ -1,9 +1,9 @@
-#$ TITLE: Toothpick Flywoo Agan Tri
+#$ TITLE: Toothpick Flywoo Agan Reky
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf
-#$ DESCRIPTION: Toothpick Flywoo Agan Tri
+#$ DESCRIPTION: Toothpick Flywoo Agan Reky
 #$ HIDDEN: true
 
 # name: FLYWOO

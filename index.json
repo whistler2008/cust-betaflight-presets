@@ -204,7 +204,7 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "3b66b4352fc1bb21005b0221c6ae2dd98c217b3d62b3f963eeaafdc170571324",
+      "hash": "3d46afc0fcfd2d6793352fcc9249dd0b62eb27d4a241225442a100bea18c22c2",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.0",
@@ -308,9 +308,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/bnf/tri.txt",
-      "hash": "7bd0f6b24e82a0accc9cbb47db2632e9ae36ac22421ca08777ff1b8a43fbdb05",
-      "title": "Agan Tri",
+      "fullPath": "presets/bnf/reky.txt",
+      "hash": "57e551abe30cf1c872d52b3f210cbdac27bf1ce72e4ad448449162280085f7d1",
+      "title": "Agan Reky",
       "firmware_version": [
         "4.3"
       ],
@@ -321,9 +321,9 @@
       ]
     },
     {
-      "fullPath": "presets/bnf/tri_flywoo.txt",
-      "hash": "9283615756e40bebd9266f0732e15323389b3a826179d3044fa1da64ab304e8d",
-      "title": "Toothpick Flywoo Agan Tri",
+      "fullPath": "presets/bnf/reky_flywoo.txt",
+      "hash": "212f459f441bb87a83bcac473f6c7c46e370e2399c8752b5b4dc17df7baa2455",
+      "title": "Toothpick Flywoo Agan Reky",
       "firmware_version": [
         "4.3"
       ],
@@ -335,9 +335,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/bnf/tri_mob_elrs.txt",
-      "hash": "838f224f8895d4cc0f4c56f7133c6ad8512d4140bc35d7dade9ab06854eb69e7",
-      "title": "MicroWhoop Mobula6 ELRS Agan Tri",
+      "fullPath": "presets/bnf/reky_mob_elrs.txt",
+      "hash": "3a2871c08258ae5378094337b9c1919f64acbfe77cd88bb0d718aab005f5c629",
+      "title": "MicroWhoop Mobula6 ELRS Agan Reky",
       "firmware_version": [
         "4.3"
       ],
@@ -1348,7 +1348,7 @@
     },
     {
       "fullPath": "presets/rx/elrs_100_43.txt",
-      "hash": "928b279e91cabc3b85af67f17c94471b33515cba264f2350e7976236ddb04095",
+      "hash": "e7f8619afae059641aa6c114fade262f31f487948d0654dd65d99c6ac7ae07dc",
       "title": "RX Serial ELRS 100",
       "firmware_version": [
         "4.3"
@@ -1357,11 +1357,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/elrs_150_43.txt",
-      "hash": "9077a92a61cf41182f795f2d898e7ad57f095cb8e1aa65000d82d680d211779d",
+      "hash": "2416217cd07b1c9d90bca25b87f5aadeec1364bbcaca2f95e624512a154fffca",
       "title": "RX Serial ELRS 150",
       "firmware_version": [
         "4.3"
@@ -1370,11 +1371,26 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/rx/elrs_200_43.txt",
+      "hash": "f617b8fd09d4b457ef7fbe46a0c7f53cd56e8272823350d85c1f2b3abaea2583",
+      "title": "RX Serial ELRS 200",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/elrs_250_43.txt",
-      "hash": "9fc17cc2324c752759c52525a57a8cfd4ef9bb909170839fab461b9682274d35",
+      "hash": "dafb55d36652e082dc82a197ae12c757a697046bfb14ad58451da80ee514b1b6",
       "title": "RX Serial ELRS 250",
       "firmware_version": [
         "4.3"
@@ -1383,11 +1399,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/elrs_500_43.txt",
-      "hash": "1f3cc21634342e7775c0f8cf1013346d4c81a8f1ef15692e0b2e1ec3312e5c4e",
+      "hash": "50da2d6ad2d63426c25461c0d550529b09c5eae223cf976f004f03e5d9e01fb7",
       "title": "RX Serial ELRS 50",
       "firmware_version": [
         "4.3"
@@ -1396,11 +1413,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/elrs_50_43.txt",
-      "hash": "74f0d097dd08f0b7c4c20fc9680f3f7f52337623943f048fc264d1cd0c25872c",
+      "hash": "c503145b7585eda086737f519a6c5067c3641cdc930794643ec1d7e55fcd5bfe",
       "title": "RX Serial ELRS 50",
       "firmware_version": [
         "4.3"
@@ -1409,11 +1427,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/serial_ibus_43.txt",
-      "hash": "a735dd8743c2c0355a6505c5737ad9c4346b6ddc0b7d4ae75d15b54f8562986b",
+      "hash": "d7f81351504913928f176bdb943fad877e30ee9b9ab76d045359fd662a6cf47a",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3"
@@ -1422,11 +1441,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/serial_sbus_43.txt",
-      "hash": "b89ef0db343a02f74715f0ea283e19b1e69f328fe49bffee501df03f9d369fd2",
+      "hash": "b148154a2d15939fc4c0b386a7e64747cb14057e48a437f029a2fec6556f838d",
       "title": "RX Serial SBUS",
       "firmware_version": [
         "4.3"
@@ -1435,11 +1455,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "fea3b654737ab792ac4be8dea36b53bcf8fd8cf63057ed6768e2115ea6c51e1d",
+      "hash": "a89fac7004b86917c94f392d5d1db29ac5c2cb1a576ed6343c6667c8ab2ad2d8",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.3"
@@ -1448,11 +1469,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
-      "hash": "42d4e63beb74ff3e33d5d09b812d9ad516c298b2b567f3b769c234b5a1b442a9",
+      "hash": "d74ac9416e59d6b096e397b6e7553834f85f1eabab77c6e8c9a0cbcddae265c4",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3"
@@ -1461,7 +1483,8 @@
       "status": "COMMUNITY",
       "keywords": [
         "rx"
-      ]
+      ],
+      "hidden": true
     },
     {
       "fullPath": "presets/size/42_16.txt",
@@ -1675,7 +1698,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "0dab30695117112e211064d2099cf90d7f341de3267b326abc50ce4e2751a1c9",
+      "hash": "3283417e29d836abc16f05b38fc6f634b80358f17942cf99d602b4367403d663",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -1690,7 +1713,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "591b6b0a9ff75193fed3532dc3152d78cc30ebfb0dd083b340b7c8a611c13fde",
+      "hash": "d75ed02e3205f3cfde899883b656a4cf35b4ca50fe719e95d205254c21061655",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -1705,7 +1728,7 @@
     },
     {
       "fullPath": "presets/tune/dji_msp.txt",
-      "hash": "993311179d672c562e5807635a7073cc1b48fe30ee0d9729ffa115b841813c2e",
+      "hash": "24bdcf57041fe73558d7624aadd0a47247718a424928b30cf90feda8cb2eb780",
       "title": "DJI WTFOSD MSP",
       "firmware_version": [
         "4.3"
@@ -1735,7 +1758,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "a301d286eef7bf58f3affc2abc3a36b110cfe8cea121eb63d3c39c6e1a0eb0c1",
+      "hash": "5fbbf6d404dd2fef1e4fc859e05fe878a3825a5b82e59d70a0ccffc1d0a03fef",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"

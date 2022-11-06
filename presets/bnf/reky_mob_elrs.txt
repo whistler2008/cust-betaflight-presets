@@ -1,9 +1,9 @@
-#$ TITLE: MicroWhoop Mobula6 ELRS Agan Tri
+#$ TITLE: MicroWhoop Mobula6 ELRS Agan Reky
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: bnf
-#$ DESCRIPTION: MicroWhoop Mobula6 ELRS Agan Tri
+#$ DESCRIPTION: MicroWhoop Mobula6 ELRS Agan Reky
 #$ HIDDEN: true
 
 # name: Mobula6 ELRS
