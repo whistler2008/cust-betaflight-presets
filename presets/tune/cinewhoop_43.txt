@@ -1,4 +1,4 @@
-#$ TITLE: CineWhoop (Full Action CAM) Tune 4.3
+#$ TITLE: CineWhoop Tune 4.3
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
@@ -61,13 +61,13 @@ set name = CINEWHOOP
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Rate
+#$ OPTION_GROUP BEGIN: Rate Profile
 
-#$ OPTION BEGIN (CHECKED): Official ELRS
+#$ OPTION BEGIN (UNCHECKED): Official ELRS
 #$ INCLUDE: presets/rate/cinewhoop_official.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Custom UAVTech
+#$ OPTION BEGIN (UNCHECKED): Custom UAVTech
 #$ INCLUDE: presets/rate/cinewhoop_custom.txt
 #$ OPTION END
 
@@ -163,10 +163,6 @@ set name = CINEWHOOP
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
 #$ INCLUDE: presets/size/cinewhoop_43_40.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 5 Inch - Above
-#$ INCLUDE: presets/size/cinewhoop_43_50.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
