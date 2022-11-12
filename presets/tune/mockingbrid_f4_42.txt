@@ -4,11 +4,11 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/default/0_beeper.txt
-#$ INCLUDE: presets/default/0_led.txt
-#$ INCLUDE: presets/default/0_other.txt
+#$ INCLUDE: presets/other/custom_beeper.txt
+#$ INCLUDE: presets/other/custom_led.txt
+#$ INCLUDE: presets/other/0_other.txt
 #$ INCLUDE: presets/battery/batt_33.txt
-#$ INCLUDE: presets/rate/vanover.txt
+#$ INCLUDE: presets/rate/smooth.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support

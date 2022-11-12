@@ -2,13 +2,14 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
 #$ DESCRIPTION: Default Beeper settings
 #$ HIDDEN: true
 
-# beeper
+# Custom Beeper
 beeper -RX_LOST
 beeper -DISARMING
 beeper -ARMING

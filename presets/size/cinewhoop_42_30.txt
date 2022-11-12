@@ -1,0 +1,22 @@
+#$ TITLE: 3 Inch (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: size
+#$ DESCRIPTION: Default 3 Inch Size (Betaflight 4.2)
+#$ HIDDEN: true
+
+profile 0
+
+# profile 0
+set idle_min_rpm = 42
+
+profile 1
+
+# profile 1
+set idle_min_rpm = 42
+
+profile 2
+
+# profile 2
+set idle_min_rpm = 42

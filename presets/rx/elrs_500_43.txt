@@ -1,9 +1,9 @@
-#$ TITLE: RX Serial ELRS 50
+#$ TITLE: RX Serial ELRS 500
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
-#$ DESCRIPTION: Setting for RX Serial ELRS 50
+#$ DESCRIPTION: Setting for RX Serial ELRS 500
 #$ HIDDEN: true
 
 feature RX_SERIAL

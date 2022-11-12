@@ -23,6 +23,7 @@ const PresetCategories = {
     TUNE:			"TUNE",
     VTX:			"VTX",
     RX:				"RX",
+    RATES:			"RATES",
     DEFAULT:		"DEFAULT",
     OTHER:			"OTHER",
 }

@@ -11,4 +11,4 @@
 set yaw_motors_reversed = ON
 set dshot_bidir = ON
 set motor_poles = 14
-set dshot_idle_value = 600
+set dshot_idle_value = 1000

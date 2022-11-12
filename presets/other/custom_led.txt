@@ -2,14 +2,19 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
 #$ DESCRIPTION: Default LED settings
 #$ HIDDEN: true
 
-# led
-led 0 0,0::L:10
-led 1 1,0::L:10
-led 2 2,0::L:10
-led 3 3,0::L:10
+# Custom LED
+led 0 0,0::COVIW:5
+led 1 1,0::COVIW:5
+led 2 2,0::COVIW:5
+led 3 3,0::COVIW:5
+led 4 4,0::COVIW:5
+led 5 5,0::COVIW:5
+led 6 6,0::COVIW:5
+led 7 7,0::COVIW:5
