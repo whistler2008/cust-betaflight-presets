@@ -174,12 +174,13 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_30.txt",
-      "hash": "31f569a5db14ae6ee7ab9eba434062c200989ef380ea6233b81cbd08e2c20fb4",
+      "hash": "cb6353d567c0c6005bcd564e359530eb9c0c595d5d36471821536b91ad3b4417",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
         "4.2",
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -191,12 +192,13 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "6b3022d19e65c5404ce6d7313b8cc9f9c5164877a983e7967261208d58706c4b",
+      "hash": "6df1c3350d1811d77b2c0c15d49099e7ec7e5925306d2bb7630829d2c739ad29",
       "title": "Battery 3.3V settings",
       "firmware_version": [
         "4.0",
         "4.2",
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -208,12 +210,13 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "65d587e3da683fd65602545b30ee13adc7012e0c4c12bdc86faf2b919f61f803",
+      "hash": "41b9a905c3ca60027c79a9d7e66d922fe52dd4fb5c39b39cee9e1874aab36c0d",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.0",
         "4.2",
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -224,13 +227,11 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/blackbox/0_gyroflow_42.txt",
-      "hash": "b75df10f819f70df876a0cafac58074534024a95b560115f763f6774316cc155",
-      "title": "Default BlackBox GyroFlow 4.3",
+      "fullPath": "presets/blackbox/blackbox_gyroflow_42.txt",
+      "hash": "18a72d8f37616bcb9d4f2caf75e52553c88f8fc9bb3f49131f1d3a34b2409deb",
+      "title": "BlackBox GyroFlow (Betaflight 4.2)",
       "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
+        "4.2"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -241,11 +242,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/blackbox/0_gyroflow_43.txt",
-      "hash": "11025a9cb916a6992c20b57e786371d65e6d5190607859a1e909af42c67e270c",
-      "title": "Default BlackBox GyroFlow 4.3",
+      "fullPath": "presets/blackbox/blackbox_gyroflow_43.txt",
+      "hash": "32856faa4a8728ceab31ac3c55861d79547b182405ca89aabc8611b1147f5735",
+      "title": "BlackBox GyroFlow (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -256,11 +258,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/blackbox/0_off.txt",
-      "hash": "12c39ccbcff108570959cc8f3341546852f31f314ee4493ae52afc69f63f4ffb",
-      "title": "Default BlackBox OFF",
+      "fullPath": "presets/blackbox/blackbox_off.txt",
+      "hash": "32172edb4509320e4d23a5fd8b9e86886f05c3b3328d12a197fd0b28cfd0066b",
+      "title": "BlackBox OFF",
       "firmware_version": [
-        "4.0",
         "4.2",
         "4.3"
       ],
@@ -398,22 +399,6 @@
       ],
       "hidden": true,
       "priority": 0
-    },
-    {
-      "fullPath": "presets/default/0_aux.txt",
-      "hash": "2d7d318a7e26a7c12a6e303473738926fdc549ff84f065d6615426f9fccf2e30",
-      "title": "Default AUX settings",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true
     },
     {
       "fullPath": "presets/esc/24.txt",
@@ -570,10 +555,11 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_clean.txt",
-      "hash": "0e04918235eea17e4586013fd08aa05eeebda430f9099b8fc9b5d118703aab97",
+      "hash": "5bc62c9ffc1159f172aca0ada754888c1451a5493ec79923f814bf246723aa3b",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -585,10 +571,11 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_noisy.txt",
-      "hash": "b458a70c380d22cf205a2beb86477183874819e52d2bd1e75af326391b39edb5",
+      "hash": "56e7e42f7f723652cb6b07f5d42bce8365f04fd4e1e9127f1d785b75e891c121",
       "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -600,10 +587,11 @@
     },
     {
       "fullPath": "presets/filter/43_no_rpm_normal.txt",
-      "hash": "86f6a260ac360bf32ee32b1f445db09ea2a159bf4b3df1c59439fb63b6374ad5",
+      "hash": "cec300b6a3786e5492d7767a84f56a402025d376a165a8ced75263c086438a3b",
       "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -615,10 +603,11 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "0a7703d3494bc47686335c59bb4e9189fc63e41ed1e4553691f03946c2095e54",
+      "hash": "e28ef8270e88269792852e1eb9935e9a324474d28cd4baeb548374463c0c9780",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -630,10 +619,11 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "a9e42d01c7c52e57a6ef7d5f7aa1647bc4bdd1442936867c160e4416d2288813",
+      "hash": "51b57f67769ff1a18d8ed49dc44c34a9383cb7a67810a2d01bc8066729d71683",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -645,10 +635,11 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "7e8c9b7287ba9979d4ae557d289d4a97d85a42e8ece487daacb59b061769fe9e",
+      "hash": "e8cfb380dac67b4ba6b440697a8088355ed76996665ee2eafd723384334281e0",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -659,9 +650,25 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/0_aux_gps.txt",
-      "hash": "41ad244ae83cc3a452eabbe30e32bc5b513aae315232cf00ff3cc7e8de0f7d2a",
-      "title": "Default AUX with GPS Rescue",
+      "fullPath": "presets/modes/aux_default.txt",
+      "hash": "9bfedffe2a59b70614d2f9619d7b939faa7833d0f8b813ec78a20303b25d8bde",
+      "title": "Default AUX settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/modes/aux_gps.txt",
+      "hash": "0ffea368c4cb8172bd4f03ce036b06def08e84daed19438a4842fbcb945b0f6b",
+      "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -676,9 +683,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/0_aux_std.txt",
-      "hash": "6d92fa8c11110e104ea62675ca9ea36562388ae78c9969480d08d0b37b7cd2a0",
-      "title": "Default AUX Standard",
+      "fullPath": "presets/modes/aux_std.txt",
+      "hash": "e1eed03bf99d3df60d5f22ed0627a7db918a34b7d1393657e99ae146c9a02e00",
+      "title": "AUX Standard",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -738,7 +745,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_global.txt",
-      "hash": "5f2e0a61ba562db4fe705ddaff5effdedcfaf6f76c0cda8fb456b5b5505f6e48",
+      "hash": "98548af61bba77ec62bb2d6d96aeeb6b522989acc2a3c986c71737e57be5f2c9",
       "title": "Global OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -754,7 +761,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "bdf16fed1d454fe9bb0f7fc92b3cd2c51147c0faff19debc9b36853d34964b8b",
+      "hash": "f4313a6612f55f73e9ddc1eb8a64588e71be44a4952727e9d8ec18be693af929",
       "title": "LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -770,11 +777,70 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi.txt",
-      "hash": "6609457bd3f527f6575869e9715e2949210ce03b89511aa81f6f9e03314358c7",
+      "hash": "c6c6f0142f99593a31c0785af461c6cf34c96b9adaa3f2e3b33e557c93fec90c",
       "title": "RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_default.txt",
+      "hash": "e0f9ab5c7e7ae6917d14f50ac12f22e820d597f9648a46a08b88f31a50036630",
+      "title": "Default OSD settings (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_44_global.txt",
+      "hash": "1292cda35a2b5027772eb17e0c994edf362c3e720980f9a9bd7c375615b5c9ba",
+      "title": "Global OSD settings (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_lq.txt",
+      "hash": "20c257f0bdd7851a6593f42af986ade715327b3c4cfcf225b51f29f6dd8793f6",
+      "title": "LQ OSD settings (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_rssi.txt",
+      "hash": "274534d555e80e2bc64368402f898801a856fbd150242b77d0a06fe839c93fda",
+      "title": "RSSI OSD settings (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1469,6 +1535,186 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_44_2s_p0.txt",
+      "hash": "7d65ea9989b71265960fb1b3f417dfcab50f8a9a0f1a1f11e7a508640e9ba44e",
+      "title": "Cinewhoop 2S Profile 0 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_2s_p1.txt",
+      "hash": "ab25f78aee40502576c2eb2f0a1c3a37baf960e689fae1e300dc92fd5c6696be",
+      "title": "Cinewhoop 2S Profile 1 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_2s_p2.txt",
+      "hash": "30a3df9283459aa995cc93f78aa7ef4aa888fc7d1665ef77586a7f6ca1f1d00f",
+      "title": "Cinewhoop 2S Profile 2 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_3s_p0.txt",
+      "hash": "786a8ec6f2e651e92f9b2e8d59617130136a3025b578dee5ee07164fd54726aa",
+      "title": "Cinewhoop 3S Profile 0 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_3s_p1.txt",
+      "hash": "03b3d3692d06b9d0a03766810c3eb4b885e3c6ad3f84421331091a458fbb7fde",
+      "title": "Cinewhoop 3S Profile 1 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_3s_p2.txt",
+      "hash": "69c6fae83036f35f38d2614e4c060caf3a9391a16511536ed1985fa2cbd0d91d",
+      "title": "Cinewhoop 3S Profile 2 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_4s_p0.txt",
+      "hash": "131cbc3aa638ba2bd637fa12882e5bda00bb72dc8672461cf764ae092f3b9bc3",
+      "title": "Cinewhoop 4S Profile 0 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_4s_p1.txt",
+      "hash": "8295569cb3c9fe24dcfea79868d9a84ecb8e8a0ec4a96a507971cde6daa1fa1f",
+      "title": "Cinewhoop 4S Profile 1 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_4s_p2.txt",
+      "hash": "39b4e6be1d82069b348f0cd8bff3a2e39a1a07bcb6b3a2b3f9291d411096340a",
+      "title": "Cinewhoop 4S Profile 2 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_6s_p0.txt",
+      "hash": "979d2e4e573bb86245a11249afccb1853d04120fb5e06bd23cc79fe59dbcce73",
+      "title": "Cinewhoop 6S Profile 0 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_6s_p1.txt",
+      "hash": "bda17cd6a69c3b5290979a7bc493d598db102abca41f18e9f0e9c12ab152b4a8",
+      "title": "Cinewhoop 6S Profile 1 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_44_6s_p2.txt",
+      "hash": "3cf829187cf405375bde5bae74d4fe05ddf693fd2be07555677ffd0c872600fd",
+      "title": "Cinewhoop 6S Profile 2 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rate/cinematic.txt",
       "hash": "5b121e463aac2688b0ffa5ace69cbae972267476874b2fa7c624f5bb67d8e2d8",
       "title": "Cinematic Rate Profile",
@@ -1630,10 +1876,11 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
-      "hash": "51c15b20a0811cc80959547fcb6e36290b38258473ddb626c662a519439f5d63",
+      "hash": "9ec36f4d05c28bfe846d377fc82a691dacf3763e3bd2fc939c17ef47d48ebf2e",
       "title": "RX Serial ELRS 200Hz for CineWhoop",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1644,10 +1891,11 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
-      "hash": "7e214de080f3057d3ea496370e80e5d445f880af125c54d876f9715b8cde8760",
+      "hash": "b0ef740b45db8253ca99163c475ef289cb0f3336a36c6d6202b4ea1da3e25ed3",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1658,10 +1906,11 @@
     },
     {
       "fullPath": "presets/rx/elrs_200_43.txt",
-      "hash": "f617b8fd09d4b457ef7fbe46a0c7f53cd56e8272823350d85c1f2b3abaea2583",
+      "hash": "f59c76aec434aa03bf9b0ccd054fceddcd9500c52f678aa7f036698956cd1613",
       "title": "RX Serial ELRS 200",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1672,10 +1921,11 @@
     },
     {
       "fullPath": "presets/rx/elrs_500_43.txt",
-      "hash": "acdb22ab648e26b7196da9395aaeb7e0905572ea8cebe9fa2fc2a03e046f54e0",
+      "hash": "50e96dba7c0bee3cead5457e0775f78f02127cbb97d4c8d4aa633f62919c8c05",
       "title": "RX Serial ELRS 500",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1686,10 +1936,11 @@
     },
     {
       "fullPath": "presets/rx/serial_ibus_43.txt",
-      "hash": "d7f81351504913928f176bdb943fad877e30ee9b9ab76d045359fd662a6cf47a",
+      "hash": "3377d5b4f0252552f35fcacc505f83a310219fc6d0f707a629b654f78c02e709",
       "title": "RX Serial IBUS",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1700,10 +1951,11 @@
     },
     {
       "fullPath": "presets/rx/serial_sbus_43.txt",
-      "hash": "b148154a2d15939fc4c0b386a7e64747cb14057e48a437f029a2fec6556f838d",
+      "hash": "02491d656cd29f08224e4623b6b06c0da7eb2efffc955cc6f1fb50ab39224f84",
       "title": "RX Serial SBUS",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1714,10 +1966,11 @@
     },
     {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "a89fac7004b86917c94f392d5d1db29ac5c2cb1a576ed6343c6667c8ab2ad2d8",
+      "hash": "7850c28f21084e938bee03b0e19ffceb9bff3cc16b7867435bf698483bd613b5",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -1728,10 +1981,11 @@
     },
     {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
-      "hash": "d74ac9416e59d6b096e397b6e7553834f85f1eabab77c6e8c9a0cbcddae265c4",
+      "hash": "f0526cb8470bccf88740279654265d10f12c2d6451bfae300ca9f5a2c5b6eb6e",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -2011,26 +2265,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/size/cinewhoop_42_50.txt",
-      "hash": "b2ab9b4fc69646ffccf4aad8e105f81eeac9c9c235602d8a5fad25f15e790fa8",
-      "title": "5 Inch Above (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "size"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/size/cinewhoop_43_25.txt",
-      "hash": "d5359101fccd616e1a1fe1ee25b84770bdbf307e4af026670f5316db298f7b19",
+      "hash": "390faa3a9bfd3d29df3e9b4b025e8a0a734ae8ba8fe2fd272bcde8cd7c527fd5",
       "title": "2.5 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2042,10 +2282,11 @@
     },
     {
       "fullPath": "presets/size/cinewhoop_43_30.txt",
-      "hash": "730a1b868840444d8a441aedffc19add6cb5e4011eb6bab1e2a1e0807f550549",
+      "hash": "917ebbedbccc9ee0cc3ef539a22334fcd5400ea778d1d81a8aac0d4ec9ea0ab0",
       "title": "3 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2057,10 +2298,11 @@
     },
     {
       "fullPath": "presets/size/cinewhoop_43_35.txt",
-      "hash": "46c4872f33b6e0012fdbf2cd03f4c99b46629dca0404a090c2eea4e24228f46f",
+      "hash": "e68c9bf73ebf3b430bee6f8c760a2e6fca673f4d4c12fbf0a7959fa6d6846ad3",
       "title": "3.5 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2072,25 +2314,11 @@
     },
     {
       "fullPath": "presets/size/cinewhoop_43_40.txt",
-      "hash": "e6a163ed2c4a2a582199aa84840de65fe32385eaa3746011e1002d76451e49b4",
+      "hash": "1b10090ddc608d5d9df56eb510233f0f2536799d25ce96acf5d82ead2fe13068",
       "title": "4 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "size"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/size/cinewhoop_43_50.txt",
-      "hash": "0efd8ce3d3921914ca374f96aff0d50905f9ab88dc3d5ba9fb1e4f8dc3b4f739",
-      "title": "5 Inch Above (Betaflight 4.3)",
-      "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2132,10 +2360,11 @@
     },
     {
       "fullPath": "presets/size/microwhoop_43_16.txt",
-      "hash": "24fff7c50fc037927009bceca406351b235f258136371c9a415cdd991f005b83",
+      "hash": "6acfd5769877bb235dfc6500905d003fb24bae562be644321cd7f7dabdfb2bad",
       "title": "1.6 Inch (Micro Whoop) (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2147,10 +2376,11 @@
     },
     {
       "fullPath": "presets/size/microwhoop_43_20.txt",
-      "hash": "ff5dac3718d93ff7680365f2eec7cbae530c4e228966abcf055286ccd66f7dce",
+      "hash": "84b10cb74c7a3dca8645f56ce2491fa3f2ab8c8ec3f0f8e9791c433a83b8dbc0",
       "title": "2 Inch (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2162,7 +2392,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "54346712bf158e88ea89f98b06efd2e5a67ef0d794ccb0a9ab6b043269161251",
+      "hash": "7c0f8b43bcc909bc2dcf775046c075cb7ac6bc23701b357cc2256b857abdf605",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -2177,7 +2407,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "e695706da5171329fda38dac9e171055ba245fdac93a65ffb9a513288e279695",
+      "hash": "0f87a14415908b7fd4f1e7916da6b51ff47f8beafcd353d6b8566d7d9ff652cc",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -2192,10 +2422,25 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "b6bc30ea120211fffac27d86e51d3831e244f58672b26a6806086be48011d826",
+      "hash": "78ab5caafb89d75f24f17820f948c5a210cb5e48eefc9d101a3e845a632a1303",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/cinewhoop_44.txt",
+      "hash": "00b76ba6bef2e5caa4189dd68598b7b44d3c487f49c15740f211118662b315a9",
+      "title": "CineWhoop Tune 4.4",
+      "firmware_version": [
+        "4.4"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",

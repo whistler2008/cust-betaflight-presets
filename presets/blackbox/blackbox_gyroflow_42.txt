@@ -1,0 +1,12 @@
+#$ TITLE: BlackBox GyroFlow (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: default
+#$ DESCRIPTION: BlackBox GyroFlow (Betaflight 4.2)
+#$ HIDDEN: true
+
+# blackbox
+# set blackbox_device = SPIFLASH
+set blackbox_p_ratio = 16
+set debug_mode = GYRO_SCALED

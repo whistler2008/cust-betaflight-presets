@@ -1,10 +1,10 @@
-#$ TITLE: CineWhoop Tune 4.3
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: CineWhoop Tune 4.4
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: CineWhoop Tune for Betaflight 4.3
+#$ DESCRIPTION: CineWhoop Tune for Betaflight 4.4
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -18,10 +18,6 @@
 
 #$ OPTION BEGIN (CHECKED): BEEPER
 #$ INCLUDE: presets/other/custom_beeper.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): Add Name
-set name = CINEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
@@ -133,15 +129,15 @@ set name = CINEWHOOP
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 4S
-#$ INCLUDE: presets/pid/cinewhoop_43_4s_p0.txt
-#$ INCLUDE: presets/pid/cinewhoop_43_3s_p1.txt
-#$ INCLUDE: presets/pid/cinewhoop_43_2s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_4s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_3s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_2s_p2.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 6S
-#$ INCLUDE: presets/pid/cinewhoop_43_6s_p0.txt
-#$ INCLUDE: presets/pid/cinewhoop_43_4s_p1.txt
-#$ INCLUDE: presets/pid/cinewhoop_43_3s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_6s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_4s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_3s_p2.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -172,22 +168,22 @@ set name = CINEWHOOP
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
 #$ INCLUDE: presets/rx/serial_sbus_43.txt
-#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
 #$ INCLUDE: presets/rx/serial_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
 #$ INCLUDE: presets/rx/cinewhoop_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/rx/cinewhoop_elrs_500_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -33,11 +33,11 @@ set name = CINEWHOOP
 #$ OPTION_GROUP BEGIN: BlackBox
 
 #$ OPTION BEGIN (UNCHECKED): OFF
-#$ INCLUDE: presets/blackbox/0_off.txt
+#$ INCLUDE: presets/blackbox/blackbox_off.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GyroFlow
-#$ INCLUDE: presets/blackbox/0_gyroflow_42.txt
+#$ INCLUDE: presets/blackbox/blackbox_gyroflow_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -263,11 +263,11 @@ set name = RACEWHOOP
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Without GPS
-#$ INCLUDE: presets/modes/0_aux_std.txt
+#$ INCLUDE: presets/modes/aux_std.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/0_aux_gps.txt
+#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

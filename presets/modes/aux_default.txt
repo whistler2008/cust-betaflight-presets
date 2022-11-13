@@ -5,7 +5,7 @@
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Default for AUX settings
+#$ DESCRIPTION: Default AUX settings
 #$ HIDDEN: true
 
 # aux default

@@ -1,11 +1,10 @@
-#$ TITLE: Default BlackBox GyroFlow 4.3
-#$ FIRMWARE_VERSION: 4.0
-#$ FIRMWARE_VERSION: 4.2
+#$ TITLE: BlackBox GyroFlow (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Default for  BlackBox GyroFlow 4.3
+#$ DESCRIPTION: BlackBox GyroFlow (Betaflight 4.3)
 #$ HIDDEN: true
 
 # blackbox

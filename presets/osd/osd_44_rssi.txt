@@ -1,10 +1,9 @@
-#$ TITLE: RSSI OSD settings - 4.2 Above
-#$ FIRMWARE_VERSION: 4.2
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: RSSI OSD settings (Betaflight 4.4)
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: RSSI OSD settings - 4.2 Above
+#$ DESCRIPTION: RSSI OSD settings (Betaflight 4.4)
 #$ INCLUDE: presets/osd/osd_42_global.txt
 #$ HIDDEN: true
 
