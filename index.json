@@ -683,6 +683,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/modes/aux_gps_4.4.txt",
+      "hash": "3ef362b221ca26e0ebec5aefb80199d95c50fdbcc9500176cf6b10a7933ba6cb",
+      "title": "AUX with GPS Rescue (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/modes/aux_std.txt",
       "hash": "e1eed03bf99d3df60d5f22ed0627a7db918a34b7d1393657e99ae146c9a02e00",
       "title": "AUX Standard",
@@ -690,6 +705,21 @@
         "4.0",
         "4.2",
         "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/modes/aux_std_4.4.txt",
+      "hash": "b427ad3df41d89fab116ae0276c0347de7a47d2b203362a5c30ac89490c9f6c2",
+      "title": "AUX Standard (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -807,7 +837,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_global.txt",
-      "hash": "1292cda35a2b5027772eb17e0c994edf362c3e720980f9a9bd7c375615b5c9ba",
+      "hash": "8cc02a5cf4924051d014d84f3d11d1e951d763dde515901fb291b4076d809afb",
       "title": "Global OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -822,7 +852,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "b196ec92c3e829054627a8acb266b78f26e8358c2158529991c8d90a038bb898",
+      "hash": "84f4c9bf63625718dd39a66c7972b001e07e3579777dd623f6dbf9cc4bd9925c",
       "title": "LQ OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -837,7 +867,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "f0b30be7b418292db7f94f34a6cbf5c2bfe066cab1c042ba280e529b6c538c55",
+      "hash": "8f697d163aa079762e9ebc7840908a3069946b18a1359b9ee168a1c55c4bb8da",
       "title": "RSSI OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -2437,7 +2467,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "00b76ba6bef2e5caa4189dd68598b7b44d3c487f49c15740f211118662b315a9",
+      "hash": "6d1ea3d320b9b239c9221f0d5e94a0f45aa4358ee1a8f9c8e88419778763de80",
       "title": "CineWhoop Tune 4.4",
       "firmware_version": [
         "4.4"

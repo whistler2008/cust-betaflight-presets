@@ -8,8 +8,4 @@
 #$ HIDDEN: true
 
 # osd rssi
-set osd_warn_link_quality = OFF
 set osd_rssi_pos = 2081
-set osd_stat_min_rssi = ON
-set osd_stat_min_link_quality = OFF
-set osd_stat_min_rssi_dbm = OFF

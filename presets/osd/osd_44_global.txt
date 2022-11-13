@@ -17,4 +17,3 @@ set osd_warnings_pos = 14625
 set osd_avg_cell_voltage_pos = 2412
 set osd_disarmed_pos = 2357
 set osd_core_temp_pos = 2423
-set osd_stat_total_time = ON
