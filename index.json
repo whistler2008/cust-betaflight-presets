@@ -822,7 +822,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "20c257f0bdd7851a6593f42af986ade715327b3c4cfcf225b51f29f6dd8793f6",
+      "hash": "b196ec92c3e829054627a8acb266b78f26e8358c2158529991c8d90a038bb898",
       "title": "LQ OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -837,7 +837,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "274534d555e80e2bc64368402f898801a856fbd150242b77d0a06fe839c93fda",
+      "hash": "f0b30be7b418292db7f94f34a6cbf5c2bfe066cab1c042ba280e529b6c538c55",
       "title": "RSSI OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
