@@ -1,0 +1,68 @@
+#$ TITLE: MATEK F405 Converter
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FACTORY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: factory
+#$ DESCRIPTION: Converter setting for MATEK F405
+
+
+# serial
+serial 4 1 115200 57600 0 115200
+
+# bluetooth
+set pinio_config = 129,1,1,1
+set pinio_box = 0,255,255,255
+resource PINIO 1 B00
+
+# misc
+set osd_displayport_device = MAX7456
+
+# resource
+resource BEEPER 1 C13
+resource MOTOR 1 C06
+resource MOTOR 2 C07
+resource MOTOR 3 C08
+resource MOTOR 4 C09
+resource MOTOR 5 A15
+resource MOTOR 6 A08
+resource MOTOR 7 B08
+resource MOTOR 8 none
+resource PPM 1 A03
+resource PWM 1 A00
+resource PWM 2 A01
+resource PWM 3 A02
+resource LED_STRIP 1 B06
+resource SERIAL_TX 1 A09
+resource SERIAL_TX 2 A02
+resource SERIAL_TX 3 C10
+resource SERIAL_TX 4 A00
+resource SERIAL_TX 5 C12
+resource SERIAL_RX 1 A10
+resource SERIAL_RX 2 A03
+resource SERIAL_RX 3 C11
+resource SERIAL_RX 4 A01
+resource SERIAL_RX 5 D02
+resource I2C_SCL 1 B06
+resource I2C_SDA 1 B07
+resource LED 1 B09
+resource LED 2 A14
+resource SPI_SCK 1 A05
+resource SPI_SCK 2 B13
+resource SPI_SCK 3 B03
+resource SPI_MISO 1 A06
+resource SPI_MISO 2 B14
+resource SPI_MISO 3 B04
+resource SPI_MOSI 1 A07
+resource SPI_MOSI 2 B15
+resource SPI_MOSI 3 B05
+resource ESCSERIAL 1 A03
+resource ADC_BATT 1 C05
+resource ADC_RSSI 1 B01
+resource ADC_CURR 1 C04
+resource SDCARD_CS 1 C01
+resource FLASH_CS 1 C00
+resource OSD_CS 1 B10
+resource GYRO_EXTI 1 C03
+resource GYRO_CS 1 C02
+resource USB_DETECT 1 B12

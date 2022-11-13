@@ -7,8 +7,15 @@
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: DJI MSP - WTFOSD MSP
 
-set vcd_video_system = PAL
+
+#$ OPTION BEGIN (UNCHECKED): Return to ANALOG OSD
+set osd_displayport_device = MAX7456
+#$ OPTION END
+
+#$ OPTION_GROUP BEGIN: Enable DJI WTF-OSD
+
 set osd_displayport_device = MSP
+set vcd_video_system = PAL
 
 #$ OPTION BEGIN (UNCHECKED): UART1
 serial 0 1 115200 57600 0 115200
@@ -49,3 +56,5 @@ set displayport_msp_serial = 6
 serial 7 1 115200 57600 0 115200
 set displayport_msp_serial = 7
 #$ OPTION END
+
+#$ OPTION_GROUP END

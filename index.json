@@ -464,6 +464,20 @@
       ]
     },
     {
+      "fullPath": "presets/factory/matekf405.txt",
+      "hash": "e7fe972287015a748bc7dca6bfef1be5cc26a47c652485c5f16f27443bef155e",
+      "title": "MATEK F405 Converter",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
       "fullPath": "presets/filter/42_no_rpm_clean.txt",
       "hash": "ed005069a3af85050e988449043da442d51d9fefd920143ccef86e8d71bff3fd",
       "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
@@ -2648,7 +2662,7 @@
     },
     {
       "fullPath": "presets/vtx/0_dji.txt",
-      "hash": "9aed7df85b7715f3e6edb20634aa1abe3b751c3783e7c003df51011c167a896b",
+      "hash": "b82ea8f6f7dd89855dc2072f9700ca0ac4c6d633b600ec9c974b7eb091a9c3a9",
       "title": "DJI VTX",
       "firmware_version": [
         "4.2",
