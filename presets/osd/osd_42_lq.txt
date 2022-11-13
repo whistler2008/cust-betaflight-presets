@@ -10,6 +10,7 @@
 
 # osd lq
 set osd_warn_link_quality = ON
+set osd_warn_rssi_dbm = ON
 set osd_link_quality_pos = 2081
 set osd_rssi_dbm_pos = 2113
 set osd_stat_min_rssi = OFF

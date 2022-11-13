@@ -738,7 +738,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_global.txt",
-      "hash": "98548af61bba77ec62bb2d6d96aeeb6b522989acc2a3c986c71737e57be5f2c9",
+      "hash": "5f2e0a61ba562db4fe705ddaff5effdedcfaf6f76c0cda8fb456b5b5505f6e48",
       "title": "Global OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -754,7 +754,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "f4313a6612f55f73e9ddc1eb8a64588e71be44a4952727e9d8ec18be693af929",
+      "hash": "bdf16fed1d454fe9bb0f7fc92b3cd2c51147c0faff19debc9b36853d34964b8b",
       "title": "LQ OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
@@ -770,7 +770,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi.txt",
-      "hash": "c6c6f0142f99593a31c0785af461c6cf34c96b9adaa3f2e3b33e557c93fec90c",
+      "hash": "6609457bd3f527f6575869e9715e2949210ce03b89511aa81f6f9e03314358c7",
       "title": "RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
