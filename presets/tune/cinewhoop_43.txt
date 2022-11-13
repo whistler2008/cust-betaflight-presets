@@ -172,22 +172,22 @@ set name = CINEWHOOP
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
 #$ INCLUDE: presets/rx/serial_sbus_43.txt
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
 #$ INCLUDE: presets/rx/serial_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
 #$ INCLUDE: presets/rx/cinewhoop_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/rx/cinewhoop_elrs_500_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -235,27 +235,27 @@ set name = RACEWHOOP
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

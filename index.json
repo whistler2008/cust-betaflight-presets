@@ -416,35 +416,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/default/0_osd_40.txt",
-      "hash": "6b9cedbf3f04d117b4cffba2cd2fce60bd17905ffcd3151af608d4e819668673",
-      "title": "Default OSD settings - 4.0 Earlier",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/default/0_osd_42.txt",
-      "hash": "474414557eb43dece82efee5934c0e73dc8ce6e005bd3c783b64394f19272bc4",
-      "title": "Default OSD settings - 4.2 Above",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/esc/24.txt",
       "hash": "37ced867e605230dc3d1f72c84a2c99021306cad1856670552558a837e02a368",
       "title": "ESC PWM 24 kHz",
@@ -722,9 +693,23 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_40_std.txt",
-      "hash": "d0c5d0943d13eb989007220a03a5edba1aa6b7449dca072b275f1688e5eccf26",
-      "title": "Default Standard OSD settings - 4.0 Earlier",
+      "fullPath": "presets/osd/osd_40_default.txt",
+      "hash": "6b9cedbf3f04d117b4cffba2cd2fce60bd17905ffcd3151af608d4e819668673",
+      "title": "Default OSD settings - 4.0 Earlier",
+      "firmware_version": [
+        "4.0"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_40_rssi.txt",
+      "hash": "ad44a5dca834a7d45ab4417731c03285db5c44bf3e35720bd03c66736324b811",
+      "title": "RSSI OSD settings - 4.0 Earlier",
       "firmware_version": [
         "4.0"
       ],
@@ -737,9 +722,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_42_lq_std.txt",
-      "hash": "86eb0aa25a98d2c895ba5673acdb97c18daf199d02474fcfaeb640bef03ff9e2",
-      "title": "Default Standard LQ OSD settings - 4.2 Above",
+      "fullPath": "presets/osd/osd_42_default.txt",
+      "hash": "7b33ef42feca3ac4e26e7fab21b07e42a37904de81f2f211132da3a796599d73",
+      "title": "Default OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "DEFAULT",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_42_global.txt",
+      "hash": "98548af61bba77ec62bb2d6d96aeeb6b522989acc2a3c986c71737e57be5f2c9",
+      "title": "Global OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -753,9 +753,25 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_42_rssi_std.txt",
-      "hash": "3acf2b1ca28945b47303c2e2d7bf73a4d59149c7c06339862573308b777750cb",
-      "title": "Default Standard RSSI OSD settings - 4.2 Above",
+      "fullPath": "presets/osd/osd_42_lq.txt",
+      "hash": "f4313a6612f55f73e9ddc1eb8a64588e71be44a4952727e9d8ec18be693af929",
+      "title": "LQ OSD settings - 4.2 Above",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_42_rssi.txt",
+      "hash": "c6c6f0142f99593a31c0785af461c6cf34c96b9adaa3f2e3b33e557c93fec90c",
+      "title": "RSSI OSD settings - 4.2 Above",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -2146,7 +2162,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "c249d1272d9864df7af2a5d002e884c795862a77629587708af7c75239835406",
+      "hash": "54346712bf158e88ea89f98b06efd2e5a67ef0d794ccb0a9ab6b043269161251",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -2161,7 +2177,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "8672281d35de5ccbef47ed25a3945afc854566d74e429af0a5281efe2beac144",
+      "hash": "e695706da5171329fda38dac9e171055ba245fdac93a65ffb9a513288e279695",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -2176,7 +2192,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "5ddbf7c5b95c959ca1ea8d2d9943f1a5af95d4fca49d98b672d3eb8929d51911",
+      "hash": "b6bc30ea120211fffac27d86e51d3831e244f58672b26a6806086be48011d826",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -2191,7 +2207,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "55de2fb77da2b97d24149ff3675440e021a667cb49149b00eef608042957b9b2",
+      "hash": "e0533237f429c9833a5cbcb32e999f1cdfdeb4fbb1eeaa41cd95e8dcf2bcc790",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -2206,7 +2222,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "b65aee006e2312ba2f9be4fd529fb96fbef8f0948f62af2f0afbc9803d3aea19",
+      "hash": "e01f5ff06330bdf4f7ec8ed8dc163f00f3c061b035bc9c9b2ea265472952fe30",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
@@ -2357,7 +2373,7 @@
     },
     {
       "fullPath": "presets/vtx/0_dji.txt",
-      "hash": "ff3070434b69de7e0a8cabd3b50c407fc367c473c6fddc3958e9e91ee03638d1",
+      "hash": "9aed7df85b7715f3e6edb20634aa1abe3b751c3783e7c003df51011c167a896b",
       "title": "DJI VTX",
       "firmware_version": [
         "4.2",

@@ -1,10 +1,10 @@
-#$ TITLE: Default Standard OSD settings - 4.0 Earlier
+#$ TITLE: RSSI OSD settings - 4.0 Earlier
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: Default Standard OSD settings - 4.0 Earlier
-#$ INCLUDE: presets/default/0_osd_40.txt
+#$ DESCRIPTION: RSSI OSD settings - 4.0 Earlier
+#$ INCLUDE: presets/osd/osd_40_default.txt
 #$ HIDDEN: true
 
 # osd

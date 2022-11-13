@@ -261,14 +261,30 @@ vtxtable powerlabels 25 100 200
 set vtx_power = 3
 #$ OPTION END
 
-#$ OPTION_GROUP BEGIN: OSD Type
+#$ OPTION_GROUP BEGIN: RX Hardware
 
-#$ OPTION BEGIN (UNCHECKED): OSD RSSI Minimize
-#$ INCLUDE: presets/osd/osd_42_rssi_std.txt
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): OSD LQ Minimize
-#$ INCLUDE: presets/osd/osd_42_lq_std.txt
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
