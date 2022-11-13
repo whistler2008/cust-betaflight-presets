@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
 #$ DESCRIPTION: RSSI OSD settings (Betaflight 4.4)
-#$ INCLUDE: presets/osd/osd_42_global.txt
+#$ INCLUDE: presets/osd/osd_44_global.txt
 #$ HIDDEN: true
 
 # osd rssi
