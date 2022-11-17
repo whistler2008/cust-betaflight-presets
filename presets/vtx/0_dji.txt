@@ -6,11 +6,20 @@
 #$ KEYWORDS: vtx, dji
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: DJI MSP - WTFOSD MSP
+#$ DESCRIPTION: CLI on https://fpv.wtf/
+#$ DESCRIPTION: package-config set msp-osd fakehd_enable true
+#$ DESCRIPTION: package-config set msp-osd hide_diagnostics true
+#$ DESCRIPTION: package-config apply msp-osd
 
+
+#$ OPTION_GROUP BEGIN: Revert DJI WTF-OSD
 
 #$ OPTION BEGIN (UNCHECKED): Return to ANALOG OSD
 set osd_displayport_device = MAX7456
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: Enable DJI WTF-OSD
 

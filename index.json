@@ -465,11 +465,12 @@
     },
     {
       "fullPath": "presets/factory/matekf405.txt",
-      "hash": "e7fe972287015a748bc7dca6bfef1be5cc26a47c652485c5f16f27443bef155e",
-      "title": "MATEK F405 Converter",
+      "hash": "4f76b4ea8e0b9e3cbf86d2e13a54cc65732019a3c6c2eee3e1686c7952e414df",
+      "title": "MATEK F405 to MATEKF405STD Converter",
       "firmware_version": [
         "4.2",
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -1808,7 +1809,7 @@
     },
     {
       "fullPath": "presets/rate/default.txt",
-      "hash": "e15101b855c4be8844d8b846efbb4d0ae1df158df18c5a272bb50c8c6358ebe2",
+      "hash": "279582d66a231b44db4fc5bdd14f590b67d3d027a5cd894f3d671e8a6b770f9d",
       "title": "Default Rate",
       "firmware_version": [
         "4.2",
@@ -2662,7 +2663,7 @@
     },
     {
       "fullPath": "presets/vtx/0_dji.txt",
-      "hash": "b82ea8f6f7dd89855dc2072f9700ca0ac4c6d633b600ec9c974b7eb091a9c3a9",
+      "hash": "fbc17ae48b693c74cdb187274bf069cf5e6936d6cf3aaf2797659a97441ac6d6",
       "title": "DJI VTX",
       "firmware_version": [
         "4.2",

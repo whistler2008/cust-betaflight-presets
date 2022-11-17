@@ -1,10 +1,11 @@
-#$ TITLE: MATEK F405 Converter
+#$ TITLE: MATEK F405 to MATEKF405STD Converter
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FACTORY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Converter setting for MATEK F405
+#$ DESCRIPTION: Converter setting for MATEK F405 to MATEKF405STD
 
 
 # serial
@@ -15,7 +16,7 @@ set pinio_config = 129,1,1,1
 set pinio_box = 0,255,255,255
 resource PINIO 1 B00
 
-# misc
+# osd
 set osd_displayport_device = MAX7456
 
 # resource
