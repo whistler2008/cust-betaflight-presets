@@ -6,7 +6,7 @@
 #$ AUTHOR: Whistler2008
 #$ INCLUDE: presets/other/custom_beeper.txt
 #$ INCLUDE: presets/osd/osd_40_rssi.txt
-#$ INCLUDE: presets/other/0_other.txt
+#$ INCLUDE: presets/other/other.txt
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
 name MBIRD F3

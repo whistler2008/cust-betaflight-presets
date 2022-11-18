@@ -29,7 +29,7 @@ set name = FREESTYLE
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
-#$ INCLUDE: presets/other/0_other.txt
+#$ INCLUDE: presets/other/other.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -49,15 +49,5 @@ set yaw_srate = 60
 set thr_mid = 45
 set thr_expo = 50
 
-rateprofile 1
-
-rateprofile 2
-
-rateprofile 3
-
-rateprofile 4
-
-rateprofile 5
-
 # restore original rateprofile selection
 rateprofile 0

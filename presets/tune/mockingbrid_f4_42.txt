@@ -6,7 +6,7 @@
 #$ AUTHOR: Whistler2008
 #$ INCLUDE: presets/other/custom_beeper.txt
 #$ INCLUDE: presets/other/custom_led.txt
-#$ INCLUDE: presets/other/0_other.txt
+#$ INCLUDE: presets/other/other.txt
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ INCLUDE: presets/rate/freestyle.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
