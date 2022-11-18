@@ -1,9 +1,9 @@
-#$ TITLE: Race 2 Inch (Betaflight 4.2)
+#$ TITLE: RaceWhoop 2 Inch (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
-#$ DESCRIPTION: Race 2 Inch Size (Betaflight 4.2)
+#$ DESCRIPTION: RaceWhoop 2 Inch Size (Betaflight 4.2)
 #$ HIDDEN: true
 
 profile 0

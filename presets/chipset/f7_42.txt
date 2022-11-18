@@ -3,7 +3,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: chipset
-#$ DESCRIPTION: Default for F7 Chipset
+#$ DESCRIPTION: Default for F7 Chipset (Betaflight 4.2)
 #$ HIDDEN: true
 
 # rpm filter

@@ -1,10 +1,10 @@
-#$ TITLE: CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3)
+#$ TITLE: CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: filter
-#$ DESCRIPTION:  Filter settings for CLEAN MOTOR & NO RPM Filter (Betaflight 4.3)
+#$ DESCRIPTION:  Filter settings for CLEAN MOTOR & NO RPM Filter (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
 profile 0

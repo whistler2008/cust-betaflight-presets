@@ -1,9 +1,10 @@
-#$ TITLE: 2 Inch (Betaflight 4.3)
+#$ TITLE: RaceWhoop 2 Inch (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
-#$ DESCRIPTION: Default 2 Inch Size (Betaflight 4.3)
+#$ DESCRIPTION: RaceWhoop 2 Inch Size (Betaflight 4.3)
 #$ HIDDEN: true
 
 profile 0
@@ -20,6 +21,3 @@ profile 2
 
 # profile 2
 set dyn_idle_min_rpm = 45
-
-# restore original profile selection
-profile 0

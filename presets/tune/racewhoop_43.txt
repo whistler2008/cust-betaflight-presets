@@ -1,0 +1,195 @@
+#$ TITLE: RaceWhoop Tune 4.3
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.3
+#$ DESCRIPTION: 
+#$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
+
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+#$ OPTION BEGIN (CHECKED): LED
+#$ INCLUDE: presets/other/custom_led.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): BEEPER
+#$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates
+#$ INCLUDE: presets/rate/racewhoop.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Add Name
+set name = RACEWHOOP
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: BlackBox
+
+#$ OPTION BEGIN (CHECKED): OFF
+#$ INCLUDE: presets/blackbox/blackbox_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GyroFlow
+#$ INCLUDE: presets/blackbox/blackbox_gyroflow_43.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Battery Type
+
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ INCLUDE: presets/battery/batt_33.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.5V
+#$ INCLUDE: presets/battery/batt_35.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: RPM Filter
+
+#$ OPTION BEGIN (CHECKED): 12 Pole
+#$ INCLUDE: presets/rpm_filter/12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 14 Pole
+#$ INCLUDE: presets/rpm_filter/14.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Chipset
+
+#$ OPTION BEGIN (UNCHECKED): F4
+#$ INCLUDE: presets/chipset/f4_43.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): F7
+#$ INCLUDE: presets/chipset/f7_43.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: ESC PWM
+
+#$ OPTION BEGIN (UNCHECKED): 24 kHz
+#$ INCLUDE: presets/esc/24.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ INCLUDE: presets/esc/48.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
+
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
+#$ INCLUDE: presets/filter/43_rpm_noisy.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
+#$ INCLUDE: presets/filter/43_rpm_normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
+#$ INCLUDE: presets/filter/43_rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/racewhoop_43_1s_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_43_p0.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/racewhoop_43_2s_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_43_1s_p1.txt
+#$ INCLUDE: presets/pid/racewhoop_43_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_43_p1.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Quad Size
+
+#$ OPTION BEGIN (UNCHECKED): 1.6 Inch
+#$ INCLUDE: presets/size/racewhoop_43_16.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2 Inch
+#$ INCLUDE: presets/size/racewhoop_43_20.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: RX Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/rx/serial_sbus_43.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/rx/serial_ibus_43.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/rx/race_elrs_200_43.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/rx/race_elrs_200_43.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/rx/race_elrs_500_43.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: GPS Hardware
+
+#$ OPTION BEGIN (CHECKED): Without GPS
+#$ INCLUDE: presets/modes/aux_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ INCLUDE: presets/modes/aux_gps.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

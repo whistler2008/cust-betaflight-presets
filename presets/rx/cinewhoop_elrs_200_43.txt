@@ -1,10 +1,10 @@
-#$ TITLE: RX Serial ELRS 200Hz for CineWhoop
+#$ TITLE: RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
-#$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for CineWhoop
+#$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
 feature RX_SERIAL

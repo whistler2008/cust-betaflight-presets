@@ -1,10 +1,10 @@
-#$ TITLE: Default OSD settings - 4.2 Above
+#$ TITLE: Default OSD settings (Betaflight 4.2-4.3)
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: Default OSD settings - 4.2 Above
+#$ DESCRIPTION: Default OSD settings (Betaflight 4.2-4.3)
 #$ HIDDEN: true
 
 # osd defalut

@@ -1,10 +1,10 @@
-#$ TITLE: FreeStyle 1.6 Inch (Micro Quad) (Betaflight 4.3)
+#$ TITLE: FreeStyle 1.6 Inch (Micro Quad) (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
-#$ DESCRIPTION: FreeStyle 1.6 Inch (Micro Quad) Size (Betaflight 4.3)
+#$ DESCRIPTION: FreeStyle 1.6 Inch (Micro Quad) Size (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
 profile 0

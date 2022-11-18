@@ -1,10 +1,10 @@
-#$ TITLE: RX Serial ELRS 200Hz for Race
+#$ TITLE: RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rx
-#$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for Race
+#$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
 feature RX_SERIAL

@@ -21,7 +21,7 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates
-#$ INCLUDE: presets/rate/freestyle.txt
+#$ INCLUDE: presets/rate/race.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Add Name
@@ -123,43 +123,25 @@ set name = RACE
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
-#$ OPTION BEGIN (UNCHECKED): 1S
-#$ INCLUDE: presets/pid/freestyle_43_1s_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_p0.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2S
-#$ INCLUDE: presets/pid/freestyle_43_2s_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_1s_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_p1.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): 3S
-#$ INCLUDE: presets/pid/freestyle_43_3s_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_2s_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_1s_p2.txt
-#$ INCLUDE: presets/pid/freestyle_43_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_p2.txt
+#$ INCLUDE: presets/pid/race_43_3s_p0.txt
+#$ INCLUDE: presets/pid/race_43_p0.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4S
-#$ INCLUDE: presets/pid/freestyle_43_4s_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_3s_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_2s_p2.txt
-#$ INCLUDE: presets/pid/freestyle_43_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_p2.txt
+#$ INCLUDE: presets/pid/race_43_4s_p0.txt
+#$ INCLUDE: presets/pid/race_43_3s_p1.txt
+#$ INCLUDE: presets/pid/race_43_p0.txt
+#$ INCLUDE: presets/pid/race_43_p1.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 6S
-#$ INCLUDE: presets/pid/freestyle_43_6s_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_4s_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_3s_p2.txt
-#$ INCLUDE: presets/pid/freestyle_43_p0.txt
-#$ INCLUDE: presets/pid/freestyle_43_p1.txt
-#$ INCLUDE: presets/pid/freestyle_43_p2.txt
+#$ INCLUDE: presets/pid/race_43_6s_p0.txt
+#$ INCLUDE: presets/pid/race_43_4s_p1.txt
+#$ INCLUDE: presets/pid/race_43_3s_p2.txt
+#$ INCLUDE: presets/pid/race_43_p0.txt
+#$ INCLUDE: presets/pid/race_43_p1.txt
+#$ INCLUDE: presets/pid/race_43_p2.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -167,28 +149,20 @@ set name = RACE
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
-#$ OPTION BEGIN (UNCHECKED): 1.6 Inch
-#$ INCLUDE: presets/size/Race_43_16.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2 Inch
-#$ INCLUDE: presets/size/Race_43_20.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/Race_43_25.txt
+#$ INCLUDE: presets/size/race_43_25.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/Race_43_30.txt
+#$ INCLUDE: presets/size/race_43_30.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/Race_43_35.txt
+#$ INCLUDE: presets/size/race_43_35.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/Race_43_40.txt
+#$ INCLUDE: presets/size/race_43_40.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -212,17 +186,17 @@ set name = RACE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-#$ INCLUDE: presets/rx/freestyle_elrs_200_43.txt
+#$ INCLUDE: presets/rx/race_elrs_200_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-#$ INCLUDE: presets/rx/freestyle_elrs_200_43.txt
+#$ INCLUDE: presets/rx/race_elrs_200_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/rx/freestyle_elrs_500_43.txt
+#$ INCLUDE: presets/rx/race_elrs_500_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 

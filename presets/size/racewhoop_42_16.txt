@@ -1,9 +1,9 @@
-#$ TITLE: Race 1.6 Inch (Micro Quad) (Betaflight 4.2)
+#$ TITLE: RaceWhoop 1.6 Inch (Micro Quad) (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
-#$ DESCRIPTION: Race 1.6 Inch (Micro Quad) Size (Betaflight 4.2)
+#$ DESCRIPTION: RaceWhoop 1.6 Inch (Micro Quad) Size (Betaflight 4.2)
 #$ HIDDEN: true
 
 profile 0
