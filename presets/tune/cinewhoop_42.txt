@@ -1,12 +1,13 @@
-#$ TITLE: Basic Tune 4.2
+#$ TITLE: CineWhoop Tune 4.2
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITY
+#$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Basic Tune for Betaflight 4.2
+#$ DESCRIPTION: CineWhoop Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
 
 
 #$ OPTION_GROUP BEGIN: Basic Setting
@@ -17,6 +18,10 @@
 
 #$ OPTION BEGIN (CHECKED): BEEPER
 #$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates
+#$ INCLUDE: presets/rate/cinewhoop.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Add Name
@@ -37,7 +42,7 @@ set name = CINEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GyroFlow
-#$ INCLUDE: presets/blackbox/blackbox_gyroflow_42.txt
+#$ INCLUDE: presets/blackbox/blackbox_gyroflow_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -49,83 +54,18 @@ set name = CINEWHOOP
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo / LiHV 1S
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo / LiHV 2S-6S
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.5V
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Quad Type
-
-#$ OPTION BEGIN (UNCHECKED): Race
-#$ INCLUDE: presets/type/42_freestyle.txt
-#$ INCLUDE: presets/rate/race.txt
-set name = RACE
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Freestyle
-#$ INCLUDE: presets/type/42_freestyle.txt
-#$ INCLUDE: presets/rate/freestyle.txt
-set name = FREESTYLE
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CineWhoop
-#$ INCLUDE: presets/type/42_cinematic.txt
-#$ INCLUDE: presets/rate/cinewhoop.txt
-set name = CINEWHOOP
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): RaceWhoop
-#$ INCLUDE: presets/type/42_freestyle.txt
-#$ INCLUDE: presets/rate/racewhoop.txt
-set name = RACEWHOOP
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Max Supported Cell
-
-#$ OPTION BEGIN (UNCHECKED): 1S
-#$ INCLUDE: presets/pid/42_1s_p0.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2S
-#$ INCLUDE: presets/pid/42_2s_p0.txt
-#$ INCLUDE: presets/pid/42_1s_p1.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3S
-#$ INCLUDE: presets/pid/42_3s_p0.txt
-#$ INCLUDE: presets/pid/42_2s_p1.txt
-#$ INCLUDE: presets/pid/42_1s_p2.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4S
-#$ INCLUDE: presets/pid/42_4s_p0.txt
-#$ INCLUDE: presets/pid/42_3s_p1.txt
-#$ INCLUDE: presets/pid/42_2s_p2.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6S
-#$ INCLUDE: presets/pid/42_6s_p0.txt
-#$ INCLUDE: presets/pid/42_4s_p1.txt
-#$ INCLUDE: presets/pid/42_3s_p2.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
 #$ OPTION_GROUP BEGIN: RPM Filter
-
-#$ OPTION BEGIN (UNCHECKED): OFF
-#$ INCLUDE: presets/rpm_filter/off.txt
-#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
@@ -141,11 +81,11 @@ set name = RACEWHOOP
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4_42.txt
+#$ INCLUDE: presets/chipset/f4_43.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7_42.txt
+#$ INCLUDE: presets/chipset/f7_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -159,27 +99,6 @@ set name = RACEWHOOP
 
 #$ OPTION BEGIN (UNCHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 96 kHz
-#$ INCLUDE: presets/esc/96.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
-
-#$ OPTION BEGIN (UNCHECKED): Noisy Motor
-#$ INCLUDE: presets/filter/42_no_rpm_noisy.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Normal Motor
-#$ INCLUDE: presets/filter/42_no_rpm_normal.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Clean Motor
-#$ INCLUDE: presets/filter/42_no_rpm_clean.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -202,34 +121,86 @@ set name = RACEWHOOP
 #$ OPTION_GROUP END
 
 
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p0.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/cinewhoop_42_4s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_4s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/cinewhoop_42_6s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_6s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_4s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_4s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_p2.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Quad Size
 
-#$ OPTION BEGIN (UNCHECKED): 1.6 Inch (Micro Whoop)
-#$ INCLUDE: presets/size/42_16.txt
+#$ OPTION BEGIN (UNCHECKED): 1.6 Inch
+#$ INCLUDE: presets/size/cinewhoop_42_16.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2 Inch
-#$ INCLUDE: presets/size/42_20.txt
+#$ INCLUDE: presets/size/cinewhoop_42_20.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/42_25.txt
+#$ INCLUDE: presets/size/cinewhoop_42_25.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/42_30.txt
+#$ INCLUDE: presets/size/cinewhoop_42_30.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/42_35.txt
+#$ INCLUDE: presets/size/cinewhoop_42_35.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/42_40.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 5 Inch - Above
-#$ INCLUDE: presets/size/42_50.txt
+#$ INCLUDE: presets/size/cinewhoop_42_40.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -238,26 +209,32 @@ set name = RACEWHOOP
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/rx/serial_sbus_43.txt
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/rx/serial_ibus_43.txt
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/rx/cinewhoop_elrs_200_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/rx/cinewhoop_elrs_200_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/rx/cinewhoop_elrs_500_43.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
