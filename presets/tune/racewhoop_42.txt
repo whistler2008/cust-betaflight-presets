@@ -1,10 +1,10 @@
-#$ TITLE: Race Tune 4.4
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: RaceWhoop Tune 4.2
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Race Tune for Betaflight 4.4
+#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -21,11 +21,11 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates
-#$ INCLUDE: presets/rate/race.txt
+#$ INCLUDE: presets/rate/racewhoop.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Add Name
-set craft_name = RACE
+set name = RACEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
@@ -59,7 +59,7 @@ set craft_name = RACE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GyroFlow
-#$ INCLUDE: presets/blackbox/blackbox_gyroflow_43.txt
+#$ INCLUDE: presets/blackbox/blackbox_gyroflow_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -80,7 +80,7 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: RPM Filter
 
-#$ OPTION BEGIN (UNCHECKED): 12 Pole
+#$ OPTION BEGIN (CHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
 #$ OPTION END
 
@@ -94,11 +94,11 @@ set craft_name = RACE
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4_43.txt
+#$ INCLUDE: presets/chipset/f4_42.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7_43.txt
+#$ INCLUDE: presets/chipset/f7_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -110,7 +110,7 @@ set craft_name = RACE
 #$ INCLUDE: presets/esc/24.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ OPTION BEGIN (CHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
 #$ OPTION END
 
@@ -120,15 +120,15 @@ set craft_name = RACE
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
-#$ INCLUDE: presets/filter/43_rpm_noisy.txt
+#$ INCLUDE: presets/filter/42_rpm_noisy.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Normal Motor
-#$ INCLUDE: presets/filter/43_rpm_normal.txt
+#$ INCLUDE: presets/filter/42_rpm_normal.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Clean Motor
-#$ INCLUDE: presets/filter/43_rpm_clean.txt
+#$ INCLUDE: presets/filter/42_rpm_clean.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -136,25 +136,16 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
-#$ OPTION BEGIN (UNCHECKED): 3S
-#$ INCLUDE: presets/pid/race_43_3s_p0.txt
-#$ INCLUDE: presets/pid/race_44_p0.txt
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/racewhoop_42_1s_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p0.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 4S
-#$ INCLUDE: presets/pid/race_43_4s_p0.txt
-#$ INCLUDE: presets/pid/race_43_3s_p1.txt
-#$ INCLUDE: presets/pid/race_44_p0.txt
-#$ INCLUDE: presets/pid/race_44_p1.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6S
-#$ INCLUDE: presets/pid/race_43_6s_p0.txt
-#$ INCLUDE: presets/pid/race_43_4s_p1.txt
-#$ INCLUDE: presets/pid/race_43_3s_p2.txt
-#$ INCLUDE: presets/pid/race_44_p0.txt
-#$ INCLUDE: presets/pid/race_44_p1.txt
-#$ INCLUDE: presets/pid/race_44_p2.txt
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/racewhoop_42_2s_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_1s_p1.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p1.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -162,20 +153,12 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
-#$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/race_43_25.txt
+#$ OPTION BEGIN (UNCHECKED): 1.6 Inch
+#$ INCLUDE: presets/size/racewhoop_42_16.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/race_43_30.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/race_43_35.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/race_43_40.txt
+#$ OPTION BEGIN (UNCHECKED): 2 Inch
+#$ INCLUDE: presets/size/racewhoop_42_20.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -183,34 +166,13 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 
-#$ OPTION BEGIN (UNCHECKED): Serial SBUS
-#$ INCLUDE: presets/rx/serial_sbus_43.txt
-#$ INCLUDE: presets/osd/osd_44_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Serial IBUS
-#$ INCLUDE: presets/rx/serial_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_44_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-#$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
+#$ OPTION BEGIN (UNCHECKED): Serial / SPI SBUS / IBUS
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): SPI ELRS
-#$ INCLUDE: presets/rx/race_elrs_200_43.txt
+#$ OPTION BEGIN (UNCHECKED): Serial / SPI ELRS
+#$ INCLUDE: presets/rx/elrs_4.2.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-#$ INCLUDE: presets/rx/race_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_44_lq.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/rx/race_elrs_500_43.txt
-#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -219,11 +181,11 @@ set craft_name = RACE
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
 #$ OPTION BEGIN (CHECKED): Without GPS
-#$ INCLUDE: presets/modes/aux_std_4.4.txt
+#$ INCLUDE: presets/modes/aux_std.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps_4.4.txt
+#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

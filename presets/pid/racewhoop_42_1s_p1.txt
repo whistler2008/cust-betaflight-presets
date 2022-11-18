@@ -1,11 +1,11 @@
-#$ TITLE: Cinewhoop 1S Profile 1 (Betaflight 4.2-4.4)
+#$ TITLE: RaceWhoop 1S Profile 1 (Betaflight 4.2-4.4)
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
-#$ DESCRIPTION: Cinewhoop 1S in Profile 1 (Betaflight 4.2-4.4)
+#$ DESCRIPTION: RaceWhoop 1S in Profile 1 (Betaflight 4.2-4.4)
 #$ HIDDEN: true
 
 profile 1

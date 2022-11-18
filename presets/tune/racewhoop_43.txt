@@ -35,6 +35,23 @@ set name = RACEWHOOP
 #$ OPTION_GROUP END
 
 
+#$ OPTION_GROUP BEGIN: Crash Recovery
+
+#$ OPTION BEGIN (UNCHECKED): OFF
+#$ INCLUDE: presets/crash/off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): ON
+#$ INCLUDE: presets/crash/on.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DISARM
+#$ INCLUDE: presets/crash/disarm.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: BlackBox
 
 #$ OPTION BEGIN (CHECKED): OFF
@@ -120,15 +137,18 @@ set name = RACEWHOOP
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/racewhoop_42_1s_p0.txt
 #$ INCLUDE: presets/pid/racewhoop_43_1s_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_43_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p0.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/racewhoop_42_2s_p0.txt
 #$ INCLUDE: presets/pid/racewhoop_43_2s_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_1s_p1.txt
 #$ INCLUDE: presets/pid/racewhoop_43_1s_p1.txt
-#$ INCLUDE: presets/pid/racewhoop_43_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_43_p1.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p0.txt
+#$ INCLUDE: presets/pid/racewhoop_42_p1.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
