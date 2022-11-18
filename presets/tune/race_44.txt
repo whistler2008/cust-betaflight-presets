@@ -41,7 +41,7 @@ set craft_name = RACE
 #$ INCLUDE: presets/crash/off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): ON
+#$ OPTION BEGIN (CHECKED): ON
 #$ INCLUDE: presets/crash/on.txt
 #$ OPTION END
 

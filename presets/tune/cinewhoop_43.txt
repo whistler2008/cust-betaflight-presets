@@ -45,7 +45,7 @@ set name = CINEWHOOP
 #$ INCLUDE: presets/crash/on.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DISARM
+#$ OPTION BEGIN (CHECKED): DISARM
 #$ INCLUDE: presets/crash/disarm.txt
 #$ OPTION END
 
