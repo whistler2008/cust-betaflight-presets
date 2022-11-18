@@ -81,11 +81,11 @@ set name = CINEWHOOP
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4_43.txt
+#$ INCLUDE: presets/chipset/f4_42.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7_43.txt
+#$ INCLUDE: presets/chipset/f7_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
