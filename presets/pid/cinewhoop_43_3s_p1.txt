@@ -1,5 +1,6 @@
 #$ TITLE: Cinewhoop 3S Profile 1 (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
@@ -11,7 +12,6 @@ profile 1
 # profile 1
 set profile_name = 3S
 set auto_profile_cell_count = 3
-set anti_gravity_gain = 10000
 set iterm_relax_cutoff = 10
 set p_pitch = 56
 set i_pitch = 100

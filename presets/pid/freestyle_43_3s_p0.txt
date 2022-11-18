@@ -1,5 +1,6 @@
 #$ TITLE: Freestyle 3S Profile 0 (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
@@ -11,7 +12,6 @@ profile 0
 # profile 0
 set profile_name = 3S
 set auto_profile_cell_count = 3
-set anti_gravity_gain = 5000
 set iterm_relax_cutoff = 15
 set p_pitch = 67
 set i_pitch = 120

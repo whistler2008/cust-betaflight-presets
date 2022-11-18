@@ -1,5 +1,6 @@
 #$ TITLE: Cinewhoop 4S Profile 0 (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
@@ -11,7 +12,6 @@ profile 0
 # profile 0
 set profile_name = 4S
 set auto_profile_cell_count = 4
-set anti_gravity_gain = 10000
 set iterm_relax_cutoff = 10
 set p_pitch = 47
 set i_pitch = 84

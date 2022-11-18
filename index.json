@@ -1401,10 +1401,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_1s_p0.txt",
-      "hash": "8c6785ca846b407d6f0a8f5e6ec1e86b27f82b2d7e19fb5a78eccfb4d842c67c",
+      "hash": "76667b644f52a42d9f3da8146d05510a081648da8cca7a51ccc64c5805baf84c",
       "title": "Cinewhoop 1S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1416,10 +1417,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_1s_p1.txt",
-      "hash": "3ca913989bcbcc2ca131ce105a28a6468897de5b8230fe71b57b047510c5bd15",
+      "hash": "99551179fda25a9e3211a407b26a7b23505abac31648e3373fb92d7eaafb4f10",
       "title": "Cinewhoop 1S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1431,10 +1433,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_1s_p2.txt",
-      "hash": "62626b969e1e8148d8b040710d5d0b5301122de57ebf54ac66fe856dff36762b",
+      "hash": "153f641d26937fe04ec12fa7447f752ce451fe923398be8f38447b65826fe7be",
       "title": "Cinewhoop 1S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1446,10 +1449,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_2s_p0.txt",
-      "hash": "4748723c309c54ede1469e8122436bce7b87d0e55028bd76e21b74a121a7eb01",
+      "hash": "cb673e74cc2f070cc3f737370bbfbedb448effdf1a8f6ad7b9b78176be2d0d95",
       "title": "Cinewhoop 2S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1461,10 +1465,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_2s_p1.txt",
-      "hash": "74cef9e53ec8640f779f6b49351d2207ee04d301bfaf38980bc5ccd8fae2369a",
+      "hash": "9b79b940e8d9d603fde02c8659d9b228f7425dd49491c6cc0672a0ddd21e2999",
       "title": "Cinewhoop 2S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1476,10 +1481,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_2s_p2.txt",
-      "hash": "a45ec0411160072523eb3c7d4245db43bf5b34e4da12d71b35078d625c57a7cc",
+      "hash": "11bdd3588a64daee85983a2c568392c16aa6e21e5b0d0ceb37e5178e17ba061d",
       "title": "Cinewhoop 2S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1491,10 +1497,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_3s_p0.txt",
-      "hash": "9f6f96d47ca2c434681992f586ccd65e2068f41e33eba1e8ed2a02c0713becb5",
+      "hash": "86ff021a7255b38106d962c8b416a618160a574871d4c1862718fa64946f741f",
       "title": "Cinewhoop 3S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1506,10 +1513,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_3s_p1.txt",
-      "hash": "607043b69ff0b9e16517bb7c9412a6b5b7870f620c3f186272865a642e1effda",
+      "hash": "fa9481e0047dcbde34992084da474ffd8966c7052fbdb931222420e127175ea4",
       "title": "Cinewhoop 3S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1521,10 +1529,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_3s_p2.txt",
-      "hash": "e048b9942102b04526978156b41c243a32c7f6480d83dbb35dc9df9ba3e69f2a",
+      "hash": "f33a14105cf58abf095c2053c6bcf678e268a1f2c171dc768754b6a54db6c325",
       "title": "Cinewhoop 3S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1536,10 +1545,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_4s_p0.txt",
-      "hash": "a46f2b334a386632c44571556558fc960e96d5058c73f7bd83f34e2f3cffc197",
+      "hash": "3114cf15318bf5a0876fec8cf377ce49275bbc5ff3c2f0992a82904bce92a2be",
       "title": "Cinewhoop 4S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1551,10 +1561,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_4s_p1.txt",
-      "hash": "b055e65ff87d9470a31584b8c6ace3da7567b2622388827f732a088223531eb5",
+      "hash": "6fe68a2833ec3cd4c808f9fb991472ca3d71c6fcedb91db3ddf2b2a5e02a45c5",
       "title": "Cinewhoop 4S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1566,10 +1577,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_4s_p2.txt",
-      "hash": "6cdb45da183e8fac27737dc97d19db4898d89cef0b2d683cecbafee05d0e498d",
+      "hash": "49c39aa18eb27ecdff6d8766d54d07d09a79a7b2762b9f1f7eecb4a67f8c07c7",
       "title": "Cinewhoop 4S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1581,10 +1593,11 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_6s_p0.txt",
-      "hash": "8ef429d7add726c62b2cc4abc459c657faf165f85e2c24fd914196dee3124c09",
+      "hash": "92d59d91bb7552ebcbff44d82f04714e00d2d95b46f494bd6944439486f041b4",
       "title": "Cinewhoop 6S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1596,8 +1609,40 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_43_6s_p1.txt",
-      "hash": "3563450eac3803ac2f2eb4acb5079fbfe43cc72d733323352418ea62893972cb",
+      "hash": "f41123e2ecc17ef4ad5ee6386486f8ccfd95ce11f10630dee091facd12ed1204",
       "title": "Cinewhoop 6S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_43_6s_p2.txt",
+      "hash": "8bbbc9943d2310e0226aa6a286269a83bc01eb5e80bbf4f1af3e810ad82a1c98",
+      "title": "Cinewhoop 6S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_43_p0.txt",
+      "hash": "0839fa27a49bca222c5cfab6de88d48fcb3de29ee7fe57724bb9522ec1353738",
+      "title": "CineWhoop Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
@@ -1610,9 +1655,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/cinewhoop_43_6s_p2.txt",
-      "hash": "b7252164d3f2d67e72635e4150f96e2cfa99d9bda86d77e3805d2ab148c1c628",
-      "title": "Cinewhoop 6S Profile 2 (Betaflight 4.3)",
+      "fullPath": "presets/pid/cinewhoop_43_p1.txt",
+      "hash": "b39286dfa1de43fb006097e79ca091590bf88799c7cc93adee608ed36b22dd59",
+      "title": "CineWhoop Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_43_p2.txt",
+      "hash": "04d67f41a4d5c83a08aa1fc06bcb3517294205828741fd088408ed4d77ca23f4",
+      "title": "CineWhoop Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
@@ -1671,10 +1731,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p0.txt",
-      "hash": "14e10b485e245efbf5ca78ff041661f635874784ed479c151287dce5b25ae94e",
+      "hash": "ab113fa5d6a9f1ac17a292bc72cf8243a37578514ccbf9e9d493c4e293508cad",
       "title": "Freestyle 1S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1686,10 +1747,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p1.txt",
-      "hash": "dd55927d9bacfdace379b5c80d44f15233996cc688495ae8aaf3deadc112a319",
+      "hash": "c3984a2c64463fd8156f68ae5e992b9bd71aedacf3aa2a0b2253f88b0f5b5425",
       "title": "Freestyle 1S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1701,10 +1763,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p2.txt",
-      "hash": "37362d49c96afabc153b3380d5d508b1ce38b965ec5ed180bf9c7c311792552e",
+      "hash": "b6721a2d57a0ef88a2adbba3f8e215a1e1ff4086fdf618fecc75c6942d8c17ce",
       "title": "Freestyle 1S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1716,10 +1779,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p0.txt",
-      "hash": "5b0fcba7889f852ac0d0273896d3274fdfe86e6db763708434284f6a52f65158",
+      "hash": "dbbfffa136e2df333704f5785ae43d6e97c0ebcd7aaa212368b8cc17836e7c5c",
       "title": "Freestyle 2S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1731,10 +1795,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p1.txt",
-      "hash": "bf483c5290ee5e67773f3bd4a455a9d46d65eadedac81fb94b30cb347e79fcde",
+      "hash": "39aab1b58c8526f14ea85ba8bb9c87817a05d9222c3c61800ec4ac69ca6e7643",
       "title": "Freestyle 2S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1746,10 +1811,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p2.txt",
-      "hash": "c89a20fccd3dbf32ee00cc0c5aeab8c8e27935e6c6f49fa48a2fd87c2d03d2b5",
+      "hash": "6b85d2bf86ee2ccda17d7ee4584ff3dcce51613cd0a6cdd9b6335f017e8ffe78",
       "title": "Freestyle 2S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1761,10 +1827,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p0.txt",
-      "hash": "f29a2b39639e12ffd40af1de72a23d23572e7ec15b4d7d5e64a5e50fa5a541ac",
+      "hash": "cdffb6a5c90d9562927a6556982798961ff285b1b1929fd3dc0a8c56a191eadd",
       "title": "Freestyle 3S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1776,10 +1843,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p1.txt",
-      "hash": "3669f80b5934a6753d6932869cacaf1dbdb6df4baa1218d3cebe04cd8524b784",
+      "hash": "04ab6fcb547234897c9f0abb0ca98bf389c4ea24326a690e8b61bc8ab9528869",
       "title": "Freestyle 3S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1791,10 +1859,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p2.txt",
-      "hash": "9638f677e826e2648e6ac560c2fe46069f0511e0709ec40895f5a9404f21a0d1",
+      "hash": "17493f466fdec320c95f9d93881a15e6239b5c92be132328f3d6d15769f4ca0d",
       "title": "Freestyle 3S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1806,10 +1875,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p0.txt",
-      "hash": "4097f4d5749c9e09be5b8b609587ed2a63e14c8c5904a973552cba456143dc31",
+      "hash": "05b5223aa53c9179a20252dc14009d4e7482fe42003d0494f6d82a151eed74ba",
       "title": "Freestyle 4S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1821,10 +1891,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p1.txt",
-      "hash": "28cc20e606b604239fba37098fb78102f9d3ea4f70245fcc4f92fc952a7e7615",
+      "hash": "6659227c758a58c7c4d6146ac5cba85fa250549d5494c9fd26c84505451cccf6",
       "title": "Freestyle 4S Profile 1 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1836,10 +1907,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p2.txt",
-      "hash": "1d79b17b12b48e9a515960578aa4d2516d5a01672e90ccc995c5b5076593baec",
+      "hash": "376c24f4f5a749fc56a3634cab5962715ed1d7fa23e183498d3d226158baa135",
       "title": "Freestyle 4S Profile 2 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1851,10 +1923,11 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_6s_p0.txt",
-      "hash": "07710426e21123a64883978a76b7d7fcc460fcb91313e25f29e3300eb6207245",
+      "hash": "0d77279eca870a8c748dbbc3a27129925ba06dd340db014997929dba2d5a5d0d",
       "title": "Freestyle 6S Profile 0 (Betaflight 4.3)",
       "firmware_version": [
-        "4.3"
+        "4.3",
+        "4.4"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1866,8 +1939,40 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_6s_p1.txt",
-      "hash": "6304d767b305b0a3a7598f35877b1d4b5d4569d96f74533f63d6fe2bf1b951b4",
+      "hash": "c9979641b07a4f092c9c3c073207992a792ecc5488d0204e86678efb8a5a513c",
       "title": "Freestyle 6S Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_43_6s_p2.txt",
+      "hash": "8977f3697496241bdc25445b864c6caba410ff387329ccf2e52503d3bc6eead5",
+      "title": "Freestyle 6S Profile 2 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_43_p0.txt",
+      "hash": "7cb530e553c729febf54d4ab9110a215b1cbe814ddfdfd60abdff767c976a072",
+      "title": "FreeStyle Profile 0 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
@@ -1880,9 +1985,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_6s_p2.txt",
-      "hash": "707f9a9fa7daf22f388237c8a7db916320b02a66d897b58a1e28fd9c11602ac2",
-      "title": "Freestyle 6S Profile 2 (Betaflight 4.3)",
+      "fullPath": "presets/pid/freestyle_43_p1.txt",
+      "hash": "89724e092be9bad03ada7494cd36a101b045aff70492f888a497993b32b99e75",
+      "title": "FreeStyle Profile 1 (Betaflight 4.3)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "pid"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_43_p2.txt",
+      "hash": "09a2c6c17e9a3b6440b29740f4d79298b1f5f156dbc6d6d1c1b997d52f659a21",
+      "title": "FreeStyle Profile 2 (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
       ],
@@ -2909,7 +3029,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "9acb49eb101d47072215d17dfc7336524195923fe1c1239fd069a6387d00c458",
+      "hash": "f745244f0e64a2c176de50a00d0284a7ff16d22e5ad042dc2e10adf187ca5e4f",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -2939,7 +3059,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "2af1d1b528c29b6d92e7905627a5869c6e4d180b7190d6a97b6a1dd8647babd0",
+      "hash": "f9b774c624ddb9e3d93943064bfaa6e95e2f7d3587f2a833be48f73a81f12a41",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
