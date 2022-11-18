@@ -2262,7 +2262,7 @@
     },
     {
       "fullPath": "presets/rate/default.txt",
-      "hash": "279582d66a231b44db4fc5bdd14f590b67d3d027a5cd894f3d671e8a6b770f9d",
+      "hash": "07f37562029522d6beee9f543ca1abee3e93ba1b1eefb154380403f64ad58d43",
       "title": "Default Rate",
       "firmware_version": [
         "4.2",
@@ -2394,6 +2394,20 @@
       "firmware_version": [
         "4.3",
         "4.4"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/rx/elrs_4.2.txt",
+      "hash": "388f9dd562e602c4844394bc552da765b541102935b265df8897e4e7f3d2df5f",
+      "title": "RX ELRS (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3175,7 +3189,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "0e792ceb91637da87e75f599f7ec29566142a792f96ffcdd188b165bfe018a3e",
+      "hash": "4acfe603ca4ca8f01eb838679c6fa254cb90c3c940bb7b13b7ea848d0edf93b2",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"

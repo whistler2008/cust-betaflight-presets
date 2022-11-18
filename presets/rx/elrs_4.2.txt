@@ -1,0 +1,10 @@
+#$ TITLE: RX ELRS (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: RX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rx
+#$ DESCRIPTION: Setting for RX ELRS (Betaflight 4.2)
+#$ HIDDEN: true
+
+set rc_interp = PRESET
+set rc_smoothing_type = INTERPOLATION
