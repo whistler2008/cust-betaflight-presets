@@ -8,6 +8,7 @@
 #$ HIDDEN: true
 
 feature RX_SERIAL
+feature TELEMETRY
 set serialrx_provider = CRSF
 
 # rc_smoothing

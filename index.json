@@ -2374,7 +2374,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
-      "hash": "4748b26ebd19dd65e9dfba5e799f3e37920d4b593341a7c11f1e426091837339",
+      "hash": "2b200a3a075d3e0bccefb9de83c25601de862072c8a9bccf4981874683ab22f1",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2389,7 +2389,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
-      "hash": "ba46bdb2da6645b84b6c4d2cea9bfe592f1cea52c08f6144a86270b5dac19a04",
+      "hash": "f700a59de0d465003749965bdb35cbb2d37a161d3ef8d9dc35dbd72f115343b8",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2404,7 +2404,7 @@
     },
     {
       "fullPath": "presets/rx/elrs_4.2.txt",
-      "hash": "388f9dd562e602c4844394bc552da765b541102935b265df8897e4e7f3d2df5f",
+      "hash": "6e685f7b50eb5fdf4e0c61600753d3944e6609bde41af69ff7c962d70d7b1399",
       "title": "RX ELRS (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -2418,7 +2418,7 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_200_43.txt",
-      "hash": "cf08af9598c9bfe1e9e19af4c0734788122bfaf0c7495f31b5aca24fd74e4c6f",
+      "hash": "8391516fe97a493cf7f565f4cc3d48174060629b997097b0c80921ec477d9913",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2433,7 +2433,7 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_500_43.txt",
-      "hash": "b78bbab379648b7705116e832dda5a9c57ec632a041b67744e6911385196bc83",
+      "hash": "6122b713e8cece38c754724386b432f0705aa70dfcb6236810c70a1e7d22c9a2",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2448,7 +2448,7 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_200_43.txt",
-      "hash": "9bcb476259c49cb9641954796172163fe83368c898999e1905a9f2c1cff5ae2b",
+      "hash": "6d4261d0dd108428c83dd23b6e7c57a60e5a1cf7c1576e11a3a352dea89072b5",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2463,7 +2463,7 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_500_43.txt",
-      "hash": "a9a5798132fff2706c81603ab5c50a92ec138edc5a3344cf0f1a9f8f7e93ed4f",
+      "hash": "67319452f7d1a3714f2666040cb7e6ce38d1d0ea7012300220d155bc402becbb",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2508,7 +2508,7 @@
     },
     {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "d1de442b46bf1684bfed769bf907bd12dcf144ef0766f357fbb263a49e6111a9",
+      "hash": "7b18fef6f0283394ae2823c56f0d7651de50374bfc14111ef9cd854241138ab7",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3189,7 +3189,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "4acfe603ca4ca8f01eb838679c6fa254cb90c3c940bb7b13b7ea848d0edf93b2",
+      "hash": "dc2c9994ed30c352bf9b9b43dae2699597ed3c7a8e9e5f11d2cfd60488d8d59b",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"

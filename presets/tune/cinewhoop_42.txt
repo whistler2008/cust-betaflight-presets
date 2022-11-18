@@ -200,7 +200,7 @@ set name = CINEWHOOP
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): erial / SPI ELRS
+#$ OPTION BEGIN (UNCHECKED): Serial / SPI ELRS
 #$ INCLUDE: presets/rx/elrs_4.2.txt
 #$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END

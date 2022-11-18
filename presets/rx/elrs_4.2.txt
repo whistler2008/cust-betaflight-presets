@@ -6,5 +6,7 @@
 #$ DESCRIPTION: Setting for RX ELRS (Betaflight 4.2)
 #$ HIDDEN: true
 
+feature TELEMETRY
+
 set rc_interp = PRESET
 set rc_smoothing_type = INTERPOLATION
