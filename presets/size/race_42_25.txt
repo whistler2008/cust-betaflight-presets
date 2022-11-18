@@ -1,22 +1,22 @@
-#$ TITLE: 3.5 Inch (Betaflight 4.2)
+#$ TITLE: Race 2.5 Inch (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: size
-#$ DESCRIPTION: Default 3.5 Inch Size (Betaflight 4.2)
+#$ DESCRIPTION: Race 2.5 Inch Size (Betaflight 4.2)
 #$ HIDDEN: true
 
 profile 0
 
 # profile 0
-set idle_min_rpm = 42
+set idle_min_rpm = 40
 
 profile 1
 
 # profile 1
-set idle_min_rpm = 42
+set idle_min_rpm = 40
 
 profile 2
 
 # profile 2
-set idle_min_rpm = 42
+set idle_min_rpm = 40

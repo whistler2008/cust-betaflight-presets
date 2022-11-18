@@ -1,10 +1,10 @@
-#$ TITLE: FreeStyle Tune 4.4
+#$ TITLE: Race Tune 4.4
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: FreeStyle Tune for Betaflight 4.4
+#$ DESCRIPTION: Race Tune for Betaflight 4.4
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -25,7 +25,7 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Add Name
-set craft_name = FREESTYLE
+set craft_name = RACE
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
@@ -168,27 +168,27 @@ set craft_name = FREESTYLE
 #$ OPTION_GROUP BEGIN: Quad Size
 
 #$ OPTION BEGIN (UNCHECKED): 1.6 Inch
-#$ INCLUDE: presets/size/freestyle_43_16.txt
+#$ INCLUDE: presets/size/Race_43_16.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2 Inch
-#$ INCLUDE: presets/size/freestyle_43_20.txt
+#$ INCLUDE: presets/size/Race_43_20.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/freestyle_43_25.txt
+#$ INCLUDE: presets/size/Race_43_25.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/freestyle_43_30.txt
+#$ INCLUDE: presets/size/Race_43_30.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/freestyle_43_35.txt
+#$ INCLUDE: presets/size/Race_43_35.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/freestyle_43_40.txt
+#$ INCLUDE: presets/size/Race_43_40.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

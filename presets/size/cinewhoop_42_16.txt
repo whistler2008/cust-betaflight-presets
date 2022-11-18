@@ -9,14 +9,14 @@
 profile 0
 
 # profile 0
-set idle_min_rpm = 60
+set idle_min_rpm = 70
 
 profile 1
 
 # profile 1
-set idle_min_rpm = 60
+set idle_min_rpm = 70
 
 profile 2
 
 # profile 2
-set idle_min_rpm = 60
+set idle_min_rpm = 70
