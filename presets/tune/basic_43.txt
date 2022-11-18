@@ -80,12 +80,12 @@ set name = SMOOTH
 #$ OPTION BEGIN (UNCHECKED): Cinematic
 #$ INCLUDE: presets/type/43_cinematic.txt
 #$ INCLUDE: presets/rate/cinematic.txt
-set name = SMOOTH
+set name = CINEMATIC
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CineWhoop
 #$ INCLUDE: presets/type/43_cinematic.txt
-#$ INCLUDE: presets/rate/cinewhoop_official.txt
+#$ INCLUDE: presets/rate/cinewhoop.txt
 set name = CINEWHOOP
 #$ OPTION END
 

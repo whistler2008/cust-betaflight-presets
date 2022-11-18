@@ -1,0 +1,23 @@
+#$ TITLE: FreeStyle 4 Inch (Betaflight 4.3)
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: size
+#$ DESCRIPTION: FreeStyle 4 Inch Size (Betaflight 4.3)
+#$ HIDDEN: true
+
+profile 0
+
+# profile 0
+set dyn_idle_min_rpm = 25
+
+profile 1
+
+# profile 1
+set dyn_idle_min_rpm = 25
+
+profile 2
+
+# profile 2
+set dyn_idle_min_rpm = 25
