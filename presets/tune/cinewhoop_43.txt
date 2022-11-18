@@ -37,15 +37,15 @@ set name = CINEWHOOP
 
 #$ OPTION_GROUP BEGIN: Crash Recovery
 
-#$ OPTION BEGIN (UNCHECKED): OFF
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery OFF
 #$ INCLUDE: presets/crash/crash_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): ON
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
 #$ INCLUDE: presets/crash/crash_on.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): DISARM
+#$ OPTION BEGIN (CHECKED): Crash Recovery DISARM
 #$ INCLUDE: presets/crash/crash_disarm.txt
 #$ OPTION END
 
