@@ -38,15 +38,15 @@ set craft_name = FREESTYLE
 #$ OPTION_GROUP BEGIN: Crash Recovery
 
 #$ OPTION BEGIN (CHECKED): OFF
-#$ INCLUDE: presets/crash/off.txt
+#$ INCLUDE: presets/crash/crash_off.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): ON
-#$ INCLUDE: presets/crash/on.txt
+#$ INCLUDE: presets/crash/crash_on.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DISARM
-#$ INCLUDE: presets/crash/disarm.txt
+#$ INCLUDE: presets/crash/crash_disarm.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
