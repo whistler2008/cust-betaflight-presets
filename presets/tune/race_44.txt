@@ -37,7 +37,7 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: BlackBox
 
-#$ OPTION BEGIN (UNCHECKED): OFF
+#$ OPTION BEGIN (CHECKED): OFF
 #$ INCLUDE: presets/blackbox/blackbox_off.txt
 #$ OPTION END
 
@@ -49,10 +49,6 @@ set craft_name = RACE
 
 
 #$ OPTION_GROUP BEGIN: Battery Type
-
-#$ OPTION BEGIN (UNCHECKED): Li-Ion
-#$ INCLUDE: presets/battery/batt_30.txt
-#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
@@ -205,7 +201,7 @@ set craft_name = RACE
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
-#$ OPTION BEGIN (UNCHECKED): Without GPS
+#$ OPTION BEGIN (CHECKED): Without GPS
 #$ INCLUDE: presets/modes/aux_std_4.4.txt
 #$ OPTION END
 

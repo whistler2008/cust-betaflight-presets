@@ -93,7 +93,7 @@ set craft_name = RACEWHOOP
 #$ INCLUDE: presets/esc/24.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ OPTION BEGIN (CHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
 #$ OPTION END
 
