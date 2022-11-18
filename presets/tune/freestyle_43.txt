@@ -81,11 +81,11 @@ set name = FREESTYLE
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4.txt
+#$ INCLUDE: presets/chipset/f4_43.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7.txt
+#$ INCLUDE: presets/chipset/f7_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -196,6 +196,16 @@ set name = FREESTYLE
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
 #$ INCLUDE: presets/rx/serial_ibus_43.txt
 #$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
+#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/rx/freestyle_elrs_200_43.txt
+#$ INCLUDE: presets/osd/osd_42_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz

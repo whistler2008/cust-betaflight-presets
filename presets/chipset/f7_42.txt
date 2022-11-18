@@ -1,0 +1,11 @@
+#$ TITLE: Chipset F7 (Betaflight 4.2)
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: chipset
+#$ DESCRIPTION: Default for F7 Chipset
+#$ HIDDEN: true
+
+# rpm filter
+set pid_process_denom = 1
+set motor_pwm_protocol = DSHOT600

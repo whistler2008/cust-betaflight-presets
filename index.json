@@ -369,9 +369,24 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/chipset/f4.txt",
-      "hash": "b80df211f391e4c1ef9e442540067ccaf7dcb23e732f27ff216fad874bd3b605",
-      "title": "Chipset F4",
+      "fullPath": "presets/chipset/f4_42.txt",
+      "hash": "bee883d68ff9e82a36bab857c586732172e4681029e619c922c19ae78fed571e",
+      "title": "Chipset F4 (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "chipset"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/chipset/f4_43.txt",
+      "hash": "6e571372da4f9f91437414ae4c6494b00c6ebeffed710e4ec0c822ef63523699",
+      "title": "Chipset F4 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -385,9 +400,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/chipset/f7.txt",
-      "hash": "0687cd67874cf7bdc1029d5a22a5313adae3d88b385eb42abcb06d6cd8d61752",
-      "title": "Chipset F7",
+      "fullPath": "presets/chipset/f7_42.txt",
+      "hash": "afb1e40f92e43bbfb74c5ef8b4bbe9673f8897a598fad32fceed92a9c883b910",
+      "title": "Chipset F7 (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "chipset"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/chipset/f7_43.txt",
+      "hash": "f59f8fd798d4fa4e2f5d93c7d2659d9dae431215991adc14ff634ccd6954a907",
+      "title": "Chipset F7 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
         "4.3"
@@ -852,7 +882,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_global.txt",
-      "hash": "8cc02a5cf4924051d014d84f3d11d1e951d763dde515901fb291b4076d809afb",
+      "hash": "6dfc67eeae7e9adfda54b6aa0d3495c4025ceba83635e3a09a449b9219eb51d7",
       "title": "Global OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -2060,24 +2090,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rate/cinematic.txt",
-      "hash": "5b121e463aac2688b0ffa5ace69cbae972267476874b2fa7c624f5bb67d8e2d8",
-      "title": "Cinematic Rate Profile",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rate"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/rate/cinewhoop.txt",
-      "hash": "1add01186b1d5068d0aa7a1bf0b4f041501c3a23769237b8ec2c347996e829b0",
+      "hash": "c26379be14c7b357787aea7b3e26e353d1efcea84b736a80082973d933c9cf0d",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2109,8 +2123,24 @@
     },
     {
       "fullPath": "presets/rate/freestyle.txt",
-      "hash": "30b3da28817e01b0d82d677b270f294962065a5eabe71e345b4248bda5301242",
-      "title": "Freestyle Rate Profile",
+      "hash": "1e6ee5e115adb8e18a0d704eed11958a8b76a9a782edf340624d0b1b09b24ba1",
+      "title": "FreeStyle Rate Profile",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rate"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/rate/race.txt",
+      "hash": "75f9c61e30fbe7c9027b6aa526ae9ebd529134f8274edcbcded99389eb8da5bd",
+      "title": "Race Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -2125,24 +2155,8 @@
     },
     {
       "fullPath": "presets/rate/racewhoop.txt",
-      "hash": "c635ba8b521409063cc76d271f6d9c46c6624c78ed5cda242091a255c1ff410f",
+      "hash": "61b0604aa25f4eeeb298d07a1535c70bd14cdbfb52348e19ea38dc2f5ebe12e5",
       "title": "RaceWhoop Rate Profile",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rate"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/rate/smooth.txt",
-      "hash": "8700972a1a325a1ce58d3dead77cb26c3239000c7ad38db99bdd673ca3f44c33",
-      "title": "Smooth Rate Profile",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -2205,7 +2219,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
-      "hash": "9ec36f4d05c28bfe846d377fc82a691dacf3763e3bd2fc939c17ef47d48ebf2e",
+      "hash": "7c688f608105cf22163bcc4cb991b6c16fd5a4b2aeb28a44e4a35d20b5b9558a",
       "title": "RX Serial ELRS 200Hz for CineWhoop",
       "firmware_version": [
         "4.3",
@@ -2220,7 +2234,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
-      "hash": "b0ef740b45db8253ca99163c475ef289cb0f3336a36c6d6202b4ea1da3e25ed3",
+      "hash": "c2cf411e20ee8b7e12a17276e2852546c71c5cd4ce91f77f0cdbccc22c3701cd",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
         "4.3",
@@ -2265,7 +2279,7 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_200_43.txt",
-      "hash": "5344f8871c48bc0516eb903117add55e3613cfdaa96437d5a7d57eaa0a36dd7e",
+      "hash": "07d1afacb23ebdf9cd098b51f5921b2ca873f3d03fae71c117ca764464e436c8",
       "title": "RX Serial ELRS 200Hz for FreeStyle",
       "firmware_version": [
         "4.3",
@@ -2280,8 +2294,38 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_500_43.txt",
-      "hash": "a570d57ee321a711e120542d45e172d41ad50584eed85e2c85d42d251ad895dc",
+      "hash": "da8306cef680c1575a878c8fff5329aca21d79f0bb68a728faecd9bd57793fc5",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/rx/race_elrs_200_43.txt",
+      "hash": "fddbd5e716a9fca0725cb93cd29949b7d37f52596bebe220e6e77602f83498cf",
+      "title": "RX Serial ELRS 200Hz for Race",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/rx/race_elrs_500_43.txt",
+      "hash": "5772bee877dedcd3b657b0d84604750bb29607a4ca5c76fce50ca35763f74920",
+      "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
         "4.3",
         "4.4"
@@ -2999,7 +3043,7 @@
     },
     {
       "fullPath": "presets/tune/basic_42.txt",
-      "hash": "e45c6d2742a848fa94c8d80d78f509d94d0fa6d5cb2c19e4ed9be9c33c2cb8cf",
+      "hash": "462e952d19c432ee3150baec022f62c2bf3e6bd8ece98c89c5819a452fdc8f92",
       "title": "Basic Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3014,7 +3058,7 @@
     },
     {
       "fullPath": "presets/tune/basic_43.txt",
-      "hash": "297b11167634aed10afaa515487b6e90676cb7601d2eaff163981dc7cdbbfa9f",
+      "hash": "852f5eb4c28fed6be9861c3e1f9d873b74bbb4d75f753a9ff5d06a031934fb19",
       "title": "Basic Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3029,7 +3073,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "f745244f0e64a2c176de50a00d0284a7ff16d22e5ad042dc2e10adf187ca5e4f",
+      "hash": "f0f620fc3dd2b7e91473fe72e1e9eab377feb62a432e8fa5b205281e4dfa26e9",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3044,7 +3088,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "1cc598528fb157549d40e7ef8f290503ba385f71525e3b32c0ca8a801aa5945d",
+      "hash": "0653d1ddae51b2770927e46a9f0d08bad25a2a05b2faba66d30463406463e549",
       "title": "CineWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3059,7 +3103,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "f9b774c624ddb9e3d93943064bfaa6e95e2f7d3587f2a833be48f73a81f12a41",
+      "hash": "80b3d61e609dd41652b4381057e374408a2d2ea9ec8c22d059766a78283b3bc8",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3074,7 +3118,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "91ffb6db350d731aedb896e923bdc4e07ba5004d0ddcb990c36965b19a58d90a",
+      "hash": "45f8a3a43323165f17ba0b4c69ede428055feaeb7c8909bc31258643bd080449",
       "title": "FreeStyle Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3104,7 +3148,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "e01f5ff06330bdf4f7ec8ed8dc163f00f3c061b035bc9c9b2ea265472952fe30",
+      "hash": "ac5fc206084e5e43013a96ca58dc53b7372500065845aa370b5d981ae6edd837",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"

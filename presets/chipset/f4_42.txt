@@ -1,6 +1,5 @@
-#$ TITLE: Chipset F4 
+#$ TITLE: Chipset F4 (Betaflight 4.2)
 #$ FIRMWARE_VERSION: 4.2
-#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: chipset

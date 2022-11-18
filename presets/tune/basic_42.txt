@@ -59,24 +59,19 @@ set name = CINEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: Quad Type
+
+#$ OPTION BEGIN (UNCHECKED): Race
+#$ INCLUDE: presets/type/43_freestyle.txt
+#$ INCLUDE: presets/rate/race.txt
+set name = RACE
+#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Freestyle
 #$ INCLUDE: presets/type/43_freestyle.txt
 #$ INCLUDE: presets/rate/freestyle.txt
 set name = FREESTYLE
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Smooth
-#$ INCLUDE: presets/type/43_smooth.txt
-#$ INCLUDE: presets/rate/smooth.txt
-set name = SMOOTH
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Cinematic
-#$ INCLUDE: presets/type/43_cinematic.txt
-#$ INCLUDE: presets/rate/cinematic.txt
-set name = CINEMATIC
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CineWhoop
@@ -86,12 +81,13 @@ set name = CINEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): RaceWhoop
-#$ INCLUDE: presets/type/43_cinematic.txt
+#$ INCLUDE: presets/type/43_freestyle.txt
 #$ INCLUDE: presets/rate/racewhoop.txt
 set name = RACEWHOOP
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
@@ -124,6 +120,7 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: RPM Filter
 
 #$ OPTION BEGIN (UNCHECKED): OFF
@@ -140,17 +137,19 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4.txt
+#$ INCLUDE: presets/chipset/f4_42.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7.txt
+#$ INCLUDE: presets/chipset/f7_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: ESC PWM
 
@@ -168,6 +167,7 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter OFF
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
@@ -184,6 +184,7 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
@@ -199,6 +200,7 @@ set name = RACEWHOOP
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
@@ -232,6 +234,7 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP END
 
+
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
@@ -259,6 +262,7 @@ set name = RACEWHOOP
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
