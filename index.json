@@ -2377,7 +2377,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_3s_p0.txt",
-      "hash": "c481b917e45624c8a3ec8d4738ffab1ab01812b1bbfd1322b524cc5a55469f71",
+      "hash": "82ec0f608e44d8886d6eacc1a148f100ae3393e2380e150affc332d721669b9a",
       "title": "Race 3S Profile 0 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2394,7 +2394,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_3s_p1.txt",
-      "hash": "be34c59dfb16782e69f73b5cb4012ddb2410d8ce05c1a7a2c15c3efee25eba3e",
+      "hash": "5efd135ea4a5cb795fb30bf21683351ec8c8a20ed5cd27a66498f452ea9eee5b",
       "title": "Race 3S Profile 1 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2411,7 +2411,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_3s_p2.txt",
-      "hash": "199a5606a3b46782deabe7b018cff879f901950c71d1a66ecc2b55d196dd96c5",
+      "hash": "25c0417ca08a8ae8c7da9d2f7a9aeeb083f5803a07c57a7dc8fbeef4b62b0e30",
       "title": "Race 3S Profile 2 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2428,7 +2428,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_4s_p0.txt",
-      "hash": "7394f62b85a5f57d901728a755c1a22dbc8be9bef67f15f03040b43a25df0609",
+      "hash": "23e7fd6a271b50da0f19e74f29f3fb708be18753c6fe8c6b60db4e0c9dfa27a0",
       "title": "Race 4S Profile 0 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2445,7 +2445,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_4s_p1.txt",
-      "hash": "9070ddaf8902de1ef719810ece85f5a510085c2e87023e1d52f180d094ea86a0",
+      "hash": "d36fd68e8819602cab2666967e556882a53581d320b92e5c57e4d2274737e62a",
       "title": "Race 4S Profile 1 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2462,7 +2462,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_4s_p2.txt",
-      "hash": "3dae5169927d43cc3bc55d57ddad9e1c25aef5f11a7aad66e26514d8d43f18f8",
+      "hash": "262f0af841767c46fde701fee39ac2731f61a32ff389366b128942cb4110ff93",
       "title": "Race 4S Profile 2 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2479,7 +2479,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_6s_p0.txt",
-      "hash": "939d952608ff2f11d2ea16c40687b8b920b57becddad475485ca661838ffa818",
+      "hash": "1c72bebac5c509ad8a954296b134f5b06350e518b7c3c7890a2f5f9b1df14a1d",
       "title": "Race 6S Profile 0 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2496,7 +2496,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_6s_p1.txt",
-      "hash": "3983a8b3e5bb8bd68186ac4a31b5c6efca37137c63e0178971aeb5abc5d56add",
+      "hash": "781d1e7a6ed09c37277599f830741a542f4d3ee9792b4f378c4a37035697f93a",
       "title": "Race 6S Profile 2 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -2513,7 +2513,7 @@
     },
     {
       "fullPath": "presets/pid/race_42_6s_p2.txt",
-      "hash": "3983a8b3e5bb8bd68186ac4a31b5c6efca37137c63e0178971aeb5abc5d56add",
+      "hash": "781d1e7a6ed09c37277599f830741a542f4d3ee9792b4f378c4a37035697f93a",
       "title": "Race 6S Profile 2 (Betaflight 4.2-4.4)",
       "firmware_version": [
         "4.2",
@@ -3755,7 +3755,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "8d1e9b71a20ff3624b3841896393cbed33e0d91a9b9ea070a9ff32f54c588228",
+      "hash": "e2cab266943aadda3783e7e065a788734c5cd7b732cd8ce3fa8ad8ff671540cf",
       "title": "FreeStyle Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3770,7 +3770,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "d1fd628345756dbb93739d538ffb55059d4f50c13cf1e31dcc588bfc00c38cde",
+      "hash": "76a0c76d30446556e4c0cdcae510c828cd20e58e993f71775ebc86a743a6fdbe",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"

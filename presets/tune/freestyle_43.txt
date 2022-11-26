@@ -220,10 +220,6 @@ set name = FREESTYLE
 #$ INCLUDE: presets/size/freestyle_43_40.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/freestyle_43_40.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): 5 Inch
 #$ INCLUDE: presets/size/freestyle_43_50.txt
 #$ OPTION END

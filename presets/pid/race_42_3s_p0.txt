@@ -29,3 +29,5 @@ set i_yaw = 91
 set d_yaw = 0
 set d_min_yaw = 0
 set f_yaw = 151
+
+set crash_dthreshold = 54
