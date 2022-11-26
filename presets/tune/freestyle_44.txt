@@ -141,20 +141,26 @@ set craft_name = FREESTYLE
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/freestyle_42_1s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_43_1s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_44_p0.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/freestyle_42_2s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_43_2s_p0.txt
+#$ INCLUDE: presets/pid/freestyle_42_1s_p1.txt
 #$ INCLUDE: presets/pid/freestyle_43_1s_p1.txt
 #$ INCLUDE: presets/pid/freestyle_44_p0.txt
 #$ INCLUDE: presets/pid/freestyle_44_p1.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/freestyle_42_3s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_43_3s_p0.txt
+#$ INCLUDE: presets/pid/freestyle_42_2s_p1.txt
 #$ INCLUDE: presets/pid/freestyle_43_2s_p1.txt
+#$ INCLUDE: presets/pid/freestyle_42_1s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_43_1s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_44_p0.txt
 #$ INCLUDE: presets/pid/freestyle_44_p1.txt
@@ -162,8 +168,11 @@ set craft_name = FREESTYLE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/freestyle_42_4s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_43_4s_p0.txt
+#$ INCLUDE: presets/pid/freestyle_42_3s_p1.txt
 #$ INCLUDE: presets/pid/freestyle_43_3s_p1.txt
+#$ INCLUDE: presets/pid/freestyle_42_2s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_43_2s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_44_p0.txt
 #$ INCLUDE: presets/pid/freestyle_44_p1.txt
@@ -171,8 +180,11 @@ set craft_name = FREESTYLE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/freestyle_42_6s_p0.txt
 #$ INCLUDE: presets/pid/freestyle_43_6s_p0.txt
+#$ INCLUDE: presets/pid/freestyle_42_4s_p1.txt
 #$ INCLUDE: presets/pid/freestyle_43_4s_p1.txt
+#$ INCLUDE: presets/pid/freestyle_42_3s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_43_3s_p2.txt
 #$ INCLUDE: presets/pid/freestyle_44_p0.txt
 #$ INCLUDE: presets/pid/freestyle_44_p1.txt
@@ -206,6 +218,10 @@ set craft_name = FREESTYLE
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
 #$ INCLUDE: presets/size/freestyle_43_40.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 5 Inch
+#$ INCLUDE: presets/size/freestyle_43_50.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

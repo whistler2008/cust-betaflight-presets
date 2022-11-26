@@ -137,24 +137,30 @@ set name = RACE
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/race_42_3s_p0.txt
 #$ INCLUDE: presets/pid/race_43_3s_p0.txt
-#$ INCLUDE: presets/pid/race_43_p0.txt
+#$ INCLUDE: presets/pid/race_42_p0.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/race_42_4s_p0.txt
 #$ INCLUDE: presets/pid/race_43_4s_p0.txt
+#$ INCLUDE: presets/pid/race_42_3s_p1.txt
 #$ INCLUDE: presets/pid/race_43_3s_p1.txt
-#$ INCLUDE: presets/pid/race_43_p0.txt
-#$ INCLUDE: presets/pid/race_43_p1.txt
+#$ INCLUDE: presets/pid/race_42_p0.txt
+#$ INCLUDE: presets/pid/race_42_p1.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/race_42_6s_p0.txt
 #$ INCLUDE: presets/pid/race_43_6s_p0.txt
+#$ INCLUDE: presets/pid/race_42_4s_p1.txt
 #$ INCLUDE: presets/pid/race_43_4s_p1.txt
+#$ INCLUDE: presets/pid/race_42_3s_p2.txt
 #$ INCLUDE: presets/pid/race_43_3s_p2.txt
-#$ INCLUDE: presets/pid/race_43_p0.txt
-#$ INCLUDE: presets/pid/race_43_p1.txt
-#$ INCLUDE: presets/pid/race_43_p2.txt
+#$ INCLUDE: presets/pid/race_42_p0.txt
+#$ INCLUDE: presets/pid/race_42_p1.txt
+#$ INCLUDE: presets/pid/race_42_p2.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -176,6 +182,10 @@ set name = RACE
 
 #$ OPTION BEGIN (UNCHECKED): 4 Inch
 #$ INCLUDE: presets/size/race_43_40.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 5 Inch
+#$ INCLUDE: presets/size/race_43_50.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

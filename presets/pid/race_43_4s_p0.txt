@@ -1,33 +1,15 @@
-#$ TITLE: Race 4S Profile 0 (Betaflight 4.3)
+#$ TITLE: Race 4S Profile 0 (Betaflight 4.3-4.4)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
-#$ DESCRIPTION: Race 4S in Profile 0 (Betaflight 4.3)
+#$ DESCRIPTION: Race 4S in Profile 0 (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
 profile 0
 
 # profile 0
-set profile_name = 4S
-set auto_profile_cell_count = 4
-set iterm_relax_cutoff = 25
-set p_pitch = 44
-set i_pitch = 79
-set d_pitch = 41
-set d_min_pitch = 29
-set f_pitch = 132
-set p_roll = 42
-set i_roll = 76
-set d_roll = 35
-set d_min_roll = 25
-set f_roll = 125
-set p_yaw = 42
-set i_yaw = 76
-set d_yaw = 0
-set d_min_yaw = 0
-set f_yaw = 125
 set simplified_pids_mode = RPY
 set simplified_d_gain = 85
 set simplified_pi_gain = 95

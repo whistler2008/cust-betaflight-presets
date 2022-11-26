@@ -114,8 +114,12 @@ set craft_name = CINEWHOOP
 #$ INCLUDE: presets/esc/24.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ OPTION BEGIN (CHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 96 kHz
+#$ INCLUDE: presets/esc/96.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

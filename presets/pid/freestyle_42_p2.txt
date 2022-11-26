@@ -1,9 +1,10 @@
-#$ TITLE: FreeStyle Profile 2 (Betaflight 4.3)
+#$ TITLE: FreeStyle Profile 2 (Betaflight 4.2-4.3)
+#$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: pid
-#$ DESCRIPTION: FreeStyle in Profile 2 (Betaflight 4.3)
+#$ DESCRIPTION: FreeStyle in Profile 2 (Betaflight 4.2-4.3)
 #$ HIDDEN: true
 
 profile 2

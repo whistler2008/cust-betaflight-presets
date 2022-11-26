@@ -84,10 +84,6 @@ set name = RACEWHOOP
 #$ INCLUDE: presets/rpm_filter/12.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 14 Pole
-#$ INCLUDE: presets/rpm_filter/14.txt
-#$ OPTION END
-
 #$ OPTION_GROUP END
 
 
@@ -106,12 +102,12 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP BEGIN: ESC PWM
 
-#$ OPTION BEGIN (UNCHECKED): 24 kHz
-#$ INCLUDE: presets/esc/24.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (CHECKED): 48 kHz
 #$ INCLUDE: presets/esc/48.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 96 kHz
+#$ INCLUDE: presets/esc/96.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -182,10 +178,6 @@ set name = RACEWHOOP
 
 #$ OPTION BEGIN (CHECKED): Without GPS
 #$ INCLUDE: presets/modes/aux_std.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
