@@ -1,4 +1,4 @@
-#$ TITLE: Default Beeper settings
+#$ TITLE: Custom Beeper settings
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -6,7 +6,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Default Beeper settings
+#$ DESCRIPTION: Custom Beeper settings
 #$ HIDDEN: true
 
 # Custom Beeper

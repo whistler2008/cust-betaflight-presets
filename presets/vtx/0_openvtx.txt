@@ -26,6 +26,7 @@ set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 set vtx_power = 3
 
+
 #$ OPTION BEGIN (UNCHECKED): Flash
 vtxtable powerlevels 5
 vtxtable powervalues 1 2 14 20 26

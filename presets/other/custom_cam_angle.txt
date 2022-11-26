@@ -1,4 +1,4 @@
-#$ TITLE: Default Other Setting
+#$ TITLE: Custom CAM Angle Setting
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -6,13 +6,9 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Default for Other Setting
+#$ DESCRIPTION: Custom for CAM Angle Setting
 #$ HIDDEN: true
 
 # CAM angle
 set fpv_mix_degrees = 15
 set small_angle = 180
-
-# Unlock MAX PID
-set pidsum_limit = 1000
-set pidsum_limit_yaw = 1000

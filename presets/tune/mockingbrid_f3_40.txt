@@ -4,12 +4,52 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/other/custom_beeper.txt
 #$ INCLUDE: presets/osd/osd_40_rssi.txt
-#$ INCLUDE: presets/other/other.txt
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+#$ OPTION BEGIN (CHECKED): LED
+#$ INCLUDE: presets/other/custom_led.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): BEEPER
+#$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates
+
+#$ INCLUDE: presets/rate/racewhoop.txt
+
+rateprofile 0
+set tpa_breakpoint = 2000
+
+rateprofile 1
+set tpa_breakpoint = 2000
+
+# restore original rateprofile selection
+rateprofile 0
+
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CRAFT Name
 name MBIRD F3
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ INCLUDE: presets/other/custom_cam_angle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+# feature
+feature -AIRMODE
 
 # aux
 aux 0 0 0 1450 2100 0 0
@@ -36,21 +76,6 @@ set runaway_takeoff_prevention = OFF
 set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT300
 set dshot_idle_value = 800
-
-rateprofile 0
-
-set roll_rc_rate = 70
-set pitch_rc_rate = 70
-set yaw_rc_rate = 70
-set roll_expo = 60
-set pitch_expo = 60
-set yaw_expo = 60
-set yaw_srate = 65
-set tpa_rate = 0
-set tpa_breakpoint = 2000
-
-# restore original rateprofile selection
-rateprofile 0
 
 #$ OPTION BEGIN (UNCHECKED): 1S
 #$ INCLUDE: presets/battery/batt_33.txt

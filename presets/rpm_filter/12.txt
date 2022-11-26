@@ -7,6 +7,9 @@
 #$ DESCRIPTION: Default RPM Filter - 12 Poles
 #$ HIDDEN: true
 
+# feature
+feature -AIRMODE
+
 # rpm filter
 set yaw_motors_reversed = ON
 set dshot_bidir = ON

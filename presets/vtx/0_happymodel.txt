@@ -24,19 +24,47 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+
 #$ OPTION BEGIN (UNCHECKED): HappyModel Diamond 200mW
-#$ INCLUDE: presets/vtx/happymodel/diamond.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HappyModel Diamond DVR 200mW
-#$ INCLUDE: presets/vtx/happymodel/diamond_dvr.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HappyModel Internal 25mW
-#$ INCLUDE: presets/vtx/happymodel/internal.txt
+# power_level
+vtxtable powerlevels 1
+vtxtable powervalues 0
+vtxtable powerlabels 25
+
+# vtx setting
+set vtx_power = 1
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HappyModel Internal 200mW
-#$ INCLUDE: presets/vtx/happymodel/diamond.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
+#$ OPTION_GROUP END

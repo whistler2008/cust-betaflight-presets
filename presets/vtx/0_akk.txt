@@ -24,63 +24,157 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 800mW
-#$ INCLUDE: presets/vtx/akk/fx2.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator 2000mW
-#$ INCLUDE: presets/vtx/akk/fx2_dominator.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 250 500 1K 2K
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate 1200mW
-#$ INCLUDE: presets/vtx/akk/fx2_ultimate.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 1K2
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 600mW
-#$ INCLUDE: presets/vtx/akk/fx3.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate 600mW
-#$ INCLUDE: presets/vtx/akk/fx3_ultimate.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR 1000mW
-#$ INCLUDE: presets/vtx/akk/fx3_ultimate_dvr.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 1K
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX5 200mW
-#$ INCLUDE: presets/vtx/akk/fx5.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR 1000mW
-#$ INCLUDE: presets/vtx/akk/infinite_dvr.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 1K
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Nano 3 200mW
-#$ INCLUDE: presets/vtx/akk/nano3.txt
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK New Era 400mW
-#$ INCLUDE: presets/vtx/akk/new_era.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 50 200 400
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack 200mW
-#$ INCLUDE: presets/vtx/akk/oscar_backpack.txt
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Race 200mW
-#$ INCLUDE: presets/vtx/akk/race.txt
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Race Ranger 1000mW
-#$ INCLUDE: presets/vtx/akk/race_ranger.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 200 400 800 1K
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK X5 200mW
-#$ INCLUDE: presets/vtx/akk/x5.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 50 100 200
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK X5 Pro 200mW
-#$ INCLUDE: presets/vtx/akk/x5_pro.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 50 100 200
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END

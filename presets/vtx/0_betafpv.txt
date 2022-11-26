@@ -24,23 +24,57 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+
 #$ OPTION BEGIN (UNCHECKED): BetaFPV A01 200mW
-#$ INCLUDE: presets/vtx/betafpv/a01.txt
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV A02 800mW
-#$ INCLUDE: presets/vtx/betafpv/a02.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV M01 25mW
-#$ INCLUDE: presets/vtx/betafpv/m01.txt
+# power_level
+vtxtable powerlevels 1
+vtxtable powervalues 0
+vtxtable powerlabels 25
+
+# vtx setting
+set vtx_power = 1
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV M02 350mW
-#$ INCLUDE: presets/vtx/betafpv/m02.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV M03 350mW
-#$ INCLUDE: presets/vtx/betafpv/m03.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END

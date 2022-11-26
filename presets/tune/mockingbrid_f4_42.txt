@@ -4,16 +4,43 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/other/custom_beeper.txt
-#$ INCLUDE: presets/other/custom_led.txt
-#$ INCLUDE: presets/other/other.txt
 #$ INCLUDE: presets/battery/batt_33.txt
-#$ INCLUDE: presets/rate/freestyle.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+#$ OPTION BEGIN (CHECKED): LED
+#$ INCLUDE: presets/other/custom_led.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): BEEPER
+#$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates
+#$ INCLUDE: presets/rate/racewhoop.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CRAFT Name
 set name = MBIRD F4
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ INCLUDE: presets/other/custom_cam_angle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+# feature
+feature -AIRMODE
 
 # aux
 aux 0 0 0 1450 2100 0 0

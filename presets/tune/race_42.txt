@@ -24,8 +24,12 @@
 #$ INCLUDE: presets/rate/race.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Add Name
+#$ OPTION BEGIN (CHECKED): CRAFT Name
 set name = RACE
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ INCLUDE: presets/other/custom_cam_angle.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other

@@ -24,8 +24,12 @@
 #$ INCLUDE: presets/rate/freestyle.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Add Name
+#$ OPTION BEGIN (CHECKED): CRAFT Name
 set craft_name = FREESTYLE
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ INCLUDE: presets/other/custom_cam_angle.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other

@@ -4,7 +4,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, default
+#$ KEYWORDS: vtx, eachine
 #$ DESCRIPTION: Eachine VTX settings
 #$ INCLUDE: presets/vtx/0_default.txt
 
@@ -25,7 +25,13 @@ set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
 #$ OPTION BEGIN (UNCHECKED): Eachine TX805 800mW
-#$ INCLUDE: presets/vtx/eachine/tx805.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Eachine TX806 1000mW

@@ -25,14 +25,32 @@ set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
 #$ OPTION BEGIN (UNCHECKED): EWRF 7082VM 200mW
-#$ INCLUDE: presets/vtx/ewrf/7082vm.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): EWRF 7092TM Pro 500mW (SA2.0)
-#$ INCLUDE: presets/vtx/ewrf/7092tm_pro_v1.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 200 500
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): EWRF 7092TM Pro 500mW (SA2.1)
-#$ INCLUDE: presets/vtx/ewrf/7092tm_pro_v2.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 27
+vtxtable powerlabels 25 200 500
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 

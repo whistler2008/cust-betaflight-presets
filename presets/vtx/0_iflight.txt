@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: DEFAULT
+#$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, iflight
 #$ DESCRIPTION: iFlight VTX settings
@@ -24,23 +24,57 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: IRC Tramp
+
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 800mW
-#$ INCLUDE: presets/vtx/iflight/succex_800.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 400 800
+vtxtable powerlabels 25 100 400 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 200mW
-#$ INCLUDE: presets/vtx/iflight/succex_micro_200.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 25 100 200
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 300mW
-#$ INCLUDE: presets/vtx/iflight/succex_micro_300.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 200 300
+vtxtable powerlabels 25 100 200 300
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 500mW
-#$ INCLUDE: presets/vtx/iflight/succex_mini_500.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 500
+vtxtable powerlabels 25 100 200 400 500
+
+# vtx setting
+set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 600mW
-#$ INCLUDE: presets/vtx/iflight/succex_mini_600.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 200 400 600
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END

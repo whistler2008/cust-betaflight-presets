@@ -4,7 +4,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, default
+#$ KEYWORDS: vtx, namelessrc
 #$ DESCRIPTION: NamelessRC VTX settings
 #$ INCLUDE: presets/vtx/0_default.txt
 
@@ -24,11 +24,27 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: IRC Tramp
+
 #$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR 400mW
-#$ INCLUDE: presets/vtx/nameless/d400.txt
+# power_level
+vtxtable powerlevels 6
+vtxtable powervalues 25 100 200 400 513 515
+vtxtable powerlabels 25 100 200 400 ON OFF
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400 400mW
-#$ INCLUDE: presets/vtx/nameless/nano400.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 200 400
+vtxtable powerlabels 25 100 200 400
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END

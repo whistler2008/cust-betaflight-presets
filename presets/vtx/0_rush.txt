@@ -24,27 +24,132 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+
 #$ OPTION BEGIN (UNCHECKED): Rush Tank II 800mW
-#$ INCLUDE: presets/vtx/rush/2.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Rush Tank Racing 500mW
-#$ INCLUDE: presets/vtx/rush/racing.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 50 200 500
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Rush Tank Solo 1000mW
-#$ INCLUDE: presets/vtx/rush/solo.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 400 800 MAX
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Rush Tiny Tank 350mW
-#$ INCLUDE: presets/vtx/rush/tiny.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Mini 800mW
-#$ INCLUDE: presets/vtx/rush/ultimate_mini.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Plus 800mW
-#$ INCLUDE: presets/vtx/rush/ultimate_plus.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.1
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank II 800mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 23 27 29
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Racing 500mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 17 23 27
+vtxtable powerlabels 25 50 200 500
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo 1000mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 26 29 32
+vtxtable powerlabels 25 400 800 MAX
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tiny Tank 350mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 23 25
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Mini 800mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 23 27 29
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Ultimate Plus 800mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 23 27 29
+vtxtable powerlabels 25 200 500 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION_GROUP END

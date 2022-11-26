@@ -1,4 +1,4 @@
-#$ TITLE: Default LED settings
+#$ TITLE: Custom LED settings
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -6,7 +6,7 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Default LED settings
+#$ DESCRIPTION: Custom LED settings
 #$ HIDDEN: true
 
 # Custom LED
@@ -18,3 +18,6 @@ led 4 4,0::COVIW:5
 led 5 5,0::COVIW:5
 led 6 6,0::COVIW:5
 led 7 7,0::COVIW:5
+
+# feature
+feature LED_STRIP
