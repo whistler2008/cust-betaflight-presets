@@ -878,7 +878,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_global.txt",
-      "hash": "63906081099d73d93d26f42b816f91bc732e6b468f10dd57c3cc9daacea7b987",
+      "hash": "869c2a901295e97f5ecc45c5f4bdce1c10ee300189ebb86e874d7768043fd429",
       "title": "Global OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -940,7 +940,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_global.txt",
-      "hash": "6dfc67eeae7e9adfda54b6aa0d3495c4025ceba83635e3a09a449b9219eb51d7",
+      "hash": "7ff72ef320074e220ca69a7be316347c59b15d33a8c85eadc918f0401eb66585",
       "title": "Global OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
