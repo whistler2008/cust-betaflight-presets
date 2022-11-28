@@ -30,6 +30,11 @@ set name = MBIRD F4
 
 #$ OPTION BEGIN (CHECKED): CAM Angle
 #$ INCLUDE: presets/other/custom_cam_angle.txt
+set fpv_mix_degrees = 25
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Analog VTX
+set osd_displayport_device = MAX7456
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
@@ -48,9 +53,6 @@ aux 1 1 1 1700 2100 0 0
 aux 2 13 2 1550 2100 0 0
 aux 3 28 1 900 1300 0 0
 aux 4 30 1 1300 2100 0 0
-
-# cam
-set fpv_mix_degrees = 25
 
 # vtx setting
 set vtx_band = 5
