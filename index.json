@@ -153,6 +153,7 @@
       "ewrf",
       "factory",
       "filter",
+      "fullspeed",
       "happymodel",
       "iflight",
       "modes",
@@ -770,7 +771,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "57ec0fe0d6267f1ede9279b314c4a7126cdf56d14cb272fe6f03fb2289f582a0",
+      "hash": "09fe4a1844af2bf65ea1161cc024baeb1a90b4a26ea87b9405521eec9813fe86",
       "title": "AUX with GPS Rescue (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -787,7 +788,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_4.4.txt",
-      "hash": "cbdfb295db59ac87c4df59c21709f740733900e42c464d4fcc95061f8ec7edc0",
+      "hash": "29529354121c91cba7f8c5011e0ee932ce638eefbde06815ee8aa98d813da979",
       "title": "AUX with GPS Rescue (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -4031,6 +4032,22 @@
       "keywords": [
         "vtx",
         "ewrf"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/0_fullspeed.txt",
+      "hash": "8ebbf8a3528fcc48a29ef22b860a7ac6f6fb0b8d054f60ddf32d47426502c272",
+      "title": "FullSpeed",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "fullspeed"
       ]
     },
     {

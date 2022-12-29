@@ -38,9 +38,9 @@ set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 # osd
 set osd_gps_speed_pos = 2305
 set osd_gps_sats_pos = 2137
-set osd_home_dir_pos = 2254
-set osd_home_dist_pos = 2177
-set osd_flight_dist_pos = 2209
+set osd_home_dir_pos = 2286
+set osd_home_dist_pos = 2296
+set osd_flight_dist_pos = 2328
 set osd_altitude_pos = 2273
 
 # beeper

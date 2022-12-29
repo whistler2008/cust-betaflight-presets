@@ -42,9 +42,9 @@ set osd_warn_no_gps_rescue = ON
 set osd_warn_gps_rescue_disabled = OFF
 set osd_gps_speed_pos = 2305
 set osd_gps_sats_pos = 2137
-set osd_home_dir_pos = 2254
-set osd_home_dist_pos = 2177
-set osd_flight_dist_pos = 2209
+set osd_home_dir_pos = 2286
+set osd_home_dist_pos = 2296
+set osd_flight_dist_pos = 2328
 set osd_altitude_pos = 2273
 set osd_stat_max_dist = ON
 
