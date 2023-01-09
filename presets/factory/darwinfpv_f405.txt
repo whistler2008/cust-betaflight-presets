@@ -12,3 +12,10 @@
 resource MOTOR 8 NONE
 resource PINIO 1 B00
 resource FLASH_CS 1 C00
+
+# serial
+serial 4 1 115200 57600 0 115200
+
+# master
+set pinio_config = 129,1,1,1
+set pinio_box = 0,255,255,255
