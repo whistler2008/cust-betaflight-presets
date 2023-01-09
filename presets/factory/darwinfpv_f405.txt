@@ -1,0 +1,14 @@
+#$ TITLE: DarwinFPV F405
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: FACTORY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: factory
+#$ DESCRIPTION: Factory setting for DarwinFPV F405
+
+
+# resources
+resource MOTOR 8 NONE
+resource PINIO 1 B00
+resource FLASH_CS 1 C00

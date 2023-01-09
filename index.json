@@ -537,6 +537,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/factory/darwinfpv_f405.txt",
+      "hash": "09c4f2b0a266d42f07fd2decbe7a4d9a2feae4ff602bc4cc93d0b4eb518e1821",
+      "title": "DarwinFPV F405",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
       "fullPath": "presets/factory/diamondf4.txt",
       "hash": "fea68031d70f2704217b433cb3b3d5a3c3561a38e1f74228893dbb70a683d942",
       "title": "Happymodel DiamondF4",
