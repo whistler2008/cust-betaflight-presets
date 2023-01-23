@@ -786,7 +786,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "09fe4a1844af2bf65ea1161cc024baeb1a90b4a26ea87b9405521eec9813fe86",
+      "hash": "d6c69a2bce48ed8ce45755ae350442d757d62da848e973ed34ca1e39f04eded1",
       "title": "AUX with GPS Rescue (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -803,7 +803,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_4.4.txt",
-      "hash": "29529354121c91cba7f8c5011e0ee932ce638eefbde06815ee8aa98d813da979",
+      "hash": "da7b279dcea6752ef9c94269b5b00dbfa4a7e8effda73a10eca10aef473b2267",
       "title": "AUX with GPS Rescue (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -818,7 +818,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "6e8c8fb1c9c4aa2356614c953ae90d488039b74521a28a75e20918896feedc3f",
+      "hash": "b35e6ef35c43fc8117504d45ccfcc655433e35d48abc63f5bd3a904f825496b9",
       "title": "AUX Standard (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -835,7 +835,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std_4.4.txt",
-      "hash": "fd924b4e3aff6ead2a0e5fc933ff198a315ea1a022a704deec8437de7fef874e",
+      "hash": "35e650ad27a017048fda2745557a5eb3d97c69786a34a3f2073df79c21b23e58",
       "title": "AUX Standard (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
