@@ -1661,7 +1661,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_1s_p0.txt",
-      "hash": "d5b9bd54b30a2fc121b9ffc25a29b947ce0dc17f936e8b75ea5155b8b6b4c5b8",
+      "hash": "38414c6ce488388d2ef337c21fe24dddc703d39f98d823ca413c346089be55fa",
       "title": "Freestyle 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1678,7 +1678,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_1s_p1.txt",
-      "hash": "ccc7e2a6d5f4642a886c71f9fd30bb3f29e38e30b605ac6671e3baffacb6b0d4",
+      "hash": "9a2a3a6065a63b597855a949520a5bab77449950a8f09a079f59ec8fcfec6b00",
       "title": "Freestyle 1S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1695,7 +1695,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_1s_p2.txt",
-      "hash": "7223848bf1bb53a2c50344ac108fc802cf1da73caa8f4b410aa24a83709dd198",
+      "hash": "c41f022b1f09f2de3ddf9004022c80734b430a6cf4c7a91548c180efaa368af8",
       "title": "Freestyle 1S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1712,7 +1712,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_2s_p0.txt",
-      "hash": "38aa12ead7e9fb6ce48099fc73ceefcd4d6aca24ff0e72993d77a0ae6e3f888a",
+      "hash": "86b57446504704843aedc73ecc3919133374ba61914a8b93c74be8bd2f7b41ba",
       "title": "Freestyle 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1729,7 +1729,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_2s_p1.txt",
-      "hash": "193a32ee9ca4b3494f1858afee86ec5cea4451322435f763c001eb232f7e9761",
+      "hash": "6959aa147359bd67223ad91893a6c663e6cc323489adc1a83e07e95446aa2e4e",
       "title": "Freestyle 2S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1746,7 +1746,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_2s_p2.txt",
-      "hash": "cd2f43da650488bdcf8e69d84da3aeaab183f2f4d92d51f22826bedd015ef277",
+      "hash": "8e4ab6b18a2fd093c91cde8c4474f75e4661921f10433d9cdd679348ab1b7b7b",
       "title": "Freestyle 2S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1763,7 +1763,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_3s_p0.txt",
-      "hash": "3d0978c337c52e7df85a3d942305bf874504c9dd4d429d3ffb41d797543acd27",
+      "hash": "5dd7bb31a7ce8004a7f29dd1f5e3c5669e5f5a061b8de26177c0c1f57fa4f22f",
       "title": "Freestyle 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1780,7 +1780,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_3s_p1.txt",
-      "hash": "1f11ede2aa6d5aee9ad14b5ade3b5c2e9db48238479996d77b3f4719819127d7",
+      "hash": "30cbc5c6bd8f5574821599742b8d7416a0f052d576ce5185954a0b1732e1cfff",
       "title": "Freestyle 3S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1797,7 +1797,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_3s_p2.txt",
-      "hash": "409d6bd3bbc3b2b55856456c72f8a23f2a91f2ef8f0d7431fd2d32d8da5b075f",
+      "hash": "dc649394c24356bf17dd3dbd4ff168b2fc045a15ceac0d4b34c1ae20047cfe64",
       "title": "Freestyle 3S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1814,7 +1814,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_4s_p0.txt",
-      "hash": "69c1aaec74e2e084aa26058ad6f23fab76313111905ce3ec65acd08c421cbd78",
+      "hash": "1b023061d4577caf065c7ef965f66f20d4656ae86c3b05b962306e06c946104b",
       "title": "Freestyle 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1831,7 +1831,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_4s_p1.txt",
-      "hash": "aceeac9627ca4002210b2f36167fb50cde101604aea624b1a38a3253bbd89dbe",
+      "hash": "b88dc55fa03753e557d61b5608cf5468199e00181fa09c9321a7b55e0d23fa6b",
       "title": "Freestyle 4S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1848,7 +1848,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_4s_p2.txt",
-      "hash": "b8f48cd77c8c1c5e4822f4cc71135f0f5c43e9259d4937a18aa11e6edcfdf5dc",
+      "hash": "7b1196ccf18f10fd17d90ff29c2625e24b6269b8e647e8317986f454c159e94c",
       "title": "Freestyle 4S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1865,7 +1865,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_6s_p0.txt",
-      "hash": "3c2815c5772a2cd29babb21bc00e377868ee143fc5631194d29f9b303896233a",
+      "hash": "1bbf833c2c6887cdc16b2daf2bd641ca2a54cd726d4f27bee72dd762c5a5f0f5",
       "title": "Freestyle 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1882,7 +1882,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_6s_p1.txt",
-      "hash": "3417323981ca8f93d196d7ebf064fcdad1890f7a1e90582f38d4380d22922265",
+      "hash": "d67009ef80780163027408a73cc4b7f3713f99eaee0acd9b13d9189801938e87",
       "title": "Freestyle 6S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1899,7 +1899,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_42_6s_p2.txt",
-      "hash": "83e589585d23c43acf175e940888c42e142ce1a492bfc1b0d49f94366a50c592",
+      "hash": "3402461dc7305e170b5e893c6f53bdbddc2d9f6e9938d58bfbfeb3d3b91bed97",
       "title": "Freestyle 6S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.2",
@@ -1964,7 +1964,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p0.txt",
-      "hash": "aa8c3cd6bf91266095847e2f14f800369940a14b5c15b3b6b9f37941d6cef1e1",
+      "hash": "a78bea1c09dfe59e6583fc5b4221216e09d4d1bdad8e9c64d042cc2adfd9ccef",
       "title": "Freestyle 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1980,7 +1980,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p1.txt",
-      "hash": "3f79700a59a63d40a83a5017e3c372866ec2c8850b92482235022def5c3c9c37",
+      "hash": "4c82778bc3b5fb50754f30255249a24fa823f15996f660dc8c5dc03a220821b2",
       "title": "Freestyle 1S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1996,7 +1996,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_1s_p2.txt",
-      "hash": "081a988ffa662e625630538b0071ff73a0f74a484e2a946dfcedc8e8501f2f47",
+      "hash": "07944eb1df807301ee6e2e02e4f54c12ffa33e10a81e4db44433689b9c07aaa5",
       "title": "Freestyle 1S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2012,7 +2012,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p0.txt",
-      "hash": "d417523d559a25f6eac51cba421a57f71c5b74b458c2445e15bfaef8dfae4832",
+      "hash": "2eb7072f5cc220b4b6f982e18c8a14949dcad46cea53e9487ae90697fa0985dc",
       "title": "Freestyle 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2028,7 +2028,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p1.txt",
-      "hash": "bd89dd8e4f158f6afae592599146d118073421a4f19a0102bbd8234340795596",
+      "hash": "bb0ab476406ca153c860b0f8005f6e0fe39778e6155bdf3f2098c402c5017fd5",
       "title": "Freestyle 2S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2044,7 +2044,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_2s_p2.txt",
-      "hash": "fabf4e5ec970c3c6228c024c172b40f8d648ed0219ffb4b85e8b4f0f9a3ecb10",
+      "hash": "0f2a71bebbd50080014c9186ece754e586202afae69f318ace71540e92d73623",
       "title": "Freestyle 2S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2060,7 +2060,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p0.txt",
-      "hash": "3614882dc5854b4d9f09a29f4aa8e4cb66e6fb21b682dec027b51d68f11f2232",
+      "hash": "1a56add4aaa0beb43f3ad1b13bb8e61d8f5c1804d20d4d9539dd4d9cb33f2ce0",
       "title": "Freestyle 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2076,7 +2076,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p1.txt",
-      "hash": "94769446c50689e52c00310f97cf7890a855eebffd8c02c3046caa994f3d0df4",
+      "hash": "f6c8b14547b28fe38ed994f92ea06d73ae9739334cca6433d0aa472d31bd4b79",
       "title": "Freestyle 3S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2092,7 +2092,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_3s_p2.txt",
-      "hash": "6670f292e4f8b204b85ceaf4835183e48fe909e444a9124f26a4b0a632a51f13",
+      "hash": "e0b7f38702f85ef1f215f0545352d5632f8a99296cd864e96a57956a9b46938e",
       "title": "Freestyle 3S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2108,7 +2108,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p0.txt",
-      "hash": "82c26c07b7640ed5bbb41764f7d388a129bbdc4144da426697b84ba26c45b3be",
+      "hash": "fbd0207e1ce07125e549403f62fa5e8a4839d48038dc5d453b60e9a4b5841839",
       "title": "Freestyle 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2124,7 +2124,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p1.txt",
-      "hash": "83e9aa01092a026fc03762d2c96ca6f7e174f334fe7f32a10d86ce59dfbbac59",
+      "hash": "14e37abbb6a3ba828d321160e900033693d1543977b5d52647f443d95fb320fb",
       "title": "Freestyle 4S Profile 1 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2140,7 +2140,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_4s_p2.txt",
-      "hash": "79c0ebbc32ffd0fc89ef7032802a2fa2646acfd48fa27712636a7d5ba1f234f1",
+      "hash": "4546a366f8a89238b5e91f0c223dc48ba1c6d8b6bc1d048d2c3bf5cd848a993b",
       "title": "Freestyle 4S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2156,7 +2156,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_6s_p0.txt",
-      "hash": "efd1322484762bbb6545af21338577a173fca03e87676da0395385f08c34aaa4",
+      "hash": "1d7865952a8eaee0b8002656b5ef3cf38d4826d6176ecbe9dbac7485ec017677",
       "title": "Freestyle 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2188,7 +2188,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_43_6s_p2.txt",
-      "hash": "2af2f7d0185ad42f8c95d409568edf06687d207e6886e9516ad9f34976c05952",
+      "hash": "7f48d4f066abd01f2fabf408b6c816b76c7879f61f3f693185838ac4f02783c5",
       "title": "Freestyle 6S Profile 2 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2800,7 +2800,7 @@
     },
     {
       "fullPath": "presets/rate/cinewhoop.txt",
-      "hash": "9220d4f39e49559779ac63a5e47e100e06ecf2f209c5d94cc93820ea83325fb9",
+      "hash": "d3c1d25655e53b5989f6c238d8935d7cabd6bf625e04b3088f6fea506561ec45",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2832,7 +2832,7 @@
     },
     {
       "fullPath": "presets/rate/freestyle.txt",
-      "hash": "99e1f719b2c91ac3bf77305ba960052cee94fc96a62924e465ebd495069478af",
+      "hash": "d7d30bec28d154a5d4118ed6ebc44fbcf80d347360eec08213751d0ce83b031b",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2848,7 +2848,7 @@
     },
     {
       "fullPath": "presets/rate/race.txt",
-      "hash": "bcaa67f2ef477583b89417cb35ac16e760a6924591206cf59177f0075b140f2b",
+      "hash": "279e36add2b0ceef245c5ff0754a404548b78c72957afe24d13950de2f7f012c",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.2",
