@@ -12,7 +12,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (CHECKED): LED
+#$ OPTION BEGIN (UNCHECKED): LED
 #$ INCLUDE: presets/other/custom_led.txt
 #$ OPTION END
 
@@ -26,6 +26,7 @@
 
 #$ OPTION BEGIN (CHECKED): CRAFT Name
 set craft_name = RACEWHOOP
+set pilot_name = RACEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): CAM Angle

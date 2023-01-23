@@ -22,4 +22,3 @@ set blackbox_disable_gyro = OFF
 set blackbox_disable_acc = ON
 set blackbox_disable_debug = ON
 set blackbox_disable_motors = ON
-set blackbox_disable_gps = ON

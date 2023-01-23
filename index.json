@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_gyroflow_43.txt",
-      "hash": "32856faa4a8728ceab31ac3c55861d79547b182405ca89aabc8611b1147f5735",
+      "hash": "12fe5ba00b043a2c254e06d7b4136968552b341ca5f55743361bb68d79b9add5",
       "title": "BlackBox GyroFlow (Betaflight 4.3)",
       "firmware_version": [
         "4.3",
@@ -3773,7 +3773,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "1f42346ea9c2b6ec58b448e82855f7adbd18318ee00d97a72b2fe2937f6bce03",
+      "hash": "9e9e485e87d51b448f9042ad60cdd60336404c82c335e155a0752f9543984249",
       "title": "CineWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3818,7 +3818,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "98d099ab8965f0eb26ff3a97750fe331f06691dfed1c69440bbc5a53a283e485",
+      "hash": "a8c51cab7caa42bdb54c11d16cf365369a82e3dda6e83fefc147090ecb7669a7",
       "title": "FreeStyle Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3893,7 +3893,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "b1db3f8fffdcd974c76cd8eea39428e3e033bbf0018ce14f6e7e621a01f227ef",
+      "hash": "d996d7a5e44e950b856df2745b4bf06633cdda318ff0b38a241e1fa3e1305c4f",
       "title": "RaceWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3938,7 +3938,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "6496d7e45ac3c96b2955874696bbd44313583bfcf697b078c316de75ccbdec3c",
+      "hash": "d15a5afaa2bd7174b70a4c53f903d4a7a067a9490cf388c28401510648bf4490",
       "title": "Race Tune 4.4",
       "firmware_version": [
         "4.4"
