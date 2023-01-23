@@ -74,7 +74,6 @@ set osd_disarmed_pos = 234
 set osd_nheading_pos = 234
 set osd_up_down_reference_pos = 205
 set osd_ready_mode_pos = 234
-set osd_nvario_pos = 234
 set osd_esc_tmp_pos = 234
 set osd_esc_rpm_pos = 234
 set osd_esc_rpm_freq_pos = 234
