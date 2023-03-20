@@ -2800,7 +2800,7 @@
     },
     {
       "fullPath": "presets/rate/cinewhoop.txt",
-      "hash": "d3c1d25655e53b5989f6c238d8935d7cabd6bf625e04b3088f6fea506561ec45",
+      "hash": "b5321db879dff3453d51a2234320433b5248dc307b194891f1cc907a45c68840",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2832,7 +2832,7 @@
     },
     {
       "fullPath": "presets/rate/freestyle.txt",
-      "hash": "d7d30bec28d154a5d4118ed6ebc44fbcf80d347360eec08213751d0ce83b031b",
+      "hash": "26d56539a1e29867e49c57c62d47c1ed4d1e402dbb38a028c49c574b05338960",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2848,7 +2848,7 @@
     },
     {
       "fullPath": "presets/rate/race.txt",
-      "hash": "279e36add2b0ceef245c5ff0754a404548b78c72957afe24d13950de2f7f012c",
+      "hash": "a718a7a43e0d96edff210e8814112d2eb0fdff2ef54228c68702160633c4c63d",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2864,7 +2864,7 @@
     },
     {
       "fullPath": "presets/rate/racewhoop.txt",
-      "hash": "a1899813e61e28211e9cf98c462720cc4bdecb368daef36f1363f3d1c86e65c2",
+      "hash": "d6ba2a5099400078f7d9cf83a0db92b5c8b6c7dddd25c90c222bb9f3ca6888f3",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.2",

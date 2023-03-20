@@ -43,8 +43,8 @@ set yaw_expo = 55
 set roll_srate = 80
 set pitch_srate = 80
 set yaw_srate = 70
-set thr_mid = 20
-set thr_expo = 50
+set thr_mid = 0
+set thr_expo = 0
 
 
 # restore original rateprofile selection
