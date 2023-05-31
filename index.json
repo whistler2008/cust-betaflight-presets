@@ -942,7 +942,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_default.txt",
-      "hash": "cf7ae95d89923bf9317ed00f574a80b9b2292136c85a0b44695b72ffd6324774",
+      "hash": "4e31bf03fa3f719730811966c2268ae08daff863f851c6135ddd84034109e41e",
       "title": "Default OSD settings (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
