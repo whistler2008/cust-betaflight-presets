@@ -786,7 +786,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "d6c69a2bce48ed8ce45755ae350442d757d62da848e973ed34ca1e39f04eded1",
+      "hash": "349ecbfa6da2bcec9dcaffb7f43530114fd47ccd9c3a85c5703a2f0c74628006",
       "title": "AUX with GPS Rescue (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -803,7 +803,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_4.4.txt",
-      "hash": "da7b279dcea6752ef9c94269b5b00dbfa4a7e8effda73a10eca10aef473b2267",
+      "hash": "670b829b8ad45806b9f2700badf6692115dcc0c936167a5046b02d0c05771a7d",
       "title": "AUX with GPS Rescue (Betaflight 4.4)",
       "firmware_version": [
         "4.4"
@@ -3833,7 +3833,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "91d074d4964c2028ed61655578c7c790cb66a58a2f953135f3dfeba32a6d0da4",
+      "hash": "f76d672b9270d7dced8182d1a55b5969a5c8526ef9de5b0ed5b975a095e12163",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
