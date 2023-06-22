@@ -168,7 +168,8 @@
       "size",
       "tbs",
       "tune",
-      "vtx"
+      "vtx",
+      "xf"
     ]
   },
   "presets": [
@@ -4051,7 +4052,7 @@
     },
     {
       "fullPath": "presets/vtx/0_fullspeed.txt",
-      "hash": "8ebbf8a3528fcc48a29ef22b860a7ac6f6fb0b8d054f60ddf32d47426502c272",
+      "hash": "0d445ff87b4b6a1dded7768b554f9d81c5644c305bebe9481f1f5e9294459577",
       "title": "FullSpeed",
       "firmware_version": [
         "4.2",
@@ -4159,6 +4160,22 @@
       "keywords": [
         "vtx",
         "tbs"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/0_xf.txt",
+      "hash": "aba925c92518b3047cbaa497352f50b28950e48b623678868e0a67f729bcd5d6",
+      "title": "XF",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "xf"
       ]
     }
   ]
