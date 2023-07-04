@@ -37,11 +37,11 @@ vtxtable powerlabels 25 200 400 600
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): XF5805 300mW
+#$ OPTION BEGIN (UNCHECKED): XF5805 600mW
 # power_level
 vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 100 200 300
+vtxtable powervalues 14 20 23 28
+vtxtable powerlabels 25 100 200 600
 
 # vtx setting
 set vtx_power = 4
@@ -49,7 +49,7 @@ set vtx_power = 4
 
 #$ OPTION BEGIN (UNCHECKED): XF5806 400mW
 # power_level
-vtxtable powerlevels 4
+vtxtable powerlevels 3
 vtxtable powervalues 0 1 2 3
 vtxtable powerlabels 25 100 200 400
 
