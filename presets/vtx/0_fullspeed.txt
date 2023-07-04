@@ -30,11 +30,11 @@ set vtx_pit_mode_freq = 5732
 #$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW
 # power_level
 vtxtable powerlevels 5
-vtxtable powervalues 25 100 200 400	600
-vtxtable powerlabels 25 100 200 400	600
+vtxtable powervalues 25	100	200	400	600
+vtxtable powerlabels 25	100	200	400	600
 
 # vtx setting
-set vtx_power = 4
+set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END
