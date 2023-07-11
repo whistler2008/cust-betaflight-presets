@@ -155,6 +155,7 @@
       "filter",
       "fullspeed",
       "happymodel",
+      "hglrc",
       "iflight",
       "modes",
       "namelessrc",
@@ -4083,6 +4084,22 @@
       ]
     },
     {
+      "fullPath": "presets/vtx/0_hglrc.txt",
+      "hash": "569ea40c2a7c83b806cc8a2bdaf090bef6a8d08cdd99abb852e8031f4bc4904d",
+      "title": "HGLRC",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "hglrc"
+      ]
+    },
+    {
       "fullPath": "presets/vtx/0_iflight.txt",
       "hash": "fe8bc069d5d8deaa1a0ebf3679c88f376843deea20144e02e25f77a9ad2f1034",
       "title": "iFlight",
@@ -4164,7 +4181,7 @@
     },
     {
       "fullPath": "presets/vtx/0_xf.txt",
-      "hash": "19c77672b4c1891adeb586a6a19f0cc2b66ccd3383a9f1e823b61ef371d26179",
+      "hash": "de8c8ad3fea8b6e9ea3d46cd207291fc978452d02db57e748b949e9b1e71935b",
       "title": "XF",
       "firmware_version": [
         "4.2",
