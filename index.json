@@ -4133,7 +4133,7 @@
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
-      "hash": "0d6bd1ef2a416624fd2ce247e3911a8b1ff361c2a41d0edb3f35235c9b06569c",
+      "hash": "6c62f6fbc719d87aaa7c442c31b019ba4d654d8b132e69e9c86bdc8ca2c87e46",
       "title": "OpenVTX",
       "firmware_version": [
         "4.2",
