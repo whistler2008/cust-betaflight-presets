@@ -3865,10 +3865,10 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "b7937113a9a72190e038c0f7cc455be46cffd1c21d1a16eebbfa21394318d7fe",
+      "hash": "9442be5e104415c7bb2024b29d49a93eac2a00923eb8c5e0ebec744e8bc553c4",
       "title": "RaceWhoop Tune 4.2",
       "firmware_version": [
-        "4.3"
+        "4.2"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -3880,7 +3880,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "41e6f805f013b5b164b7f5da7c9fe8e658572cc0454fd93b4e934380709971fc",
+      "hash": "ffb01e52d30f0f72dedebe422bf19ef01ad85b8669c78ee8f9e82726df39a623",
       "title": "RaceWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3895,7 +3895,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "f1af422f4b9881f89062d1ca1c50a8c6146ee6dc5affddb18c512a6011a50dfc",
+      "hash": "64ee99ac9778069740d5047e07c97d9f35851e713c3acc001a240a0f7423ef18",
       "title": "RaceWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3910,7 +3910,7 @@
     },
     {
       "fullPath": "presets/tune/race_42.txt",
-      "hash": "15d3e44e5161bf2ae99aeb6e2393927e80f2a37360d72b376f5906825fe9db64",
+      "hash": "b1cc1dce626b83f94794111a8e434f3b30dd1f2ca3ad46a6e9562784c70f1084",
       "title": "Race Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3925,7 +3925,7 @@
     },
     {
       "fullPath": "presets/tune/race_43.txt",
-      "hash": "8a83afddbacad58223f0b46d80f4e5c3c6a639fbbd86d85e52a4fdfef2153602",
+      "hash": "9ea23198f88d78ab1bae069c115493e755d4f9d8ddd0a4be04bd4d96b56d4c9c",
       "title": "Race Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3940,7 +3940,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "ea1c12d9fd638110a091da78be758049552bd42644e9d2f38ed974dbf4273c7f",
+      "hash": "9c0d2621af7c44b11369ebb08a60b1ba0af38c49c05931008699ac0b2615eb6b",
       "title": "Race Tune 4.4",
       "firmware_version": [
         "4.4"

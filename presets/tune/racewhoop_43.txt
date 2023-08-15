@@ -71,7 +71,7 @@ set name = RACEWHOOP
 
 #$ OPTION_GROUP BEGIN: Battery Type
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (CHECKED): LiPo/HV Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
@@ -86,6 +86,10 @@ set name = RACEWHOOP
 
 #$ OPTION BEGIN (CHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 14 Pole
+#$ INCLUDE: presets/rpm_filter/14.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -206,6 +210,10 @@ set name = RACEWHOOP
 
 #$ OPTION BEGIN (CHECKED): Without GPS
 #$ INCLUDE: presets/modes/aux_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

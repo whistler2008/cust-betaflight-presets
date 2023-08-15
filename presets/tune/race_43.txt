@@ -71,7 +71,7 @@ set name = RACE
 
 #$ OPTION_GROUP BEGIN: Battery Type
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (CHECKED): LiPo/HV Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
