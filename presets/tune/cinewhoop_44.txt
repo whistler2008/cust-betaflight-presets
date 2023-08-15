@@ -12,7 +12,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (CHECKED): LED
+#$ OPTION BEGIN (UNCHECKED): LED
 #$ INCLUDE: presets/other/custom_led.txt
 #$ OPTION END
 
@@ -33,12 +33,22 @@ set pilot_name = CINEWHOOP
 #$ INCLUDE: presets/other/custom_cam_angle.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Analog VTX
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: VTX Type
+
+#$ OPTION BEGIN (UNCHECKED): Analog
 set osd_displayport_device = MAX7456
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Other
-#$ INCLUDE: presets/other/other.txt
+#$ OPTION BEGIN (UNCHECKED): Digital
+set osd_displayport_device = MSP
+set vcd_video_system = HD
 #$ OPTION END
 
 #$ OPTION_GROUP END

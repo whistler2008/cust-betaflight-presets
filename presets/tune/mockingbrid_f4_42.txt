@@ -12,7 +12,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (CHECKED): LED
+#$ OPTION BEGIN (UNCHECKED): LED
 #$ INCLUDE: presets/other/custom_led.txt
 #$ OPTION END
 
