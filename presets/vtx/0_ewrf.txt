@@ -54,3 +54,23 @@ vtxtable powerlabels 25 200 500
 set vtx_power = 3
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): EWRF W8092 V1 400mW (SA2.0)
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 200 400
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): EWRF W8092 V1 400mW (SA2.1)
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 26
+vtxtable powerlabels 25 200 400
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+

@@ -2834,7 +2834,7 @@
     },
     {
       "fullPath": "presets/rate/freestyle.txt",
-      "hash": "26d56539a1e29867e49c57c62d47c1ed4d1e402dbb38a028c49c574b05338960",
+      "hash": "a7315f76090397e0cfc68571103f14637609e32e6623e1a6de573f14f7378730",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.2",
@@ -2850,7 +2850,7 @@
     },
     {
       "fullPath": "presets/rate/race.txt",
-      "hash": "a718a7a43e0d96edff210e8814112d2eb0fdff2ef54228c68702160633c4c63d",
+      "hash": "6ab40cd3f209f1d8d73e5bb22958c2e25e24e2903569f2a4d9a21eaa0cf20efb",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.2",
@@ -3835,7 +3835,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "f76d672b9270d7dced8182d1a55b5969a5c8526ef9de5b0ed5b975a095e12163",
+      "hash": "c0e4c9a4866242733fae942dd21ca48fd2e53bcf78cd675068b9fa296ae4a4c2",
       "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
         "4.0"
@@ -3850,7 +3850,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "f46e98e59049dccd5e25a4f6f588968f8d42a8c8cee9e310a8e22e8054a76fc0",
+      "hash": "9be03abfbde1eea69359b512c7c07326e367cdd1755349487c47149286b8dc3b",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
@@ -4004,10 +4004,9 @@
     },
     {
       "fullPath": "presets/vtx/0_dji.txt",
-      "hash": "d5036407d4077fdd5ecc2d34d65cc20ee3cb11a1d6ff39252413bf61110a5444",
+      "hash": "23c1743345b6986a2d7fe54f61970a757232bb09a30e2c9faed206bcc4b8b7c3",
       "title": "DJI",
       "firmware_version": [
-        "4.2",
         "4.3",
         "4.4"
       ],
@@ -4037,7 +4036,7 @@
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
-      "hash": "f3c3a81851f4c9a89f23e399768031fadc5d38544817d6cf4a9dc0245c59b5af",
+      "hash": "7b86f72f4550d194f7d69f4d3f91b5c549ffa1d19ee33038549b449e81fbee9c",
       "title": "EWRF",
       "firmware_version": [
         "4.2",

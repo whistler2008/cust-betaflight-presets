@@ -44,10 +44,6 @@ name MBIRD F3
 set fpv_mix_degrees = 25
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog VTX
-set osd_displayport_device = MAX7456
-#$ OPTION END
-
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
 #$ OPTION END
