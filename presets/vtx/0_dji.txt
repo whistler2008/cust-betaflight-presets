@@ -18,13 +18,19 @@
 set osd_displayport_device = MAX7456
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Digital Betaflight 4.3
+set osd_displayport_device = MSP
+set vcd_video_system = PAL
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital Betaflight 4.4
+set osd_displayport_device = MSP
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: Enable DJI WTF-OSD
-
-set osd_displayport_device = MSP
-set vcd_video_system = PAL
 
 #$ OPTION BEGIN (UNCHECKED): UART1
 serial 0 1 115200 57600 0 115200
