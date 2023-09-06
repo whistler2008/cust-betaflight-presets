@@ -2866,7 +2866,7 @@
     },
     {
       "fullPath": "presets/rate/racewhoop.txt",
-      "hash": "d6ba2a5099400078f7d9cf83a0db92b5c8b6c7dddd25c90c222bb9f3ca6888f3",
+      "hash": "80064c21e9941c40049120861b8e0e6b696fcff5872e1f8e25afce0b6e0c01fb",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.2",
@@ -4036,7 +4036,7 @@
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
-      "hash": "7b86f72f4550d194f7d69f4d3f91b5c549ffa1d19ee33038549b449e81fbee9c",
+      "hash": "44097de8f9b93b8b904920e3d0b26ba98a7e2ee73a029fd77bb16fb8dc92c5df",
       "title": "EWRF",
       "firmware_version": [
         "4.2",
