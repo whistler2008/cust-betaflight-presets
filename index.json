@@ -584,53 +584,8 @@
       ]
     },
     {
-      "fullPath": "presets/filter/42_no_rpm_clean.txt",
-      "hash": "ed005069a3af85050e988449043da442d51d9fefd920143ccef86e8d71bff3fd",
-      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/42_no_rpm_noisy.txt",
-      "hash": "8ea4baf9d38120d8bc7f1e821965a978e3efae52b598fe1e3b6af5be35a7acff",
-      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/42_no_rpm_normal.txt",
-      "hash": "ec3f77be1da54b65992d1008bcd603ef580ea8aba0b5af426f26582555870780",
-      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/filter/42_rpm_clean.txt",
-      "hash": "2bfad84b6eb880180393dbe3e14756fdfcc78723f3489c1de366e7658300f793",
+      "hash": "dc25d0faa22bbb80193e87faa598419e921197ca2312b2bfd0799ba1ed51b4c1",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -645,7 +600,7 @@
     },
     {
       "fullPath": "presets/filter/42_rpm_noisy.txt",
-      "hash": "53a98aa7957b1432d0ceef2445feed0eb69236119a604eade650083a7505bcda",
+      "hash": "cc44fdc1a4abf01026dc54fbe45b215bb41b9331e44da6cb06e27b392515e023",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -660,7 +615,7 @@
     },
     {
       "fullPath": "presets/filter/42_rpm_normal.txt",
-      "hash": "16ea49e46566da8a00eda81c07c47c7eb2e606247be7fee21de979d367afc67e",
+      "hash": "0bb174354cfe49cbec9609b1973af077cdea1e7497dbe3db037d9814938e833f",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -674,56 +629,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/filter/43_no_rpm_clean.txt",
-      "hash": "9a2df138643c79603977e3c710ce3dc149685203a18afec87027b5666378643f",
-      "title": "CLEAN MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/43_no_rpm_noisy.txt",
-      "hash": "785bfe0a4c384e3246f80bd7848d619bccd1b27fbe7556a66bfd6d499a395984",
-      "title": "NOISY MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/43_no_rpm_normal.txt",
-      "hash": "57e348742b62494995a8b6821a8a0d375b24143e3d3e38e48974f08305299e8f",
-      "title": "NORMAL MOTOR, PROP Filter - NO RPM Filter (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "f12867c403d4751cf6b6aed3116b02f88ed61b41b852571bf2529e4b133711bd",
+      "hash": "4234d5a25fd13bd6c3fd9129f28a29186bd2bfc43f2a641f0f250ccd76387c72",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -739,7 +646,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "866613033aef6adf88d1f17053a80e729724d767aa6a928738f10e85a1150dfd",
+      "hash": "2abfee1841205143ec7e7eb9a92ab0c143f2082e7098d34b34852682f09f2482",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -755,7 +662,7 @@
     },
     {
       "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "b15c74e92fcb74afaafaec675b471dfbd2517cf9c410ccfbdde9271d54ccbd50",
+      "hash": "38f6bf92436fa1c38730801afbe99384d9f77f41e7cc904e99e1b3b49e77f2ac",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1041,6 +948,24 @@
       "fullPath": "presets/other/custom_led.txt",
       "hash": "9fb2c773909c43987b83a5d5bd7ce9567308b89f1834259f8fa148b2d9a2a642",
       "title": "Custom LED settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "default"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/custom_sag.txt",
+      "hash": "48e13094f0577464af68a3e567b4a3e5efc3dadeee50f1f05c6927f8ca569486",
+      "title": "Custom SAG Compensation",
       "firmware_version": [
         "4.0",
         "4.2",

@@ -6,39 +6,28 @@
 #$ DESCRIPTION:  Filter settings for NOISY MOTOR & NO RPM Filter (Betaflight 4.2)
 #$ HIDDEN: true
 
-# -- Gyro filters --
-set gyro_lowpass_hz = 0
-set gyro_lowpass2_hz = 250
-set dyn_lpf_gyro_min_hz = 0
-
-# -- Gyro Dynamic Notches --
-set dyn_notch_width_percent = 3
-set dyn_notch_q = 400
-set dyn_notch_min_hz = 90
+# master
+set gyro_lowpass2_hz = 200
+set dyn_notch_width_percent = 2
+set dyn_notch_q = 300
+set dyn_notch_min_hz = 100
+set dyn_lpf_gyro_min_hz = 160
+set dyn_lpf_gyro_max_hz = 400
 
 profile 0
-
-# profile 0
-set dyn_lpf_dterm_min_hz = 65
-set dyn_lpf_dterm_max_hz = 125
-set dterm_lowpass2_hz = 125
-set yaw_lowpass_hz = 75
+set dyn_lpf_dterm_min_hz = 70
+set dyn_lpf_dterm_max_hz = 170
+set dterm_lowpass_hz = 150
+set dterm_lowpass2_hz = 150
 
 profile 1
-
-# profile 1
-set dyn_lpf_dterm_min_hz = 65
-set dyn_lpf_dterm_max_hz = 125
-set dterm_lowpass2_hz = 125
-set yaw_lowpass_hz = 75
+set dyn_lpf_dterm_min_hz = 70
+set dyn_lpf_dterm_max_hz = 170
+set dterm_lowpass_hz = 150
+set dterm_lowpass2_hz = 150
 
 profile 2
-
-# profile 2
-set dyn_lpf_dterm_min_hz = 65
-set dyn_lpf_dterm_max_hz = 125
-set dterm_lowpass2_hz = 125
-set yaw_lowpass_hz = 75
-
-# restore original profile selection
-profile 0
+set dyn_lpf_dterm_min_hz = 70
+set dyn_lpf_dterm_max_hz = 170
+set dterm_lowpass_hz = 150
+set dterm_lowpass2_hz = 150
