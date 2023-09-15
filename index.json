@@ -540,7 +540,7 @@
     },
     {
       "fullPath": "presets/factory/darwinfpv_f405.txt",
-      "hash": "24fff9507c205b98985d303326ec701d181b9e9a37dcc08c6a4160adfc585f75",
+      "hash": "8db6e552c9275293bbcc5e417094400c6b465d385309ea47098cf7ab06c454ed",
       "title": "DarwinFPV F405",
       "firmware_version": [
         "4.2",

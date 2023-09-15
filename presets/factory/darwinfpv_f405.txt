@@ -5,10 +5,13 @@
 #$ CATEGORY: FACTORY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Factory setting for DarwinFPV F405
+#$ DESCRIPTION: Factory setting for DarwinFPV F405 (MATEKF405CTR)
 
 
 # resources
+resource MOTOR 5 NONE
+resource MOTOR 6 NONE
+resource MOTOR 7 NONE
 resource MOTOR 8 NONE
 resource PINIO 1 B00
 resource FLASH_CS 1 C00
