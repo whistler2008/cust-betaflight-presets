@@ -157,6 +157,7 @@
       "happymodel",
       "hglrc",
       "iflight",
+      "jhemcu",
       "modes",
       "namelessrc",
       "openvtx",
@@ -4037,6 +4038,22 @@
       "keywords": [
         "vtx",
         "iflight"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/0_jhemcu.txt",
+      "hash": "746431f72546f05934566398cab8ee86367030418726a53607a940a3ff8f6f0b",
+      "title": "JHEMCU",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "jhemcu"
       ]
     },
     {
