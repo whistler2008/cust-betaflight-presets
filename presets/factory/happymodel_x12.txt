@@ -14,10 +14,11 @@ dma ADC 1 1
 feature -RX_SERIAL
 feature -SOFTSERIAL
 feature -TELEMETRY
+feature -AIRMODE
 feature RX_SPI
 
 # serial
-serial 0 0 115200 57600 0 2000000
+serial 0 128 115200 57600 0 2000000
 serial 1 2048 115200 57600 0 115200
 
 # beeper
@@ -44,9 +45,10 @@ beacon RX_SET
 map TAER1234
 
 # aux
-aux 0 0 0 1700 2100 0 0
+aux 0 0 0 1550 2100 0 0
 aux 1 1 1 900 1300 0 0
-aux 2 35 2 1700 2100 0 0
+aux 2 13 2 1700 2100 0 0
+aux 3 28 1 1700 2100 0 0
 
 # adjrange
 adjrange 0 0 3 1500 2100 12 3 0 0
@@ -78,12 +80,16 @@ set acc_calibration = 1,-38,27,1
 set rc_smoothing_auto_factor = 25
 set rc_smoothing_auto_factor_throttle = 25
 set fpv_mix_degrees = 15
-set blackbox_sample_rate = 1/2
+set blackbox_sample_rate = 1/8
+set blackbox_device = SERIAL
 set dshot_idle_value = 800
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 12
 set failsafe_delay = 4
+set failsafe_off_delay = 75
+set failsafe_throttle = 1300
+set failsafe_procedure = AUTO-LAND
 set failsafe_recovery_delay = 20
 set vbat_max_cell_voltage = 450
 set vbat_min_cell_voltage = 310
@@ -110,7 +116,7 @@ set osd_disarmed_pos = 2369
 set osd_core_temp_pos = 2423
 set osd_canvas_width = 30
 set osd_canvas_height = 13
-set debug_mode = DUAL_GYRO_SCALED
+set debug_mode = GYRO_SCALED
 set vtx_band = 5
 set vtx_channel = 8
 set vtx_power = 3
@@ -190,3 +196,6 @@ rateprofile 3
 
 # restore original rateprofile selection
 rateprofile 1
+
+# save configuration
+save

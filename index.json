@@ -571,7 +571,7 @@
     },
     {
       "fullPath": "presets/factory/happymodel_x12.txt",
-      "hash": "dd16cce78099d529da5c99cb3ff3294426f501e3dc791491b33e16e66bd163d6",
+      "hash": "dd31724258454861ba91ca3eaee837ef3c53407049601050c5916102de5e3c77",
       "title": "HappyModel X12",
       "firmware_version": [
         "4.4"
@@ -741,7 +741,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "b35e6ef35c43fc8117504d45ccfcc655433e35d48abc63f5bd3a904f825496b9",
+      "hash": "5b87551650b4f2195f058838c30640f0ddd7a2336ee8880c5c48cf7501e5abe1",
       "title": "AUX Standard (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
