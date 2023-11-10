@@ -77,4 +77,14 @@ vtxtable powerlabels 25 100 200 350
 set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Z02 200mW
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
+#$ OPTION END
+
 #$ OPTION_GROUP END

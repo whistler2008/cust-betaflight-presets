@@ -570,6 +570,19 @@
       ]
     },
     {
+      "fullPath": "presets/factory/happymodel_x12.txt",
+      "hash": "dd16cce78099d529da5c99cb3ff3294426f501e3dc791491b33e16e66bd163d6",
+      "title": "HappyModel X12",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
       "fullPath": "presets/factory/matekf405.txt",
       "hash": "eccabdd50e1ce920040498f67edb19501d7650bf26a682555f7ecc2f4d92da85",
       "title": "MATEK F405 / OSD",
@@ -3897,7 +3910,7 @@
     },
     {
       "fullPath": "presets/vtx/0_betafpv.txt",
-      "hash": "cec83a81c42026a08d34e26394b6be45e507f775ab30c3268ac30bc112e56998",
+      "hash": "4f9d2fc86cd2262195b51054c9b40f06ad1da32b2391b648ead3be1b963e3038",
       "title": "BetaFPV",
       "firmware_version": [
         "4.2",
