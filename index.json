@@ -540,6 +540,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/factory/crazyf4_2g4.txt",
+      "hash": "df816a407f334304605dc9c63a0608d6810343f20ced5113f251348cc5e61e46",
+      "title": "Happymodel CrazyF4 2G4",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
       "fullPath": "presets/factory/darwinfpv_f405.txt",
       "hash": "8db6e552c9275293bbcc5e417094400c6b465d385309ea47098cf7ab06c454ed",
       "title": "DarwinFPV F405",
@@ -571,7 +586,7 @@
     },
     {
       "fullPath": "presets/factory/happymodel_x12.txt",
-      "hash": "dd31724258454861ba91ca3eaee837ef3c53407049601050c5916102de5e3c77",
+      "hash": "133787bc80dad0f0073e4aa5f93b0d0bb360bf65f924972838a2546971e69193",
       "title": "HappyModel X12",
       "firmware_version": [
         "4.4"

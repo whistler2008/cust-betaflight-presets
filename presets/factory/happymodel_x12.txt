@@ -65,8 +65,8 @@ vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
 vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable band 6 LOWRACE  L FACTORY 5333 5373 5413 5453 5493 5533 5573 5613
 vtxtable powerlevels 4
-vtxtable powervalues 10 14 20 26
-vtxtable powerlabels 0 25 100 400
+vtxtable powervalues 0 14 20 26
+vtxtable powerlabels PIT 25 100 400
 
 # master
 set gyro_lpf1_static_hz = 200
@@ -119,10 +119,9 @@ set osd_canvas_height = 13
 set debug_mode = GYRO_SCALED
 set vtx_band = 5
 set vtx_channel = 8
-set vtx_power = 3
+set vtx_power = 2
 set vtx_low_power_disarm = ON
 set vtx_freq = 5917
-set expresslrs_uid = 0,0,96,175,31,124
 set expresslrs_switch_mode = HYBRID
 set rpm_filter_min_hz = 200
 set craft_name = MOBULA_8
