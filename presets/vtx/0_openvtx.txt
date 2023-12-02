@@ -24,18 +24,19 @@ set vtx_channel = 3
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
-set vtx_power = 3
 
 
 #$ OPTION BEGIN (UNCHECKED): Flash
-vtxtable powerlevels 5
-vtxtable powervalues 1 2 14 20 26
-vtxtable powerlabels 0 RCE 25 100 400
+vtxtable powerlevels 6
+vtxtable powervalues 1 2 10 14 20 26
+vtxtable powerlabels 0 RCE 1 25 100 400
+set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Final
-vtxtable powerlevels 3
-vtxtable powervalues 14 20 26
-vtxtable powerlabels 25 100 400
+vtxtable powerlevels 4
+vtxtable powervalues 10 14 20 26
+vtxtable powerlabels 1 25 100 400
+set vtx_power = 3
 #$ OPTION END
 

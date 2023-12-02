@@ -541,7 +541,7 @@
     },
     {
       "fullPath": "presets/factory/crazyf4_2g4.txt",
-      "hash": "df816a407f334304605dc9c63a0608d6810343f20ced5113f251348cc5e61e46",
+      "hash": "a4252f89a746ba6ab6071e4cb24fa581f25e6c33de1e066bb6177b72c5bcd953",
       "title": "Happymodel CrazyF4 2G4",
       "firmware_version": [
         "4.2",
@@ -586,7 +586,7 @@
     },
     {
       "fullPath": "presets/factory/happymodel_x12.txt",
-      "hash": "133787bc80dad0f0073e4aa5f93b0d0bb360bf65f924972838a2546971e69193",
+      "hash": "922b2469617fbd23c1cf08ca643fd2d12f42ec6e92fd33b29c23d8a49b71b228",
       "title": "HappyModel X12",
       "firmware_version": [
         "4.4"
@@ -3153,8 +3153,8 @@
     },
     {
       "fullPath": "presets/size/cinewhoop_43_16.txt",
-      "hash": "d431908d06da91705d5db25bd8582e64cdb7310cd8f460d5590f9aac8cde7113",
-      "title": "1.6 Inch (Micro Whoop) (Betaflight 4.3-4.4)",
+      "hash": "6e1b43eb81c73ca6a84873fa2bdf000a47f5180944b6ad6b7c0ceb7d4df12d17",
+      "title": "Motor Idle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
         "4.4"
@@ -3481,6 +3481,37 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/size/motor_idle_42.txt",
+      "hash": "fae43503a24291af1f8fbb5faa22d41f64f6f445e5dba22e340c014a11cc1a75",
+      "title": "1.6 Inch (Micro Whoop) (Betaflight 4.2)",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "size"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/size/motor_idle_43.txt",
+      "hash": "3bfa067b146f70b6a76676462c61db243ecb005d494259a0ef7c6bed180b34d9",
+      "title": "Motor Idle (Betaflight 4.3-4.4)",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "size"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/size/racewhoop_42_16.txt",
       "hash": "6f2f86f97bae90ba013344f0e2dca67c61b50367386aa79cb9609c68ec5d391d",
       "title": "RaceWhoop 1.6 Inch (Micro Quad) (Betaflight 4.2)",
@@ -3699,7 +3730,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "785ce867863da68b49013cd069bb206fbb025d1ae613a000184de59ae85d04e2",
+      "hash": "11ee811b9df1ef6c52b6b163c52b2e8885852cf63dc21dfc2d011532b16c7d78",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3714,7 +3745,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "f845f5eeaea02cabe878830d4ca36bbd532a54318ad77416174943bd8659473f",
+      "hash": "393dac31965d8fcd8209245cca257d696b3905625cb2eb599bbcc2de4d806378",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3729,7 +3760,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "e351132cfdc45a51e3d5e1ec7bfe3856062263b6f95602e7f68675736e81c977",
+      "hash": "9b0e53b38b5c2a796a74ebdc45b1e9892b241d445f3f888a79bd63029ddb08e2",
       "title": "CineWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3744,7 +3775,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "b9d191b70b96bbfbd4f5303040d8c3ed28abf1028a32b30d4df748eb3f510626",
+      "hash": "b298d924871bf4306c00bb73d3e13f2cbcd9cff3afcdcb9c801186b81aa34fd8",
       "title": "FreeStyle Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3774,7 +3805,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "38f860ef823b906b11ef9abb895803a35b0c7e4ae9fa2b0c76f5e36f1b29f5bf",
+      "hash": "3c7fcfcacf66e291a9f4b97a044cf787b51325592b974f61990cd1e838284ff1",
       "title": "FreeStyle Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3819,7 +3850,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "9442be5e104415c7bb2024b29d49a93eac2a00923eb8c5e0ebec744e8bc553c4",
+      "hash": "221e2fd9bed09425e3713826e0c94e7f1d7309dc3cfaeca93d0834abdf1b561b",
       "title": "RaceWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3834,7 +3865,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "ffb01e52d30f0f72dedebe422bf19ef01ad85b8669c78ee8f9e82726df39a623",
+      "hash": "a4cd1a8ac26e9988c913100cbbb1fa6a39133dd5104785ad02714e20fc37491b",
       "title": "RaceWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3849,7 +3880,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "64ee99ac9778069740d5047e07c97d9f35851e713c3acc001a240a0f7423ef18",
+      "hash": "41f789bd451784a43bee2669b7a9ca7d4055e2bb607c7332a5e2fbfae98876e6",
       "title": "RaceWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3864,7 +3895,7 @@
     },
     {
       "fullPath": "presets/tune/race_42.txt",
-      "hash": "b1cc1dce626b83f94794111a8e434f3b30dd1f2ca3ad46a6e9562784c70f1084",
+      "hash": "7505081e3ca2e741c7b8eb0253b68d125ecb3d6c3b57f10e846a8a86648b1352",
       "title": "Race Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3879,7 +3910,7 @@
     },
     {
       "fullPath": "presets/tune/race_43.txt",
-      "hash": "9ea23198f88d78ab1bae069c115493e755d4f9d8ddd0a4be04bd4d96b56d4c9c",
+      "hash": "e6e7101fbc93f63849449a16210f6e7c40c3fd4764543bd2e611b34adc36d2e8",
       "title": "Race Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3894,7 +3925,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "9c0d2621af7c44b11369ebb08a60b1ba0af38c49c05931008699ac0b2615eb6b",
+      "hash": "accfc0aa42d32fd1a116cf446b95537cee25f9bfa07d9402e7c89990a00fba80",
       "title": "Race Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -4102,7 +4133,7 @@
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
-      "hash": "0d6bd1ef2a416624fd2ce247e3911a8b1ff361c2a41d0edb3f35235c9b06569c",
+      "hash": "17b207e2499068916a41e8721d142613531ac132bb4be3c505af508e192fb346",
       "title": "OpenVTX",
       "firmware_version": [
         "4.2",

@@ -10,14 +10,14 @@
 profile 0
 
 # profile 0
-set dyn_idle_min_rpm = 70
+set dyn_idle_min_rpm = 0
 
 profile 1
 
 # profile 1
-set dyn_idle_min_rpm = 70
+set dyn_idle_min_rpm = 0
 
 profile 2
 
 # profile 2
-set dyn_idle_min_rpm = 70
+set dyn_idle_min_rpm = 0

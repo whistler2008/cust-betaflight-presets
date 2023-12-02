@@ -188,6 +188,10 @@ set name = FREESTYLE
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
+#$ OPTION BEGIN (CHECKED): Disable Dynamic Idle
+#$ INCLUDE: presets/size/motor_idle_42.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 1.6 Inch
 #$ INCLUDE: presets/size/freestyle_43_16.txt
 #$ OPTION END

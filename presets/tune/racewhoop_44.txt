@@ -175,6 +175,10 @@ set vcd_video_system = HD
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
+#$ OPTION BEGIN (CHECKED): Disable Dynamic Idle
+#$ INCLUDE: presets/size/motor_idle_43.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 1.6 Inch
 #$ INCLUDE: presets/size/racewhoop_43_16.txt
 #$ OPTION END

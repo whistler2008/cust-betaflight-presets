@@ -204,6 +204,10 @@ set name = CINEWHOOP
 
 #$ OPTION_GROUP BEGIN: Quad Size
 
+#$ OPTION BEGIN (CHECKED): Disable Dynamic Idle
+#$ INCLUDE: presets/size/motor_idle_43.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 1.6 Inch
 #$ INCLUDE: presets/size/cinewhoop_43_16.txt
 #$ OPTION END
