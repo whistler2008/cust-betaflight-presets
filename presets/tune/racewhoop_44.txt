@@ -1,10 +1,11 @@
-#$ TITLE: RaceWhoop Tune 4.4
+#$ TITLE: RaceWhoop Tune 4.4/5
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.4
+#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.4/5
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -193,12 +194,12 @@ set vcd_video_system = HD
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 #$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_42_rssi.txt
+#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 #$ INCLUDE: presets/rx/race_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_42_lq.txt
+#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz

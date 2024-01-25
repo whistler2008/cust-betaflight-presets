@@ -285,13 +285,13 @@
     },
     {
       "fullPath": "presets/blackbox/off_blackbox.txt",
-      "hash": "5c56efb5aeacecd0cfb42db142f6f80280eb90c227558ff0a1f426655984afdb",
+      "hash": "baa9c2e8ffcd3a4e757090c3caf317b55ac24ec29c37ba892a94fae7c1480cd9",
       "title": "BlackBox OFF",
       "firmware_version": [
-        "4.5",
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -573,12 +573,13 @@
     },
     {
       "fullPath": "presets/factory/crazyf4_2g4.txt",
-      "hash": "a4252f89a746ba6ab6071e4cb24fa581f25e6c33de1e066bb6177b72c5bcd953",
+      "hash": "affd1c0309cd3d8f25fd73a3579017d88254f7590ba060318bbe78a2fcd4860b",
       "title": "Happymodel CrazyF4 2G4",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -588,12 +589,13 @@
     },
     {
       "fullPath": "presets/factory/darwinfpv_f405.txt",
-      "hash": "8db6e552c9275293bbcc5e417094400c6b465d385309ea47098cf7ab06c454ed",
+      "hash": "5ccc2ece2f2220744e1f2a6174571c2c5dd62cd864fa34b247217d0e61ba576c",
       "title": "DarwinFPV F405",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -603,12 +605,13 @@
     },
     {
       "fullPath": "presets/factory/diamondf4.txt",
-      "hash": "fea68031d70f2704217b433cb3b3d5a3c3561a38e1f74228893dbb70a683d942",
+      "hash": "dcc6089b6d199f628be44c6882e03eb67cce902c481fd47705b3edfef76a2e4c",
       "title": "Happymodel DiamondF4",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -618,10 +621,11 @@
     },
     {
       "fullPath": "presets/factory/happymodel_x12.txt",
-      "hash": "922b2469617fbd23c1cf08ca643fd2d12f42ec6e92fd33b29c23d8a49b71b228",
+      "hash": "734caa6bc832ec7eed2f17fa49832c788c33f3de43cdc594b6e33cfd9fcb693e",
       "title": "HappyModel X12",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -631,12 +635,13 @@
     },
     {
       "fullPath": "presets/factory/matekf405.txt",
-      "hash": "eccabdd50e1ce920040498f67edb19501d7650bf26a682555f7ecc2f4d92da85",
+      "hash": "74fc8ea8bf9fea3a0b30df61474c1eeb1dc6e2e8685d5ee6b6acdbc09ae2536a",
       "title": "MATEK F405 / OSD",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2936,11 +2941,12 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
-      "hash": "2b200a3a075d3e0bccefb9de83c25601de862072c8a9bccf4981874683ab22f1",
+      "hash": "fccd5237b11f7c4ae8c7c1ebed68e1e6067dddd8da0a1f3f196f01f8d3a17afd",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -2951,11 +2957,12 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
-      "hash": "f700a59de0d465003749965bdb35cbb2d37a161d3ef8d9dc35dbd72f115343b8",
+      "hash": "3774dbd6e1a4713d9223aa4837dde391949c0395bca9184a90d8704ef5bce9bb",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -2980,11 +2987,12 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_200_43.txt",
-      "hash": "8391516fe97a493cf7f565f4cc3d48174060629b997097b0c80921ec477d9913",
+      "hash": "4e3f575446a93fb49c902f3286847a2c7527210f5c0fa0e6463ed9986fb49156",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -2995,11 +3003,12 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_500_43.txt",
-      "hash": "6122b713e8cece38c754724386b432f0705aa70dfcb6236810c70a1e7d22c9a2",
+      "hash": "7f5a39632895315c77633e21fc7b662c22d64e404e915a23048e4f17255eacc4",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3010,11 +3019,12 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_200_43.txt",
-      "hash": "6d4261d0dd108428c83dd23b6e7c57a60e5a1cf7c1576e11a3a352dea89072b5",
+      "hash": "bfbaad5ef3db4f9c50cecc4780b9d23f44bf8c39571f2be947784d26f0e25d37",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3025,11 +3035,12 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_500_43.txt",
-      "hash": "67319452f7d1a3714f2666040cb7e6ce38d1d0ea7012300220d155bc402becbb",
+      "hash": "d3d4c5d8c9b414e8e2f763456dfbf4843303ac8254b6798cc35136f2bf470508",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3040,11 +3051,12 @@
     },
     {
       "fullPath": "presets/rx/serial_ibus_43.txt",
-      "hash": "3377d5b4f0252552f35fcacc505f83a310219fc6d0f707a629b654f78c02e709",
+      "hash": "9f4cd151f18a83c2185450dac26e524a6521d43e468a2b5650a65c445f086ee5",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3055,11 +3067,12 @@
     },
     {
       "fullPath": "presets/rx/serial_sbus_43.txt",
-      "hash": "02491d656cd29f08224e4623b6b06c0da7eb2efffc955cc6f1fb50ab39224f84",
+      "hash": "a5920aa05bbc0e3120b1ec5935d588a39e85f36f7c232aed56d086981ffc6aeb",
       "title": "RX Serial SBUS",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3070,11 +3083,12 @@
     },
     {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "7b18fef6f0283394ae2823c56f0d7651de50374bfc14111ef9cd854241138ab7",
+      "hash": "d560e50b5457597c67babdf3b0b967c19c60af814f40725e487f4e42a6ad982c",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3085,11 +3099,12 @@
     },
     {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
-      "hash": "f0526cb8470bccf88740279654265d10f12c2d6451bfae300ca9f5a2c5b6eb6e",
+      "hash": "06d7545a52b29c59bcebe6de7f9a264c326207810b643a6085054f010b13c58c",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RX",
       "status": "COMMUNITY",
@@ -3130,10 +3145,11 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "da4af03d60ad4ad765ba1a6230de6fa76aee7de9f019e07081796e3ea0c62f2d",
-      "title": "CineWhoop Tune 4.4",
+      "hash": "ba109e2943012a597e5084b7555269c46a88772e4b0870c3736974a47d9b8a7d",
+      "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -3175,10 +3191,11 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "7c17c1ef0ef65b2919137a15338e8b0fd0f4ee1ab9648263d412c0239fb6b894",
-      "title": "FreeStyle Tune 4.4",
+      "hash": "10b12a61a67d0a43d2fbeb82a967adfd6ab60032e84fd83f25a703b9830c2710",
+      "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -3250,10 +3267,11 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "1596501ab2e11334ab94dcf2159124c692dca0d684fcb4f29edf60e39412c471",
-      "title": "RaceWhoop Tune 4.4",
+      "hash": "f3edb0ec09c7a1e72282564eb940df9ec4a9bd15769cca890e282a34ef49e439",
+      "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -3295,10 +3313,11 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "d09613a1fa97dc64f0feb83ea500ede32f52b8006d9bef605e774c5a6868f3ff",
-      "title": "Race Tune 4.4",
+      "hash": "aa31023866b350c910d079dd7bc4ffe82073f8b55abf3b623c12c1776b238ace",
+      "title": "Race Tune 4.4/5",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -3310,12 +3329,13 @@
     },
     {
       "fullPath": "presets/vtx/0_akk.txt",
-      "hash": "b7864309f3fe49d9c91aa70f91bd7e27bb991c80860e4db8b774d7e887614786",
+      "hash": "a44bb91ccd23d2ad181516ab0be3316f74ef53d25d7ca7fef8cc266eb9a53c31",
       "title": "AKK",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3326,12 +3346,13 @@
     },
     {
       "fullPath": "presets/vtx/0_betafpv.txt",
-      "hash": "4f9d2fc86cd2262195b51054c9b40f06ad1da32b2391b648ead3be1b963e3038",
+      "hash": "d93eabd31d9aa4c3df5cd7c4e3452c4fb85800d782d00b3caf90b66fdec86410",
       "title": "BetaFPV",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3342,12 +3363,13 @@
     },
     {
       "fullPath": "presets/vtx/0_default.txt",
-      "hash": "790d98c50693def30a7403e0490aab971295b7958c07d396ab1656a0c83d86da",
+      "hash": "bb799b67502ea60817e180659aea1a80c7326460de2592542ceb93e52efed352",
       "title": "Default VTX settings",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "DEFAULT",
       "status": "COMMUNITY",
@@ -3359,11 +3381,12 @@
     },
     {
       "fullPath": "presets/vtx/0_dji.txt",
-      "hash": "5237c4e54b6a35c6f8e2351f4d8134f13a8fab28a44d638bffb47dd4ad0a408c",
+      "hash": "58b96cb6a031fb79ddd3c56808e8e86bbfc36c146516f3cfa6d7f53961ff03c3",
       "title": "DJI",
       "firmware_version": [
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3375,12 +3398,13 @@
     },
     {
       "fullPath": "presets/vtx/0_eachine.txt",
-      "hash": "97797a8bbf61ab01a9193a21a80f0ff774829819680ca82ccc4201dee3564f57",
+      "hash": "ff1bc0d6f8163f2f004494a869b06e0ab691561967af8471c6324176621e3b79",
       "title": "Eachine",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3391,12 +3415,13 @@
     },
     {
       "fullPath": "presets/vtx/0_ewrf.txt",
-      "hash": "44097de8f9b93b8b904920e3d0b26ba98a7e2ee73a029fd77bb16fb8dc92c5df",
+      "hash": "11ecb2b4580122876e6a7072ff2bd369c285be982265d9b15fb0c78c535d1d4d",
       "title": "EWRF",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3407,12 +3432,13 @@
     },
     {
       "fullPath": "presets/vtx/0_fullspeed.txt",
-      "hash": "f59ca31688cd4168a4c2a36a94291b2c9c02de5fa5945685b6ac677afdfdf9b7",
+      "hash": "ecc09234e185760233987c2fe9983362498a5b46238155de3436918d4d771788",
       "title": "FullSpeed",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3423,12 +3449,13 @@
     },
     {
       "fullPath": "presets/vtx/0_happymodel.txt",
-      "hash": "9477feff8aadae2ca0c1fc5650db6d87e0c69c0896894009c6100ae4b53fe567",
+      "hash": "aeabc8216b743e976108181e9bf803063f8e9ab25fac8819cf149cb3ea84790d",
       "title": "HappyModel",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3439,12 +3466,13 @@
     },
     {
       "fullPath": "presets/vtx/0_hglrc.txt",
-      "hash": "569ea40c2a7c83b806cc8a2bdaf090bef6a8d08cdd99abb852e8031f4bc4904d",
+      "hash": "b0d0616862bb4172cf03f5d5a430706fa45d0563ed991d8d0d0844e3babc19f3",
       "title": "HGLRC",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3455,12 +3483,13 @@
     },
     {
       "fullPath": "presets/vtx/0_iflight.txt",
-      "hash": "fe8bc069d5d8deaa1a0ebf3679c88f376843deea20144e02e25f77a9ad2f1034",
+      "hash": "340c7205fe67aeda989438c838a221420c41bed5ec689f5246e6056eb5f01ab4",
       "title": "iFlight",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3471,12 +3500,13 @@
     },
     {
       "fullPath": "presets/vtx/0_jhemcu.txt",
-      "hash": "746431f72546f05934566398cab8ee86367030418726a53607a940a3ff8f6f0b",
+      "hash": "819f0e19990dc6007ce991a2cdd9ba1504ba580382173d4cb5355e62ed6d0a90",
       "title": "JHEMCU",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3487,12 +3517,13 @@
     },
     {
       "fullPath": "presets/vtx/0_nameless.txt",
-      "hash": "70026a60df8325bd0f5b200645b868ba2674bed6fbef199b90320e19c6f239c2",
+      "hash": "39e42d14831b1172865d72657c97c724a399bf0762039f786d50e0188ef04945",
       "title": "NamelessRC",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3503,12 +3534,13 @@
     },
     {
       "fullPath": "presets/vtx/0_openvtx.txt",
-      "hash": "17b207e2499068916a41e8721d142613531ac132bb4be3c505af508e192fb346",
+      "hash": "e74cef6a1f4e7dcdf039514fe7fc7d8e10682e6fca5445607d90f48b796ef8a6",
       "title": "OpenVTX",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3519,12 +3551,13 @@
     },
     {
       "fullPath": "presets/vtx/0_rush.txt",
-      "hash": "e3d3fa5ba7b6c4c44bd3acf2e93ebbc6d33a06c0cbbc8073d559b98fc645ecf8",
+      "hash": "a0c5519383fe3e09a59994626b1a82624b5b44aa2dbad619291c268dace93671",
       "title": "Rush",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3535,12 +3568,13 @@
     },
     {
       "fullPath": "presets/vtx/0_tbs.txt",
-      "hash": "9f908a4b677b790998e14794d8fac8c272b1d46abd0b14e6496ee880e5b032d6",
+      "hash": "b27c0b64d0c077ae003ffddb743ec0847ed7136dac04bcd33ec3fb1f372428e0",
       "title": "TBS",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3551,12 +3585,13 @@
     },
     {
       "fullPath": "presets/vtx/0_xf.txt",
-      "hash": "de8c8ad3fea8b6e9ea3d46cd207291fc978452d02db57e748b949e9b1e71935b",
+      "hash": "fd8e4c5e0079467ea7bef8099b80639b705b0fa2299598e4cf81a8d348af8f38",
       "title": "XF",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
