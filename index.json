@@ -760,7 +760,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "bddde4a2adaa59663ebaed0b93e5d97f45033a38e85e3eb44a23047ff533d965",
+      "hash": "0118727cf89a4f8cb6439be0ebeb76760a83432e7b3073001377bc0911bfd31a",
       "title": "AUX with GPS Rescue (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
