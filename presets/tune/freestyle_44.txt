@@ -44,6 +44,8 @@ set pilot_name = FREESTYLE
 
 #$ OPTION BEGIN (UNCHECKED): Analog
 set osd_displayport_device = MAX7456
+set osd_canvas_width = 30
+set osd_canvas_height = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital

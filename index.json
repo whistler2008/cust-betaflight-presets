@@ -268,7 +268,7 @@
     },
     {
       "fullPath": "presets/blackbox/43_blackbox_gyroflow.txt",
-      "hash": "49407a0ec857c12f36475a65841ebdce57a8a74e0bc1dfafbb48c7a0e250f333",
+      "hash": "57504c5ba55bacadec03405c8855d57a6fcddebc1c1a302fa0610d2209741bf4",
       "title": "BlackBox GyroFlow (Betaflight 4.3)",
       "firmware_version": [
         "4.3",
@@ -760,7 +760,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_42.txt",
-      "hash": "f4c6032856d31216e78c7b15010684920803da7431ae9931ac7b4cccd92dd123",
+      "hash": "a37fba15aa2e50d613ac22de73f6b4e792ece5c60a53be253f485741b606f98a",
       "title": "AUX with GPS Rescue (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -775,7 +775,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_43.txt",
-      "hash": "4981530277da01afdc0bf8ae9f07ad166b6f58fc5fe5d331a00e52d0e2cfba26",
+      "hash": "edce6e83773f69be1d9f2697a0b1fae81ae8cadd1b93dd0383fae58407beae8f",
       "title": "AUX with GPS Rescue (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -790,7 +790,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44.txt",
-      "hash": "74659215c0cdba4182843b4f1898157d0a19816be5bdc4d37f567854bcbe76b5",
+      "hash": "c20e028aaff9a8332e239c91ee87b43aea880c8c35932cc88ccd953624cd60b2",
       "title": "AUX with GPS Rescue (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -931,7 +931,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_default.txt",
-      "hash": "fb674326cff6bdcfe6236cb2f2ca75477a57106dbb25db1cffa8642e97820a31",
+      "hash": "00348c319b7e0ff3e70ce83920e83e562c656a15dc2ad0cb2d8b45c893e71aca",
       "title": "Default OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -2814,7 +2814,7 @@
     },
     {
       "fullPath": "presets/rate/default.txt",
-      "hash": "698221aba6b48919b7f7ec47519a243617b7e5c0dbd68384a2f96393fef36a72",
+      "hash": "4bdf67e36738787f109492c597cfcb1243413605cca8958fe5412146dabcfc75",
       "title": "Default Rate",
       "firmware_version": [
         "4.2",
@@ -2865,7 +2865,7 @@
     },
     {
       "fullPath": "presets/rate/racewhoop.txt",
-      "hash": "aa78648dd6a715ca746dd921b8e3f37a3fce9c7116ce3f1c4c8fc8559cbcc7c5",
+      "hash": "bfb5a43fcb720ff138eda9f70c8504cc03cf624b0b06f988915c5ad4d5180fc8",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.2",
@@ -3130,7 +3130,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "64adcbae38e7002ac37b5c7aab20aadaeab89e8759d6a0ef78b881293e3615fc",
+      "hash": "da4af03d60ad4ad765ba1a6230de6fa76aee7de9f019e07081796e3ea0c62f2d",
       "title": "CineWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3175,7 +3175,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "535ee7f24cf7c174f4d04e0e722bb8ee7241c017d16256ca71fc3ce3bf77eb38",
+      "hash": "7c17c1ef0ef65b2919137a15338e8b0fd0f4ee1ab9648263d412c0239fb6b894",
       "title": "FreeStyle Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3250,7 +3250,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "b76ea05be3cc138ea07d4e3720529e2b012223222b88ef4ffd73394946dd2ce9",
+      "hash": "1596501ab2e11334ab94dcf2159124c692dca0d684fcb4f29edf60e39412c471",
       "title": "RaceWhoop Tune 4.4",
       "firmware_version": [
         "4.4"
@@ -3295,7 +3295,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "45799b7a646e4d941b26383accfc4c5a53e20112d09995f99ac34d181654dffc",
+      "hash": "d09613a1fa97dc64f0feb83ea500ede32f52b8006d9bef605e774c5a6868f3ff",
       "title": "Race Tune 4.4",
       "firmware_version": [
         "4.4"
