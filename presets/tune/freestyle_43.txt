@@ -75,7 +75,7 @@ set name = FREESTYLE
 #$ INCLUDE: presets/battery/batt_sag.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Li-Ion
+#$ OPTION BEGIN (UNCHECKED): Li-Ion - Minimum Cell Voltage 3.0V
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 

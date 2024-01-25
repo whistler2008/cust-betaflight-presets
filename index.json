@@ -3147,7 +3147,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "69d1abf23d01c506f7ef67e304ecec732b20bcbe52d7f4333ad275c02cffdd5a",
+      "hash": "deb83bdb414aa41a8746c9d73730337a7182cc7a161cbbdda7223b4ad7557909",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3162,7 +3162,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "2136d6d1aa7e66bb5dd85475c1ed424eb7f35d6d66d41de49aa932c5c26256eb",
+      "hash": "5292e1441885bac2c699482f4a907f7f3545581f84bf41ead02e8882c2c8302c",
       "title": "FreeStyle Tune 4.4",
       "firmware_version": [
         "4.4"
