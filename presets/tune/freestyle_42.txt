@@ -75,15 +75,15 @@ set name = FREESTYLE
 #$ INCLUDE: presets/battery/batt_sag.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Li-Ion
+#$ OPTION BEGIN (UNCHECKED): Li-Ion - Minimum Cell Voltage 3.0V
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.5V
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.5V
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 
@@ -132,15 +132,15 @@ set name = FREESTYLE
 #$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
-#$ INCLUDE: presets/filter/43_rpm_noisy.txt
+#$ INCLUDE: presets/filter/42_rpm_noisy.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Normal Motor
-#$ INCLUDE: presets/filter/43_rpm_normal.txt
+#$ INCLUDE: presets/filter/42_rpm_normal.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Clean Motor
-#$ INCLUDE: presets/filter/43_rpm_clean.txt
+#$ INCLUDE: presets/filter/42_rpm_clean.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

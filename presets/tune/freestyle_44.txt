@@ -94,11 +94,11 @@ set vcd_video_system = HD
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.5V
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.5V
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 

@@ -75,15 +75,15 @@ set name = CINEWHOOP
 #$ INCLUDE: presets/battery/batt_sag.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Li-Ion
+#$ OPTION BEGIN (UNCHECKED): Li-Ion - Minimum Cell Voltage 3.0V
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (CHECKED): LiPo/HV - Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.5V
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.5V
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 
