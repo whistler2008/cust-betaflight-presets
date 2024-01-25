@@ -211,7 +211,7 @@ set name = FREESTYLE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps.txt
+#$ INCLUDE: presets/modes/aux_gps_42.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

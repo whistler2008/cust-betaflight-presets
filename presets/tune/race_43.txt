@@ -216,7 +216,7 @@ set name = RACE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps.txt
+#$ INCLUDE: presets/modes/aux_gps_43.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

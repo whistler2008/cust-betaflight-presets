@@ -215,11 +215,11 @@ set vcd_video_system = HD
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
 #$ OPTION BEGIN (CHECKED): Without GPS
-#$ INCLUDE: presets/modes/aux_std_4.4.txt
+#$ INCLUDE: presets/modes/aux_std_44.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps_4.4.txt
+#$ INCLUDE: presets/modes/aux_gps_44.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
