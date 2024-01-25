@@ -60,11 +60,11 @@ set vcd_video_system = HD
 #$ INCLUDE: presets/crash/crash_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
+#$ OPTION BEGIN (CHECKED): Crash Recovery ON
 #$ INCLUDE: presets/crash/crash_on.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Crash Recovery DISARM
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery DISARM
 #$ INCLUDE: presets/crash/crash_disarm.txt
 #$ OPTION END
 
@@ -74,23 +74,27 @@ set vcd_video_system = HD
 #$ OPTION_GROUP BEGIN: BlackBox
 
 #$ OPTION BEGIN (UNCHECKED): OFF
-#$ INCLUDE: presets/blackbox/blackbox_off.txt
+#$ INCLUDE: presets/blackbox/off_blackbox.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GyroFlow
-#$ INCLUDE: presets/blackbox/blackbox_gyroflow_43.txt
+#$ OPTION BEGIN (CHECKED): GyroFlow
+#$ INCLUDE: presets/blackbox/43_blackbox_gyroflow.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Battery Type
+#$ OPTION_GROUP BEGIN: Battery
+
+#$ OPTION BEGIN (CHECKED): Battery Sag Compensation
+#$ INCLUDE: presets/battery/batt_sag.txt
+#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Li-Ion
 #$ INCLUDE: presets/battery/batt_30.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV Minimum Cell Voltage 3.3V
+#$ OPTION BEGIN (CHECKED): LiPo/HV Minimum Cell Voltage 3.3V
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
@@ -117,11 +121,11 @@ set vcd_video_system = HD
 #$ OPTION_GROUP BEGIN: Chipset
 
 #$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/f4_43.txt
+#$ INCLUDE: presets/chipset/43_f4.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/f7_43.txt
+#$ INCLUDE: presets/chipset/43_f7.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -212,39 +216,6 @@ set vcd_video_system = HD
 #$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
 #$ INCLUDE: presets/pid/cinewhoop_44_p1.txt
 #$ INCLUDE: presets/pid/cinewhoop_44_p2.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Quad Size
-
-#$ OPTION BEGIN (CHECKED): Disable Dynamic Idle
-#$ INCLUDE: presets/size/motor_idle_43.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 1.6 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_16.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_20.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2.5 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_25.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_30.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3.5 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_35.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4 Inch
-#$ INCLUDE: presets/size/cinewhoop_43_40.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

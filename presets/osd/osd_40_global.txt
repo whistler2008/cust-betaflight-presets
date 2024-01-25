@@ -1,13 +1,13 @@
-#$ TITLE: RSSI OSD settings (Betaflight 4.0)
+#$ TITLE: Global OSD settings (Betaflight 4.0)
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: RSSI OSD settings (Betaflight 4.0)
+#$ DESCRIPTION: Global OSD settings (Betaflight 4.0)
 #$ INCLUDE: presets/osd/osd_40_default.txt
 #$ HIDDEN: true
 
-# osd
+# OSD Global
 set osd_warn_batt_not_full = OFF
 set osd_warn_no_gps_rescue = OFF
 set osd_warn_gps_rescue_disabled = OFF

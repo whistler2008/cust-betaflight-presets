@@ -1,12 +1,13 @@
-#$ TITLE: LQ OSD settings (Betaflight 4.4)
+#$ TITLE: LQ OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: LQ OSD settings (Betaflight 4.4)
+#$ DESCRIPTION: LQ OSD settings (Betaflight 4.4-4.5)
 #$ INCLUDE: presets/osd/osd_44_global.txt
 #$ HIDDEN: true
 
-# osd lq
+# OSD LQ
 set osd_link_quality_pos = 2081
 set osd_rssi_dbm_pos = 2113

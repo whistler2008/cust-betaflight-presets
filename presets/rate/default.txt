@@ -2,12 +2,18 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rate
 #$ DESCRIPTION: Default Rate
 #$ HIDDEN: true
 
+
+# Motor Direction
+set yaw_motors_reversed = OFF
+
+# Default Rate
 profile 0
 
 # profile 0

@@ -8,7 +8,7 @@
 #$ INCLUDE: presets/osd/osd_42_global.txt
 #$ HIDDEN: true
 
-# osd lq
+# OSD LQ
 set osd_warn_link_quality = ON
 set osd_link_quality_pos = 2081
 set osd_rssi_dbm_pos = 2113

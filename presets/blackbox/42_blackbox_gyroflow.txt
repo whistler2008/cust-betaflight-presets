@@ -6,7 +6,6 @@
 #$ DESCRIPTION: BlackBox GyroFlow (Betaflight 4.2)
 #$ HIDDEN: true
 
-# blackbox
-# set blackbox_device = SPIFLASH
+# Blackbox
 set blackbox_p_ratio = 16
 set debug_mode = GYRO_SCALED

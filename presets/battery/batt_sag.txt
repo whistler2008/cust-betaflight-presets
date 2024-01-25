@@ -1,27 +1,27 @@
-#$ TITLE: Custom SAG Compensation
+#$ TITLE: Battery 3.0V settings
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: default
-#$ DESCRIPTION: Custom SAG Compensation
+#$ KEYWORDS: battery
+#$ DESCRIPTION: Battery 3.0V Battery settings
 #$ HIDDEN: true
 
-# SAG Compensation
+# Battery Sag Compensation 100
+profile 0
 
 # profile 0
 set vbat_sag_compensation = 100
 
 profile 1
+
+# profile 1
 set vbat_sag_compensation = 100
 
 profile 2
-set vbat_sag_compensation = 100
 
-profile 3
+# profile 2
 set vbat_sag_compensation = 100
-
-# restore original profile selection
-profile 0

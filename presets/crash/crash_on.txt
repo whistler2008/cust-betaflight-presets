@@ -3,12 +3,14 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
 #$ DESCRIPTION: Crash Recovery Setting
 #$ HIDDEN: true
 
+# Crash Recovery
 profile 0
 
 # profile 0

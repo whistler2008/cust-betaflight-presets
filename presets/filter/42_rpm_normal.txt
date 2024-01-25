@@ -6,6 +6,7 @@
 #$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.2)
 #$ HIDDEN: true
 
+# Gyro RPM Filter
 # master
 set gyro_lowpass2_hz = 250
 set dyn_notch_width_percent = 2

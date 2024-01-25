@@ -8,7 +8,7 @@
 #$ INCLUDE: presets/osd/osd_42_default.txt
 #$ HIDDEN: true
 
-# osd global
+# OSD Global
 set osd_vbat_pos = 2444
 set osd_tim_2_pos = 2455
 set osd_flymode_pos = 2401

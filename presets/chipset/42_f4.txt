@@ -6,6 +6,6 @@
 #$ DESCRIPTION: Default for F4 Chipset (Betaflight 4.2)
 #$ HIDDEN: true
 
-# rpm filter
+# RPM Filter
 set pid_process_denom = 2
 set motor_pwm_protocol = DSHOT300

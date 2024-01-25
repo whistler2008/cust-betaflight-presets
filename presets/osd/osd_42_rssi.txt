@@ -8,7 +8,7 @@
 #$ INCLUDE: presets/osd/osd_42_global.txt
 #$ HIDDEN: true
 
-# osd rssi
+# OSD RSSI
 set osd_warn_link_quality = OFF
 set osd_rssi_pos = 2081
 set osd_stat_min_rssi = ON

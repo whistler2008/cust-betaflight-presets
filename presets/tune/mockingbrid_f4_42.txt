@@ -4,7 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/battery/batt_33.txt
 #$ DESCRIPTION: MockingBird 1-2S F4 Tune for Betaflight 4.2
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
@@ -35,6 +34,10 @@ set fpv_mix_degrees = 25
 
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Battery
+#$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

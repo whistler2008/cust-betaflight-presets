@@ -1,11 +1,12 @@
-#$ TITLE: RSSI OSD settings (Betaflight 4.4)
+#$ TITLE: RSSI OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: RSSI OSD settings (Betaflight 4.4)
+#$ DESCRIPTION: RSSI OSD settings (Betaflight 4.4-4.5)
 #$ INCLUDE: presets/osd/osd_44_global.txt
 #$ HIDDEN: true
 
-# osd rssi
+# OSD RSSI
 set osd_rssi_pos = 2081

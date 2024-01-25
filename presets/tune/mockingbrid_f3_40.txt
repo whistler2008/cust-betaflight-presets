@@ -4,7 +4,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ INCLUDE: presets/osd/osd_40_rssi.txt
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
 
@@ -16,6 +15,10 @@
 
 #$ OPTION BEGIN (CHECKED): BEEPER
 #$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): OSD
+#$ INCLUDE: presets/osd/osd_40_global.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates
@@ -46,6 +49,10 @@ set fpv_mix_degrees = 25
 
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Battery
+#$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -79,7 +86,6 @@ set motor_pwm_protocol = DSHOT300
 set dshot_idle_value = 800
 
 #$ OPTION BEGIN (UNCHECKED): 1S
-#$ INCLUDE: presets/battery/batt_33.txt
 profile 0
 
 set dterm_lowpass_hz = 80
@@ -112,7 +118,6 @@ profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2S
-#$ INCLUDE: presets/battery/batt_35.txt
 profile 0
 
 set dterm_lowpass_hz = 80

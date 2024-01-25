@@ -1,14 +1,14 @@
 #$ TITLE: BlackBox GyroFlow (Betaflight 4.3)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
 #$ DESCRIPTION: BlackBox GyroFlow (Betaflight 4.3)
 #$ HIDDEN: true
 
-# blackbox
-# set blackbox_device = SPIFLASH
+# Blackbox
 set blackbox_sample_rate = 1/16
 set debug_mode = GYRO_SCALED
 set blackbox_disable_pids = ON

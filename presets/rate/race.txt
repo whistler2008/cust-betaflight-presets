@@ -2,6 +2,7 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: rate
@@ -11,6 +12,10 @@
 #$ INCLUDE: presets/rate/default.txt
 
 
+# Motor Direction
+set yaw_motors_reversed = ON
+
+# Race Rate
 profile 0
 
 # profile 0

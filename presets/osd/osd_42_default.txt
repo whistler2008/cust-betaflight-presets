@@ -7,7 +7,7 @@
 #$ DESCRIPTION: Default OSD settings (Betaflight 4.2-4.3)
 #$ HIDDEN: true
 
-# osd defalut
+# OSD Default
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = ON

@@ -3,13 +3,14 @@
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: DEFAULT
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
 #$ DESCRIPTION: Default AUX settings
 #$ HIDDEN: true
 
-# aux default
+# AUX Default
 aux 0 0 0 900 900 0 0
 aux 1 0 0 900 900 0 0
 aux 2 0 0 900 900 0 0

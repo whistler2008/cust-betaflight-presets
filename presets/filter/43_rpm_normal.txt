@@ -1,12 +1,14 @@
-#$ TITLE: NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.4)
+#$ TITLE: NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.5)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: filter
-#$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.3-4.4)
+#$ DESCRIPTION:  Filter settings for NORMAL MOTOR & NO RPM Filter (Betaflight 4.3-4.5)
 #$ HIDDEN: true
 
+# Gyro RPM Filter
 # master
 set gyro_lpf1_static_hz = 250
 set gyro_lpf2_static_hz = 500
