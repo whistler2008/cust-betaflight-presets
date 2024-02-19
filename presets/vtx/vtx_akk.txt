@@ -7,7 +7,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, akk
 #$ DESCRIPTION: AKK VTX settings
-#$ INCLUDE: presets/vtx/0_default.txt
+#$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
 vtxtable bands 5

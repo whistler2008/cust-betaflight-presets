@@ -1,13 +1,13 @@
-#$ TITLE: HGLRC
+#$ TITLE: FullSpeed
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, hglrc
-#$ DESCRIPTION: HGLRC VTX settings
-#$ INCLUDE: presets/vtx/0_default.txt
+#$ KEYWORDS: vtx, fullspeed
+#$ DESCRIPTION: FullSpeed VTX settings
+#$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -28,14 +28,14 @@ set vtx_pit_mode_freq = 5732
 
 #$ OPTION_GROUP BEGIN: IRC Tramp
 
-#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW
+#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW
 # power_level
-vtxtable powerlevels 4
-vtxtable powervalues 25 100 200 350
-vtxtable powerlabels 25 100 200 350
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 600
+vtxtable powerlabels 25 100 200 400 600
 
 # vtx setting
-set vtx_power = 4
+set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END

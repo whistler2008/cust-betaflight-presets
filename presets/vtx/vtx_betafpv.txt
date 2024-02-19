@@ -1,13 +1,13 @@
-#$ TITLE: Eachine
+#$ TITLE: BetaFPV
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, eachine
-#$ DESCRIPTION: Eachine VTX settings
-#$ INCLUDE: presets/vtx/0_default.txt
+#$ KEYWORDS: vtx, betafpv
+#$ DESCRIPTION: BetaFPV VTX settings
+#$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -25,72 +25,67 @@ set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
-#$ OPTION BEGIN (UNCHECKED): Eachine TX805 800mW
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV A01 200mW
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV A02 800mW
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 200 600 800
+vtxtable powerlabels 25 200 500 800
 
 # vtx setting
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Eachine TX806 1000mW
-# power_level
-vtxtable powerlevels 5
-vtxtable powervalues 0 1 2 3 4
-vtxtable powerlabels 25 200 400 800 1W
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine TX1200 1200mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 200 600 1W2
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine Nano VTX V1-3 400mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 25 100 200 400
-vtxtable powerlabels 25 100 200 400
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine ATX03S 200mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 50 100 200
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine VTX03S 200mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 50 100 200
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine TX06 AIO 25mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M01 25mW
 # power_level
 vtxtable powerlevels 1
 vtxtable powervalues 0
 vtxtable powerlabels 25
 
 # vtx setting
+set vtx_power = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M02 350mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
 set vtx_power = 4
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M03 350mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Z02 200mW
+# power_level
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 200
+
+# vtx setting
+set vtx_power = 2
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -1,13 +1,13 @@
-#$ TITLE: XF
+#$ TITLE: NamelessRC
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, xf
-#$ DESCRIPTION: XF VTX settings
-#$ INCLUDE: presets/vtx/0_default.txt
+#$ KEYWORDS: vtx, namelessrc
+#$ DESCRIPTION: NamelessRC VTX settings
+#$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
 vtxtable bands 5
@@ -26,32 +26,22 @@ set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
 
 
-#$ OPTION_GROUP BEGIN: TBS SmartAudio
+#$ OPTION_GROUP BEGIN: IRC Tramp
 
-#$ OPTION BEGIN (UNCHECKED): XF5804 600mW
+#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR 400mW
 # power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 23 26 28
-vtxtable powerlabels 25 200 400 600
+vtxtable powerlevels 6
+vtxtable powervalues 25 100 200 400 513 515
+vtxtable powerlabels 25 100 200 400 ON OFF
 
 # vtx setting
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): XF5805 600mW
+#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400 400mW
 # power_level
 vtxtable powerlevels 4
-vtxtable powervalues 14 20 23 28
-vtxtable powerlabels 25 100 200 600
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): XF5806 400mW
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2 3
+vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 400
 
 # vtx setting
