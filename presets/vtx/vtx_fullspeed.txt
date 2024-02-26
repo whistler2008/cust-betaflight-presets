@@ -99,9 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: IRC Tramp
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW
+#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW (IRC)
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 600

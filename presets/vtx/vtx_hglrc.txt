@@ -99,9 +99,19 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: IRC Tramp
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW
+#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus 800 800mW (IRC)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 800
+vtxtable powerlabels 25 100 200 400 800
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW (IRC)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 350

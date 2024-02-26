@@ -99,9 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV A01 200mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV A01 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -111,7 +111,7 @@ vtxtable powerlabels 25 200
 set vtx_power = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV A02 800mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV A02 800mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -121,7 +121,17 @@ vtxtable powerlabels 25 200 500 800
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M01 25mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV A03 400mW (SA 2.1)
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 20 26
+vtxtable powerlabels 25 100 400
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M01 25mW (SA 2.0)
 # power_level
 vtxtable powerlevels 1
 vtxtable powervalues 0
@@ -131,7 +141,7 @@ vtxtable powerlabels 25
 set vtx_power = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M02 350mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M02 350mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -141,7 +151,7 @@ vtxtable powerlabels 25 100 200 350
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M03 350mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV M03 350mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -151,7 +161,7 @@ vtxtable powerlabels 25 100 200 350
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV Z02 200mW
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Z02 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1

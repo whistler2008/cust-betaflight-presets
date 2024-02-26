@@ -99,19 +99,19 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: IRC Tramp
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 800mW
+#$ OPTION BEGIN (UNCHECKED): iFlight Race 25mW (IRC)
 # power_level
-vtxtable powerlevels 4
-vtxtable powervalues 25 100 400 800
-vtxtable powerlabels 25 100 400 800
+vtxtable powerlevels 1
+vtxtable powervalues 25
+vtxtable powerlabels 25
 
 # vtx setting
-set vtx_power = 4
+set vtx_power = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 200mW
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 200mW (IRC)
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 100 200
@@ -121,7 +121,7 @@ vtxtable powerlabels 25 100 200
 set vtx_power = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 300mW
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 300mW (IRC)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 300
@@ -131,7 +131,7 @@ vtxtable powerlabels 25 100 200 300
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 500mW
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 500mW (IRC)
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 500
@@ -141,11 +141,61 @@ vtxtable powerlabels 25 100 200 400 500
 set vtx_power = 5
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 600mW
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 600mW (IRC)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 400 600
 vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 800mW (IRC)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 400 800
+vtxtable powerlabels 25 100 400 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Force 600mW (IRC)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 200 400 600
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight BLITZ 1.6mW (IRC)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 400 800 1600
+vtxtable powerlabels 25 400 800 1600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Whoop 1.6mW (IRC)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 400 800 1600
+vtxtable powerlabels 25 400 800 1600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Whoop 2.5mW (IRC)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 400 1000 2500
+vtxtable powerlabels 25 400 1000 2500
 
 # vtx setting
 set vtx_power = 4

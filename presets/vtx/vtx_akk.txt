@@ -99,9 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: SmartAudio 2.0
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2 800mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 800mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -111,7 +111,7 @@ vtxtable powerlabels 25 200 500 800
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator 2000mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator 2000mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -121,7 +121,7 @@ vtxtable powerlabels 250 500 1K 2K
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate 1200mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate 1200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -131,7 +131,7 @@ vtxtable powerlabels 25 200 600 1K2
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3 600mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 600mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -141,7 +141,7 @@ vtxtable powerlabels 25 200 400 600
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate 600mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate 600mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -151,7 +151,7 @@ vtxtable powerlabels 25 200 400 600
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR 1000mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR 1000mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -161,7 +161,7 @@ vtxtable powerlabels 25 200 600 1K
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK FX5 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK FX5 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 0 1 2
@@ -171,7 +171,7 @@ vtxtable powerlabels 25 100 200
 set vtx_power = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR 1000mW
+#$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR 1000mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -181,7 +181,7 @@ vtxtable powerlabels 25 200 600 1K
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Nano 3 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK Nano 3 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -191,7 +191,7 @@ vtxtable powerlabels 25 200
 set vtx_power = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK New Era 400mW
+#$ OPTION BEGIN (UNCHECKED): AKK New Era 400mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -201,7 +201,7 @@ vtxtable powerlabels 25 50 200 400
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -211,7 +211,7 @@ vtxtable powerlabels 25 200
 set vtx_power = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Nano Race 400mW
+#$ OPTION BEGIN (UNCHECKED): AKK Nano Race 400mW (SA 2.0)
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 0 1 2
@@ -221,7 +221,7 @@ vtxtable powerlabels 25 200 400
 set vtx_power = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Race 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK Race 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -231,7 +231,7 @@ vtxtable powerlabels 25 200
 set vtx_power = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK Race Ranger 1000mW
+#$ OPTION BEGIN (UNCHECKED): AKK Race Ranger 1000mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -241,7 +241,7 @@ vtxtable powerlabels 200 400 800 1K
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK X5 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK X5 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -251,7 +251,7 @@ vtxtable powerlabels 25 50 100 200
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AKK X5 Pro 200mW
+#$ OPTION BEGIN (UNCHECKED): AKK X5 Pro 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -259,6 +259,56 @@ vtxtable powerlabels 25 50 100 200
 
 # vtx setting
 set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Ultra Long Range 3000W (SA 2.0)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 0 1 2 3 4
+vtxtable powerlabels 250 500 1K 2K 3K
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Alpha 4 4000mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 1K 2K 3K 4K
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Alpha 5 5000mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 1K 2K 3K 5K
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Alpha 8 8000mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 1K 3K 5K 8K
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AKK Alpha 10 10000mW (SA 2.0)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 0 1 2 3 4
+vtxtable powerlabels 1K 3K 5K 7K 1K
+
+# vtx setting
+set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END

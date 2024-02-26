@@ -99,37 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION BEGIN (UNCHECKED): Eachine TX805 800mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 200 600 800
+#$ OPTION_GROUP BEGIN: Series
 
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine TX806 1000mW
-# power_level
-vtxtable powerlevels 5
-vtxtable powervalues 0 1 2 3 4
-vtxtable powerlabels 25 200 400 800 1W
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine TX1200 1200mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 200 600 1W2
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Eachine Nano VTX V1-3 400mW
+#$ OPTION BEGIN (UNCHECKED): Eachine Nano VTX V1-3 400mW (IRC)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 400
@@ -139,7 +111,47 @@ vtxtable powerlabels 25 100 200 400
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Eachine ATX03S 200mW
+#$ OPTION BEGIN (UNCHECKED): Eachine TX805 800mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Eachine TX805S 1600mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 500 1K0 1K6
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Eachine TX1200 1200mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 1W2
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Eachine TD600 800mW (SA 2.0)
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 600 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Eachine ATX03S 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -149,7 +161,7 @@ vtxtable powerlabels 25 50 100 200
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Eachine VTX03S 200mW
+#$ OPTION BEGIN (UNCHECKED): Eachine VTX03S 200mW (SA 2.0)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -159,7 +171,7 @@ vtxtable powerlabels 25 50 100 200
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Eachine TX06 AIO 25mW
+#$ OPTION BEGIN (UNCHECKED): Eachine TX06 AIO 25mW (SA 2.0)
 # power_level
 vtxtable powerlevels 1
 vtxtable powervalues 0
@@ -168,3 +180,5 @@ vtxtable powerlabels 25
 # vtx setting
 set vtx_power = 4
 #$ OPTION END
+
+#$ OPTION_GROUP END

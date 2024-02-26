@@ -99,7 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX20-600 600mW
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX20-600 600mW (IRC)
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 600
@@ -108,3 +110,35 @@ vtxtable powerlabels 25 100 200 400 600
 # vtx setting
 set vtx_power = 5
 #$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX30-800 800mW (IRC)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 800
+vtxtable powerlabels 25 100 200 400 800
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU RuiBet Tran-3016W 1.6W (IRC)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 200 400 800 1600
+vtxtable powerlabels 25 200 400 800 1K6
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX2W5 2.5W (IRC)
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 400 800 1500 2500
+vtxtable powerlabels 25 400 800 1K5 2K5
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -99,15 +99,7 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION BEGIN (UNCHECKED): TBS Unify EVO 5G8 (HV) 800mW
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 20 27 36
-vtxtable powerlabels 25 100 500 800
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: SmartAudio 2.0
 
 #$ OPTION BEGIN (UNCHECKED): TBS Unify Pro HV 800mW
 # power_level
@@ -159,6 +151,21 @@ vtxtable powerlabels 25 200 500 800
 set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: SmartAudio 2.1
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify EVO 5G8 (HV) 800mW
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 27 36
+vtxtable powerlabels 25 100 500 800
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 HV 1000mW
 # power_level
 vtxtable powerlevels 4
@@ -179,3 +186,4 @@ vtxtable powerlabels 25 100 400 MAX
 set vtx_power = 4
 #$ OPTION END
 
+#$ OPTION_GROUP END

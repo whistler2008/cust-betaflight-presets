@@ -99,9 +99,9 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: IRC Tramp
+#$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR 400mW
+#$ OPTION BEGIN (UNCHECKED): NamelessRC D400 DVR 400mW (IRC)
 # power_level
 vtxtable powerlevels 6
 vtxtable powervalues 25 100 200 400 513 515
@@ -111,7 +111,7 @@ vtxtable powerlabels 25 100 200 400 ON OFF
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400 400mW
+#$ OPTION BEGIN (UNCHECKED): NamelessRC Nano400 400mW (IRC)
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 400

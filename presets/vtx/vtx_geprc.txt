@@ -135,7 +135,7 @@ set vtx_power = 3
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 500 1000
-vtxtable powerlabels 25 200 500 1K0
+vtxtable powerlabels 25 200 500 1K
 
 # vtx setting
 set vtx_power = 4
