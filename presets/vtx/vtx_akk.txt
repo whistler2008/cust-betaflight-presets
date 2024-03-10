@@ -7,22 +7,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, akk
 #$ DESCRIPTION: AKK VTX settings
-#$ INCLUDE: presets/vtx/vtx_default.txt
-
-# vtx tables
-vtxtable bands 5
-vtxtable channels 8
-vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
-vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-
-# vtx setting
-set vtx_band = 1
-set vtx_channel = 1
-set vtx_low_power_disarm = ON
-
 
 #$ OPTION_GROUP BEGIN: Band
 
@@ -102,6 +86,7 @@ set vtx_low_power_disarm = ON
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 800mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -112,6 +97,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 Dominator 2000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -122,6 +108,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX2 Ultimate 1200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -132,6 +119,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 600mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -142,6 +130,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate 600mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -152,6 +141,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX3 Ultimate DVR 1000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -162,6 +152,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK FX5 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 0 1 2
@@ -172,6 +163,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Infinite DVR 1000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -182,6 +174,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Nano 3 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -192,6 +185,7 @@ set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK New Era 400mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -202,6 +196,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Oscar Backpack 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -212,6 +207,7 @@ set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Nano Race 400mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 0 1 2
@@ -222,6 +218,7 @@ set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Race 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 2
 vtxtable powervalues 0 1
@@ -232,6 +229,7 @@ set vtx_power = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Race Ranger 1000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -242,6 +240,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK X5 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -252,6 +251,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK X5 Pro 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -262,6 +262,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Ultra Long Range 3000W (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 0 1 2 3 4
@@ -272,6 +273,7 @@ set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Alpha 4 4000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -282,6 +284,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Alpha 5 5000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -292,6 +295,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Alpha 8 8000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 0 1 2 3
@@ -302,6 +306,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AKK Alpha 10 10000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 0 1 2 3 4
