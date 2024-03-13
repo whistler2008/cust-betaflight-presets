@@ -8,6 +8,45 @@
 #$ KEYWORDS: vtx, hglrc
 #$ DESCRIPTION: HGLRC VTX settings
 
+
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus 800 800mW (IRC)
+#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 800
+vtxtable powerlabels 25 100 200 400 800
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HGLRC FD VTX Micro 400mW (IRC)
+#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 200 400
+vtxtable powerlabels 25 100 200 400
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW (IRC)
+#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 25 100 200 350
+vtxtable powerlabels 25 100 200 350
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Band
 
 #$ OPTION BEGIN (UNCHECKED): BOSCAM_A
@@ -78,44 +117,6 @@ set vtx_low_power_disarm = OFF
 
 #$ OPTION BEGIN (CHECKED): ON
 set vtx_low_power_disarm = ON
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Series
-
-#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus 800 800mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
-# power_level
-vtxtable powerlevels 5
-vtxtable powervalues 25 100 200 400 800
-vtxtable powerlabels 25 100 200 400 800
-
-# vtx setting
-set vtx_power = 5
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HGLRC FD VTX Micro 400mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 25 100 200 400
-vtxtable powerlabels 25 100 200 400
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 25 100 200 350
-vtxtable powerlabels 25 100 200 350
-
-# vtx setting
-set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION_GROUP END

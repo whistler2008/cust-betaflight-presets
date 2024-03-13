@@ -8,6 +8,56 @@
 #$ KEYWORDS: vtx, happymodel
 #$ DESCRIPTION: HappyModel VTX settings
 
+
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond DVR 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 25mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 1
+vtxtable powervalues 0
+vtxtable powerlabels 25
+
+# vtx setting
+set vtx_power = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Band
 
 #$ OPTION BEGIN (UNCHECKED): BOSCAM_A
@@ -78,55 +128,6 @@ set vtx_low_power_disarm = OFF
 
 #$ OPTION BEGIN (CHECKED): ON
 set vtx_low_power_disarm = ON
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Series
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
-vtxtable powerlabels 25 100 200
-
-# vtx setting
-set vtx_power = 3
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond DVR 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
-vtxtable powerlabels 25 100 200
-
-# vtx setting
-set vtx_power = 3
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 25mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 1
-vtxtable powervalues 0
-vtxtable powerlabels 25
-
-# vtx setting
-set vtx_power = 1
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
-vtxtable powerlabels 25 100 200
-
-# vtx setting
-set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION_GROUP END

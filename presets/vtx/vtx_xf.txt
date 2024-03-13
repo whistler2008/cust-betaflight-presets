@@ -8,6 +8,44 @@
 #$ KEYWORDS: vtx, xf
 #$ DESCRIPTION: XF VTX settings
 
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): XF5804 Pro 600mW (SA 2.1)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 23 26 28
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): XF5805 300mW (SA 2.1)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 14 20 23 25
+vtxtable powerlabels 25 100 200 300
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): XF5806 400mW (SA 2.1)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 20 23 26
+vtxtable powerlabels 25 100 200 400
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Band
 
 #$ OPTION BEGIN (UNCHECKED): BOSCAM_A
@@ -78,44 +116,6 @@ set vtx_low_power_disarm = OFF
 
 #$ OPTION BEGIN (CHECKED): ON
 set vtx_low_power_disarm = ON
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Series
-
-#$ OPTION BEGIN (UNCHECKED): XF5804 Pro 600mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 23 26 28
-vtxtable powerlabels 25 200 400 600
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): XF5805 300mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 20 23 25
-vtxtable powerlabels 25 100 200 300
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): XF5806 400mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 14 20 23 26
-vtxtable powerlabels 25 100 200 400
-
-# vtx setting
-set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION_GROUP END

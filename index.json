@@ -3148,7 +3148,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "ba109e2943012a597e5084b7555269c46a88772e4b0870c3736974a47d9b8a7d",
+      "hash": "1050b2d6a110c2038bec76c9c5be7a182bbfbc8a0d7f14e3f30c2a0b92931e52",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3194,7 +3194,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "10b12a61a67d0a43d2fbeb82a967adfd6ab60032e84fd83f25a703b9830c2710",
+      "hash": "dfd34ef06d81b32e6344b90a91a2ed46204b43fab17eb6fb4d78305990fbee8a",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3270,7 +3270,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "f3edb0ec09c7a1e72282564eb940df9ec4a9bd15769cca890e282a34ef49e439",
+      "hash": "62979d0ed3f88c2f9c327003b5b3194d8d9a18cfd54f0285d01d76a94bc46dc4",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3316,7 +3316,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "aa31023866b350c910d079dd7bc4ffe82073f8b55abf3b623c12c1776b238ace",
+      "hash": "41cb0455b1f3cbbc5fefaec3cb13738c8120fdef8aa619e9800c8026cb780f05",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3332,7 +3332,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_akk.txt",
-      "hash": "a8278368d817f059159af8fe193b357db86deff3d8cd211a10e6432ae26bf145",
+      "hash": "4972e0e0d1ba39db186e809ccfb3791ef18d2cf83fb3758a07f594e3f91c90dd",
       "title": "AKK",
       "firmware_version": [
         "4.2",
@@ -3349,7 +3349,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_betafpv.txt",
-      "hash": "77558494b5c3db47f74d1de62546cb1c073dd7e5664acbff436334fc0ebf520d",
+      "hash": "13c78c455edf09026c334b9350d5aa174fdc1738fc1da4951287e47b85d2940e",
       "title": "BetaFPV",
       "firmware_version": [
         "4.2",
@@ -3418,7 +3418,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_dji.txt",
-      "hash": "58b96cb6a031fb79ddd3c56808e8e86bbfc36c146516f3cfa6d7f53961ff03c3",
+      "hash": "0355ef61df71621d0856c337b6d2444af0d85e53db8a31796ab70cbf0a75019d",
       "title": "DJI",
       "firmware_version": [
         "4.3",
@@ -3435,7 +3435,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_eachine.txt",
-      "hash": "38ebddade9498b3983a07b3953e6ab5dfb3140233e4ee7d7a1ab605b91f35b0b",
+      "hash": "674f59c57772f3f29db3c35dc5fb3e71e68c2fd071172594b2b9d1dfc951138d",
       "title": "Eachine",
       "firmware_version": [
         "4.2",
@@ -3452,7 +3452,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ewrf.txt",
-      "hash": "395f5c5c8459e76ef1f7825747dedf5dfc7a307432157153715a6434cf3e4657",
+      "hash": "df1ab904762fd2d0d6b01ceeecc917ff87c499517ee0a34f0f7e3f93cb54b739",
       "title": "EWRF",
       "firmware_version": [
         "4.2",
@@ -3469,7 +3469,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_fullspeed.txt",
-      "hash": "89c5655681ef3c95387ead119add89b9afff74955ff551f72c5cc3adf3ddda4d",
+      "hash": "629ec21bfe56c0e0c07bcabb426b176a6f58c90ba28d9c5305f33f647c0607c4",
       "title": "FullSpeed",
       "firmware_version": [
         "4.2",
@@ -3486,7 +3486,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "93d8b5183be0d757d5186849ed3ea1d3dfd4e682f4b6c04589c087e83c8e2947",
+      "hash": "fd28449cf541b96f22472111203a713ca0c1746f731cea54490451515b97d0d6",
       "title": "GEPRC",
       "firmware_version": [
         "4.2",
@@ -3503,7 +3503,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_happymodel.txt",
-      "hash": "f977757f31d3c6b45e545859e6702db15891d54a71d98b6c325f9cbf02f32338",
+      "hash": "23d07d35c1b0b78c7482d9413737e64f5fd4183f2f3d1f137a635974637432ce",
       "title": "HappyModel",
       "firmware_version": [
         "4.2",
@@ -3520,7 +3520,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_hglrc.txt",
-      "hash": "bf77fdddab5f2fd27452f57220116309ca43b4a73ef14d8cd34805a0da5f515e",
+      "hash": "064bf728ab54e875fd7b241a00232034c35f534b5334a119bad53caae11b5459",
       "title": "HGLRC",
       "firmware_version": [
         "4.2",
@@ -3537,7 +3537,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_iflight.txt",
-      "hash": "6b9fe924be1d067694c037ce7d212635e19d1516fab5d9b7d0d87022d3c28b2d",
+      "hash": "730648cbf8b7c396f379cc77d62e799304f5f8e1955a847b0cc29f78c5b51e79",
       "title": "iFlight",
       "firmware_version": [
         "4.2",
@@ -3554,7 +3554,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_jhemcu.txt",
-      "hash": "063144f43eaabfea0baa5c992bd83995747a98805189434bd7a2f576fb1b95e9",
+      "hash": "29c58b6e5543c14ffb72df9c00098a94f5b5eb8071aa447b47286a666965ef22",
       "title": "JHEMCU",
       "firmware_version": [
         "4.2",
@@ -3571,7 +3571,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_nameless.txt",
-      "hash": "8697c0ecf7036774f363962ea4a13a2ee9fe6ce05a0af36bdd87324eb43a836f",
+      "hash": "b3afaa646bff26d93e8940368afd54d4df38ea342ac8b9c7f1f87fa3ccc2aa09",
       "title": "NamelessRC",
       "firmware_version": [
         "4.2",
@@ -3588,7 +3588,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_openvtx.txt",
-      "hash": "aae6d57a9cd193e4b01a0bd109dd5a5a1ef0de2b1e4d682c03f6a74de723b5a8",
+      "hash": "a7d8e39bc60e8a39418e2d1d909e993bef546c9dab602fc7430c2f50b9fe80f6",
       "title": "OpenVTX",
       "firmware_version": [
         "4.2",
@@ -3605,7 +3605,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_rush.txt",
-      "hash": "f03f4a93ad2aefd3352c205fc8b9bf22acfbdeeee8ed5353e03afd93dd6aab18",
+      "hash": "b2e52d5721b31453fe870b2f9777385e276d4494f1c1f3e6e7c96edaa693e9ea",
       "title": "Rush",
       "firmware_version": [
         "4.2",
@@ -3622,7 +3622,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_tbs.txt",
-      "hash": "eac8e834dc525f17a2be651665dbaa64c904ae9dba2925a57fcd10a69aff5d8d",
+      "hash": "879883d25e6255fa2c6f118e46d93bcacf5387c349141bba49e0ba189b2f89d5",
       "title": "TBS",
       "firmware_version": [
         "4.2",
@@ -3639,7 +3639,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_xf.txt",
-      "hash": "aee6d9cf315bfb75ce2a46550bb1d60c3b0f09972ff2faba076a220fefb733d4",
+      "hash": "ac64b44fbeca23a1ebc59c23d193696572e1214a960a9a6df44938cd4b59138d",
       "title": "XF",
       "firmware_version": [
         "4.2",

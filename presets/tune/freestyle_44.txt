@@ -51,7 +51,6 @@ set osd_canvas_height = 13
 
 #$ OPTION BEGIN (UNCHECKED): Digital
 set osd_displayport_device = MSP
-set vcd_video_system = HD
 #$ OPTION END
 
 #$ OPTION_GROUP END

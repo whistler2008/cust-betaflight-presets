@@ -8,6 +8,23 @@
 #$ KEYWORDS: vtx, fullspeed
 #$ DESCRIPTION: FullSpeed VTX settings
 
+
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW (IRC)
+#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 600
+vtxtable powerlabels 25 100 200 400 600
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Band
 
 #$ OPTION BEGIN (UNCHECKED): BOSCAM_A
@@ -78,22 +95,6 @@ set vtx_low_power_disarm = OFF
 
 #$ OPTION BEGIN (CHECKED): ON
 set vtx_low_power_disarm = ON
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Series
-
-#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
-# power_level
-vtxtable powerlevels 5
-vtxtable powervalues 25 100 200 400 600
-vtxtable powerlabels 25 100 200 400 600
-
-# vtx setting
-set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -63,14 +63,4 @@ serial 5 1 115200 57600 0 115200
 set displayport_msp_serial = 5
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): UART7
-serial 6 1 115200 57600 0 115200
-set displayport_msp_serial = 6
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): UART8
-serial 7 1 115200 57600 0 115200
-set displayport_msp_serial = 7
-#$ OPTION END
-
 #$ OPTION_GROUP END
