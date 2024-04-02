@@ -9,5 +9,5 @@
 #$ DESCRIPTION: BlackBox OFF
 #$ HIDDEN: true
 
-# Blackbox
+# Blackbox Off
 set blackbox_device = NONE

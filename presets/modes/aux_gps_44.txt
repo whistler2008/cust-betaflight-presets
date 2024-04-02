@@ -14,6 +14,13 @@ aux 1 1 1 900 1300 0 0
 aux 2 13 2 1700 2100 0 0
 aux 3 28 1 1700 2100 0 0
 
+# stage-1 failsafe
+# rxfail
+rxfail 3 s 1100
+rxfail 5 s 1100
+set rx_min_usec = 1000
+set rx_max_usec = 2000
+
 # Failsafe Setting
 set failsafe_off_delay = 75
 set failsafe_throttle = 1150

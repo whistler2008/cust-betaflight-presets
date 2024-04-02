@@ -8,7 +8,7 @@
 #$ DESCRIPTION: BlackBox GyroFlow (Betaflight 4.3)
 #$ HIDDEN: true
 
-# Blackbox
+# Blackbox Gyroflow
 set blackbox_sample_rate = 1/16
 set debug_mode = GYRO_SCALED
 set blackbox_disable_pids = ON

@@ -256,7 +256,7 @@
     },
     {
       "fullPath": "presets/blackbox/42_blackbox_gyroflow.txt",
-      "hash": "44ed6a04e759e619b6720924ef289d6c7760c75fb2c648a50cbc0f554a49eb93",
+      "hash": "c3236ee81911e1bd720d5129ddce625907bd09caadd80ad4abcf3b99f9dd3c87",
       "title": "BlackBox GyroFlow (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -271,7 +271,7 @@
     },
     {
       "fullPath": "presets/blackbox/43_blackbox_gyroflow.txt",
-      "hash": "57504c5ba55bacadec03405c8855d57a6fcddebc1c1a302fa0610d2209741bf4",
+      "hash": "fcb26d5f70a491b29b09b9a395e6c963e9c4deac3e493962c6b875083ebacf1e",
       "title": "BlackBox GyroFlow (Betaflight 4.3)",
       "firmware_version": [
         "4.3",
@@ -288,7 +288,7 @@
     },
     {
       "fullPath": "presets/blackbox/off_blackbox.txt",
-      "hash": "baa9c2e8ffcd3a4e757090c3caf317b55ac24ec29c37ba892a94fae7c1480cd9",
+      "hash": "52e8ca5ac545dfc7988d4c971208005c063a030f4072bb0c4145c5202c802c06",
       "title": "BlackBox OFF",
       "firmware_version": [
         "4.2",
@@ -768,7 +768,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_42.txt",
-      "hash": "a37fba15aa2e50d613ac22de73f6b4e792ece5c60a53be253f485741b606f98a",
+      "hash": "262c05bbdcc5b3a3d8265b3e69b93b8ad1d9badfea80742533fe76ca9b323daf",
       "title": "AUX with GPS Rescue (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -783,7 +783,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_43.txt",
-      "hash": "edce6e83773f69be1d9f2697a0b1fae81ae8cadd1b93dd0383fae58407beae8f",
+      "hash": "db810df2acb6122b9c17b8d30e5a00f6669c116b2fed80258f84fecad47a74dc",
       "title": "AUX with GPS Rescue (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -798,7 +798,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44.txt",
-      "hash": "c20e028aaff9a8332e239c91ee87b43aea880c8c35932cc88ccd953624cd60b2",
+      "hash": "f1c45fb32363fae60e4439df2fe9c1ce2285b0545b025573de6d14ce2d3c1ff8",
       "title": "AUX with GPS Rescue (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -814,7 +814,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "5b87551650b4f2195f058838c30640f0ddd7a2336ee8880c5c48cf7501e5abe1",
+      "hash": "fc1845da3ec2791766beede008b9591c411ce8f8c570ef44cc40b9c2ea407c13",
       "title": "AUX Standard (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -831,7 +831,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std_44.txt",
-      "hash": "9d66f2611d4ed1db96f586c1b0a659472fc831aa303f019659c31506b23aeca0",
+      "hash": "e345147c493935ac6afa09a833a554fdb6eb19e198f65f7d37776db2c283394b",
       "title": "AUX Standard (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -2944,7 +2944,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
-      "hash": "fccd5237b11f7c4ae8c7c1ebed68e1e6067dddd8da0a1f3f196f01f8d3a17afd",
+      "hash": "c0c88db041d1896133ef27c35db43ba725a29c2ca83fa5b02b58add2b3dff702",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2960,7 +2960,7 @@
     },
     {
       "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
-      "hash": "3774dbd6e1a4713d9223aa4837dde391949c0395bca9184a90d8704ef5bce9bb",
+      "hash": "4f429469fefd25a74d3b44c335a4172671485e7bb83793c3630775b23c6aee42",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2990,7 +2990,7 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_200_43.txt",
-      "hash": "4e3f575446a93fb49c902f3286847a2c7527210f5c0fa0e6463ed9986fb49156",
+      "hash": "e21a08f475bc2183b19edfbd4d25a1ce51daf973081aae1269b7a27b94333b99",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3006,7 +3006,7 @@
     },
     {
       "fullPath": "presets/rx/freestyle_elrs_500_43.txt",
-      "hash": "7f5a39632895315c77633e21fc7b662c22d64e404e915a23048e4f17255eacc4",
+      "hash": "0aa0c9d729ebef8f4e08a8b67e012dde78f914cffa6434d27617146907f9e0c0",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3022,7 +3022,7 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_200_43.txt",
-      "hash": "bfbaad5ef3db4f9c50cecc4780b9d23f44bf8c39571f2be947784d26f0e25d37",
+      "hash": "47fac45a46d77f62e6178aa4869612dbb007e158a86d9837bc3e0e24c3a1329a",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3038,7 +3038,7 @@
     },
     {
       "fullPath": "presets/rx/race_elrs_500_43.txt",
-      "hash": "d3d4c5d8c9b414e8e2f763456dfbf4843303ac8254b6798cc35136f2bf470508",
+      "hash": "5698448fe05b0b4c8577797ac08cbadb388f684f46df3d3639d281660644800c",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3086,7 +3086,7 @@
     },
     {
       "fullPath": "presets/rx/spi_elrs_150_43.txt",
-      "hash": "d560e50b5457597c67babdf3b0b967c19c60af814f40725e487f4e42a6ad982c",
+      "hash": "cfa8522a7a09ff294b7394cf18ebe38ea10a687ce21d99581f7a77d58d31eee5",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3102,7 +3102,7 @@
     },
     {
       "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
-      "hash": "06d7545a52b29c59bcebe6de7f9a264c326207810b643a6085054f010b13c58c",
+      "hash": "dc76bcbaf525e0cca34a57dcd11c2eff21acd590731fe0d16e1355fa981e3439",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3",

@@ -15,11 +15,10 @@ set serialrx_provider = CRSF
 # rc_smoothing
 set rc_smoothing = ON
 set rc_smoothing_auto_factor = 250
-set rc_smoothing_auto_factor_throttle = 25
+set rc_smoothing_auto_factor_throttle = 30
 set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
 set rc_smoothing_throttle_cutoff = 0
-set rc_smoothing_debug_axis = ROLL
 
 
 profile 0
@@ -30,7 +29,7 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 9
 set feedforward_transition = 0
-set feedforward_boost = 18
+set feedforward_boost = 15
 
 profile 1
 
@@ -40,7 +39,7 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 9
 set feedforward_transition = 0
-set feedforward_boost = 18
+set feedforward_boost = 15
 
 profile 2
 
@@ -50,7 +49,7 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 9
 set feedforward_transition = 0
-set feedforward_boost = 18
+set feedforward_boost = 15
 
 
 # per cell or whole pack voltage readings:
