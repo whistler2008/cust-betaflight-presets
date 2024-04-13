@@ -6,7 +6,9 @@
 #$ DESCRIPTION: Setting for RX ELRS (Betaflight 4.2)
 #$ HIDDEN: true
 
+feature RX_SERIAL
 feature TELEMETRY
+set serialrx_provider = CRSF
 
 set rc_interp = PRESET
 set rc_smoothing_type = INTERPOLATION

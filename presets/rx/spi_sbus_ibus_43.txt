@@ -8,9 +8,6 @@
 #$ DESCRIPTION: Setting for RX SPI SBUS / IBUS
 #$ HIDDEN: true
 
-feature RX_SERIAL
-set serialrx_provider = IBUS
-
 profile 0
 
 # profile 0

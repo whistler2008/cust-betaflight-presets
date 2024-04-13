@@ -12,6 +12,9 @@ feature RX_SERIAL
 feature TELEMETRY
 set serialrx_provider = CRSF
 
+set rx_min_usec = 900
+set rx_max_usec = 2100
+
 # rc_smoothing
 set rc_smoothing = ON
 set rc_smoothing_auto_factor = 80
