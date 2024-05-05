@@ -17,8 +17,6 @@ aux 3 28 1 1700 2100 0 0
 # rxfail
 rxfail 3 s 1100
 rxfail 5 s 1100
-set rx_min_usec = 1000
-set rx_max_usec = 2000
 
 # Failsafe Setting
 set failsafe_off_delay = 75
