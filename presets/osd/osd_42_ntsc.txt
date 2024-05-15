@@ -1,11 +1,11 @@
-#$ TITLE: Global OSD settings (Betaflight 4.4-4.5)
-#$ FIRMWARE_VERSION: 4.4
-#$ FIRMWARE_VERSION: 4.5
+#$ TITLE: Global OSD settings (Betaflight 4.2-4.3)
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: Global OSD settings (Betaflight 4.4-4.5)
-#$ INCLUDE: presets/osd/osd_44_default.txt
+#$ DESCRIPTION: Global OSD settings (Betaflight 4.2-4.3)
+#$ INCLUDE: presets/osd/osd_42_default.txt
 #$ HIDDEN: true
 
 # OSD NTSC
@@ -20,3 +20,4 @@ set osd_vtx_channel_pos = 2433
 set osd_avg_cell_voltage_pos = 2412
 set osd_disarmed_pos = 2369
 set osd_core_temp_pos = 2423
+set osd_stat_total_time = ON

@@ -907,7 +907,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "1a83f707cc698d7e344ce3dc9439fa3a1eaa0c758b28ab84ee0979b7f5bd6364",
+      "hash": "a12a21b87fbdb1218c5333cc9344e0bfe250e261251119411211d318287688d4",
       "title": "LQ OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -922,8 +922,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_42_ntsc.txt",
+      "hash": "cc1e93a8825ed2206d2bb2ae8a36a34c7dd7191eb1dc23fabd714eae765b149b",
+      "title": "Global OSD settings (Betaflight 4.2-4.3)",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_42_pal.txt",
+      "hash": "488acbc552bf03b48fdf780e003dba8b11b454981251e5565944aacdea5a9550",
+      "title": "Global OSD settings (Betaflight 4.2-4.3)",
+      "firmware_version": [
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_42_rssi.txt",
-      "hash": "5d0faaf666b5e01de63053221b6ddcdb7707304cfda97c1648a4e1d08ad7f581",
+      "hash": "185b9e60409feabe2cd1e44558e904d5ffa4abfe34984bf4152f6cb856e5d338",
       "title": "RSSI OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -986,7 +1018,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "a0981fef73967b5466a19bfa43a780d643c08fb9166f06f558be9b80407ef8d0",
+      "hash": "ba58d6ea8852fadd66e56e5ac27c2a36b744815921374c06525ab1157214cf84",
       "title": "Global OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1002,7 +1034,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "48345c5ad848a09256a1df58bbe37d95f76876be5b866f649ef6e9edb0ab70bd",
+      "hash": "cf5ceee32cd3bca088b10d6ca38c6d463ddace7929f8940886f630797dba67e9",
       "title": "Global OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3150,7 +3182,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "93712fca444130d21f550d6e35dbd08fa42f47848346e153334349d875c61c0b",
+      "hash": "da0e7979e4bfe1d444a948bfcf29cc8cc054cd35e0a5680b6d4d46dd37f19337",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3165,7 +3197,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "27f9d2625a2544fd3eb423b6b956c7e4188471ad94d3dfb8528c4ea6ba603e16",
+      "hash": "0ac315329274d447fdc166ef2c7f8a7d086b6660f13d9fb6568afb0242b56e73",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3196,7 +3228,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "a2aab0e169de1a4413dcc42bc64a98a40ae75f48921984f94fa332e08620e6b5",
+      "hash": "bbdfbafe55f8d41693b4e480b3ce993a5f78e34a44a554230e3d243b0c4bbc1f",
       "title": "FreeStyle Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3211,7 +3243,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "26298af578873827837b8f45cfddb4a432894c7190720dd4d554d1943e3cbd19",
+      "hash": "1a6a653398a5c088c59b1d65c0344a44986c9a4bba499de4c37345dc9613fa57",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3272,7 +3304,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "b39ddd8eb812721e061b56eff62cf5492738414f8282b993a121b9eae055c7ef",
+      "hash": "39c9f0a4bdb17c2b0b2c1771b765d9d0db4e13260a5ee573196461fccd144ce8",
       "title": "RaceWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3287,7 +3319,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "1786a444b9414aba7f3d2412eaffd18eb9eff09fc071adfd2903773b979a57e4",
+      "hash": "9b2c54facd601887fe559bbb9804e47226085bcbbc117fbd992be0dba184b5bc",
       "title": "RaceWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3318,7 +3350,7 @@
     },
     {
       "fullPath": "presets/tune/race_42.txt",
-      "hash": "1d159c55012379f273020803c38a7d1972212b86bd88109e9d144ed292b5731b",
+      "hash": "51392e34642de07e406664a136f5f2f9509e87fe338ecf06b6d14d7d6f20c358",
       "title": "Race Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3333,7 +3365,7 @@
     },
     {
       "fullPath": "presets/tune/race_43.txt",
-      "hash": "4204820244d2b5da8456ff5a53401fde02bf67be3893d3866ca2a20c824968c4",
+      "hash": "058bc62fcbeee6df528a942e35424c0049146e3216a72755b2a6840d70755913",
       "title": "Race Tune 4.3",
       "firmware_version": [
         "4.3"

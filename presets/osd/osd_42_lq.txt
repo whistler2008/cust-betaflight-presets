@@ -5,7 +5,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
 #$ DESCRIPTION: LQ OSD settings (Betaflight 4.2-4.3)
-#$ INCLUDE: presets/osd/osd_42_global.txt
 #$ HIDDEN: true
 
 # OSD LQ
