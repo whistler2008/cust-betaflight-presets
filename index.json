@@ -954,7 +954,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_global.txt",
-      "hash": "57e4f4f070d218076a36eff2a33e86fc79d46502a677917eb6a162ae3e5aeb7c",
+      "hash": "a0981fef73967b5466a19bfa43a780d643c08fb9166f06f558be9b80407ef8d0",
       "title": "Global OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -970,7 +970,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "49a0aafd09b9550e206998adf87a6d941e9fb68fd633750d7e5caf398cf2dd35",
+      "hash": "967358065b352f5eb980b6cd6e343abf909c7373505448913c8cf27ea8e8a280",
       "title": "LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -985,8 +985,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_ntsc.txt",
+      "hash": "a0981fef73967b5466a19bfa43a780d643c08fb9166f06f558be9b80407ef8d0",
+      "title": "Global OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_pal.txt",
+      "hash": "48345c5ad848a09256a1df58bbe37d95f76876be5b866f649ef6e9edb0ab70bd",
+      "title": "Global OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "4e21e6634d5664c3e0a2b18b7fb76189027f38e3f14d0662350f62b0831cf494",
+      "hash": "474c3665296e86c8c49bf994792d2ee1473ebbfcade8ee4a95117c3559b9f34d",
       "title": "RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3148,7 +3180,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "1050b2d6a110c2038bec76c9c5be7a182bbfbc8a0d7f14e3f30c2a0b92931e52",
+      "hash": "bcc9fcefce7e663066dc2d8d2bdaa0ad6184c3c0b9ee6d63b272b73f30abd386",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3194,7 +3226,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "dfd34ef06d81b32e6344b90a91a2ed46204b43fab17eb6fb4d78305990fbee8a",
+      "hash": "faf5bf2bc9271e4fbf7d24da4ab2053fdf5e812496cb3cc704e1b6005fc8dae3",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3270,7 +3302,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "62979d0ed3f88c2f9c327003b5b3194d8d9a18cfd54f0285d01d76a94bc46dc4",
+      "hash": "8ad552f021f1195453d1eec5ffeaf8b791ea49d84bbc07ef813b03e6cf4552cf",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3316,7 +3348,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "41cb0455b1f3cbbc5fefaec3cb13738c8120fdef8aa619e9800c8026cb780f05",
+      "hash": "fa8a0db0224d6b9a502fef8457c8be0f766712db69534d628404db52a37da1e0",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
