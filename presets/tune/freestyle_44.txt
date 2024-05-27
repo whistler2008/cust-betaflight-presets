@@ -173,6 +173,23 @@ set osd_displayport_device = MSP
 #$ OPTION_GROUP END
 
 
+#$ OPTION_GROUP BEGIN: Propeller
+
+#$ OPTION BEGIN (UNCHECKED): 2 Blade
+#$ INCLUDE: presets/prop/2_blade.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3 Blade
+#$ INCLUDE: presets/prop/3_blade.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4=6 Blade
+#$ INCLUDE: presets/prop/4_blade.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S

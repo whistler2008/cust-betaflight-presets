@@ -168,6 +168,7 @@
       "osd",
       "pid",
       "rate",
+      "rpm harmonics",
       "rpm_filter",
       "rush",
       "rx",
@@ -2868,6 +2869,51 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/prop/2_blade.txt",
+      "hash": "96a5abf444e82d160bb18d398f0b581cfbe09f3c53b2a8786c4fca82b7ced027",
+      "title": "2 Blade Dimmable RPM Harmonics",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm harmonics"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/prop/3_blade.txt",
+      "hash": "0ec6760a2c28e74a76e7349c815b4264dc194356b77f397193bdbe8fdf645112",
+      "title": "3 Blade Dimmable RPM Harmonics",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm harmonics"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/prop/4_blade.txt",
+      "hash": "702599237d1a29d6d5b74785702d2e212dc7a81d843102fed49db5f557ee1c35",
+      "title": "4-6 Blade Dimmable RPM Harmonics",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm harmonics"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rate/cinewhoop.txt",
       "hash": "85c88df1a8008363ecb8be7355e454beb753b93597b85a520a35d27decbfc4fc",
       "title": "CineWhoop Rate Profile",
@@ -3212,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "bcc9fcefce7e663066dc2d8d2bdaa0ad6184c3c0b9ee6d63b272b73f30abd386",
+      "hash": "50620852083ca21ad4c2493691483450e218e3e76031a828123e7b63e3c538e8",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3258,7 +3304,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "faf5bf2bc9271e4fbf7d24da4ab2053fdf5e812496cb3cc704e1b6005fc8dae3",
+      "hash": "c255055ed0b6eca18d9a9d047cfc1ac8859e7efb5159c5c85538681152a45864",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3334,7 +3380,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "8ad552f021f1195453d1eec5ffeaf8b791ea49d84bbc07ef813b03e6cf4552cf",
+      "hash": "b9ccc1a49d419dccec5d60094842a441b07772ff25e21bc25c2922c5dd9899ce",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3380,7 +3426,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "fa8a0db0224d6b9a502fef8457c8be0f766712db69534d628404db52a37da1e0",
+      "hash": "4bacde1a437977ddfeb228e4aa5f175a09d2a1623b27aa16b14f5575a344ea72",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
