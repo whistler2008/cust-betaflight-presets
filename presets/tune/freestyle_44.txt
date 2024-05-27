@@ -183,7 +183,7 @@ set osd_displayport_device = MSP
 #$ INCLUDE: presets/prop/3_blade.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 4=6 Blade
+#$ OPTION BEGIN (UNCHECKED): 4-6 Blade
 #$ INCLUDE: presets/prop/4_blade.txt
 #$ OPTION END
 
