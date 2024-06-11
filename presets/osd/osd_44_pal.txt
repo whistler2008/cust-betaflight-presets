@@ -1,10 +1,10 @@
-#$ TITLE: Global OSD settings (Betaflight 4.4-4.5)
+#$ TITLE: PAL OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: Global OSD settings (Betaflight 4.4-4.5)
+#$ DESCRIPTION: PAL OSD settings (Betaflight 4.4-4.5)
 #$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 

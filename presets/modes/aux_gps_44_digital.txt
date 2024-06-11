@@ -1,10 +1,10 @@
-#$ TITLE: AUX with GPS Rescue (Betaflight 4.4)
+#$ TITLE: AUX with GPS Rescue - Digital (Betaflight 4.4)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: modes
-#$ DESCRIPTION: AUX with GPS Rescue (Betaflight 4.4)
+#$ DESCRIPTION: AUX with GPS Rescue - Digital (Betaflight 4.4)
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
@@ -42,12 +42,12 @@ set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 
 # GPS OSD
-set osd_gps_speed_pos = 2305
-set osd_gps_sats_pos = 2137
-set osd_home_dir_pos = 2286
-set osd_home_dist_pos = 2296
-set osd_flight_dist_pos = 2328
-set osd_altitude_pos = 2273
+set osd_gps_speed_pos = 2369
+set osd_gps_sats_pos = 3151
+set osd_home_dir_pos = 2138
+set osd_home_dist_pos = 3375
+set osd_flight_dist_pos = 3407
+set osd_altitude_pos = 2337
 
 # GPS Beeper
 beeper GPS_STATUS

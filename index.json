@@ -798,9 +798,25 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/aux_gps_44.txt",
-      "hash": "ff3e0df223c0d5a350d721631692437b198d31a718272cd2804239fd373cdbc8",
-      "title": "AUX with GPS Rescue (Betaflight 4.4)",
+      "fullPath": "presets/modes/aux_gps_44_analog.txt",
+      "hash": "995158f4e423caec63ed51df35c7af290a53bf169fbc0144c0e24be554a08d2c",
+      "title": "AUX with GPS Rescue - Analog (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/modes/aux_gps_44_digital.txt",
+      "hash": "1997b0cdf32115cd698d44d2150d6eefe12bacf1cd256e67b90fcb84abc9c12d",
+      "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -986,6 +1002,22 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/osd/osd_44_digital.txt",
+      "hash": "95f6597b134f7f95b5d3090fe6ee2b1328ee1c3e32342ee9a5c3e7e0bd66bd4c",
+      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_global.txt",
       "hash": "a0981fef73967b5466a19bfa43a780d643c08fb9166f06f558be9b80407ef8d0",
       "title": "Global OSD settings (Betaflight 4.4-4.5)",
@@ -1019,8 +1051,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "ba58d6ea8852fadd66e56e5ac27c2a36b744815921374c06525ab1157214cf84",
-      "title": "Global OSD settings (Betaflight 4.4-4.5)",
+      "hash": "0d030a3e8b611ab12d99615008e2739d5e560f28ec190e5463b579a0af9bbfd5",
+      "title": "NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1035,8 +1067,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "cf5ceee32cd3bca088b10d6ca38c6d463ddace7929f8940886f630797dba67e9",
-      "title": "Global OSD settings (Betaflight 4.4-4.5)",
+      "hash": "693343a6553575dee329f96300c2ce2f4f166a8a43f924489c88ff83e251c123",
+      "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3258,7 +3290,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "a6c5fa7cc8bf48053ab8f1f4cb2ca8b4c783f0d3a14d19f2cdc05cfda913f533",
+      "hash": "a00958805dee0145c5283a64e644a62b1db784f25483d924d3613ae381102e21",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3304,7 +3336,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "5a9ad23637018b14fdedfbe2712c161b43b7bf62f824c62448580c86fb0425df",
+      "hash": "336ae113cd7f499e50e21a33e1b65bf42ad603a2012808928c9749151224413c",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3380,7 +3412,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "4889cff9e3d5fe7e0d9becf5d16a6da7415f7e6bdd5c2ac21cb38e68d697f8bc",
+      "hash": "76f5e9933da3f95a378e37b959e75908b728c750d66b361d2a2f428973287270",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3426,7 +3458,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "a77cc9fc3cd6f392d2a070d43eb4d5870e6efd0fa6d0eabc11782cc114bb2902",
+      "hash": "9fa44ec472d63d7dd1b5fc6fc3cc1fd59dfb8526d66e22c55364a7befe0a3849",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
