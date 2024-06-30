@@ -11,6 +11,7 @@
 # OSD NTSC
 set osd_vtx_channel_pos = 2113
 set osd_craft_name_pos = 2081
+set osd_flip_arrow_pos = 2094
 
 set osd_warnings_pos = 14593
 set osd_disarmed_pos = 2219
