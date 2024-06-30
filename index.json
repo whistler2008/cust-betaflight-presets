@@ -831,7 +831,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "e05c46a468c1fc996543d6340a5d79c8edfc4ac97456edc1880498a37d7f0e26",
+      "hash": "e311844385cd0e35ff82a6fcc7eee0cbf7e2bc36ebb4dec81984ffe26828bba1",
       "title": "AUX Standard (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.0",
@@ -848,7 +848,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std_44.txt",
-      "hash": "e78149623c0ba0b256fcd7f193e7c1f7e7cc49c639d06d12956e2c000490e7d2",
+      "hash": "e0a66b80ab021eccd31d3041b8a659ddab7384e4fb215b444fa58f479e0a12cb",
       "title": "AUX Standard (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -940,7 +940,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_pal.txt",
-      "hash": "1567a5a3ade943b9b436a55742bc8fa7b8157081630ba4398cc36cca2f628470",
+      "hash": "f2e0953c4d83373735fb169db86cea9f545f2aa3775f445bace4f0e1ad722d06",
       "title": "Global OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -1035,7 +1035,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "21dfe16c774a47e7d99f14de20cfe7c8030f3b39c6490b4348ec5ab274ceb7c8",
+      "hash": "7a5d8b1c5571b9490956caa5fb42fc84d4e91b61689432d71c962ad1cbcf592f",
       "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
