@@ -8,5 +8,6 @@
 #$ HIDDEN: true
 
 # OSD LQ
-set osd_link_quality_pos = 2081
-set osd_rssi_dbm_pos = 2113
+set osd_link_quality_pos = 2103
+set osd_rssi_dbm_pos = 2135
+set osd_flip_arrow_pos = 2094

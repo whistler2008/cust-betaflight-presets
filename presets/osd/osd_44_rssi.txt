@@ -8,4 +8,5 @@
 #$ HIDDEN: true
 
 # OSD RSSI
-set osd_rssi_pos = 2081
+set osd_rssi_pos = 2103
+set osd_flip_arrow_pos = 2135

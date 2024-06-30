@@ -907,22 +907,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_42_global.txt",
-      "hash": "c092ba96f3a14ba04709d65b207b4abb9863247edaf4f52442298512ff5f4408",
-      "title": "Global OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/osd/osd_42_lq.txt",
       "hash": "a12a21b87fbdb1218c5333cc9344e0bfe250e261251119411211d318287688d4",
       "title": "LQ OSD settings (Betaflight 4.2-4.3)",
@@ -1018,24 +1002,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_global.txt",
-      "hash": "a0981fef73967b5466a19bfa43a780d643c08fb9166f06f558be9b80407ef8d0",
-      "title": "Global OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "967358065b352f5eb980b6cd6e343abf909c7373505448913c8cf27ea8e8a280",
+      "hash": "02977258e77a3fd84e92526340561d37da8b711709db3c1584f3b9020a364c51",
       "title": "LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1051,7 +1019,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "0d030a3e8b611ab12d99615008e2739d5e560f28ec190e5463b579a0af9bbfd5",
+      "hash": "8c6933c47038af1fd015130ff681ca154e065748bdbea90bbd7d0b67b5eb6750",
       "title": "NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1067,7 +1035,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "693343a6553575dee329f96300c2ce2f4f166a8a43f924489c88ff83e251c123",
+      "hash": "40782ef4f5039a239d08b138a852f7af31b9c3a8bb584a24bb499d4018a9a6b0",
       "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1083,7 +1051,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "474c3665296e86c8c49bf994792d2ee1473ebbfcade8ee4a95117c3559b9f34d",
+      "hash": "50fd5af4efdcd52b0e60867e46e53fd3e8e7c4eaefd2d2b8b744cb6969f952e6",
       "title": "RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
