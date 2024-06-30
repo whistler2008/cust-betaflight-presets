@@ -9,6 +9,11 @@
 #$ HIDDEN: true
 
 # OSD NTSC
+set vcd_video_system = NTSC
+set osd_displayport_device = MAX7456
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+
 set osd_vtx_channel_pos = 2113
 set osd_craft_name_pos = 2081
 set osd_flip_arrow_pos = 2094

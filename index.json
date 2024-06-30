@@ -908,7 +908,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "a12a21b87fbdb1218c5333cc9344e0bfe250e261251119411211d318287688d4",
+      "hash": "c2ad0bd24a7a6917d2478464fd29fd9e72e1a3af850270c235ddc86928a69d5f",
       "title": "LQ OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -924,7 +924,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_ntsc.txt",
-      "hash": "cc1e93a8825ed2206d2bb2ae8a36a34c7dd7191eb1dc23fabd714eae765b149b",
+      "hash": "7ae71ef0061f918a1f346a9e0113c05dbf46a5f550aaa3b59bb8bf205cad2697",
       "title": "Global OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -940,7 +940,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_pal.txt",
-      "hash": "488acbc552bf03b48fdf780e003dba8b11b454981251e5565944aacdea5a9550",
+      "hash": "1567a5a3ade943b9b436a55742bc8fa7b8157081630ba4398cc36cca2f628470",
       "title": "Global OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -956,7 +956,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_rssi.txt",
-      "hash": "185b9e60409feabe2cd1e44558e904d5ffa4abfe34984bf4152f6cb856e5d338",
+      "hash": "d60048b69fdc5908d7b1f713eec7161f1c580df2d874608715a11c527b9d274a",
       "title": "RSSI OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -1019,7 +1019,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "bbc3b78a59f8a51fb1d8ee0dacc3fb6224b50cce813263bab1004caa7f8bed75",
+      "hash": "8ebfe6b0458c85361a0256a40304b409ffd1001b7520ef771a15ba5d5f6d9dea",
       "title": "NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1035,7 +1035,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "360c6a4e4cf4769a5d6f3a1f138194f468593149331b961c1e8fb71c9e792859",
+      "hash": "21dfe16c774a47e7d99f14de20cfe7c8030f3b39c6490b4348ec5ab274ceb7c8",
       "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3228,7 +3228,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "da0e7979e4bfe1d444a948bfcf29cc8cc054cd35e0a5680b6d4d46dd37f19337",
+      "hash": "4717c549b4e7a502049a1c5dcd2f9004be48c84a8315c75fd6f44bbfdbfc1fc7",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3243,7 +3243,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "0ac315329274d447fdc166ef2c7f8a7d086b6660f13d9fb6568afb0242b56e73",
+      "hash": "78ffdc155e74f74609f0b3d9bc820e805bc8c721a569358dad9bd341402119b4",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "a00958805dee0145c5283a64e644a62b1db784f25483d924d3613ae381102e21",
+      "hash": "3edb19f3d890c00c5e92efc8f1c33ec24b5a0b22767b1887c64181a46e7d8f7b",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3274,7 +3274,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "bbdfbafe55f8d41693b4e480b3ce993a5f78e34a44a554230e3d243b0c4bbc1f",
+      "hash": "ef817f8d64c5ab9b64fbee35894778acd808521b299f39588a4897d37db62bdf",
       "title": "FreeStyle Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3289,7 +3289,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "1a6a653398a5c088c59b1d65c0344a44986c9a4bba499de4c37345dc9613fa57",
+      "hash": "fdf1476ad900131d392388c5f5192d39770c045a6a64fa991248006b45fd99c7",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3304,7 +3304,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "336ae113cd7f499e50e21a33e1b65bf42ad603a2012808928c9749151224413c",
+      "hash": "9dcb13210cd0aad74ca346fbcc8b17cc97771d931466204743c38e444cd1c0a5",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3350,7 +3350,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "39c9f0a4bdb17c2b0b2c1771b765d9d0db4e13260a5ee573196461fccd144ce8",
+      "hash": "479ac7e9af93143072b6b8929d805b8db6138ecf62dbf2b20033e58290e213ba",
       "title": "RaceWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3365,7 +3365,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "9b2c54facd601887fe559bbb9804e47226085bcbbc117fbd992be0dba184b5bc",
+      "hash": "dbe8542986d9cee1b268d2c79ea986d4f7a62bc942ca3834b032f199c96c6d2d",
       "title": "RaceWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3380,7 +3380,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "76f5e9933da3f95a378e37b959e75908b728c750d66b361d2a2f428973287270",
+      "hash": "f999b33f1fd22d39696a398df26911f0abe62b28c1b2b7d5059d379167257992",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3396,7 +3396,7 @@
     },
     {
       "fullPath": "presets/tune/race_42.txt",
-      "hash": "51392e34642de07e406664a136f5f2f9509e87fe338ecf06b6d14d7d6f20c358",
+      "hash": "5f6444a46958cea3d6c842afe19d0e47dc1490f9f9ebcac2c92348c6676b72a4",
       "title": "Race Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3411,7 +3411,7 @@
     },
     {
       "fullPath": "presets/tune/race_43.txt",
-      "hash": "058bc62fcbeee6df528a942e35424c0049146e3216a72755b2a6840d70755913",
+      "hash": "2aeb83c139984116fb6341b8c37747f550eb51104e5553b033625be4528803b1",
       "title": "Race Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3426,7 +3426,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "9fa44ec472d63d7dd1b5fc6fc3cc1fd59dfb8526d66e22c55364a7befe0a3849",
+      "hash": "a5f00c82ba44849132582af0bc13f397e4cdca39ba83a9fb4794e4e78c344040",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",

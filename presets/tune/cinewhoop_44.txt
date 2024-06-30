@@ -45,18 +45,10 @@ set pilot_name = CINEWHOOP
 
 #$ OPTION BEGIN (UNCHECKED): Analog PAL
 #$ INCLUDE: presets/osd/osd_44_pal.txt
-set vcd_video_system = PAL
-set osd_displayport_device = MAX7456
-set osd_canvas_width = 30
-set osd_canvas_height = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog NTSC
 #$ INCLUDE: presets/osd/osd_44_ntsc.txt
-set vcd_video_system = NTSC
-set osd_displayport_device = MAX7456
-set osd_canvas_width = 30
-set osd_canvas_height = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital
