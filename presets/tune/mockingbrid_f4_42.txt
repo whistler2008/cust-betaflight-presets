@@ -32,12 +32,17 @@ set name = MBIRD F4
 set fpv_mix_degrees = 25
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Other
-#$ INCLUDE: presets/other/other.txt
+#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
+# per cell or whole pack voltage readings:
+set report_cell_voltage = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Battery
 #$ INCLUDE: presets/battery/batt_33.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

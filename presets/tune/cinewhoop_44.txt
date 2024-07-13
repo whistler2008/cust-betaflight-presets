@@ -34,6 +34,11 @@ set pilot_name = CINEWHOOP
 #$ INCLUDE: presets/other/custom_cam_angle.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
+# per cell or whole pack voltage readings:
+set report_cell_voltage = ON
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
 #$ OPTION END

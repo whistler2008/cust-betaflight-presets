@@ -9,5 +9,5 @@
 #$ HIDDEN: true
 
 # RPM Filter
-set pid_process_denom = 4
+set pid_process_denom = 2
 set motor_pwm_protocol = DSHOT300

@@ -432,7 +432,7 @@
     },
     {
       "fullPath": "presets/chipset/43_f4.txt",
-      "hash": "b21c962b69bc4524bf0fbba430023aaa34c715ff8c5c0b534959a945aa764dba",
+      "hash": "877252978415f36ce08786580025aa7a3ed0821de7e12fadf0eda5033db9b2ab",
       "title": "Chipset F4 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -3228,7 +3228,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "4717c549b4e7a502049a1c5dcd2f9004be48c84a8315c75fd6f44bbfdbfc1fc7",
+      "hash": "5445eaa8603ea1f386afd39f8a66cdbbe922a1a95d74a6e45858b4202649020e",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3243,7 +3243,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "78ffdc155e74f74609f0b3d9bc820e805bc8c721a569358dad9bd341402119b4",
+      "hash": "67a1c44810600a2d1d441924362b5f48d93ca9c8aa6ef6c441eb66dd763bfe11",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "3edb19f3d890c00c5e92efc8f1c33ec24b5a0b22767b1887c64181a46e7d8f7b",
+      "hash": "1400b6cf58164f20bbb2f4ae838806a90a8588c925311e83d5e58be3356968ea",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3274,7 +3274,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "ef817f8d64c5ab9b64fbee35894778acd808521b299f39588a4897d37db62bdf",
+      "hash": "5bc8ae446386c7e6d7066eea088e89af9781ef2cb18b5199bf5b0c8f82c6e9b6",
       "title": "FreeStyle Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3289,7 +3289,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "fdf1476ad900131d392388c5f5192d39770c045a6a64fa991248006b45fd99c7",
+      "hash": "6a22951b18e1e318a25e2607870c88a1e35c024e5419964772607adc431c755b",
       "title": "FreeStyle Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3304,7 +3304,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "9dcb13210cd0aad74ca346fbcc8b17cc97771d931466204743c38e444cd1c0a5",
+      "hash": "28351daf01b9bd2d6256dcbbc8f918ac46c0671dc07fc5d8e2eb366248c6a299",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3335,7 +3335,7 @@
     },
     {
       "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "c0eb95969d663efa17b5cf14cfdd421d3090973a82bdb54baed9f6abbb6641f5",
+      "hash": "8cabcbbc9d70da9a1777df9596242357f62d8c8dcb75a7326a7a090c89d2fbac",
       "title": "MockingBird 1-2S F4 4.2",
       "firmware_version": [
         "4.2"
@@ -3350,7 +3350,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "479ac7e9af93143072b6b8929d805b8db6138ecf62dbf2b20033e58290e213ba",
+      "hash": "dc5c52f30fd779b563d5f6f3cc6b3a95e87804501bfc426df7bbdf4962d27376",
       "title": "RaceWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3365,7 +3365,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "dbe8542986d9cee1b268d2c79ea986d4f7a62bc942ca3834b032f199c96c6d2d",
+      "hash": "03594b5c8018667118c18dbc2a314aebc12a42d691caa035c3ed21e83d5b0054",
       "title": "RaceWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3380,7 +3380,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "f999b33f1fd22d39696a398df26911f0abe62b28c1b2b7d5059d379167257992",
+      "hash": "94d3b4f05f51480f0a0b14327fdba4d7d80ae56762d5e25ae92a64d3a679b128",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3396,7 +3396,7 @@
     },
     {
       "fullPath": "presets/tune/race_42.txt",
-      "hash": "5f6444a46958cea3d6c842afe19d0e47dc1490f9f9ebcac2c92348c6676b72a4",
+      "hash": "a4daa123f16aea555b8bcb56c4e46b653c94bd8768382b8a3982f01b847fe3af",
       "title": "Race Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3411,7 +3411,7 @@
     },
     {
       "fullPath": "presets/tune/race_43.txt",
-      "hash": "2aeb83c139984116fb6341b8c37747f550eb51104e5553b033625be4528803b1",
+      "hash": "7c22cecbf0f513ab15911f13ea0a992a4787743d032a4c7c50ae371b72780aae",
       "title": "Race Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3426,7 +3426,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "a5f00c82ba44849132582af0bc13f397e4cdca39ba83a9fb4794e4e78c344040",
+      "hash": "51ad6fa45bfaf96e3ccee1d6885c8bd9fd5b9a9685242b6733d0ad61369551fa",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
