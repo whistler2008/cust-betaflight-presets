@@ -769,7 +769,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_42.txt",
-      "hash": "379033e654ed42ccf1b9e7c8ba88b1a18741be91827b6b80e654c1f6b3114d58",
+      "hash": "8ade962179ff369a31fc4620d7b6bc79eef03149cb7065ce77176f30943dcb01",
       "title": "AUX with GPS Rescue (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -784,7 +784,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_43.txt",
-      "hash": "0c7270dd9c018f1653e13f6a48b0ecf608cc7758866ad77d57fd98b84cdd42f8",
+      "hash": "87d4244d54b0ed7c148319b6b6bad101d92b959bb4c9d151f671f7fe67958ed0",
       "title": "AUX with GPS Rescue (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -799,7 +799,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_analog.txt",
-      "hash": "995158f4e423caec63ed51df35c7af290a53bf169fbc0144c0e24be554a08d2c",
+      "hash": "8a05c3259150738aaebe952564f39321868e65687ec0fcc77789ac7848ee4493",
       "title": "AUX with GPS Rescue - Analog (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -908,7 +908,7 @@
     },
     {
       "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "c2ad0bd24a7a6917d2478464fd29fd9e72e1a3af850270c235ddc86928a69d5f",
+      "hash": "87f23ee30c54ec1590ecae1472fb0465d7fadfeceb94ba7e332d7c53899557d2",
       "title": "LQ OSD settings (Betaflight 4.2-4.3)",
       "firmware_version": [
         "4.2",
@@ -1003,7 +1003,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "2c92eb0b0fbc7f401fb82c739e987a8cb5d4c0ec27f982179503f45efae9756a",
+      "hash": "e104b8649febf3cb953510ec12ad3afa4e3412fa4ed34f524c0b46d7a7967eb7",
       "title": "LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3228,7 +3228,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "5445eaa8603ea1f386afd39f8a66cdbbe922a1a95d74a6e45858b4202649020e",
+      "hash": "86e0531c3bf88708f4d1f48de1c5bc038ac7d229eaa375d8df52ababdadd70f1",
       "title": "CineWhoop Tune 4.2",
       "firmware_version": [
         "4.2"
@@ -3243,7 +3243,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "67a1c44810600a2d1d441924362b5f48d93ca9c8aa6ef6c441eb66dd763bfe11",
+      "hash": "4be0025d1fce685c6dab62fd34b7a082d85d98856ae88dd28a2ad76c862f97dc",
       "title": "CineWhoop Tune 4.3",
       "firmware_version": [
         "4.3"
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "1400b6cf58164f20bbb2f4ae838806a90a8588c925311e83d5e58be3356968ea",
+      "hash": "3ba9e233b427fb036a37cc044d14e88af52e4109a9080b7357dd1b45fa8096e7",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",

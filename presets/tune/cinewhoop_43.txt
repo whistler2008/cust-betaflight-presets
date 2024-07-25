@@ -59,11 +59,11 @@ set report_cell_voltage = ON
 
 #$ OPTION_GROUP BEGIN: Crash Recovery
 
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery OFF
+#$ OPTION BEGIN (CHECKED): Crash Recovery OFF
 #$ INCLUDE: presets/crash/crash_off.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Crash Recovery ON
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
 #$ INCLUDE: presets/crash/crash_on.txt
 #$ OPTION END
 
