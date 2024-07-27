@@ -33,12 +33,12 @@ vtxtable powerlabels 25 50 200 500
 set vtx_power = 4
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo 1000mW (SA 2.1)
+#$ OPTION BEGIN (UNCHECKED): Rush Tank Solo 1600mW (SA 2.1)
 #$ INCLUDE: presets/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 4
-vtxtable powervalues 14 26 29 30
-vtxtable powerlabels 25 400 800 1K
+vtxtable powervalues 14 26 29 32
+vtxtable powerlabels 25 400 800 1K6
 
 # vtx setting
 set vtx_power = 4
