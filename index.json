@@ -987,7 +987,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital.txt",
-      "hash": "95f6597b134f7f95b5d3090fe6ee2b1328ee1c3e32342ee9a5c3e7e0bd66bd4c",
+      "hash": "80c268e1b3f2325bcc704f1db2f016347792621b3804add2cd7be3fa9916a824",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "3ba9e233b427fb036a37cc044d14e88af52e4109a9080b7357dd1b45fa8096e7",
+      "hash": "a7bce703aa5e00d8ebc78b02efd226b9df3955bc7b44c6bb4d744499ec10e879",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3304,7 +3304,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "28351daf01b9bd2d6256dcbbc8f918ac46c0671dc07fc5d8e2eb366248c6a299",
+      "hash": "c08c0f07d44cbe23edbcb45d2f144769877ad8794bb079d86f432b0d7eb46d12",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3380,7 +3380,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "94d3b4f05f51480f0a0b14327fdba4d7d80ae56762d5e25ae92a64d3a679b128",
+      "hash": "d72859fb3457ee9a37a8720e4600a89ccad305e4d896ea71646dc9e104828513",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3426,7 +3426,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "51ad6fa45bfaf96e3ccee1d6885c8bd9fd5b9a9685242b6733d0ad61369551fa",
+      "hash": "67f4bba809eaa2d5b404ba74ebe55bd0e86438acf8f65cda2c55efb131e4fb45",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
