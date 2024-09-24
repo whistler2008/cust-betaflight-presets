@@ -146,6 +146,7 @@
       "battery",
       "betafpv",
       "bnf",
+      "caos",
       "chipset",
       "default",
       "default_irc",
@@ -830,6 +831,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
+      "hash": "b416ac8be87b5309642a2b357c996fef255cc2046aba5f8ccd7d0f56ee770c96",
+      "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/modes/aux_std.txt",
       "hash": "e311844385cd0e35ff82a6fcc7eee0cbf7e2bc36ebb4dec81984ffe26828bba1",
       "title": "AUX Standard (Betaflight 4.2-4.3)",
@@ -989,6 +1006,22 @@
       "fullPath": "presets/osd/osd_44_digital.txt",
       "hash": "80c268e1b3f2325bcc704f1db2f016347792621b3804add2cd7be3fa9916a824",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_digital_o3.txt",
+      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3258,7 +3291,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "a7bce703aa5e00d8ebc78b02efd226b9df3955bc7b44c6bb4d744499ec10e879",
+      "hash": "e4a275ca61a93a7922266209b80957fac75d0f0272fc52a3a6b18ccdf9fda875",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3304,7 +3337,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "c08c0f07d44cbe23edbcb45d2f144769877ad8794bb079d86f432b0d7eb46d12",
+      "hash": "68d79871689d364650a1b50d48679e553762797d3dc38db95595372719037344",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3380,7 +3413,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "d72859fb3457ee9a37a8720e4600a89ccad305e4d896ea71646dc9e104828513",
+      "hash": "c70e9176880355a9b944df662e9cc891000266477e5a60936af23dbbb2e5fb51",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3426,7 +3459,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "67f4bba809eaa2d5b404ba74ebe55bd0e86438acf8f65cda2c55efb131e4fb45",
+      "hash": "50ce77dd47d0787ee900b491cf1ed04786524b8054888f70827709fddce6d11b",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3472,6 +3505,23 @@
       "keywords": [
         "vtx",
         "betafpv"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/vtx_caos.txt",
+      "hash": "df88dc5d27e64c8d647a0dda9af1ba2d86e5bf164dd92dfd53956769313af521",
+      "title": "CAOS",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "caos"
       ]
     },
     {

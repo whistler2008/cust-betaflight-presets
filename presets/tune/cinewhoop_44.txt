@@ -60,6 +60,10 @@ set report_cell_voltage = ON
 #$ INCLUDE: presets/osd/osd_44_digital.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Digital O3
+#$ INCLUDE: presets/osd/osd_44_digital_o3.txt
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 
@@ -284,16 +288,20 @@ set report_cell_voltage = ON
 
 #$ OPTION_GROUP BEGIN: GPS Hardware
 
-#$ OPTION BEGIN (UNCHECKED): Without GPS
+#$ OPTION BEGIN (CHECKED): Without GPS
 #$ INCLUDE: presets/modes/aux_std_44.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): With GPS - Analog VTX
+#$ OPTION BEGIN (UNCHECKED): With GPS - Analog
 #$ INCLUDE: presets/modes/aux_gps_44_analog.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): With GPS - Digital VTX
+#$ OPTION BEGIN (UNCHECKED): With GPS - Digital
 #$ INCLUDE: presets/modes/aux_gps_44_digital.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS - Digital O3
+#$ INCLUDE: presets/modes/aux_gps_44_digital_o3.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
