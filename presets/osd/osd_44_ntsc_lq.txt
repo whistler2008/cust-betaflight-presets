@@ -1,10 +1,10 @@
-#$ TITLE: LQ OSD settings (Betaflight 4.4-4.5)
+#$ TITLE: NTSC LQ OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: LQ OSD settings (Betaflight 4.4-4.5)
+#$ DESCRIPTION: NTSC LQ OSD settings (Betaflight 4.4-4.5)
 #$ HIDDEN: true
 
 # OSD LQ

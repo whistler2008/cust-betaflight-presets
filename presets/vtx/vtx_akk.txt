@@ -272,7 +272,7 @@ set vtx_band = 5
 
 #$ OPTION_GROUP BEGIN: Channel
 
-#$ OPTION BEGIN (UNCHECKED): CH_1
+#$ OPTION BEGIN (CHECKED): CH_1
 set vtx_channel = 1
 #$ OPTION END
 
@@ -300,7 +300,7 @@ set vtx_channel = 6
 set vtx_channel = 7
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CH_8
+#$ OPTION BEGIN (UNCHECKED): CH_8
 set vtx_channel = 8
 #$ OPTION END
 

@@ -1036,7 +1036,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "e104b8649febf3cb953510ec12ad3afa4e3412fa4ed34f524c0b46d7a7967eb7",
+      "hash": "8db3bc80ee46b5a404619e1e5069da23a06530b6daa84effa602bae9e54a7c1a",
       "title": "LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1067,8 +1067,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_ntsc_lq.txt",
+      "hash": "0560b9b9adceff504b59bcdaf76e2c1f89bcb60ef691cb7c3c4ce92583765f6b",
+      "title": "NTSC LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_ntsc_rssi.txt",
+      "hash": "61263f84e59d417bce4b1ac697810ec2cea2619c59b3a5fa2ed2397b5b6e5f29",
+      "title": "NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "7a5d8b1c5571b9490956caa5fb42fc84d4e91b61689432d71c962ad1cbcf592f",
+      "hash": "c2149d09035315f73383a3ad5dc5305176f90672110645925596f7d347b669ce",
       "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1083,8 +1115,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_pal_lq.txt",
+      "hash": "2ed97075eaacc796d3fb76ea72028448ec31dfc474254a4c2fa4c00eb6689495",
+      "title": "PAL LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_pal_rssi.txt",
+      "hash": "29a0ab814bcd28b6346966cfb9451385ccf439a7fa765eae5d452bfc1735ae11",
+      "title": "PAL RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "306844a42b221b819b00047f019615d58e71e7625045665b040ab9a75fda56ed",
+      "hash": "ee15262871b3a1d70ab5cda255a42dc0f4efd14e21aebaba393bdabc1b086623",
       "title": "RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3291,7 +3355,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "e4a275ca61a93a7922266209b80957fac75d0f0272fc52a3a6b18ccdf9fda875",
+      "hash": "249159b2d2e98b6cf5be1f9493f958b04a4ef0569f05e8a192fb7441d34552da",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3475,7 +3539,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_akk.txt",
-      "hash": "4972e0e0d1ba39db186e809ccfb3791ef18d2cf83fb3758a07f594e3f91c90dd",
+      "hash": "8ed44a59d14563f163fdbcf9b01c4b6e6291cd8446d70bef5bc78b8cb9c654f5",
       "title": "AKK",
       "firmware_version": [
         "4.2",
@@ -3492,7 +3556,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_betafpv.txt",
-      "hash": "13c78c455edf09026c334b9350d5aa174fdc1738fc1da4951287e47b85d2940e",
+      "hash": "37c1b512fb07f086b44a26143d4429de9d803ce01b3e37c661125895cc4e7ed1",
       "title": "BetaFPV",
       "firmware_version": [
         "4.2",
@@ -3509,7 +3573,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_caos.txt",
-      "hash": "df88dc5d27e64c8d647a0dda9af1ba2d86e5bf164dd92dfd53956769313af521",
+      "hash": "55dff9877e2edee199f1b67d18ef9245a504a561474eef3939449638760f86e5",
       "title": "CAOS",
       "firmware_version": [
         "4.2",
@@ -3595,7 +3659,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_eachine.txt",
-      "hash": "674f59c57772f3f29db3c35dc5fb3e71e68c2fd071172594b2b9d1dfc951138d",
+      "hash": "e560f4b86a130eb4669dc497d84c4b436d97b475adab0d5db4cc38fab4c631a2",
       "title": "Eachine",
       "firmware_version": [
         "4.2",
@@ -3612,7 +3676,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ewrf.txt",
-      "hash": "df1ab904762fd2d0d6b01ceeecc917ff87c499517ee0a34f0f7e3f93cb54b739",
+      "hash": "65a4bf030afb0e5955d5653c4369507f7340d8ead14487b97dfba00d98f19c41",
       "title": "EWRF",
       "firmware_version": [
         "4.2",
@@ -3629,7 +3693,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_fullspeed.txt",
-      "hash": "629ec21bfe56c0e0c07bcabb426b176a6f58c90ba28d9c5305f33f647c0607c4",
+      "hash": "4edd48fb419b7af6f6286b9819f04d24cd68cb38b17cc48a9faaba3078b826f0",
       "title": "FullSpeed",
       "firmware_version": [
         "4.2",
@@ -3646,7 +3710,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "fd28449cf541b96f22472111203a713ca0c1746f731cea54490451515b97d0d6",
+      "hash": "e3395a8dfba0dfc0429f580f2d58a56f87446c7023bb086926d03ff73ca0b5dd",
       "title": "GEPRC",
       "firmware_version": [
         "4.2",
@@ -3663,7 +3727,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_happymodel.txt",
-      "hash": "23d07d35c1b0b78c7482d9413737e64f5fd4183f2f3d1f137a635974637432ce",
+      "hash": "9ba8f522f85ee3ee78ea6c8830c912229ce5168f018a464595f3cb8a8d3b9509",
       "title": "HappyModel",
       "firmware_version": [
         "4.2",
@@ -3680,7 +3744,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_hglrc.txt",
-      "hash": "064bf728ab54e875fd7b241a00232034c35f534b5334a119bad53caae11b5459",
+      "hash": "d8c90c6eb3f395ad811289336394baf2c29fde5fa2a8090c7b58bd771a154dfe",
       "title": "HGLRC",
       "firmware_version": [
         "4.2",
@@ -3697,7 +3761,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_iflight.txt",
-      "hash": "730648cbf8b7c396f379cc77d62e799304f5f8e1955a847b0cc29f78c5b51e79",
+      "hash": "b01473b3e793459c704b8d56cbb495f8c33abcec584cf2e86eab0d2d1b9e7017",
       "title": "iFlight",
       "firmware_version": [
         "4.2",
@@ -3714,7 +3778,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_jhemcu.txt",
-      "hash": "29c58b6e5543c14ffb72df9c00098a94f5b5eb8071aa447b47286a666965ef22",
+      "hash": "ae47060c1edb0c9d85958460a3c5cfabf1a59ebff5cc3f89fce988134ee99dc8",
       "title": "JHEMCU",
       "firmware_version": [
         "4.2",
@@ -3731,7 +3795,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_nameless.txt",
-      "hash": "b3afaa646bff26d93e8940368afd54d4df38ea342ac8b9c7f1f87fa3ccc2aa09",
+      "hash": "5ac7c3a0583ff1a0e9181666b14b1ca48d0d61d275da1c9b791eb0b4165a6087",
       "title": "NamelessRC",
       "firmware_version": [
         "4.2",
@@ -3748,7 +3812,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_openvtx.txt",
-      "hash": "a7d8e39bc60e8a39418e2d1d909e993bef546c9dab602fc7430c2f50b9fe80f6",
+      "hash": "c8e81f5039431028fad9c4872aa63e5360a21cb726df83394fec63cafd625ff2",
       "title": "OpenVTX",
       "firmware_version": [
         "4.2",
@@ -3765,7 +3829,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_rush.txt",
-      "hash": "64314cb4f52da79cacc73828fbc9b012320a065168c2caf8a2b32c417bcb9307",
+      "hash": "004c5213d9477dab29d7371cd0bd81c6bec007eaa6729bcc6e65b0fa930afe25",
       "title": "Rush",
       "firmware_version": [
         "4.2",
@@ -3782,7 +3846,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_tbs.txt",
-      "hash": "879883d25e6255fa2c6f118e46d93bcacf5387c349141bba49e0ba189b2f89d5",
+      "hash": "06123d9438fb126b3d9b491f1c676fdaab5dcb90d8d8c2899b26cbedfe0014b3",
       "title": "TBS",
       "firmware_version": [
         "4.2",
@@ -3799,7 +3863,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_xf.txt",
-      "hash": "ac64b44fbeca23a1ebc59c23d193696572e1214a960a9a6df44938cd4b59138d",
+      "hash": "5cc1c04fa36b00365a94dfb4759ee8069c27b033d751a6d6660e8ab28b7620af",
       "title": "XF",
       "firmware_version": [
         "4.2",
