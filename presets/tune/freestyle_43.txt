@@ -37,6 +37,11 @@ set name = FREESTYLE
 set report_cell_voltage = ON
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): RPM Filter
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
 #$ OPTION END
@@ -108,7 +113,7 @@ set report_cell_voltage = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: RPM Filter
+#$ OPTION_GROUP BEGIN: Motor Pole
 
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
 #$ INCLUDE: presets/rpm_filter/12.txt
@@ -121,14 +126,14 @@ set report_cell_voltage = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Chipset
+#$ OPTION_GROUP BEGIN: Gyro
 
-#$ OPTION BEGIN (UNCHECKED): F4
-#$ INCLUDE: presets/chipset/43_f4.txt
+#$ OPTION BEGIN (UNCHECKED): BMI270
+#$ INCLUDE: presets/gyro/bmi270.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): F7
-#$ INCLUDE: presets/chipset/43_f7.txt
+#$ OPTION BEGIN (UNCHECKED): Other
+#$ INCLUDE: presets/gyro/other.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -147,7 +152,7 @@ set report_cell_voltage = ON
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Gyro Filter - RPM Filter ON
+#$ OPTION_GROUP BEGIN: D-Term Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
 #$ INCLUDE: presets/filter/43_rpm_noisy.txt

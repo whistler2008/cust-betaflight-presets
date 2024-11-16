@@ -41,6 +41,11 @@ set report_cell_voltage = ON
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): RPM Filter
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
 #$ OPTION END
