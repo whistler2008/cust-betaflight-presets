@@ -18,19 +18,10 @@ const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
     BNF:			"BNF",
-    FACTORY:		"FACTORY",
-    QUAD:			"QUAD",
-    TUNE:			"TUNE",
-    VTX:			"VTX",
-    RX:				"RX",
-    RATES:			"RATES",
-    DEFAULT:		"DEFAULT",
-    OTHER:			"OTHER",
 }
 
 const PresetCategoriesPriorities = {
-    QUAD:			0,
-    TUNE:			0,
+    BNF:			0,
 }
 
 const OptionsDirectives = {
