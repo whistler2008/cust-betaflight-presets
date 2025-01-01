@@ -126,9 +126,9 @@
   },
   "presets": [
     {
-      "fullPath": "presets/pak arief/pak_arief_cinelog25.txt",
-      "hash": "e2ca11dda55c65ac7dede5f2c3c40d90aaffe0537b0f599d41d7ed9d8b597e44",
-      "title": "Pak Arief - Cinelog25",
+      "fullPath": "presets/bnf/cinelog25_hd_elrs.txt",
+      "hash": "bc9108279d51990589aa065c6465fde04888f6ba245939d9f48d07172dde35dc",
+      "title": "Cinelog25 Digital ELRS",
       "firmware_version": [
         "4.5"
       ],
